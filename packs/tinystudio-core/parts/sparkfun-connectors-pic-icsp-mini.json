@@ -1,0 +1,67 @@
+{
+  "type": "sparkfun-connectors-pic-icsp-mini",
+  "label": "PIC-ICSP-Mini",
+  "family": "sparkfun PIC ISCP",
+  "description": "<b>PIC-ICSP-Mini</b>\nMiniature 5-pin connection for temporary programming of PICs. Use this device in your design to save space. Program the PIC with this adapter Spark Fun Electronics SKU : BOB-00194",
+  "source": {
+    "fzp": "sparkfun-connectors-pic-icsp-mini-.fzp",
+    "moduleId": "SparkFun-Connectors-PIC-ICSP-MINI-"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" x=\"0in\" y=\"0in\" viewBox=\"0 0 7.3056 1.7056\"><g id=\"breadboard\"><path fill=\"#1F7A34\" stroke=\"none\" stroke-width=\"0\" d=\"M0,0l7.3056,0 0,1.7056 -7.3056,0 0,-1.7056z M0.3516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z M1.8516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z M3.3516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z M4.8516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z M6.3516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z \"/><circle id=\"connector0pin\" connectorname=\"1\" cx=\"0.7016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><path stroke=\"none\" stroke-width=\"0\" d=\"m0.0976,0.4976 1.208,0 0,1.208 -1.208,0 0,-3zM0.3516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z \" fill=\"#9A916C\"/><circle id=\"connector1pin\" connectorname=\"2\" cx=\"2.2016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><circle id=\"connector2pin\" connectorname=\"3\" cx=\"3.7016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><circle id=\"connector3pin\" connectorname=\"4\" cx=\"5.2016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><circle id=\"connector4pin\" connectorname=\"5\" cx=\"6.7016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><line class=\"other\" x1=\"1.3016\" y1=\"0.1016\" x2=\"0.1016\" y2=\"0.1016\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/></g></svg>",
+      "w": 27.61,
+      "h": 6.45,
+      "pins": {
+        "GND": [
+          13.99,
+          4.16
+        ],
+        "PGC": [
+          25.33,
+          4.16
+        ],
+        "PGD": [
+          19.66,
+          4.16
+        ],
+        "VCC": [
+          8.32,
+          4.16
+        ],
+        "VPP": [
+          2.65,
+          4.16
+        ]
+      }
+    },
+    "schematic": {
+      "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 44.088 44.352\" enable-background=\"new 0 0 44.088 44.352\" xml:space=\"preserve\"><g id=\"schematic\"><rect x=\"18.35\" y=\"0.576\" fill=\"#FFFFFF\" width=\"25.2\" height=\"43.198\"/><rect x=\"18.35\" y=\"0.576\" fill=\"#FFFFFF\" width=\"25.2\" height=\"43.198\"/><rect x=\"11.15\" y=\"0.576\" fill=\"#FFFFFF\" width=\"32.4\" height=\"43.198\"/><text id=\"label_4\" transform=\"matrix(1 0 0 1 30.6426 19.9084)\" font-family=\"Noto Sans\" font-size=\"4.25\">ISCP</text><text id=\"label_5\" transform=\"matrix(1 0 0 1 30.1338 24.4417)\" font-family=\"Noto Sans\" font-size=\"4.25\">MINI</text><line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.9\" stroke-linecap=\"round\" x1=\"11.15\" y1=\"0.576\" x2=\"43.55\" y2=\"0.576\"/><line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.9\" stroke-linecap=\"round\" x1=\"18.35\" y1=\"22.176\" x2=\"14.75\" y2=\"22.176\"/><line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.9\" stroke-linecap=\"round\" x1=\"18.35\" y1=\"14.976\" x2=\"14.75\" y2=\"14.976\"/><line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.9\" stroke-linecap=\"round\" x1=\"18.35\" y1=\"7.776\" x2=\"14.75\" y2=\"7.776\"/><line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.9\" stroke-linecap=\"round\" x1=\"43.55\" y1=\"43.776\" x2=\"43.55\" y2=\"0.576\"/><line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.9\" stroke-linecap=\"round\" x1=\"11.15\" y1=\"0.576\" x2=\"11.15\" y2=\"43.776\"/><line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.9\" stroke-linecap=\"round\" x1=\"43.55\" y1=\"43.776\" x2=\"11.15\" y2=\"43.776\"/><line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.9\" stroke-linecap=\"round\" x1=\"18.35\" y1=\"36.576\" x2=\"14.75\" y2=\"36.576\"/><line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.9\" stroke-linecap=\"round\" x1=\"18.35\" y1=\"29.376\" x2=\"14.75\" y2=\"29.376\"/><line id=\"connector0pin\" fill=\"none\" stroke=\"#787878\" stroke-width=\"0.75\" stroke-linecap=\"round\" x1=\"0.35\" y1=\"7.776\" x2=\"14.75\" y2=\"7.776\"/><rect id=\"connector0terminal\" x=\"0.35\" y=\"7.776\" fill=\"none\" width=\"0\" height=\"0.001\"/><text transform=\"matrix(1 0 0 1 6.8604 6.7249)\" fill=\"#8C8C8C\" font-family=\"Noto Sans\" font-size=\"2.5\">1</text><text transform=\"matrix(1 0 0 1 19.4209 8.4739)\" fill=\"#787878\" font-family=\"Noto Sans\" font-size=\"3.5\">VPP</text><line id=\"connector1pin\" fill=\"none\" stroke=\"#787878\" stroke-width=\"0.75\" stroke-linecap=\"round\" x1=\"0.35\" y1=\"14.976\" x2=\"14.75\" y2=\"14.976\"/><polygon id=\"connector1terminal\" fill=\"none\" points=\"0.35,14.976 0.35,14.976 0.35,14.976  \"/><text transform=\"matrix(1 0 0 1 6.8604 13.925)\" fill=\"#8C8C8C\" font-family=\"Noto Sans\" font-size=\"2.5\">2</text><text transform=\"matrix(1 0 0 1 19.4209 15.676)\" fill=\"#787878\" font-family=\"Noto Sans\" font-size=\"3.5\">V</text><text transform=\"matrix(1 0 0 1 21.3379 15.676)\" fill=\"#787878\" font-family=\"Noto Sans\" font-size=\"3.5\">C</text><text transform=\"matrix(1 0 0 1 23.3789 15.676)\" fill=\"#787878\" font-family=\"Noto Sans\" font-size=\"3.5\">C</text><line id=\"connector2pin\" fill=\"none\" stroke=\"#787878\" stroke-width=\"0.75\" stroke-linecap=\"round\" x1=\"0.35\" y1=\"22.176\" x2=\"14.75\" y2=\"22.176\"/><polygon id=\"connector2terminal\" fill=\"none\" points=\"0.35,22.176 0.35,22.176 0.35,22.176  \"/><text transform=\"matrix(1 0 0 1 6.8604 21.1252)\" fill=\"#8C8C8C\" font-family=\"Noto Sans\" font-size=\"2.5\">3</text><text transform=\"matrix(1 0 0 1 19.4209 22.8743)\" fill=\"#787878\" font-family=\"Noto Sans\" font-size=\"3.5\">GND</text><line id=\"connector3pin\" fill=\"none\" stroke=\"#787878\" stroke-width=\"0.75\" stroke-linecap=\"round\" x1=\"0.35\" y1=\"29.376\" x2=\"14.75\" y2=\"29.376\"/><polygon id=\"connector3terminal\" fill=\"none\" points=\"0.35,29.376 0.35,29.376 0.35,29.376  \"/><text transform=\"matrix(1 0 0 1 6.8604 28.3254)\" fill=\"#8C8C8C\" font-family=\"Noto Sans\" font-size=\"2.5\">4</text><text transform=\"matrix(1 0 0 1 19.4209 30.0754)\" fill=\"#787878\" font-family=\"Noto Sans\" font-size=\"3.5\">PGD</text><line id=\"connector4pin\" fill=\"none\" stroke=\"#787878\" stroke-width=\"0.75\" stroke-linecap=\"round\" x1=\"0.35\" y1=\"36.576\" x2=\"14.75\" y2=\"36.576\"/><polygon id=\"connector4terminal\" fill=\"none\" points=\"0.35,36.576 0.35,36.576 0.35,36.576  \"/><text transform=\"matrix(1 0 0 1 6.8604 35.5247)\" fill=\"#8C8C8C\" font-family=\"Noto Sans\" font-size=\"2.5\">5</text><text transform=\"matrix(1 0 0 1 19.4209 37.2747)\" fill=\"#787878\" font-family=\"Noto Sans\" font-size=\"3.5\">PGC</text><text id=\"label\" transform=\"matrix(1 0 0 1 31.7666 15.3743)\" font-family=\"Noto Sans\" font-size=\"4.25\">PIC</text></g></svg>",
+      "w": 44.09,
+      "h": 44.35,
+      "pins": {
+        "GND": [
+          0.35,
+          22.18
+        ],
+        "PGC": [
+          0.35,
+          36.58
+        ],
+        "PGD": [
+          0.35,
+          29.38
+        ],
+        "VCC": [
+          0.35,
+          14.98
+        ],
+        "VPP": [
+          0.35,
+          7.78
+        ]
+      }
+    }
+  },
+  "icon": "<svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" x=\"0in\" y=\"0in\" viewBox=\"0 0 7.3056 1.7056\"><g id=\"breadboard\"><path fill=\"#1F7A34\" stroke=\"none\" stroke-width=\"0\" d=\"M0,0l7.3056,0 0,1.7056 -7.3056,0 0,-1.7056z M0.3516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z M1.8516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z M3.3516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z M4.8516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z M6.3516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z \"/><circle id=\"connector0pin\" connectorname=\"1\" cx=\"0.7016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><path stroke=\"none\" stroke-width=\"0\" d=\"m0.0976,0.4976 1.208,0 0,1.208 -1.208,0 0,-3zM0.3516,1.1016a0.35,0.35 0 1 0 0.7,0 0.35,0.35 0 1 0 -0.7,0z \" fill=\"#9A916C\"/><circle id=\"connector1pin\" connectorname=\"2\" cx=\"2.2016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><circle id=\"connector2pin\" connectorname=\"3\" cx=\"3.7016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><circle id=\"connector3pin\" connectorname=\"4\" cx=\"5.2016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><circle id=\"connector4pin\" connectorname=\"5\" cx=\"6.7016\" cy=\"1.1016\" r=\"0.477\" stroke=\"#9A916C\" stroke-width=\"0.254\" fill=\"none\"/><line class=\"other\" x1=\"1.3016\" y1=\"0.1016\" x2=\"0.1016\" y2=\"0.1016\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/></g></svg>"
+}

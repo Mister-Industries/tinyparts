@@ -1,0 +1,67 @@
+{
+  "type": "yumoe6b2-1",
+  "label": "YumoE6B2",
+  "family": "rotary encoder",
+  "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Yumo E6B2-C incremental encoder. Resolutions 10 to 4000 pulses per revolution (depending on model number). Power from 5 to 24V (again depending on model). Dia 40mm body 30mm plus 20mm shaft.</p></body></html>",
+  "source": {
+    "fzp": "YumoE6B2_1.fzp",
+    "moduleId": "YumoE6B2_1"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" viewBox=\"0 0 1588.7401 3358.5431\" x=\"0px\" y=\"0px\" version=\"1.1\" enable-background=\"new 0 0 113.39 167.24\"><metadata id=\"metadata54\"><rdf:RDF><cc:Work rdf:about=\"\"><dc:format>image/svg+xml</dc:format><dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/><dc:title/></cc:Work></rdf:RDF></metadata><defs id=\"defs52\"></defs><desc id=\"desc2\"><referenceFile>YumoE6B2_1_breadboard.svg</referenceFile></desc><g id=\"breadboard\"><text y=\"3311.6682\" x=\"733.61774\" id=\"text99\" font-size=\"49\" font-family=\"'Droid Sans'\" fill=\"#000000\">B</text><path d=\"m 773.53005,3025.5167 c -28.24577,127.1576 -185.79543,219.8328 -178.74445,292.742\" id=\"line84\" fill=\"none\" stroke=\"#800000\" stroke-width=\"20\" stroke-linecap=\"butt\"/><path d=\"m 793.14,3028.4869 c -9.56566,128.7519 4.15944,213.8041 0.87735,284.13\" id=\"path89\" fill=\"#cccccc\" stroke=\"#cccccc\" stroke-width=\"20\" stroke-linecap=\"butt\"/><line y1=\"2336.6677\" x1=\"792.08356\" y2=\"3031.6682\" x2=\"792.08356\" id=\"connector4pin-6\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"80\" stroke-linecap=\"butt\"/><rect width=\"1574.8094\" height=\"1454.0688\" y=\"875.65405\" x=\"6.9444518\" id=\"rect4\" fill=\"#414042\" stroke=\"#000000\" stroke-width=\"13.88890362\"/><rect width=\"787.40472\" height=\"196.84715\" y=\"597.46045\" x=\"400.66754\" id=\"rect6\" fill=\"#bcbec0\" stroke=\"#000000\" stroke-width=\"13.88890362\"/><rect width=\"236.22281\" height=\"590.5553\" x=\"676.26581\" id=\"rect8\" y=\"6.9444518\" fill=\"#d1d3d4\" stroke=\"#000000\" stroke-width=\"13.88890362\"/><rect width=\"1574.8373\" height=\"81.347191\" y=\"794.30603\" x=\"6.9583411\" id=\"rect10\" fill=\"#939598\" stroke=\"#000000\" stroke-width=\"13.88890362\"/><path id=\"connector0pin\" d=\"m 604.16685,3355.442 c 0,1.1368 -0.42075,2.0594 -0.93878,2.0594 h -16.87245 c -0.51802,0 -0.93878,-0.9226 -0.93878,-2.0594 v -47.9645 c 0,-1.1368 0.42076,-2.0594 0.93878,-2.0594 h 16.87245 c 0.51803,0 0.93878,0.9226 0.93878,2.0594 z\" fill=\"#666666\" stroke=\"none\" stroke-width=\"0\"/><path id=\"path87\" d=\"m 787.0632,3030.4378 c -27.48462,127.4621 -93.11609,215.0748 -92.62441,285.3603\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"20\" stroke-linecap=\"butt\"/><path id=\"connector1pin\" d=\"m 704.16688,3356.4837 c 0,1.1368 -0.42076,2.0594 -0.93877,2.0594 h -16.87247 c -0.51801,0 -0.93877,-0.9226 -0.93877,-2.0594 v -47.9645 c 0,-1.1368 0.42076,-2.0594 0.93877,-2.0594 h 16.87247 c 0.51801,0 0.93877,0.9226 0.93877,2.0594 z\" fill=\"#666666\" stroke=\"none\" stroke-width=\"0\"/><path id=\"connector2pin\" d=\"m 804.1669,3355.442 c 0,1.1368 -0.42077,2.0594 -0.93667,2.0594 h -16.87455 c -0.51804,0 -0.93878,-0.9226 -0.93878,-2.0594 v -47.9645 c 0,-1.1368 0.42074,-2.0594 0.93878,-2.0594 h 16.87455 c 0.5159,0 0.93667,0.9226 0.93667,2.0594 z\" fill=\"#666666\" stroke=\"none\" stroke-width=\"0\"/><path id=\"path91\" d=\"m 801.83944,3031.9667 c 20.32706,132.2304 97.58001,202.2456 93.09139,284.13\" fill=\"#cccccc\" stroke=\"#ff9955\" stroke-width=\"20\" stroke-linecap=\"butt\"/><path id=\"connector3pin\" d=\"m 904.16694,3356.4837 c 0,1.1368 -0.42074,2.0594 -0.93664,2.0594 h -16.8746 c -0.51802,0 -0.93876,-0.9226 -0.93876,-2.0594 v -47.9645 c 0,-1.1368 0.42074,-2.0594 0.93876,-2.0594 h 16.8746 c 0.5159,0 0.93664,0.9226 0.93664,2.0594 z\" fill=\"#666666\" stroke=\"none\" stroke-width=\"0\"/><path d=\"m 814.01865,3018.0476 c 21.38745,129.9676 190.93695,207.3424 180.08578,303.2688\" id=\"path93\" fill=\"none\" stroke=\"#0000ff\" stroke-width=\"20\" stroke-linecap=\"butt\"/><path id=\"connector4pin\" d=\"m 1004.1671,3356.4837 c 0,1.1368 -0.4207,2.0594 -0.9367,2.0594 h -16.87467 c -0.51801,0 -0.93876,-0.9226 -0.93876,-2.0594 v -47.9645 c 0,-1.1368 0.42075,-2.0594 0.93876,-2.0594 h 16.87467 c 0.516,0 0.9367,0.9226 0.9367,2.0594 z\" fill=\"#666666\" stroke=\"none\" stroke-width=\"0\"/><text y=\"3311.6682\" x=\"541.04474\" id=\"text95\" font-size=\"49\" font-family=\"'Droid Sans'\" fill=\"#000000\">V</text><text font-size=\"49\" id=\"text97\" x=\"631.55341\" y=\"3311.5684\" font-family=\"'Droid Sans'\" fill=\"#000000\">A</text><text font-size=\"49\" id=\"text101\" x=\"833.44391\" y=\"3311.6682\" font-family=\"'Droid Sans'\" fill=\"#000000\">Z</text><text y=\"3310.9744\" x=\"929.54047\" id=\"text103\" font-size=\"49\" font-family=\"'Droid Sans'\" fill=\"#000000\">G</text></g></svg>",
+      "w": 152.52,
+      "h": 322.42,
+      "pins": {
+        "V": [
+          28.19,
+          158.76
+        ],
+        "A": [
+          32.99,
+          158.81
+        ],
+        "B": [
+          37.79,
+          158.76
+        ],
+        "Z": [
+          42.59,
+          158.81
+        ],
+        "GND": [
+          47.39,
+          158.81
+        ]
+      }
+    },
+    "schematic": {
+      "svg": "<svg xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" viewBox=\"0 0 1137.5003 810.0003\" x=\"0px\" y=\"0px\" version=\"1.1\" enable-background=\"new 0 0 113.39 186.25\"><metadata id=\"metadata42\"><rdf:RDF><cc:Work rdf:about=\"\"><dc:format>image/svg+xml</dc:format><dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/><dc:title/></cc:Work></rdf:RDF></metadata><defs id=\"defs40\"/><desc id=\"desc2\"><referenceFile>YumoE6B2_1_schematic.svg</referenceFile></desc><g id=\"schematic\"><rect width=\"600.00024\" height=\"600.00018\" y=\"105.00004\" x=\"105.00004\" id=\"rect4\" fill=\"none\" stroke=\"#000000\" stroke-width=\"10\"/><rect width=\"92.083366\" height=\"396.25012\" y=\"210.8334\" x=\"755.00024\" id=\"rect6\" fill=\"none\" stroke=\"#000000\" stroke-width=\"10\"/><rect width=\"277.50009\" height=\"118.12504\" x=\"855.00024\" id=\"rect8\" y=\"349.37509\" fill=\"none\" stroke=\"#000000\" stroke-width=\"10\"/><rect width=\"40.000015\" height=\"800.00031\" y=\"5\" x=\"705.00024\" id=\"rect10\" fill=\"none\" stroke=\"#000000\" stroke-width=\"10\"/><text id=\"text12\" font-size=\"49\" x=\"142.8298\" y=\"523.54181\" font-family=\"'Droid Sans'\">Z</text><text id=\"text16\" font-size=\"49\" x=\"141.80099\" y=\"623.44818\" font-family=\"'Droid Sans'\">G</text><text id=\"text20\" font-size=\"49\" x=\"144.79172\" y=\"223.54173\" font-family=\"'Droid Sans'\">V</text><text id=\"text24\" font-size=\"49\" x=\"144.7818\" y=\"323.56342\" font-family=\"'Droid Sans'\">A</text><text y=\"328.16415\" x=\"262.50009\" font-size=\"60\" id=\"text25\" font-family=\"'Droid Sans'\" fill=\"#000000\">YumoE6B2</text><text id=\"text27\" font-size=\"60\" x=\"319.90579\" y=\"418.49854\" font-family=\"'Droid Sans'\" fill=\"#000000\">rotary</text><text y=\"528.16425\" x=\"293.56454\" font-size=\"60\" id=\"text29\" font-family=\"'Droid Sans'\" fill=\"#000000\">encoder</text><text id=\"text28\" font-size=\"49\" x=\"140.03046\" y=\"423.54187\" font-family=\"'Droid Sans'\">B</text><line y1=\"204.99956\" x1=\"100.24473\" y2=\"204.99956\" x2=\"5.0712123\" id=\"connector0pin\" fill=\"none\" stroke=\"#555555\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect id=\"connector0terminal\" width=\"10\" height=\"10\" x=\"1.5414597e-07\" y=\"200.00006\" fill=\"none\" stroke-width=\"0\"/><line y1=\"304.9996\" x1=\"100.24481\" y2=\"304.9996\" x2=\"5.0712123\" id=\"connector1pin\" fill=\"none\" stroke=\"#555555\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect y=\"300.00009\" x=\"1.5414597e-07\" height=\"10\" width=\"10\" id=\"connector1terminal\" fill=\"none\" stroke-width=\"0\"/><line y1=\"404.99963\" x1=\"100.24473\" y2=\"404.99963\" x2=\"5.0712123\" id=\"connector2pin\" fill=\"none\" stroke=\"#555555\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect id=\"connector2terminal\" width=\"10\" height=\"10\" x=\"1.5414597e-07\" y=\"400.00012\" fill=\"none\" stroke-width=\"0\"/><line y1=\"504.99966\" x1=\"100.24473\" y2=\"504.99966\" x2=\"5.0712123\" id=\"connector3pin\" fill=\"none\" stroke=\"#555555\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect y=\"500.00015\" x=\"1.5414597e-07\" height=\"10\" width=\"10\" id=\"connector3terminal\" fill=\"none\" stroke-width=\"0\"/><line y1=\"604.99969\" x1=\"100.24473\" y2=\"604.99969\" x2=\"5.0712123\" id=\"connector4pin\" fill=\"none\" stroke=\"#555555\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect id=\"connector4terminal\" width=\"10\" height=\"10\" x=\"1.5414597e-07\" y=\"600.00018\" fill=\"none\" stroke-width=\"0\"/></g></svg>",
+      "w": 109.2,
+      "h": 77.76,
+      "pins": {
+        "V": [
+          0.48,
+          19.68
+        ],
+        "A": [
+          0.48,
+          29.28
+        ],
+        "B": [
+          0.48,
+          38.88
+        ],
+        "Z": [
+          0.48,
+          48.48
+        ],
+        "GND": [
+          0.48,
+          58.08
+        ]
+      }
+    }
+  },
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 1588.74 3358.543\"><style>.B{font-size:49px}.C{font-family:Droid Sans}.D{stroke-width:20}</style><text y=\"3311.668\" x=\"733.618\" class=\"B C\" font-family=\"Noto Sans\">B</text><g class=\"D\"><path d=\"M773.53 3025.517c-28.246 127.158-185.795 219.833-178.744 292.742\" fill=\"none\" stroke=\"maroon\"/><path d=\"M793.14 3028.487c-9.566 128.752 4.16 213.804.877 284.13\" fill=\"#ccc\" stroke=\"#ccc\"/></g><g stroke=\"#000\"><path stroke-width=\"80\" d=\"M792.084 2336.668v695\"/><g stroke-width=\"13.889\"><path fill=\"#414042\" d=\"M6.944 875.654h1574.81v1454.07H6.944z\"/><path fill=\"#bcbec0\" d=\"M400.668 597.46h787.405v196.847H400.668z\"/><path fill=\"#d1d3d4\" d=\"M676.266 6.944H912.49V597.5H676.266z\"/><path fill=\"#939598\" d=\"M6.958 794.306h1574.837v81.347H6.958z\"/></g></g><use xlink:href=\"#B\" fill=\"#666\"/><path d=\"M787.063 3030.438c-27.485 127.462-93.116 215.075-92.624 285.36\" stroke=\"#000\" class=\"D\"/><g fill=\"#666\"><use xlink:href=\"#B\" x=\"100\" y=\"1.042\"/><use xlink:href=\"#C\"/></g><path d=\"M801.84 3031.967c20.327 132.23 97.58 202.246 93.09 284.13\" fill=\"#ccc\" stroke=\"#f95\" class=\"D\"/><use xlink:href=\"#C\" x=\"100\" y=\"1.042\" fill=\"#666\"/><path d=\"M814.02 3018.048c21.387 129.968 190.937 207.342 180.086 303.27\" fill=\"none\" stroke=\"#00f\" class=\"D\"/><use xlink:href=\"#C\" x=\"200\" y=\"1.042\" fill=\"#666\"/><text y=\"3311.668\" x=\"541.045\" class=\"B C\" font-family=\"Noto Sans\">V</text><text x=\"631.553\" y=\"3311.568\" class=\"B C\" font-family=\"Noto Sans\">A</text><text x=\"833.444\" y=\"3311.668\" class=\"B C\" font-family=\"Noto Sans\">Z</text><text y=\"3310.974\" x=\"929.54\" class=\"B C\" font-family=\"Noto Sans\">G</text><defs><path id=\"B\" d=\"M604.167 3355.442c0 1.137-.42 2.06-.94 2.06h-16.872c-.518 0-.94-.923-.94-2.06v-47.965c0-1.137.42-2.06.94-2.06h16.872c.518 0 .94.923.94 2.06z\"/><path id=\"C\" d=\"M804.167 3355.442c0 1.137-.42 2.06-.937 2.06h-16.875c-.518 0-.94-.923-.94-2.06v-47.965c0-1.137.42-2.06.94-2.06h16.875c.516 0 .937.923.937 2.06z\"/></defs></svg>"
+}

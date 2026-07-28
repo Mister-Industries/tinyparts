@@ -1,0 +1,74 @@
+{
+  "type": "adi-adp3300-analogdevices-adp3300artz",
+  "label": "ADP3300 - High Accuracy 50mA Low Dropout Linear Regulator",
+  "family": "ADI-LDO",
+  "source": {
+    "fzp": "ADI_ADP3300.AnalogDevices_ADP3300ARTZ.fzp",
+    "moduleId": "AnalogDevices_ADP3300ARTZ"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg version=\"1.1\" baseProfile=\"tiny\" id=\"_x30_\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 24.59 29.786\" xml:space=\"preserve\"><g id=\"breadboard\"><desc id=\"0.0\"><referenceFile id=\"0.0.0\">ADP3300_Breadboard.svg</referenceFile></desc><path id=\"_x30_.1\" fill=\"#237B3D\" d=\"M-0.023,0v13.403v2.98v13.402h24.589V0H-0.023L-0.023,0z\"/><g><rect id=\"_x30_.2.0\" x=\"9.512\" y=\"16.437\" fill=\"#8C8C8C\" width=\"1.177\" height=\"2.687\"/><rect id=\"_x30_.2.1\" x=\"11.962\" y=\"16.437\" fill=\"#8C8C8C\" width=\"1.181\" height=\"2.687\"/><rect id=\"_x30_.2.2\" x=\"14.417\" y=\"16.437\" fill=\"#8C8C8C\" width=\"1.176\" height=\"2.687\"/><rect id=\"_x30_.2.5\" x=\"14.417\" y=\"10.662\" fill=\"#8C8C8C\" width=\"1.176\" height=\"2.868\"/><rect id=\"_x30_.2.6\" x=\"11.962\" y=\"10.662\" fill=\"#8C8C8C\" width=\"1.181\" height=\"2.868\"/><rect id=\"_x30_.2.7\" x=\"9.512\" y=\"10.662\" fill=\"#8C8C8C\" width=\"1.177\" height=\"2.868\"/></g><g id=\"IC\"><rect id=\"_x30_.3.0\" x=\"8.486\" y=\"12.612\" fill=\"#303030\" width=\"8.134\" height=\"4.563\"/><polygon id=\"_x30_.3.1\" fill=\"#1F2020\" points=\"8.486,12.612 16.62,12.612 16.182,12.918 8.923,12.918  \"/><polygon id=\"_x30_.3.2\" fill=\"#1F2020\" points=\"8.486,17.172 16.62,17.172 16.182,16.852 8.923,16.852  \"/><polygon id=\"_x30_.3.3\" fill=\"#010101\" points=\"8.486,12.611 8.486,17.174 8.923,16.852 8.923,12.932  \"/><polygon id=\"_x30_.3.4\" fill=\"#3E3E3E\" points=\"16.62,12.612 16.62,17.172 16.182,16.852 16.182,12.932  \"/><ellipse id=\"_x30_.3.5\" fill=\"#1F2020\" cx=\"9.553\" cy=\"16.36\" rx=\"0.28\" ry=\"0.213\"/></g><g><rect id=\"_x30_.4.0\" x=\"3.603\" y=\"23.945\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" width=\"3.5\" height=\"3.5\"/><circle id=\"connector1pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"5.352\" cy=\"25.693\" r=\"1.75\"/><circle id=\"connector2pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"12.553\" cy=\"25.695\" r=\"1.75\"/><circle id=\"connector3pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"19.75\" cy=\"25.695\" r=\"1.75\"/><circle id=\"connector4pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"19.749\" cy=\"4.095\" r=\"1.75\"/><circle id=\"connector5pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"12.553\" cy=\"4.093\" r=\"1.75\"/><circle id=\"connector6pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"5.352\" cy=\"4.091\" r=\"1.75\"/></g><g id=\"_x30_.6\" transform=\"matrix(0 1 -1 0 16.8022 8.6499)\"><text id=\"_x30_.6.0\" transform=\"matrix(0 -1 1 0 6.2432 6.4936)\" fill=\"#A69595\" font-family=\"Noto Sans\" font-size=\"1\">ADP3300</text></g><g id=\"_x30_.7\" transform=\"matrix(1 0 0 1 2.6021 22.3833)\"><text id=\"_x30_.7.0\" transform=\"matrix(1 0 0 1 -6.103516e-005 0)\" fill=\"#D6D8D6\" font-family=\"Noto Sans\" font-size=\"5\">1</text></g><g id=\"_x30_.8\" transform=\"matrix(0 -1 1 0 26.9468 21.3833)\"><text id=\"_x30_.8.0\" transform=\"matrix(1 0 0 1 -0.1953 -5.4449)\" fill=\"#D6D8D6\" font-family=\"Noto Sans\" font-size=\"5\">IC8</text></g></g></svg>",
+      "w": 24.59,
+      "h": 29.79,
+      "pins": {
+        "NC": [
+          5.35,
+          25.69
+        ],
+        "-INA": [
+          12.55,
+          25.7
+        ],
+        "+INA": [
+          19.75,
+          25.7
+        ],
+        "-V": [
+          19.75,
+          4.1
+        ],
+        "NC.2": [
+          12.55,
+          4.09
+        ],
+        "OUTA": [
+          5.35,
+          4.09
+        ]
+      }
+    },
+    "schematic": {
+      "svg": "<svg version=\"1.1\" baseProfile=\"tiny\" id=\"_x30_\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 -0.5 64.898 29.801\" xml:space=\"preserve\"><desc oldid=\"0.0\" id=\"0.0.0\"><referenceFile oldid=\"0.0.0\" id=\"0.0.0.0\">Schematic.AD584.svg</referenceFile></desc><line id=\"connector1pin\" fill=\"none\" stroke=\"#000000\" x1=\"14.401\" y1=\"7.199\" x2=\"0\" y2=\"7.199\"/><rect id=\"connector1terminal\" x=\"0\" y=\"7.128\" fill=\"none\" width=\"0.004\" height=\"0.071\"/><line id=\"connector2pin\" fill=\"none\" stroke=\"#000000\" x1=\"14.401\" y1=\"14.399\" x2=\"0\" y2=\"14.399\"/><rect id=\"connector2terminal\" x=\"0\" y=\"14.396\" fill=\"none\" width=\"0.071\" height=\"0.005\"/><line id=\"connector3pin\" fill=\"none\" stroke=\"#000000\" x1=\"14.401\" y1=\"21.602\" x2=\"0\" y2=\"21.602\"/><rect id=\"connector3terminal\" x=\"0\" y=\"21.602\" fill=\"none\" width=\"0.006\" height=\"0.075\"/><line id=\"connector4pin\" fill=\"none\" stroke=\"#000000\" x1=\"64.897\" y1=\"21.602\" x2=\"50.494\" y2=\"21.602\"/><rect id=\"connector4terminal\" x=\"64.802\" y=\"21.602\" width=\"0.006\" height=\"0.088\"/><line id=\"connector5pin\" fill=\"none\" stroke=\"#000000\" x1=\"64.899\" y1=\"14.4\" x2=\"50.494\" y2=\"14.4\"/><polygon id=\"connector5terminal\" fill=\"none\" points=\"64.802,14.396 64.895,14.396 64.895,14.4 64.895,14.4 \"/><line id=\"connector6pin\" fill=\"none\" stroke=\"#000000\" x1=\"50.494\" y1=\"7.201\" x2=\"64.895\" y2=\"7.201\"/><polygon id=\"connector6terminal\" fill=\"none\" points=\"64.802,7.054 64.808,7.054 64.895,7.201 64.802,7.201 \"/><text transform=\"matrix(0.8074 0 0 1 42.2004 24.1357)\" font-family=\"Noto Sans\" font-size=\"4\">O</text><text transform=\"matrix(0.8074 0 0 1 44.7131 24.1357)\" font-family=\"Noto Sans\" font-size=\"4\">U</text><text transform=\"matrix(0.8074 0 0 1 47.0452 24.1357)\" font-family=\"Noto Sans\" font-size=\"4\">T</text><text id=\"_x30_.1.11\" transform=\"matrix(0.8074 0 0 1 15.8372 24.1357)\" font-family=\"Noto Sans\" font-size=\"4\">SDB</text><text id=\"_x30_.1.16\" transform=\"matrix(0.8074 0 0 1 15.8372 9.7354)\" font-family=\"Noto Sans\" font-size=\"4\">GND</text><text transform=\"matrix(0.8074 0 0 1 45.094 16.9355)\" font-family=\"Noto Sans\" font-size=\"4\">IN</text><text id=\"_x30_.1.16_1_\" transform=\"matrix(0.8074 0 0 1 15.8372 16.9355)\" font-family=\"Noto Sans\" font-size=\"4\">NR</text><text id=\"_x30_.1.16_4_\" transform=\"matrix(0.8074 0 0 1 40.2952 9.7354)\" font-family=\"Noto Sans\" font-size=\"4\">ERRB</text><text id=\"_x30_.1.22\" transform=\"matrix(0.9059 0 0 1 25.2371 5.7354)\" font-family=\"Noto Sans\" font-size=\"4\">ADP3300</text><polygon fill=\"none\" stroke=\"#000000\" points=\"14.401,0 50.494,0.001 50.494,28.801 14.401,28.8 \"/></svg>",
+      "w": 64.9,
+      "h": 29.8,
+      "pins": {
+        "NC": [
+          0,
+          7.66
+        ],
+        "-INA": [
+          0.04,
+          14.9
+        ],
+        "+INA": [
+          0,
+          22.14
+        ],
+        "-V": [
+          64.81,
+          22.15
+        ],
+        "NC.2": [
+          64.85,
+          14.9
+        ],
+        "OUTA": [
+          64.85,
+          7.63
+        ]
+      }
+    }
+  },
+  "icon": "<svg version=\"1.1\" baseProfile=\"tiny\" id=\"_x30_\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 24.59 29.786\" xml:space=\"preserve\"><desc id=\"0.0\"><referenceFile id=\"0.0.0\">ADP3300_Breadboard.svg</referenceFile></desc><path id=\"_x30_.1\" fill=\"#237B3D\" d=\"M-0.023,0v13.403v2.98v13.402h24.589V0H-0.023L-0.023,0z\"/><g><rect id=\"_x30_.2.0\" x=\"9.512\" y=\"16.437\" fill=\"#8C8C8C\" width=\"1.177\" height=\"2.687\"/><rect id=\"_x30_.2.1\" x=\"11.962\" y=\"16.437\" fill=\"#8C8C8C\" width=\"1.181\" height=\"2.687\"/><rect id=\"_x30_.2.2\" x=\"14.417\" y=\"16.437\" fill=\"#8C8C8C\" width=\"1.176\" height=\"2.687\"/><rect id=\"_x30_.2.5\" x=\"14.417\" y=\"10.662\" fill=\"#8C8C8C\" width=\"1.176\" height=\"2.868\"/><rect id=\"_x30_.2.6\" x=\"11.962\" y=\"10.662\" fill=\"#8C8C8C\" width=\"1.181\" height=\"2.868\"/><rect id=\"_x30_.2.7\" x=\"9.512\" y=\"10.662\" fill=\"#8C8C8C\" width=\"1.177\" height=\"2.868\"/></g><g id=\"IC\"><rect id=\"_x30_.3.0\" x=\"8.486\" y=\"12.612\" fill=\"#303030\" width=\"8.134\" height=\"4.563\"/><polygon id=\"_x30_.3.1\" fill=\"#1F2020\" points=\"8.486,12.612 16.62,12.612 16.182,12.918 8.923,12.918  \"/><polygon id=\"_x30_.3.2\" fill=\"#1F2020\" points=\"8.486,17.172 16.62,17.172 16.182,16.852 8.923,16.852  \"/><polygon id=\"_x30_.3.3\" fill=\"#010101\" points=\"8.486,12.611 8.486,17.174 8.923,16.852 8.923,12.932  \"/><polygon id=\"_x30_.3.4\" fill=\"#3E3E3E\" points=\"16.62,12.612 16.62,17.172 16.182,16.852 16.182,12.932  \"/><ellipse id=\"_x30_.3.5\" fill=\"#1F2020\" cx=\"9.553\" cy=\"16.36\" rx=\"0.28\" ry=\"0.213\"/></g><g><rect id=\"_x30_.4.0\" x=\"3.603\" y=\"23.945\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" width=\"3.5\" height=\"3.5\"/><circle id=\"connector1pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"5.352\" cy=\"25.693\" r=\"1.75\"/><circle id=\"connector2pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"12.553\" cy=\"25.695\" r=\"1.75\"/><circle id=\"connector3pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"19.75\" cy=\"25.695\" r=\"1.75\"/><circle id=\"connector4pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"19.749\" cy=\"4.095\" r=\"1.75\"/><circle id=\"connector5pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"12.553\" cy=\"4.093\" r=\"1.75\"/><circle id=\"connector6pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"5.352\" cy=\"4.091\" r=\"1.75\"/></g><g id=\"_x30_.6\" transform=\"matrix(0 1 -1 0 16.8022 8.6499)\"><text id=\"_x30_.6.0\" transform=\"matrix(0 -1 1 0 6.2432 6.4936)\" fill=\"#A69595\" font-family=\"Noto Sans\" font-size=\"1\">ADP3300</text></g><g id=\"_x30_.7\" transform=\"matrix(1 0 0 1 2.6021 22.3833)\"><text id=\"_x30_.7.0\" transform=\"matrix(1 0 0 1 -6.103516e-005 0)\" fill=\"#D6D8D6\" font-family=\"Noto Sans\" font-size=\"5\">1</text></g><g id=\"_x30_.8\" transform=\"matrix(0 -1 1 0 26.9468 21.3833)\"><text id=\"_x30_.8.0\" transform=\"matrix(1 0 0 1 -0.1953 -5.4449)\" fill=\"#D6D8D6\" font-family=\"Noto Sans\" font-size=\"5\">IC8</text></g></svg>"
+}

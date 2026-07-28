@@ -1,0 +1,75 @@
+{
+  "type": "mic4574-5ee57349869fd1a1da296bd15e8e1743-1",
+  "label": "MIC4574",
+  "family": "voltage regulator",
+  "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'sans-serif';\">MIC4574 0.5-A Step-Down Voltage Regulator in DIP8 package.</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'sans-serif';\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'sans-serif';\">The MIC4574 improves on the LM2574 by increasing the switching frequency to 200Khz, allowing the use of smaller inductors and capacitors. It is pin-compatible.</span></p></body></html>",
+  "source": {
+    "fzp": "mic4574_5ee57349869fd1a1da296bd15e8e1743_1.fzp",
+    "moduleId": "mic4574_5ee57349869fd1a1da296bd15e8e1743_1"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" y=\"0in\" x=\"0in\" version=\"1.2\" viewBox=\"0 0 400 330\" baseProfile=\"tiny\"><g id=\"breadboard\"><rect y=\"30\" x=\"0\" height=\"270\" id=\"middle\" fill=\"#303030\" width=\"400\"/><rect y=\"30\" x=\"0\" height=\"24.6\" id=\"top\" fill=\"#3D3D3D\" width=\"400\"/><rect y=\"275.4\" x=\"0\" height=\"24.6\" id=\"bottom\" fill=\"#000000\" width=\"400\"/><polygon id=\"right\" points=\"400,30,392.5,54.6,392.5,275.4,400,300\" fill=\"#141414\"/><polygon id=\"left\" points=\"0,30,7.5,54.6,7.5,275.4,0,300\" fill=\"#1F1F1F\"/><polygon id=\"left-upper-rect\" points=\"50,115,7.5,114.6,5.6,135.8,5.6,165,50,165\" fill=\"#1C1C1C\"/><polygon id=\"left-lower-rect\" points=\"7.5,215.5,50,215.5,50,165,5.6,165,5.6,194.2\" fill=\"#383838\"/><path d=\"M5.6,135.8l0,58.3c14.7,-1.7,26.2,-14,26.2,-29.2C31.8,149.7,20.4,137.5,5.6,135.8z\" id=\"slot\" fill=\"#262626\"/><path d=\"M7.5,54.6L7.5,114.5c23.8,4.5,41.9,25.3,41.9,50.4c0,25.1,-18,46,-41.9,50.5L7.5,215.5l50,0L57.5,54.6L7.5,54.6z\" id=\"cover\" fill=\"#303030\"/><circle cx=\"65\" cy=\"234.7\" fill=\"#212121\" r=\"20.6\"/><text text-anchor=\"start\" y=\"165\" x=\"55\" stroke=\"none\" font-size=\"60\" id=\"label\" fill=\"#e6e6e6\" font-family=\"OCRA\">MIC4574</text><rect y=\"286.6\" x=\"35\" height=\"43.4\" fill=\"#8C8C8C\" width=\"30\"/><rect y=\"300\" x=\"35\" height=\"30\" id=\"connector0pin\" fill=\"#8C8C8C\" width=\"30\"/><polygon points=\"35,286.6,35,306.6,65,306.6,85,297.4,85,286.6\" fill=\"#8C8C8C\"/><rect x=\"35\" height=\"43.4\" id=\"connector7pin\" fill=\"#8C8C8C\" width=\"30\"/><rect x=\"35\" height=\"30\" id=\"connector7terminal\" fill=\"#8C8C8C\" width=\"30\"/><polygon points=\"85,43.4,85,32.6,65,23.4,35,23.4,35,43.4\" fill=\"#8C8C8C\"/><rect y=\"286.6\" x=\"335\" height=\"43.4\" fill=\"#8C8C8C\" width=\"30\"/><rect y=\"300\" x=\"335\" height=\"30\" id=\"connector3pin\" fill=\"#8C8C8C\" width=\"30\"/><polygon points=\"315,286.6,315,297.4,335,306.6,365,306.6,365,286.6\" fill=\"#8C8C8C\"/><rect y=\"0\" x=\"335\" height=\"43.4\" fill=\"#8C8C8C\" width=\"30\"/><rect y=\"0\" x=\"335\" height=\"30\" id=\"connector4pin\" fill=\"#8C8C8C\" width=\"30\"/><polygon points=\"365,43.4,365,23.4,335,23.4,315,32.6,315,43.4\" fill=\"#8C8C8C\"/><rect y=\"0\" x=\"135\" height=\"43.4\" id=\"connector6pin\" fill=\"#8C8C8C\" width=\"30\"/><rect x=\"135\" height=\"30\" id=\"connector5pin\" fill=\"#8C8C8C\" width=\"30\"/><polygon points=\"185,43.4,185,32.6,165,23.4,135,23.4,115,32.6,115,43.4\" fill=\"#8C8C8C\"/><rect y=\"0\" x=\"235\" height=\"43.4\" fill=\"#8C8C8C\" width=\"30\"/><rect x=\"235\" height=\"30\" fill=\"#8C8C8C\" width=\"30\"/><polygon points=\"285,43.4,285,32.6,265,23.4,235,23.4,215,32.6,215,43.4\" fill=\"#8C8C8C\"/><rect y=\"286.6\" x=\"135\" height=\"43.4\" fill=\"#8C8C8C\" width=\"30\"/><rect y=\"300\" x=\"135\" height=\"30\" id=\"connector1pin\" fill=\"#8C8C8C\" width=\"30\"/><polygon points=\"115,286.6,115,297.4,135,306.6,165,306.6,185,297.4,185,286.6\" fill=\"#8C8C8C\"/><rect y=\"286.6\" x=\"235\" height=\"43.4\" fill=\"#8C8C8C\" width=\"30\"/><rect y=\"300\" x=\"235\" height=\"30\" id=\"connector2pin\" fill=\"#8C8C8C\" width=\"30\"/><polygon points=\"215,286.6,215,297.4,235,306.6,265,306.6,285,297.4,285,286.6\" fill=\"#8C8C8C\"/></g></svg>",
+      "w": 38.4,
+      "h": 31.68,
+      "pins": {
+        "pin1": [
+          4.8,
+          30.24
+        ],
+        "pin2": [
+          14.4,
+          30.24
+        ],
+        "pin3": [
+          24,
+          30.24
+        ],
+        "pin4": [
+          33.6,
+          30.24
+        ],
+        "pin5": [
+          33.6,
+          1.44
+        ],
+        "pin7": [
+          14.4,
+          1.44
+        ]
+      }
+    },
+    "schematic": {
+      "svg": "<svg id=\"Ebene_1\" version=\"1.2\" viewBox=\"0 0 800 500\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\"><desc><referenceFile>mic4574_schematic2.svg</referenceFile></desc><metadata id=\"metadata684\"><rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><cc:Work rdf:about=\"\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><dc:format xmlns:dc=\"http://purl.org/dc/elements/1.1/\">image/svg+xml</dc:format><dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"/><dc:title xmlns:dc=\"http://purl.org/dc/elements/1.1/\"/></cc:Work></rdf:RDF></metadata><g id=\"schematic\"><rect id=\"rect4\" x=\"105\" y=\"5\" width=\"600\" height=\"400\" fill=\"#fff\" stroke=\"#000\" stroke-linecap=\"round\" stroke-width=\"10\"/><g fill=\"none\"><rect x=\"395\" y=\"496\" width=\"10\" height=\"9.9\" stroke-width=\"14\"/><line id=\"connector0pin\" x1=\"710\" x2=\"795\" y1=\"300\" y2=\"300\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector0terminal\" x=\"800\" y=\"300\" width=\".19\" height=\".02\" stroke-width=\"0\"/></g><text id=\"text124\" x=\"727.21362\" y=\"280.57239\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"28\" stroke-width=\"14\">1</text><text id=\"text450\" x=\"632.00391\" y=\"313.3717\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"39\" stroke-width=\"14\">FB</text><line id=\"connector2pin\" x1=\"100\" x2=\"5\" y1=\"300\" y2=\"300\" fill=\"none\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector2terminal\" x=\"-.1\" y=\"300\" width=\".21\" height=\".02\" fill=\"none\" stroke-width=\"0\"/><text id=\"text127\" x=\"132.01709\" y=\"316.09329\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"39\" stroke-width=\"14\">EN</text><text id=\"text141\" x=\"730.06049\" y=\"81.570969\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"28\" stroke-width=\"14\">7</text><line id=\"connector3pin\" x1=\"500\" x2=\"500\" y1=\"405\" y2=\"500\" fill=\"none\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector3terminal\" x=\"500\" y=\"505\" width=\".02\" height=\".21\" fill=\"none\" stroke-width=\"0\"/><text id=\"text293\" x=\"470\" y=\"444.74219\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"28\" stroke-width=\"14\">4</text><text id=\"text345\" x=\"440\" y=\"365.65103\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"39\" stroke-width=\"14\">PWR_GND</text><line id=\"connector1pin\" x1=\"300\" x2=\"300\" y1=\"405\" y2=\"500\" fill=\"none\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector1terminal\" x=\"300\" y=\"505\" width=\".02\" height=\".21\" fill=\"none\" stroke-width=\"0\"/><text id=\"text293\" x=\"270\" y=\"444.74219\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"28\" stroke-width=\"14\">2</text><text id=\"text345\" x=\"200\" y=\"365.65103\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"39\" stroke-width=\"14\">SIG_GND</text><line id=\"connector4pin\" x1=\"5\" x2=\"100\" y1=\"100\" y2=\"100\" fill=\"none\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector4terminal\" x=\"-.1\" y=\"100\" width=\".21\" height=\".02\" fill=\"none\" stroke-width=\"0\"/><text id=\"text42\" x=\"60.377529\" y=\"82.338989\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"28\" stroke-width=\"14\">5</text><text id=\"text58\" x=\"129.17021\" y=\"109.18928\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"39\" stroke-width=\"14\">VIN</text><line id=\"connector5pin\" x1=\"795\" x2=\"710\" y1=\"100\" y2=\"100\" fill=\"none\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector5terminal\" x=\"800\" y=\"100\" width=\".19\" height=\".02\" fill=\"none\" stroke-width=\"0\"/><g font-family=\"Droid Sans\" stroke-width=\"14\"><text id=\"text398\" x=\"52.275753\" y=\"273.39169\" fill=\"#8c8c8c\" font-size=\"28\">3</text><text id=\"text176\" x=\"614.479\" y=\"115.91922\" fill=\"#8c8c8c\" font-size=\"39\">SW</text><g font-size=\"47\"><text id=\"label_3_\" x=\"312\" y=\"99.829048\">MIC4574</text><text id=\"text125\" x=\"347.48901\" y=\"161.19205\">Buck</text><text id=\"label_1_\" x=\"294.77222\" y=\"236.98889\">Regulator</text></g></g></g></svg>",
+      "w": 76.8,
+      "h": 48,
+      "pins": {
+        "pin1": [
+          76.81,
+          28.8
+        ],
+        "pin2": [
+          28.8,
+          48.49
+        ],
+        "pin3": [
+          0,
+          28.8
+        ],
+        "pin4": [
+          48,
+          48.49
+        ],
+        "pin5": [
+          0,
+          9.6
+        ],
+        "pin7": [
+          76.81,
+          9.6
+        ]
+      }
+    }
+  },
+  "icon": "<svg baseProfile=\"tiny\" version=\"1.2\" viewBox=\"0 0 400 330\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"icon\"><rect y=\"30\" width=\"400\" height=\"270\" fill=\"#303030\"/><rect y=\"30\" width=\"400\" height=\"25\" fill=\"#3D3D3D\"/><rect y=\"275\" width=\"400\" height=\"25\"/><polygon points=\"400 30 392 55 392 275 400 300\" fill=\"#141414\"/><polygon points=\"0 30 7.5 55 7.5 275 0 300\" fill=\"#1F1F1F\"/><polygon points=\"50 115 7.5 115 5.6 136 5.6 165 50 165\" fill=\"#1C1C1C\"/><polygon points=\"7.5 216 50 216 50 165 5.6 165 5.6 194\" fill=\"#383838\"/><path d=\"m5.6 136v58c15-1.7 26-14 26-29s-11-27-26-29z\" fill=\"#262626\"/><path d=\"m7.5 55v60c24 4.5 42 25 42 50s-18 46-42 50v.1h50v-161h-50z\" fill=\"#303030\"/><circle cx=\"65\" cy=\"235\" r=\"21\" fill=\"#212121\"/><text x=\"55\" y=\"165\" fill=\"#e6e6e6\" font-family=\"OCRA\" font-size=\"60\">MIC4574</text><g fill=\"#8C8C8C\"><rect x=\"35\" y=\"287\" width=\"30\" height=\"43\"/><rect x=\"35\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"35 287 35 307 65 307 85 297 85 287\"/><rect x=\"35\" width=\"30\" height=\"43\"/><rect x=\"35\" width=\"30\" height=\"30\"/><polygon points=\"85 43 85 33 65 23 35 23 35 43\"/><rect x=\"335\" y=\"287\" width=\"30\" height=\"43\"/><rect x=\"335\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"315 287 315 297 335 307 365 307 365 287\"/><rect x=\"335\" width=\"30\" height=\"43\"/><rect x=\"335\" width=\"30\" height=\"30\"/><polygon points=\"365 43 365 23 335 23 315 33 315 43\"/><rect x=\"135\" width=\"30\" height=\"43\"/><rect x=\"135\" width=\"30\" height=\"30\"/><polygon points=\"185 43 185 33 165 23 135 23 115 33 115 43\"/><rect x=\"235\" width=\"30\" height=\"43\"/><rect x=\"235\" width=\"30\" height=\"30\"/><polygon points=\"285 43 285 33 265 23 235 23 215 33 215 43\"/><rect x=\"135\" y=\"287\" width=\"30\" height=\"43\"/><rect x=\"135\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"115 287 115 297 135 307 165 307 185 297 185 287\"/><rect x=\"235\" y=\"287\" width=\"30\" height=\"43\"/><rect x=\"235\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"215 287 215 297 235 307 265 307 285 297 285 287\"/></g></g></svg>"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "sparkfun-connectors-m01-smtso-256-et",
+  "label": "Header 1",
+  "family": "sparkfun Pin Header",
+  "description": "<b>Header 1</b>\nStandard 1-pin 0.1 header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115).",
+  "source": {
+    "fzp": "sparkfun-connectors-m01--smtso-256-et.fzp",
+    "moduleId": "SparkFun-Connectors-M01--SMTSO-256-ET"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" x=\"0in\" y=\"0in\" viewBox=\"0 0 6.1976 6.1976\"><g id=\"breadboard\"><path fill=\"#1F7A34\" stroke=\"none\" stroke-width=\"0\" d=\"M0,0l6.1976,0 0,6.1976 -6.1976,0 0,-6.1976z M1.1938,3.0988a1.905,1.905 0 1 0 3.81,0 1.905,1.905 0 1 0 -3.81,0z \"/><circle id=\"connector0pin\" connectorname=\"P$1\" cx=\"3.0988\" cy=\"3.0988\" r=\"2.5019\" stroke=\"#9A916C\" stroke-width=\"1.1938\" fill=\"none\"/><circle class=\"other\" cx=\"3.0988\" cy=\"3.0988\" r=\"1.016\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" fill=\"none\"/></g></svg>",
+      "w": 23.42,
+      "h": 23.42,
+      "pins": {
+        "1": [
+          11.71,
+          11.71
+        ]
+      }
+    }
+  },
+  "icon": "<svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" x=\"0in\" y=\"0in\" viewBox=\"0 0 6.1976 6.1976\"><g id=\"breadboard\"><path fill=\"#1F7A34\" stroke=\"none\" stroke-width=\"0\" d=\"M0,0l6.1976,0 0,6.1976 -6.1976,0 0,-6.1976z M1.1938,3.0988a1.905,1.905 0 1 0 3.81,0 1.905,1.905 0 1 0 -3.81,0z \"/><circle id=\"connector0pin\" connectorname=\"P$1\" cx=\"3.0988\" cy=\"3.0988\" r=\"2.5019\" stroke=\"#9A916C\" stroke-width=\"1.1938\" fill=\"none\"/><circle class=\"other\" cx=\"3.0988\" cy=\"3.0988\" r=\"1.016\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" fill=\"none\"/></g></svg>"
+}

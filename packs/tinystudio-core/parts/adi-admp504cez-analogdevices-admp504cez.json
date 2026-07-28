@@ -1,0 +1,58 @@
+{
+  "type": "adi-admp504cez-analogdevices-admp504cez",
+  "label": "ADMP504 - Ultralow Noise Microphone with Bottom Port and Analog Output",
+  "family": "ADI-Mic",
+  "source": {
+    "fzp": "ADI_ADMP504CEZ.AnalogDevices_ADMP504CEZ.fzp",
+    "moduleId": "AnalogDevices_ADMP504CEZ"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg version=\"1.1\" baseProfile=\"tiny\" id=\"_x30_\" xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\" xmlns:svg=\"http://www.w3.org/2000/svg\" inkscape:version=\"0.48.4 r9939\" sodipodi:docname=\"svg.breadboard.ADMP504.svg\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 15.348 29.786\" xml:space=\"preserve\"><sodipodi:namedview id=\"namedview2997\" objecttolerance=\"10\" bordercolor=\"#666666\" gridtolerance=\"10\" guidetolerance=\"10\" borderopacity=\"1\" pagecolor=\"#ffffff\" inkscape:cy=\"14.893\" inkscape:cx=\"-15.233453\" showgrid=\"false\" inkscape:zoom=\"7.9231856\" inkscape:pageshadow=\"2\" inkscape:window-width=\"919\" inkscape:window-height=\"851\" inkscape:window-y=\"0\" inkscape:window-x=\"0\" inkscape:window-maximized=\"0\" inkscape:pageopacity=\"0\" inkscape:current-layer=\"_x30_\"></sodipodi:namedview><desc id=\"0.0\"><referenceFile id=\"0.0.0\">ADMP504_Breadboard.svg</referenceFile></desc><path id=\"_x30_.1\" fill=\"#237B3D\" d=\"M-0.023,0v13.403v2.98v13.402h15.349V0H-0.023L-0.023,0z\"/><g id=\"g2989\"><rect id=\"_x30_.4.0\" x=\"9.375\" y=\"23.945\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" width=\"3.5\" height=\"3.5\"/><circle id=\"connector2pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"3.924\" cy=\"25.693\" r=\"1.75\"/><circle id=\"connector1pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"11.125\" cy=\"25.695\" r=\"1.75\"/><circle id=\"connector4pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"11.125\" cy=\"4.093\" r=\"1.75\"/><circle id=\"connector3pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"3.924\" cy=\"4.091\" r=\"1.75\"/></g><circle id=\"MicrophonePort\" fill=\"#000600\" stroke=\"#465224\" stroke-width=\"3\" cx=\"5.359\" cy=\"14.893\" r=\"2.292\"/></svg>",
+      "w": 15.35,
+      "h": 29.79,
+      "pins": {
+        "OUTPUT": [
+          11.13,
+          25.7
+        ],
+        "GND": [
+          3.92,
+          25.69
+        ],
+        "VDD": [
+          3.92,
+          4.09
+        ],
+        "NC": [
+          11.13,
+          4.09
+        ]
+      }
+    },
+    "schematic": {
+      "svg": "<svg version=\"1.1\" baseProfile=\"tiny\" id=\"_x30_\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 -0.5 64.898 22.602\" xml:space=\"preserve\"><desc oldid=\"0.0\" id=\"0.0.0\"><referenceFile oldid=\"0.0.0\" id=\"0.0.0.0\">Schematic.AD584.svg</referenceFile></desc><line id=\"connector1pin\" fill=\"none\" stroke=\"#000000\" x1=\"14.401\" y1=\"7.199\" x2=\"0\" y2=\"7.199\"/><rect id=\"connector1terminal\" x=\"0\" y=\"7.128\" fill=\"none\" width=\"0.004\" height=\"0.071\"/><line id=\"connector2pin\" fill=\"none\" stroke=\"#000000\" x1=\"14.401\" y1=\"14.399\" x2=\"0\" y2=\"14.399\"/><rect id=\"connector2terminal\" x=\"0\" y=\"14.396\" fill=\"none\" width=\"0.071\" height=\"0.005\"/><line id=\"connector3pin\" fill=\"none\" stroke=\"#000000\" x1=\"64.899\" y1=\"14.4\" x2=\"50.494\" y2=\"14.4\"/><polygon id=\"connector3terminal\" fill=\"none\" points=\"64.802,14.396 64.895,14.396 64.895,14.4 64.895,14.4 \"/><line id=\"connector4pin\" fill=\"none\" stroke=\"#000000\" x1=\"50.494\" y1=\"7.201\" x2=\"64.895\" y2=\"7.201\"/><polygon id=\"connector4terminal\" fill=\"none\" points=\"64.802,7.054 64.808,7.054 64.895,7.201 64.802,7.201 \"/><text id=\"_x30_.1.16\" transform=\"matrix(0.8074 0 0 1 15.8372 9.7354)\" font-family=\"Noto Sans\" font-size=\"4\">GND</text><text transform=\"matrix(0.8074 0 0 1 44.094 16.9355)\" font-family=\"Noto Sans\" font-size=\"4\">NC</text><text transform=\"matrix(0.8074 0 0 1 15.8372 16.9355)\" font-family=\"Noto Sans\" font-size=\"4\">O</text><text transform=\"matrix(0.8074 0 0 1 18.3494 16.9355)\" font-family=\"Noto Sans\" font-size=\"4\">U</text><text transform=\"matrix(0.8074 0 0 1 20.6814 16.9355)\" font-family=\"Noto Sans\" font-size=\"4\">T</text><text transform=\"matrix(0.8074 0 0 1 22.6545 16.9355)\" font-family=\"Noto Sans\" font-size=\"4\">P</text><text transform=\"matrix(0.8074 0 0 1 24.8083 16.9355)\" font-family=\"Noto Sans\" font-size=\"4\">U</text><text transform=\"matrix(0.8074 0 0 1 27.1409 16.9355)\" font-family=\"Noto Sans\" font-size=\"4\">T</text><text id=\"_x30_.1.16_4_\" transform=\"matrix(0.8074 0 0 1 42.2952 9.7354)\" font-family=\"Noto Sans\" font-size=\"4\">VDD</text><text id=\"_x30_.1.22\" transform=\"matrix(0.9059 0 0 1 24.2371 5.7354)\" font-family=\"Noto Sans\" font-size=\"4\">ADMP504</text><polygon fill=\"none\" stroke=\"#000000\" points=\"14.401,0 50.494,0.001 50.494,21.602 14.401,21.602 \"/></svg>",
+      "w": 64.9,
+      "h": 22.6,
+      "pins": {
+        "OUTPUT": [
+          0,
+          7.66
+        ],
+        "GND": [
+          0.04,
+          14.9
+        ],
+        "VDD": [
+          64.85,
+          14.9
+        ],
+        "NC": [
+          64.85,
+          7.63
+        ]
+      }
+    }
+  },
+  "icon": "<svg version=\"1.1\" baseProfile=\"tiny\" id=\"_x30_\" xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\" xmlns:svg=\"http://www.w3.org/2000/svg\" inkscape:version=\"0.48.4 r9939\" sodipodi:docname=\"svg.breadboard.ADMP504.svg\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 15.348 29.786\" xml:space=\"preserve\"><sodipodi:namedview id=\"namedview2997\" objecttolerance=\"10\" bordercolor=\"#666666\" gridtolerance=\"10\" guidetolerance=\"10\" borderopacity=\"1\" pagecolor=\"#ffffff\" inkscape:cy=\"14.893\" inkscape:cx=\"-15.233453\" showgrid=\"false\" inkscape:zoom=\"7.9231856\" inkscape:pageshadow=\"2\" inkscape:window-width=\"919\" inkscape:window-height=\"851\" inkscape:window-y=\"0\" inkscape:window-x=\"0\" inkscape:window-maximized=\"0\" inkscape:pageopacity=\"0\" inkscape:current-layer=\"_x30_\"></sodipodi:namedview><desc id=\"0.0\"><referenceFile id=\"0.0.0\">ADMP504_Breadboard.svg</referenceFile></desc><path id=\"_x30_.1\" fill=\"#237B3D\" d=\"M-0.023,0v13.403v2.98v13.402h15.349V0H-0.023L-0.023,0z\"/><g id=\"g2989\"><rect id=\"_x30_.4.0\" x=\"9.375\" y=\"23.945\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" width=\"3.5\" height=\"3.5\"/><circle id=\"connector2pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"3.924\" cy=\"25.693\" r=\"1.75\"/><circle id=\"connector1pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"11.125\" cy=\"25.695\" r=\"1.75\"/><circle id=\"connector4pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"11.125\" cy=\"4.093\" r=\"1.75\"/><circle id=\"connector3pin\" fill=\"#403619\" stroke=\"#9A916C\" stroke-width=\"1.5\" cx=\"3.924\" cy=\"4.091\" r=\"1.75\"/></g><circle id=\"MicrophonePort\" fill=\"#000600\" stroke=\"#465224\" stroke-width=\"3\" cx=\"5.359\" cy=\"14.893\" r=\"2.292\"/></svg>"
+}

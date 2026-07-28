@@ -1,0 +1,44 @@
+{
+  "type": "sparkfun-connectors-m06-ra-lock",
+  "label": "Header 6",
+  "family": "sparkfun Pin Header",
+  "description": "<b>Header 6</b>\nStandard 6-pin 0.1 header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08094 with associated crimp pins and housings.\n\nNOTES ON THE VARIANTS LOCK and LOCK_LONGPADS...\nThis footprint was designed to help hold the alignment of a through-hole component (i.e.  6-pin header) while soldering it into place.  \nYou may notice that each hole has been shifted either up or down by 0.005 of an inch from it's more standard position (which is a perfectly straight line).  \nThis slight alteration caused the pins (the squares in the middle) to touch the edges of the holes.  Because they are alternating, it causes a brace \nto hold the component in place.  0.005 has proven to be the perfect amount of off-center position when using our standard breakaway headers.\nAlthough looks a little odd when you look at the bare footprint, once you have a header in there, the alteration is very hard to notice.  Also,\nif you push a header all the way into place, it is covered up entirely on the bottom side.  This idea of altering the position of holes to aid alignment \nwill be further integrated into the Sparkfun Library for other footprints.  It can help hold any component with 3 or more connection pins.",
+  "source": {
+    "fzp": "sparkfun-connectors-m06-ra_lock.fzp",
+    "moduleId": "SparkFun-Connectors-M06-RA_LOCK"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" x=\"0in\" y=\"0in\" viewBox=\"0 0 15.367 8.7503\"><g id=\"breadboard\"><path fill=\"#1F7A34\" stroke=\"none\" stroke-width=\"0\" d=\"M0,0l15.367,0 0,8.7503 -15.367,0 0,-8.7503z M0.8255,7.5565a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M3.3655,7.8105a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M5.9055,7.5565a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M8.4455,7.8105a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M10.9855,7.5565a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M13.5255,7.8105a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z \"/><circle id=\"connector0pin\" connectorname=\"1\" cx=\"1.3335\" cy=\"7.5565\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><path stroke=\"none\" stroke-width=\"0\" d=\"m0.3937,6.6167 1.8796,0 0,1.8796 -1.8796,0 0,-3zM0.8255,7.5565a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z \" fill=\"#9A916C\"/><circle id=\"connector1pin\" connectorname=\"2\" cx=\"3.8735\" cy=\"7.8105\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><circle id=\"connector2pin\" connectorname=\"3\" cx=\"6.4135\" cy=\"7.5565\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><circle id=\"connector3pin\" connectorname=\"4\" cx=\"8.9535\" cy=\"7.8105\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><circle id=\"connector4pin\" connectorname=\"5\" cx=\"11.4935\" cy=\"7.5565\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><circle id=\"connector5pin\" connectorname=\"6\" cx=\"14.0335\" cy=\"7.8105\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><line class=\"other\" x1=\"0.0635\" y1=\"7.0485\" x2=\"0.0635\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"15.3035\" y1=\"7.0485\" x2=\"15.3035\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"15.3035\" y1=\"7.0485\" x2=\"0.0635\" y2=\"7.0485\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"15.3035\" y1=\"4.5085\" x2=\"14.0335\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"14.0335\" y1=\"4.5085\" x2=\"1.3335\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"1.3335\" y1=\"4.5085\" x2=\"0.0635\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"1.3335\" y1=\"4.5085\" x2=\"1.3335\" y2=\"0.0635\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"1.3335\" y1=\"0.0635\" x2=\"14.0335\" y2=\"0.0635\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"14.0335\" y1=\"0.0635\" x2=\"14.0335\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/></g></svg>",
+      "w": 58.08,
+      "h": 33.07,
+      "pins": {
+        "1": [
+          5.04,
+          28.56
+        ],
+        "2": [
+          14.64,
+          29.52
+        ],
+        "3": [
+          24.24,
+          28.56
+        ],
+        "4": [
+          33.84,
+          29.52
+        ],
+        "5": [
+          43.44,
+          28.56
+        ],
+        "6": [
+          53.04,
+          29.52
+        ]
+      }
+    }
+  },
+  "icon": "<svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" x=\"0in\" y=\"0in\" viewBox=\"0 0 15.367 8.7503\"><g id=\"breadboard\"><path fill=\"#1F7A34\" stroke=\"none\" stroke-width=\"0\" d=\"M0,0l15.367,0 0,8.7503 -15.367,0 0,-8.7503z M0.8255,7.5565a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M3.3655,7.8105a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M5.9055,7.5565a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M8.4455,7.8105a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M10.9855,7.5565a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z M13.5255,7.8105a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z \"/><circle id=\"connector0pin\" connectorname=\"1\" cx=\"1.3335\" cy=\"7.5565\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><path stroke=\"none\" stroke-width=\"0\" d=\"m0.3937,6.6167 1.8796,0 0,1.8796 -1.8796,0 0,-3zM0.8255,7.5565a0.508,0.508 0 1 0 1.016,0 0.508,0.508 0 1 0 -1.016,0z \" fill=\"#9A916C\"/><circle id=\"connector1pin\" connectorname=\"2\" cx=\"3.8735\" cy=\"7.8105\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><circle id=\"connector2pin\" connectorname=\"3\" cx=\"6.4135\" cy=\"7.5565\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><circle id=\"connector3pin\" connectorname=\"4\" cx=\"8.9535\" cy=\"7.8105\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><circle id=\"connector4pin\" connectorname=\"5\" cx=\"11.4935\" cy=\"7.5565\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><circle id=\"connector5pin\" connectorname=\"6\" cx=\"14.0335\" cy=\"7.8105\" r=\"0.7239\" stroke=\"#9A916C\" stroke-width=\"0.4318\" fill=\"none\"/><line class=\"other\" x1=\"0.0635\" y1=\"7.0485\" x2=\"0.0635\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"15.3035\" y1=\"7.0485\" x2=\"15.3035\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"15.3035\" y1=\"7.0485\" x2=\"0.0635\" y2=\"7.0485\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"15.3035\" y1=\"4.5085\" x2=\"14.0335\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"14.0335\" y1=\"4.5085\" x2=\"1.3335\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"1.3335\" y1=\"4.5085\" x2=\"0.0635\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"1.3335\" y1=\"4.5085\" x2=\"1.3335\" y2=\"0.0635\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"1.3335\" y1=\"0.0635\" x2=\"14.0335\" y2=\"0.0635\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"14.0335\" y1=\"0.0635\" x2=\"14.0335\" y2=\"4.5085\" stroke=\"#f8f8f8\" stroke-width=\"0.127\" stroke-linecap=\"round\"/></g></svg>"
+}

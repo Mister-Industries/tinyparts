@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "packs": [
+    {
+      "id": "tinystudio-core",
+      "name": "tinyStudio Core Parts",
+      "version": "1.0.0",
+      "description": "Curated Fritzing-derived parts for breadboard + schematic",
+      "url": "packs/tinystudio-core/pack.json"
+    }
+  ]
+}

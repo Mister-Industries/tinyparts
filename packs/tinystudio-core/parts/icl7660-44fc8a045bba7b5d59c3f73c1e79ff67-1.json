@@ -1,0 +1,83 @@
+{
+  "type": "icl7660-44fc8a045bba7b5d59c3f73c1e79ff67-1",
+  "label": "ICL7660",
+  "family": "voltage regulator",
+  "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">ICL7660 Charge Pump DC-to-DC Voltage Converter</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">The ICL7760 is a charge pump that can be used to double a voltage, invert a voltage, or divide a voltage by two. Because it doesn't need an inductor,  use of a charge pump can be simpler than using a boost converter. If you need a a higher voltage than your input at low current, the ICL7660 can be a good choice.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">The ICL7660 was originally developed by Intersil and has become and industrial standard part that is produced by many manufacturers, such as Renesas, Maxim, Microchip (TC7660), Texas Instruments (TL7660), HGSEMI, Nanjing MicroOne (ME7660C), Holtek (HT7660) and HTC Korea (TJ7660).</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'sans-serif';\"><br /></p></body></html>",
+  "source": {
+    "fzp": "icl7660_44fc8a045bba7b5d59c3f73c1e79ff67_1.fzp",
+    "moduleId": "icl7660_44fc8a045bba7b5d59c3f73c1e79ff67_1"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg baseProfile=\"tiny\" version=\"1.2\" viewBox=\"0 0 400 330\" xmlns=\"http://www.w3.org/2000/svg\"><desc><referenceFile>lm2574_dip.svg</referenceFile></desc><g id=\"breadboard\"><rect id=\"middle\" y=\"30\" width=\"400\" height=\"270\" fill=\"#303030\"/><rect id=\"top\" y=\"30\" width=\"400\" height=\"25\" fill=\"#3D3D3D\"/><rect id=\"bottom\" y=\"275\" width=\"400\" height=\"25\"/><polygon id=\"right\" points=\"400 30 392 55 392 275 400 300\" fill=\"#141414\"/><polygon id=\"left\" points=\"0 30 7.5 55 7.5 275 0 300\" fill=\"#1F1F1F\"/><polygon id=\"left-upper-rect\" points=\"50 115 7.5 115 5.6 136 5.6 165 50 165\" fill=\"#1C1C1C\"/><polygon id=\"left-lower-rect\" points=\"7.5 216 50 216 50 165 5.6 165 5.6 194\" fill=\"#383838\"/><path id=\"slot\" d=\"m5.6 136v58c15-1.7 26-14 26-29s-11-27-26-29z\" fill=\"#262626\"/><path id=\"cover\" d=\"m7.5 55v60c24 4.5 42 25 42 50s-18 46-42 50v.1h50v-161h-50z\" fill=\"#303030\"/><circle cx=\"65\" cy=\"235\" r=\"21\" fill=\"#212121\"/><text id=\"label\" x=\"55\" y=\"165\" fill=\"#e6e6e6\" font-family=\"OCRA\" font-size=\"60\">ICL7660</text><g fill=\"#8C8C8C\"><rect x=\"35\" y=\"287\" width=\"30\" height=\"43\"/><rect x=\"35\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"35 287 35 307 65 307 85 297 85 287\"/><rect x=\"35\" width=\"30\" height=\"43\"/><rect id=\"connector7pin\" x=\"35\" width=\"30\" height=\"30\"/><polygon points=\"85 43 85 33 65 23 35 23 35 43\"/><rect x=\"335\" y=\"287\" width=\"30\" height=\"43\"/><rect id=\"connector3pin\" x=\"335\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"315 287 315 297 335 307 365 307 365 287\"/><rect x=\"335\" width=\"30\" height=\"43\"/><rect id=\"connector4pin\" x=\"335\" width=\"30\" height=\"30\"/><polygon points=\"365 43 365 23 335 23 315 33 315 43\"/><rect x=\"135\" width=\"30\" height=\"43\"/><rect id=\"connector6pin\" x=\"135\" width=\"30\" height=\"30\"/><polygon points=\"185 43 185 33 165 23 135 23 115 33 115 43\"/><rect x=\"235\" width=\"30\" height=\"43\"/><rect id=\"connector5pin\" x=\"235\" width=\"30\" height=\"30\"/><polygon points=\"285 43 285 33 265 23 235 23 215 33 215 43\"/><rect x=\"135\" y=\"287\" width=\"30\" height=\"43\"/><rect id=\"connector1pin\" x=\"135\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"115 287 115 297 135 307 165 307 185 297 185 287\"/><rect x=\"235\" y=\"287\" width=\"30\" height=\"43\"/><rect id=\"connector2pin\" x=\"235\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"215 287 215 297 235 307 265 307 285 297 285 287\"/></g></g></svg>",
+      "w": 38.4,
+      "h": 31.68,
+      "pins": {
+        "pin 2": [
+          14.4,
+          30.24
+        ],
+        "pin 3": [
+          24,
+          30.24
+        ],
+        "pin4": [
+          33.6,
+          30.24
+        ],
+        "pin 5": [
+          33.6,
+          1.44
+        ],
+        "pin 6": [
+          24,
+          1.44
+        ],
+        "pin 7": [
+          14.4,
+          1.44
+        ],
+        "pin 8": [
+          4.8,
+          1.44
+        ]
+      }
+    },
+    "schematic": {
+      "svg": "<svg id=\"Ebene_1\" version=\"1.2\" viewBox=\"0 0 800 600\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\"><desc><referenceFile>icl7660_schematic.svg</referenceFile></desc><metadata id=\"metadata684\"><rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><cc:Work rdf:about=\"\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><dc:format xmlns:dc=\"http://purl.org/dc/elements/1.1/\">image/svg+xml</dc:format><dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"/><dc:title xmlns:dc=\"http://purl.org/dc/elements/1.1/\"/></cc:Work></rdf:RDF></metadata><g id=\"schematic\" font-family=\"Droid Sans\" stroke-width=\"14\"><rect id=\"rect4\" x=\"105\" y=\"105\" width=\"600\" height=\"400\" fill=\"#fff\" stroke=\"#000\" stroke-linecap=\"round\" stroke-width=\"10\"/><g fill=\"none\"><rect x=\"395\" y=\"595\" width=\"10\" height=\"10\" stroke-width=\"14\"/><line id=\"connector3pin\" x1=\"200\" x2=\"200\" y1=\"5\" y2=\"100\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector3terminal\" x=\"200\" y=\"-.1\" width=\".02\" height=\".21\" stroke-width=\"0\"/><line id=\"connector1pin\" x1=\"600\" x2=\"600\" y1=\"5\" y2=\"100\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector1terminal\" x=\"600\" y=\"-.1\" width=\".02\" height=\".21\" stroke-width=\"0\"/><line id=\"connector7pin\" x1=\"5\" x2=\"100\" y1=\"200\" y2=\"200\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector7terminal\" x=\"-.1\" y=\"200\" width=\".21\" height=\".02\" stroke-width=\"0\"/><line id=\"connector4pin\" x1=\"795\" x2=\"710\" y1=\"200\" y2=\"200\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector4terminal\" x=\"800\" y=\"200\" width=\".19\" height=\".02\" stroke-width=\"0\"/><line id=\"connector5pin\" x1=\"795\" x2=\"710\" y1=\"400\" y2=\"400\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector5terminal\" x=\"800\" y=\"400\" width=\".19\" height=\".02\" stroke-width=\"0\"/><line id=\"connector2pin\" x1=\"400\" x2=\"400\" y1=\"510\" y2=\"595\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector2terminal\" x=\"400\" y=\"600\" width=\".02\" height=\".19\" stroke-width=\"0\"/><line id=\"connector6pin\" x1=\"100\" x2=\"5\" y1=\"400\" y2=\"400\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector6terminal\" x=\"-.1\" y=\"400\" width=\".21\" height=\".02\" stroke-width=\"0\"/></g><g font-size=\"28\"><text x=\"170\" y=\"45\">4</text><text x=\"180\" y=\"150\">C-</text><text x=\"570\" y=\"45\">2</text><text x=\"580\" y=\"150\">C+</text><text x=\"60.377529\" y=\"182.338989\">8</text><text id=\"text141\" x=\"730\" y=\"380\">6</text><text id=\"text293\" x=\"370\" y=\"544.74219\">3</text><text id=\"text141\" x=\"730\" y=\"180\">5</text><text id=\"text398\" x=\"52.275753\" y=\"373.39169\">7</text></g><g font-size=\"32\"><text id=\"text58\" x=\"125\" y=\"209.18928\">VIN</text><text id=\"text176\" x=\"645\" y=\"415\">LV</text><text id=\"text345\" x=\"360\" y=\"485\">GND</text><text id=\"text176\" x=\"600\" y=\"215\">VOUT</text><text id=\"text127\" x=\"125\" y=\"410\">OSC</text></g><g font-size=\"47\"><text id=\"label_3_\" x=\"335\" y=\"255\">ICL7660</text><text id=\"text125\" x=\"260\" y=\"315\">Charge Pump</text><text id=\"label_1_\" x=\"240\" y=\"375\">DC-DC Converter</text></g></g></svg>",
+      "w": 76.8,
+      "h": 57.6,
+      "pins": {
+        "pin 2": [
+          57.6,
+          0
+        ],
+        "pin 3": [
+          38.4,
+          57.61
+        ],
+        "pin4": [
+          19.2,
+          0
+        ],
+        "pin 5": [
+          76.81,
+          19.2
+        ],
+        "pin 6": [
+          76.81,
+          38.4
+        ],
+        "pin 7": [
+          0,
+          38.4
+        ],
+        "pin 8": [
+          0,
+          19.2
+        ]
+      }
+    }
+  },
+  "icon": "<svg baseProfile=\"tiny\" version=\"1.2\" viewBox=\"0 0 400 330\" xmlns=\"http://www.w3.org/2000/svg\"><rect y=\"30\" width=\"400\" height=\"270\" fill=\"#303030\"/><rect y=\"30\" width=\"400\" height=\"25\" fill=\"#3D3D3D\"/><rect y=\"275\" width=\"400\" height=\"25\"/><polygon points=\"400 30 392 55 392 275 400 300\" fill=\"#141414\"/><polygon points=\"0 30 8 55 8 275 0 300\" fill=\"#1F1F1F\"/><polygon points=\"50 115 8 115 6 136 6 165 50 165\" fill=\"#1C1C1C\"/><polygon points=\"8 216 50 216 50 165 6 165 6 194\" fill=\"#383838\"/><path d=\"m6 136v58c15-2 26-14 26-29s-11-27-26-29z\" fill=\"#262626\"/><path d=\"m8 55v60c24 4 42 25 42 50s-18 46-42 50v.1h50v-161h-50z\" fill=\"#303030\"/><circle cx=\"65\" cy=\"235\" r=\"21\" fill=\"#212121\"/><text x=\"55\" y=\"165\" fill=\"#e6e6e6\" font-family=\"OCRA\" font-size=\"60\">ICL7660</text><g fill=\"#8C8C8C\"><rect x=\"35\" y=\"287\" width=\"30\" height=\"43\"/><rect x=\"35\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"35 287 35 307 65 307 85 297 85 287\"/><rect x=\"35\" width=\"30\" height=\"43\"/><rect x=\"35\" width=\"30\" height=\"30\"/><polygon points=\"85 43 85 33 65 23 35 23 35 43\"/><rect x=\"335\" y=\"287\" width=\"30\" height=\"43\"/><rect x=\"335\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"315 287 315 297 335 307 365 307 365 287\"/><rect x=\"335\" width=\"30\" height=\"43\"/><rect x=\"335\" width=\"30\" height=\"30\"/><polygon points=\"365 43 365 23 335 23 315 33 315 43\"/><rect x=\"135\" width=\"30\" height=\"43\"/><rect x=\"135\" width=\"30\" height=\"30\"/><polygon points=\"185 43 185 33 165 23 135 23 115 33 115 43\"/><rect x=\"235\" width=\"30\" height=\"43\"/><rect x=\"235\" width=\"30\" height=\"30\"/><polygon points=\"285 43 285 33 265 23 235 23 215 33 215 43\"/><rect x=\"135\" y=\"287\" width=\"30\" height=\"43\"/><rect x=\"135\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"115 287 115 297 135 307 165 307 185 297 185 287\"/><rect x=\"235\" y=\"287\" width=\"30\" height=\"43\"/><rect x=\"235\" y=\"300\" width=\"30\" height=\"30\"/><polygon points=\"215 287 215 297 235 307 265 307 285 297 285 287\"/></g></svg>"
+}
