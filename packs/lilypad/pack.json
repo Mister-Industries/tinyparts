@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "lilypad",
+  "name": "LilyPad",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "LP",
+  "description": "LilyPad parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "lilypad-arduino-usb",
+      "file": "parts/lilypad-arduino-usb.json"
+    },
+    {
+      "type": "lilypad-simple-v25",
+      "file": "parts/lilypad-simple-v25.json"
+    },
+    {
+      "type": "mainboard-v18",
+      "file": "parts/mainboard-v18.json"
+    },
+    {
+      "type": "lilypad-battery-connect-v11",
+      "file": "parts/lilypad-battery-connect-v11.json"
+    },
+    {
+      "type": "lilypad-coincell-battery-v17",
+      "file": "parts/lilypad-coincell-battery-v17.json"
+    },
+    {
+      "type": "lilypad-simplepower-v13",
+      "file": "parts/lilypad-simplepower-v13.json"
+    },
+    {
+      "type": "lilypad-led-v14",
+      "file": "parts/lilypad-led-v14.json"
+    },
+    {
+      "type": "lilypad-powersupply-v18",
+      "file": "parts/lilypad-powersupply-v18.json"
+    },
+    {
+      "type": "lilypad-accelerometer-v17",
+      "file": "parts/lilypad-accelerometer-v17.json"
+    },
+    {
+      "type": "lilypad-button-v12",
+      "file": "parts/lilypad-button-v12.json"
+    },
+    {
+      "type": "lilypad-light-sensor-v13",
+      "file": "parts/lilypad-light-sensor-v13.json"
+    },
+    {
+      "type": "lilypad-slide-switch13",
+      "file": "parts/lilypad-slide-switch13.json"
+    },
+    {
+      "type": "lilypad-temp-v12",
+      "file": "parts/lilypad-temp-v12.json"
+    },
+    {
+      "type": "powersupply-lipo-v15",
+      "file": "parts/powersupply-lipo-v15.json"
+    },
+    {
+      "type": "buzzer-v15",
+      "file": "parts/buzzer-v15.json"
+    },
+    {
+      "type": "tricolor-led-v16",
+      "file": "parts/tricolor-led-v16.json"
+    },
+    {
+      "type": "lilypad-vibe-motor",
+      "file": "parts/lilypad-vibe-motor.json"
+    },
+    {
+      "type": "lilypad-xbee-v15",
+      "file": "parts/lilypad-xbee-v15.json"
+    }
+  ]
+}

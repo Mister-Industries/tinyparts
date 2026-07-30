@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "sparkfun-boards",
+  "name": "SparkFun · Boards",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "SB",
+  "description": "SparkFun · Boards parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-boards-xport",
+      "file": "parts/sparkfun-boards-xport.json"
+    },
+    {
+      "type": "sparkfun-boards-xport-direct-smd",
+      "file": "parts/sparkfun-boards-xport-direct-smd.json"
+    },
+    {
+      "type": "sparkfun-boards-xport-direct",
+      "file": "parts/sparkfun-boards-xport-direct.json"
+    },
+    {
+      "type": "sparkfun-boards-wiz811mj",
+      "file": "parts/sparkfun-boards-wiz811mj.json"
+    }
+  ]
+}

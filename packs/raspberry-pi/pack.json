@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "raspberry-pi",
+  "name": "Raspberry Pi",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "RP",
+  "description": "Raspberry Pi parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "raspberry-pi-4b-1",
+      "file": "parts/raspberry-pi-4b-1.json"
+    },
+    {
+      "type": "raspberry-pi-3",
+      "file": "parts/raspberry-pi-3.json"
+    },
+    {
+      "type": "raspberry-pi-zero-1",
+      "file": "parts/raspberry-pi-zero-1.json"
+    },
+    {
+      "type": "raspberry-pi-2-v1-1",
+      "file": "parts/raspberry-pi-2-v1-1.json"
+    },
+    {
+      "type": "raspberry-pi-a",
+      "file": "parts/raspberry-pi-a.json"
+    },
+    {
+      "type": "raspberry-pi-b-rev1",
+      "file": "parts/raspberry-pi-b-rev1.json"
+    },
+    {
+      "type": "raspberry-pi-b-rev2",
+      "file": "parts/raspberry-pi-b-rev2.json"
+    },
+    {
+      "type": "raspberry-pi-b",
+      "file": "parts/raspberry-pi-b.json"
+    },
+    {
+      "type": "raspberrypi-b-pcb-shape",
+      "file": "parts/raspberrypi-b-pcb-shape.json"
+    },
+    {
+      "type": "raspberrypi-pcb-shape",
+      "file": "parts/raspberrypi-pcb-shape.json"
+    }
+  ]
+}

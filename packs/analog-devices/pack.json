@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "analog-devices",
+  "name": "Analog Devices",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASlJREFUeNrklzGuRWAQhceLhpaWllrLHtiCsAdaWpYg0alp1eyBlpaW0s38/cvD/e+4yZtEVHI43zmTn3AcBzwxwuPCvu+TvEFZlgLef+Ch+U5hVVWfEXYcB/I8B9M06a1WFAWiKII4jrk6cJqxYRiQZRl4ngeyLNOHy3VdZj9iIE+1JEkQBAGkaXqb/1t10jSN8Q/D8DJ/kUdQbNsGy7KgbVt2bdtGt0DQfuSP9p/hz31zYf2QP9ZP13X6lYn1S5Lk1/CJnxIexxGqqoJpmmiE13WFuq6h67rPpxpn3/dLqeYi3Pc9+8plWWh6PM8z4zgMw+Vnxbu2ouBfHLkKN01zmiMXYaxHURSXOL4ljPVAwTscbwsjQ0wr+ZmLl61fdbwV/t2/00uAAQBbZIISxw6/rgAAAABJRU5ErkJggg==",
+  "description": "Analog Devices parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "adi-ad8226-analogdevices-ad8226arz",
+      "file": "parts/adi-ad8226-analogdevices-ad8226arz.json"
+    },
+    {
+      "type": "adi-ssm2220-analogdevices-ssm2220s",
+      "file": "parts/adi-ssm2220-analogdevices-ssm2220s.json"
+    },
+    {
+      "type": "adi-ssm2212-analogdevices-ssm2212rz",
+      "file": "parts/adi-ssm2212-analogdevices-ssm2212rz.json"
+    },
+    {
+      "type": "adi-adtl082-analogdevices-adtl082arz",
+      "file": "parts/adi-adtl082-analogdevices-adtl082arz.json"
+    },
+    {
+      "type": "adi-ad8541-analogdevices-ad8541arz",
+      "file": "parts/adi-ad8541-analogdevices-ad8541arz.json"
+    },
+    {
+      "type": "adi-adp3300-analogdevices-adp3300artz",
+      "file": "parts/adi-adp3300-analogdevices-adp3300artz.json"
+    },
+    {
+      "type": "adi-ad584-analogdevices-ad584jnz",
+      "file": "parts/adi-ad584-analogdevices-ad584jnz.json"
+    },
+    {
+      "type": "adi-ad654-analogdevices-ad654jnz",
+      "file": "parts/adi-ad654-analogdevices-ad654jnz.json"
+    },
+    {
+      "type": "adi-ad8561-analogdevices-ad8561anz",
+      "file": "parts/adi-ad8561-analogdevices-ad8561anz.json"
+    },
+    {
+      "type": "adi-op27-analogdevices-op27gpz",
+      "file": "parts/adi-op27-analogdevices-op27gpz.json"
+    },
+    {
+      "type": "adi-op37-analogdevices-op37gpz",
+      "file": "parts/adi-op37-analogdevices-op37gpz.json"
+    },
+    {
+      "type": "adi-op482-analogdevices-op482gpz",
+      "file": "parts/adi-op482-analogdevices-op482gpz.json"
+    },
+    {
+      "type": "adi-ad8210-analogdevices-ad8210yrz",
+      "file": "parts/adi-ad8210-analogdevices-ad8210yrz.json"
+    },
+    {
+      "type": "adi-ad22151-analogdevices-ad22151yrz",
+      "file": "parts/adi-ad22151-analogdevices-ad22151yrz.json"
+    },
+    {
+      "type": "adi-adxl327-analogdevices-adxl327cpz",
+      "file": "parts/adi-adxl327-analogdevices-adxl327cpz.json"
+    },
+    {
+      "type": "adi-admp504cez-analogdevices-admp504cez",
+      "file": "parts/adi-admp504cez-analogdevices-admp504cez.json"
+    },
+    {
+      "type": "adi-ad22100ktz-analogdevices-ad22100ktz",
+      "file": "parts/adi-ad22100ktz-analogdevices-ad22100ktz.json"
+    },
+    {
+      "type": "adi-tmp01-analogdevices-tmp01fpz",
+      "file": "parts/adi-tmp01-analogdevices-tmp01fpz.json"
+    }
+  ]
+}

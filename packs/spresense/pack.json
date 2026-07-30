@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "spresense",
+  "name": "Spresense",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "data:image/png;base64,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",
+  "description": "Spresense parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sonyspresense-cxd5602pwdmain1",
+      "file": "parts/sonyspresense-cxd5602pwdmain1.json"
+    },
+    {
+      "type": "sonyspresenseextension-cxd5602pwbext1",
+      "file": "parts/sonyspresenseextension-cxd5602pwbext1.json"
+    },
+    {
+      "type": "sonyspresense-cxd5602pwblm1",
+      "file": "parts/sonyspresense-cxd5602pwblm1.json"
+    },
+    {
+      "type": "sonyspresense-cxd5602pwbcam1",
+      "file": "parts/sonyspresense-cxd5602pwbcam1.json"
+    }
+  ]
+}

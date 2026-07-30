@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "id": "voltage-regulators",
+  "name": "Voltage Regulators",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"8.46667mm\" height=\"8.74889mm\"\n viewBox=\"0 0 30 31\"\n xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"  version=\"1.2\" baseProfile=\"tiny\">\n<title>Fritzing Custom Icon</title>\n<desc>Generated with Qt</desc>\n<defs>\n</defs>\n<g fill=\"none\" stroke=\"black\" stroke-width=\"1\" fill-rule=\"evenodd\" stroke-linecap=\"square\" stroke-linejoin=\"bevel\" >\n\n<image x=\"0\" y=\"0\" width=\"30\" height=\"31\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAMAAADHso01AAAAKlBMVEUAAACyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCX///8TrXlEAAAADHRSTlMAIL+fUEDfz4Bg7xDrAx85AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAWElEQVQokd2RQRLAIAgDVbS1mv+/11NbAZ3c3esOAyEhHE9ML7LSgo/sbfktLq/vSaNa+8wWLWrbm9Iw11UYigplLdIm1GqcTJPd7HKSm32N/Zw0xvo+jAG5XQp/KqDemwAAAABJRU5ErkJggg==\" />\n</g>\n</svg>",
+  "description": "Voltage Regulators parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "lm2574-dip-66badd838e8393d3c0dbcb8723600919-5",
+      "file": "parts/lm2574-dip-66badd838e8393d3c0dbcb8723600919-5.json"
+    },
+    {
+      "type": "lm2574-soic-139fde836b26224f66fa149e18beb2eb-2",
+      "file": "parts/lm2574-soic-139fde836b26224f66fa149e18beb2eb-2.json"
+    },
+    {
+      "type": "lm2575-to263-5b86049dfb531778c02a1ede4e31e375-1",
+      "file": "parts/lm2575-to263-5b86049dfb531778c02a1ede4e31e375-1.json"
+    },
+    {
+      "type": "lm2575-f4990627fb40e38fcd573bd74d3d7e4c-2",
+      "file": "parts/lm2575-f4990627fb40e38fcd573bd74d3d7e4c-2.json"
+    },
+    {
+      "type": "lm2576-af865fdbce219b6e1655050c6b30f5cb-10",
+      "file": "parts/lm2576-af865fdbce219b6e1655050c6b30f5cb-10.json"
+    },
+    {
+      "type": "lm2576-to220-1dca9729a1f57f4b234b0ac8bb7693a7-3",
+      "file": "parts/lm2576-to220-1dca9729a1f57f4b234b0ac8bb7693a7-3.json"
+    },
+    {
+      "type": "lm2596-to263-2cc7b20badfc99329be65b67ba7adc35-1",
+      "file": "parts/lm2596-to263-2cc7b20badfc99329be65b67ba7adc35-1.json"
+    },
+    {
+      "type": "lm2596-to220-f44cb37d8d6021cdacac7094cee01f17-1",
+      "file": "parts/lm2596-to220-f44cb37d8d6021cdacac7094cee01f17-1.json"
+    },
+    {
+      "type": "lm2577-to263-8fc1255a99f187de1e702ceedefc2a0b-1",
+      "file": "parts/lm2577-to263-8fc1255a99f187de1e702ceedefc2a0b-1.json"
+    },
+    {
+      "type": "lm2577-to220-1585e1a79523015d3bb04fa3c119ed4b-1",
+      "file": "parts/lm2577-to220-1585e1a79523015d3bb04fa3c119ed4b-1.json"
+    },
+    {
+      "type": "mic2171-to263-428b5a4f1a2a4e9650fa890d6eadc123-1",
+      "file": "parts/mic2171-to263-428b5a4f1a2a4e9650fa890d6eadc123-1.json"
+    },
+    {
+      "type": "mic4574-5ee57349869fd1a1da296bd15e8e1743-1",
+      "file": "parts/mic4574-5ee57349869fd1a1da296bd15e8e1743-1.json"
+    },
+    {
+      "type": "mic4575-to263-e9f75c5adeaad0de490ebb2c6da6e995-1",
+      "file": "parts/mic4575-to263-e9f75c5adeaad0de490ebb2c6da6e995-1.json"
+    },
+    {
+      "type": "mic4575-to220-606f336f4be80536825ec230d0d79b65-1",
+      "file": "parts/mic4575-to220-606f336f4be80536825ec230d0d79b65-1.json"
+    },
+    {
+      "type": "mic4576-to263-98ea17460fdaa28f8d6fb0856792dbff-1",
+      "file": "parts/mic4576-to263-98ea17460fdaa28f8d6fb0856792dbff-1.json"
+    },
+    {
+      "type": "mic4576-to220-7ca7aead36ea07c96091208b0122f0cc-1",
+      "file": "parts/mic4576-to220-7ca7aead36ea07c96091208b0122f0cc-1.json"
+    },
+    {
+      "type": "xl4005-dd04c65a74197e075712ad6517003651-1",
+      "file": "parts/xl4005-dd04c65a74197e075712ad6517003651-1.json"
+    },
+    {
+      "type": "xl4015-6b5078816154b8728cafe03e7fce04a5-1",
+      "file": "parts/xl4015-6b5078816154b8728cafe03e7fce04a5-1.json"
+    },
+    {
+      "type": "xl4016-d347983e432b7485814462ea48d5bf18-1",
+      "file": "parts/xl4016-d347983e432b7485814462ea48d5bf18-1.json"
+    },
+    {
+      "type": "xl6009-8044d35aa5770759ef09c66c0795aa37-5",
+      "file": "parts/xl6009-8044d35aa5770759ef09c66c0795aa37-5.json"
+    },
+    {
+      "type": "xl6019-536dee8208b446ab0afc0b18a22594dc-2",
+      "file": "parts/xl6019-536dee8208b446ab0afc0b18a22594dc-2.json"
+    },
+    {
+      "type": "aoz3013pi-0671c5779d4831e9bb583672ac1d7afe-1",
+      "file": "parts/aoz3013pi-0671c5779d4831e9bb583672ac1d7afe-1.json"
+    },
+    {
+      "type": "aoz3018pi-4b4d7335497bbf379c232d88829b4eaf-1",
+      "file": "parts/aoz3018pi-4b4d7335497bbf379c232d88829b4eaf-1.json"
+    },
+    {
+      "type": "st662-d8b963bc77dd4b623cd15dc5ffd12c1a-6",
+      "file": "parts/st662-d8b963bc77dd4b623cd15dc5ffd12c1a-6.json"
+    },
+    {
+      "type": "icl7660-44fc8a045bba7b5d59c3f73c1e79ff67-1",
+      "file": "parts/icl7660-44fc8a045bba7b5d59c3f73c1e79ff67-1.json"
+    },
+    {
+      "type": "icl7660-dip-a69567b07fdd8c38176b0c6f9ef2093f-1",
+      "file": "parts/icl7660-dip-a69567b07fdd8c38176b0c6f9ef2093f-1.json"
+    },
+    {
+      "type": "icl7662-soic-ceb3f31b17d1c702d898c345cb9aa959-1",
+      "file": "parts/icl7662-soic-ceb3f31b17d1c702d898c345cb9aa959-1.json"
+    },
+    {
+      "type": "icl7662-dip-b0b26f8cea2efc2a43aad86f232f436b-1",
+      "file": "parts/icl7662-dip-b0b26f8cea2efc2a43aad86f232f436b-1.json"
+    }
+  ]
+}

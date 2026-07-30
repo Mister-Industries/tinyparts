@@ -1,0 +1,663 @@
+{
+  "schema": 1,
+  "id": "sparkfun-connectors",
+  "name": "SparkFun · Connectors",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAnhJREFUeNrUV72LGlEQf6ur+BmNFmKh2SZgIxjsFOH+AYvDXrzK9lJbxPwFqa3u/gHBoKVNSgVzFgHBiBhBUFCyRBT83Mws57G73K7vrbmEDKzvY9/O772Zeb8ZCflHwp1bUKlUEtD4GfWKxWKxawoYAP3D4fDDbDa7XSwWqnfb7VY13mw2T/3j8UhcLhfJZDLXpVKppqef13vRbrcfJpOJsF6vyXg8JoOvHAm9/UVm318ZtoIgkNVqRVqt1h2oYQcOBoOC1WqV+z6fD36/kVQqdbYNh8PyN16v12/K1PV6XVKOLRaLbMaT4KYkSVLNaddks1ld/RaaSHE4HMTtdqvmEJjn1QbzeDzEZrNRRR8VsPIURoIW4DiOai1PswijeL/fq+a0YxQMKtpN8rQXU6vwOQBaUGpTv4RYdcjjbjQaJUKhkCqYAoGATA56DxIJ+vkk0Wj0Kp/Pc41Go0tr6kK1WiXxePxp4nA4EC2DnZNms3mVy+Wwe//XTa2lV0NgliAxK/xzyUEURbm/XC7JiTbR1FRBo1iPfqcGhnQmlstlud/v94ndbjc0mVaU6yORCNs9HgwGeGQ/Al8i8/mcTKfTBDVwr9erAeEX4EpdBLzb7TBeaizM9Rk4twCp8SJgOK2siyktptNpCYMDM5MZwQICglTsdDqvmSgzFovJpG9WHr+tMXM1fPgeKZD2Gml9i4+emamqTKgibqH5xIh9AxXM/aXZCRWILKXtOVAqYFAiGvlKZ6N/rBD4CM8PhQ/fQAUiYN/pdH4xA8yxBk4ymUR/o98xx97Adem+yF8YHVCktHcAKpq9bhwDKBboPx+H1wBaI/+j/BZgACIdGdF98sevAAAAAElFTkSuQmCC",
+  "description": "SparkFun · Connectors parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-connectors-watn001002bf",
+      "file": "parts/sparkfun-connectors-watn001002bf.json"
+    },
+    {
+      "type": "sparkfun-connectors-avr-mini-prog-smd",
+      "file": "parts/sparkfun-connectors-avr-mini-prog-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-50-pin-centronics-f-female",
+      "file": "parts/sparkfun-connectors-50-pin-centronics-f-female.json"
+    },
+    {
+      "type": "sparkfun-connectors-50-pin-centronics-m-male",
+      "file": "parts/sparkfun-connectors-50-pin-centronics-m-male.json"
+    },
+    {
+      "type": "sparkfun-connectors-bc9vpc",
+      "file": "parts/sparkfun-connectors-bc9vpc.json"
+    },
+    {
+      "type": "sparkfun-connectors-sma-edge",
+      "file": "parts/sparkfun-connectors-sma-edge.json"
+    },
+    {
+      "type": "sparkfun-connectors-u-fl",
+      "file": "parts/sparkfun-connectors-u-fl.json"
+    },
+    {
+      "type": "sparkfun-connectors-atx24-rh",
+      "file": "parts/sparkfun-connectors-atx24-rh.json"
+    },
+    {
+      "type": "sparkfun-connectors-audio-jack-smd",
+      "file": "parts/sparkfun-connectors-audio-jack-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-audio-jack-special-pogo-pins",
+      "file": "parts/sparkfun-connectors-audio-jack-special-pogo-pins.json"
+    },
+    {
+      "type": "sparkfun-connectors-audio-jack-2-5mm",
+      "file": "parts/sparkfun-connectors-audio-jack-2-5mm.json"
+    },
+    {
+      "type": "sparkfun-connectors-audio-jack-smd2",
+      "file": "parts/sparkfun-connectors-audio-jack-smd2.json"
+    },
+    {
+      "type": "sparkfun-connectors-audio-jack-pth",
+      "file": "parts/sparkfun-connectors-audio-jack-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-audio-jack2-smd",
+      "file": "parts/sparkfun-connectors-audio-jack2-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-audio-jack2-pth",
+      "file": "parts/sparkfun-connectors-audio-jack2-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-banana-conn",
+      "file": "parts/sparkfun-connectors-banana-conn.json"
+    },
+    {
+      "type": "sparkfun-connectors-bnc-pth",
+      "file": "parts/sparkfun-connectors-bnc-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-db25-v",
+      "file": "parts/sparkfun-connectors-db25-v.json"
+    },
+    {
+      "type": "sparkfun-connectors-db25-vb",
+      "file": "parts/sparkfun-connectors-db25-vb.json"
+    },
+    {
+      "type": "sparkfun-connectors-db25-vp",
+      "file": "parts/sparkfun-connectors-db25-vp.json"
+    },
+    {
+      "type": "sparkfun-connectors-db25-d",
+      "file": "parts/sparkfun-connectors-db25-d.json"
+    },
+    {
+      "type": "sparkfun-connectors-db25-h",
+      "file": "parts/sparkfun-connectors-db25-h.json"
+    },
+    {
+      "type": "sparkfun-connectors-db25-hp",
+      "file": "parts/sparkfun-connectors-db25-hp.json"
+    },
+    {
+      "type": "sparkfun-connectors-db9-female",
+      "file": "parts/sparkfun-connectors-db9-female.json"
+    },
+    {
+      "type": "sparkfun-connectors-db9-male",
+      "file": "parts/sparkfun-connectors-db9-male.json"
+    },
+    {
+      "type": "sparkfun-connectors-f25-h",
+      "file": "parts/sparkfun-connectors-f25-h.json"
+    },
+    {
+      "type": "sparkfun-connectors-f25-v",
+      "file": "parts/sparkfun-connectors-f25-v.json"
+    },
+    {
+      "type": "sparkfun-connectors-f25-vb",
+      "file": "parts/sparkfun-connectors-f25-vb.json"
+    },
+    {
+      "type": "sparkfun-connectors-f25-vp",
+      "file": "parts/sparkfun-connectors-f25-vp.json"
+    },
+    {
+      "type": "sparkfun-connectors-f25-d",
+      "file": "parts/sparkfun-connectors-f25-d.json"
+    },
+    {
+      "type": "sparkfun-connectors-f25-hp",
+      "file": "parts/sparkfun-connectors-f25-hp.json"
+    },
+    {
+      "type": "sparkfun-connectors-midi-conn-female",
+      "file": "parts/sparkfun-connectors-midi-conn-female.json"
+    },
+    {
+      "type": "sparkfun-connectors-midi-conn-female-support",
+      "file": "parts/sparkfun-connectors-midi-conn-female-support.json"
+    },
+    {
+      "type": "sparkfun-connectors-ftdi-basic-pth",
+      "file": "parts/sparkfun-connectors-ftdi-basic-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-eb-85a-smd",
+      "file": "parts/sparkfun-connectors-eb-85a-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-em406",
+      "file": "parts/sparkfun-connectors-em406.json"
+    },
+    {
+      "type": "sparkfun-connectors-em408-con",
+      "file": "parts/sparkfun-connectors-em408-con.json"
+    },
+    {
+      "type": "sparkfun-connectors-zifsocket-28-3-ziffsocket-28-3",
+      "file": "parts/sparkfun-connectors-zifsocket-28-3-ziffsocket-28-3.json"
+    },
+    {
+      "type": "sparkfun-connectors-zifsocket-40-6-dil40-6-zif-socket",
+      "file": "parts/sparkfun-connectors-zifsocket-40-6-dil40-6-zif-socket.json"
+    },
+    {
+      "type": "sparkfun-connectors-avr-spi-prog2-smd",
+      "file": "parts/sparkfun-connectors-avr-spi-prog2-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-avr-spi-prog",
+      "file": "parts/sparkfun-connectors-avr-spi-prog.json"
+    },
+    {
+      "type": "sparkfun-connectors-avr-spi-prog2-pth",
+      "file": "parts/sparkfun-connectors-avr-spi-prog2-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-ipod-connector-female",
+      "file": "parts/sparkfun-connectors-ipod-connector-female.json"
+    },
+    {
+      "type": "sparkfun-connectors-ipod-connector-male",
+      "file": "parts/sparkfun-connectors-ipod-connector-male.json"
+    },
+    {
+      "type": "sparkfun-connectors-avr-spi-prg-6-2x3-lock",
+      "file": "parts/sparkfun-connectors-avr-spi-prg-6-2x3-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-avr-spi-prg-6-ns",
+      "file": "parts/sparkfun-connectors-avr-spi-prg-6-ns.json"
+    },
+    {
+      "type": "sparkfun-connectors-avr-spi-prg-6-offset-pads",
+      "file": "parts/sparkfun-connectors-avr-spi-prg-6-offset-pads.json"
+    },
+    {
+      "type": "sparkfun-connectors-avr-spi-prg-6-pth",
+      "file": "parts/sparkfun-connectors-avr-spi-prg-6-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-little-bits-conn",
+      "file": "parts/sparkfun-connectors-little-bits-conn.json"
+    },
+    {
+      "type": "sparkfun-connectors-littlebits-female",
+      "file": "parts/sparkfun-connectors-littlebits-female.json"
+    },
+    {
+      "type": "sparkfun-connectors-littlebits-male",
+      "file": "parts/sparkfun-connectors-littlebits-male.json"
+    },
+    {
+      "type": "sparkfun-connectors-simholder",
+      "file": "parts/sparkfun-connectors-simholder.json"
+    },
+    {
+      "type": "sparkfun-connectors-usd-socket-new",
+      "file": "parts/sparkfun-connectors-usd-socket-new.json"
+    },
+    {
+      "type": "sparkfun-connectors-usd-socket-usd",
+      "file": "parts/sparkfun-connectors-usd-socket-usd.json"
+    },
+    {
+      "type": "sparkfun-connectors-mini-din6-pth",
+      "file": "parts/sparkfun-connectors-mini-din6-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-din7",
+      "file": "parts/sparkfun-connectors-din7.json"
+    },
+    {
+      "type": "sparkfun-connectors-mma-accel-connector",
+      "file": "parts/sparkfun-connectors-mma-accel-connector.json"
+    },
+    {
+      "type": "sparkfun-connectors-computer-peripheral-power-ra",
+      "file": "parts/sparkfun-connectors-computer-peripheral-power-ra.json"
+    },
+    {
+      "type": "sparkfun-connectors-computer-peripheral-power-vertical",
+      "file": "parts/sparkfun-connectors-computer-peripheral-power-vertical.json"
+    },
+    {
+      "type": "sparkfun-connectors-obdii",
+      "file": "parts/sparkfun-connectors-obdii.json"
+    },
+    {
+      "type": "sparkfun-connectors-pic-icsp-polar-lock",
+      "file": "parts/sparkfun-connectors-pic-icsp-polar-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-pic-icsp-pth",
+      "file": "parts/sparkfun-connectors-pic-icsp-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-pic-icsp-mini",
+      "file": "parts/sparkfun-connectors-pic-icsp-mini.json"
+    },
+    {
+      "type": "sparkfun-connectors-m01-smd",
+      "file": "parts/sparkfun-connectors-m01-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-m01-smd-4-5x1-5",
+      "file": "parts/sparkfun-connectors-m01-smd-4-5x1-5.json"
+    },
+    {
+      "type": "sparkfun-connectors-m01-smtra-256-8-6",
+      "file": "parts/sparkfun-connectors-m01-smtra-256-8-6.json"
+    },
+    {
+      "type": "sparkfun-connectors-m01-smtso-256-et",
+      "file": "parts/sparkfun-connectors-m01-smtso-256-et.json"
+    },
+    {
+      "type": "sparkfun-connectors-m01-snap-female",
+      "file": "parts/sparkfun-connectors-m01-snap-female.json"
+    },
+    {
+      "type": "sparkfun-connectors-m01-snap-male",
+      "file": "parts/sparkfun-connectors-m01-snap-male.json"
+    },
+    {
+      "type": "sparkfun-connectors-m11-smd",
+      "file": "parts/sparkfun-connectors-m11-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-m02-jst-2-pth-no-silk",
+      "file": "parts/sparkfun-connectors-m02-jst-2-pth-no-silk.json"
+    },
+    {
+      "type": "sparkfun-connectors-m02-jst-pth-2-kit",
+      "file": "parts/sparkfun-connectors-m02-jst-pth-2-kit.json"
+    },
+    {
+      "type": "sparkfun-connectors-m02-jst-pth-2",
+      "file": "parts/sparkfun-connectors-m02-jst-pth-2.json"
+    },
+    {
+      "type": "sparkfun-connectors-m02-4ucon-15767",
+      "file": "parts/sparkfun-connectors-m02-4ucon-15767.json"
+    },
+    {
+      "type": "sparkfun-connectors-m02-jst-2mm-smt",
+      "file": "parts/sparkfun-connectors-m02-jst-2mm-smt.json"
+    },
+    {
+      "type": "sparkfun-connectors-m02-polar-lock",
+      "file": "parts/sparkfun-connectors-m02-polar-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-m02-rocker",
+      "file": "parts/sparkfun-connectors-m02-rocker.json"
+    },
+    {
+      "type": "sparkfun-connectors-m02-3-5mm-lock",
+      "file": "parts/sparkfun-connectors-m02-3-5mm-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-m02-spring-2-54-ra",
+      "file": "parts/sparkfun-connectors-m02-spring-2-54-ra.json"
+    },
+    {
+      "type": "sparkfun-connectors-m03-smd",
+      "file": "parts/sparkfun-connectors-m03-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-m03-jst-pth",
+      "file": "parts/sparkfun-connectors-m03-jst-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-m03",
+      "file": "parts/sparkfun-connectors-m03.json"
+    },
+    {
+      "type": "sparkfun-connectors-m03-polar-lock",
+      "file": "parts/sparkfun-connectors-m03-polar-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-m03-screw-lock",
+      "file": "parts/sparkfun-connectors-m03-screw-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-m04-smd2",
+      "file": "parts/sparkfun-connectors-m04-smd2.json"
+    },
+    {
+      "type": "sparkfun-connectors-m04-smd",
+      "file": "parts/sparkfun-connectors-m04-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-m04-jst-pth",
+      "file": "parts/sparkfun-connectors-m04-jst-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-m04-polar-lock",
+      "file": "parts/sparkfun-connectors-m04-polar-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-m04-screw-lock",
+      "file": "parts/sparkfun-connectors-m04-screw-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-m05-smd2",
+      "file": "parts/sparkfun-connectors-m05-smd2.json"
+    },
+    {
+      "type": "sparkfun-connectors-m05-smd",
+      "file": "parts/sparkfun-connectors-m05-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-m05x2-shd-smd",
+      "file": "parts/sparkfun-connectors-m05x2-shd-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-m05x2-ra",
+      "file": "parts/sparkfun-connectors-m05x2-ra.json"
+    },
+    {
+      "type": "sparkfun-connectors-m05x2-raf",
+      "file": "parts/sparkfun-connectors-m05x2-raf.json"
+    },
+    {
+      "type": "sparkfun-connectors-m05x2-pth",
+      "file": "parts/sparkfun-connectors-m05x2-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-smd-straight-combo",
+      "file": "parts/sparkfun-connectors-m06-smd-straight-combo.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-smd-straight",
+      "file": "parts/sparkfun-connectors-m06-smd-straight.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-1x06-smd-edge-female",
+      "file": "parts/sparkfun-connectors-m06-1x06-smd-edge-female.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-smd-female-v2",
+      "file": "parts/sparkfun-connectors-m06-smd-female-v2.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-smdf",
+      "file": "parts/sparkfun-connectors-m06-smdf.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-smd",
+      "file": "parts/sparkfun-connectors-m06-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-em406",
+      "file": "parts/sparkfun-connectors-m06-em406.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-polar-lock",
+      "file": "parts/sparkfun-connectors-m06-polar-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-ra-lock",
+      "file": "parts/sparkfun-connectors-m06-ra-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-m06-ra",
+      "file": "parts/sparkfun-connectors-m06-ra.json"
+    },
+    {
+      "type": "sparkfun-connectors-m08-smd-combo",
+      "file": "parts/sparkfun-connectors-m08-smd-combo.json"
+    },
+    {
+      "type": "sparkfun-connectors-m08-bm08b-srss-tb",
+      "file": "parts/sparkfun-connectors-m08-bm08b-srss-tb.json"
+    },
+    {
+      "type": "sparkfun-connectors-m10x2-special",
+      "file": "parts/sparkfun-connectors-m10x2-special.json"
+    },
+    {
+      "type": "sparkfun-connectors-m10x2-2x10-lock",
+      "file": "parts/sparkfun-connectors-m10x2-2x10-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-power-jack-combo",
+      "file": "parts/sparkfun-connectors-power-jack-combo.json"
+    },
+    {
+      "type": "sparkfun-connectors-power-jack-pth-lock",
+      "file": "parts/sparkfun-connectors-power-jack-pth-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-power-jack-pth",
+      "file": "parts/sparkfun-connectors-power-jack-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-power-jack-slt",
+      "file": "parts/sparkfun-connectors-power-jack-slt.json"
+    },
+    {
+      "type": "sparkfun-connectors-power-jack-smd",
+      "file": "parts/sparkfun-connectors-power-jack-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-rca-lock",
+      "file": "parts/sparkfun-connectors-rca-lock.json"
+    },
+    {
+      "type": "sparkfun-connectors-rca",
+      "file": "parts/sparkfun-connectors-rca.json"
+    },
+    {
+      "type": "sparkfun-connectors-rj11-6-pth-fix",
+      "file": "parts/sparkfun-connectors-rj11-6-pth-fix.json"
+    },
+    {
+      "type": "sparkfun-connectors-rj45-8-pth-fix",
+      "file": "parts/sparkfun-connectors-rj45-8-pth-fix.json"
+    },
+    {
+      "type": "sparkfun-connectors-rj45-8-pth-fix2",
+      "file": "parts/sparkfun-connectors-rj45-8-pth-fix2.json"
+    },
+    {
+      "type": "sparkfun-connectors-rj9-pth",
+      "file": "parts/sparkfun-connectors-rj9-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-magjack",
+      "file": "parts/sparkfun-connectors-magjack.json"
+    },
+    {
+      "type": "sparkfun-connectors-magjack-2",
+      "file": "parts/sparkfun-connectors-magjack-2.json"
+    },
+    {
+      "type": "sparkfun-connectors-magjack-poe",
+      "file": "parts/sparkfun-connectors-magjack-poe.json"
+    },
+    {
+      "type": "sparkfun-connectors-ds-touch-connector",
+      "file": "parts/sparkfun-connectors-ds-touch-connector.json"
+    },
+    {
+      "type": "sparkfun-connectors-kent-lcd-conn",
+      "file": "parts/sparkfun-connectors-kent-lcd-conn.json"
+    },
+    {
+      "type": "sparkfun-connectors-psp-connector",
+      "file": "parts/sparkfun-connectors-psp-connector.json"
+    },
+    {
+      "type": "sparkfun-connectors-psp-touch-connector",
+      "file": "parts/sparkfun-connectors-psp-touch-connector.json"
+    },
+    {
+      "type": "sparkfun-connectors-screenkeymatingconnector",
+      "file": "parts/sparkfun-connectors-screenkeymatingconnector.json"
+    },
+    {
+      "type": "sparkfun-connectors-touch-screen",
+      "file": "parts/sparkfun-connectors-touch-screen.json"
+    },
+    {
+      "type": "sparkfun-connectors-sd-card-socket-4ucon",
+      "file": "parts/sparkfun-connectors-sd-card-socket-4ucon.json"
+    },
+    {
+      "type": "sparkfun-connectors-simholder2",
+      "file": "parts/sparkfun-connectors-simholder2.json"
+    },
+    {
+      "type": "sparkfun-connectors-simholder3",
+      "file": "parts/sparkfun-connectors-simholder3.json"
+    },
+    {
+      "type": "sparkfun-connectors-smartcard-smd",
+      "file": "parts/sparkfun-connectors-smartcard-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-starboard-gnd-small",
+      "file": "parts/sparkfun-connectors-starboard-gnd-small.json"
+    },
+    {
+      "type": "sparkfun-connectors-starboard-gnd-small2",
+      "file": "parts/sparkfun-connectors-starboard-gnd-small2.json"
+    },
+    {
+      "type": "sparkfun-connectors-starboard-gnd-wide",
+      "file": "parts/sparkfun-connectors-starboard-gnd-wide.json"
+    },
+    {
+      "type": "sparkfun-connectors-starboard-gnd",
+      "file": "parts/sparkfun-connectors-starboard-gnd.json"
+    },
+    {
+      "type": "sparkfun-connectors-starboard-pwr-wide",
+      "file": "parts/sparkfun-connectors-starboard-pwr-wide.json"
+    },
+    {
+      "type": "sparkfun-connectors-starboard-pwr-tall",
+      "file": "parts/sparkfun-connectors-starboard-pwr-tall.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-minib-5pin",
+      "file": "parts/sparkfun-connectors-usb-minib-5pin.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-a-s",
+      "file": "parts/sparkfun-connectors-usb-a-s.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-pth-vertical",
+      "file": "parts/sparkfun-connectors-usb-pth-vertical.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-jst-2mm-smt",
+      "file": "parts/sparkfun-connectors-usb-jst-2mm-smt.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-a-h",
+      "file": "parts/sparkfun-connectors-usb-a-h.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-pcb",
+      "file": "parts/sparkfun-connectors-usb-pcb.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-a-smd",
+      "file": "parts/sparkfun-connectors-usb-a-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-usb-a-s-nosilk",
+      "file": "parts/sparkfun-connectors-usb-usb-a-s-nosilk.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb",
+      "file": "parts/sparkfun-connectors-usb.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-pth",
+      "file": "parts/sparkfun-connectors-usb-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-b-s",
+      "file": "parts/sparkfun-connectors-usb-b-s.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-mb-h",
+      "file": "parts/sparkfun-connectors-usb-mb-h.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-microb",
+      "file": "parts/sparkfun-connectors-usb-microb.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-smd-ns",
+      "file": "parts/sparkfun-connectors-usb-smd-ns.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-old",
+      "file": "parts/sparkfun-connectors-usb-old.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-smd",
+      "file": "parts/sparkfun-connectors-usb-smd.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-ab",
+      "file": "parts/sparkfun-connectors-usb-ab.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-shield",
+      "file": "parts/sparkfun-connectors-usb-shield.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-microb-plug",
+      "file": "parts/sparkfun-connectors-usb-microb-plug.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-microb-plug-pth",
+      "file": "parts/sparkfun-connectors-usb-microb-plug-pth.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-microb-plug-smt",
+      "file": "parts/sparkfun-connectors-usb-microb-plug-smt.json"
+    },
+    {
+      "type": "sparkfun-connectors-usb-microb-plug-pth2",
+      "file": "parts/sparkfun-connectors-usb-microb-plug-pth2.json"
+    },
+    {
+      "type": "sparkfun-connectors-xlr3-ncfah2",
+      "file": "parts/sparkfun-connectors-xlr3-ncfah2.json"
+    },
+    {
+      "type": "sparkfun-connectors-zune-connector-male",
+      "file": "parts/sparkfun-connectors-zune-connector-male.json"
+    }
+  ]
+}

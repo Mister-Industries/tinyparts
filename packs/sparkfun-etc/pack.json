@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "id": "sparkfun-etc",
+  "name": "SparkFun · Etc.",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACtJREFUeNrs0CEOAAAIAzHC//8MBolCIdrkzOQiAAC+qumyrdKnAO+1AAMAYqIF/Wx7fVkAAAAASUVORK5CYII=",
+  "description": "SparkFun · Etc. parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-imu-breakout-mpu-9250",
+      "file": "parts/sparkfun-imu-breakout-mpu-9250.json"
+    },
+    {
+      "type": "sparkfun-badgerstick",
+      "file": "parts/sparkfun-badgerstick.json"
+    },
+    {
+      "type": "sparkfun-badgerarray",
+      "file": "parts/sparkfun-badgerarray.json"
+    },
+    {
+      "type": "sparkfun-stepoko",
+      "file": "parts/sparkfun-stepoko.json"
+    },
+    {
+      "type": "sparkfun-bme280-breakout",
+      "file": "parts/sparkfun-bme280-breakout.json"
+    },
+    {
+      "type": "sparkfun-lsm303c-6-dof-imu-breakout",
+      "file": "parts/sparkfun-lsm303c-6-dof-imu-breakout.json"
+    },
+    {
+      "type": "sparkfun-soil-moisture-sensor",
+      "file": "parts/sparkfun-soil-moisture-sensor.json"
+    },
+    {
+      "type": "sparkfun-load-sensor-combinator",
+      "file": "parts/sparkfun-load-sensor-combinator.json"
+    },
+    {
+      "type": "sparkfun-tilt-a-whirl",
+      "file": "parts/sparkfun-tilt-a-whirl.json"
+    },
+    {
+      "type": "sparkfun-can-bus-shield",
+      "file": "parts/sparkfun-can-bus-shield.json"
+    },
+    {
+      "type": "sparkfun-midi-shield",
+      "file": "parts/sparkfun-midi-shield.json"
+    },
+    {
+      "type": "sparkfun-storage-microsd",
+      "file": "parts/sparkfun-storage-microsd.json"
+    }
+  ]
+}

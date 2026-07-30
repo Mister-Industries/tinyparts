@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "simulator",
+  "name": "Simulator Parts",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAD6AAAA+gBtXtSawAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEUSURBVEiJ7dO/K8VhFMfxFyWRkkGJMlyrMtxJyp9gMhjYMZqU1XQHFkUWlFJGicImuzIpyWay4SYuhnvk2/X1846ed53O85zzOd/P89T3IZFIJBJ/pAlHqOAl4gx9Gc1epvcW+5l+KeaHY78amoGvjLvwjDEUI3Ywl9F0R307ohi1rPEtrjAe68p3xrCOU7TGvgXNObqliFpK2MCJ6k2n8FBr3JgzOB15OXI5Bn/DE2ZxiZU8QZ7xPUYxEqf9K8foV731j4zhAhNYxFAd5uXPGnnGbZF3sYAtdNZh/iPjHlyr/ggFrOEOkxlNR/TaIwpRq4sGbOLR+xu9wWBGc+DjOz7M9GcwX/Pdc/TWe7hEIpH4p7wCMHg9ccaNeeMAAAAASUVORK5CYII=",
+  "description": "Simulator Parts parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "tilt-switch",
+      "file": "parts/tilt-switch.json"
+    },
+    {
+      "type": "lm35",
+      "file": "parts/lm35.json"
+    },
+    {
+      "type": "reedswitch-500mil",
+      "file": "parts/reedswitch-500mil.json"
+    },
+    {
+      "type": "humidity-and-temperature-sensor-rht03",
+      "file": "parts/humidity-and-temperature-sensor-rht03.json"
+    },
+    {
+      "type": "led-flux-blue-anode",
+      "file": "parts/led-flux-blue-anode.json"
+    },
+    {
+      "type": "led-prolight-rgb",
+      "file": "parts/led-prolight-rgb.json"
+    },
+    {
+      "type": "7segment-9-9-an",
+      "file": "parts/7segment-9-9-an.json"
+    },
+    {
+      "type": "led-matrix-kingbright-ta07-11",
+      "file": "parts/led-matrix-kingbright-ta07-11.json"
+    },
+    {
+      "type": "solenoid",
+      "file": "parts/solenoid.json"
+    },
+    {
+      "type": "power-plug",
+      "file": "parts/power-plug.json"
+    },
+    {
+      "type": "voltage-regulator-7805",
+      "file": "parts/voltage-regulator-7805.json"
+    },
+    {
+      "type": "fuse-with-handler",
+      "file": "parts/fuse-with-handler.json"
+    },
+    {
+      "type": "power-supply-dc-5",
+      "file": "parts/power-supply-dc-5.json"
+    },
+    {
+      "type": "power-supply-sine-1",
+      "file": "parts/power-supply-sine-1.json"
+    },
+    {
+      "type": "power-supply-pulse-1",
+      "file": "parts/power-supply-pulse-1.json"
+    },
+    {
+      "type": "led-matrix-kingbright-tc07-11",
+      "file": "parts/led-matrix-kingbright-tc07-11.json"
+    },
+    {
+      "type": "smd-vreg-7805",
+      "file": "parts/smd-vreg-7805.json"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "type": "mic4576-to263-98ea17460fdaa28f8d6fb0856792dbff-1",
+  "label": "MIC4576 (TO263)",
+  "family": "voltage regulator",
+  "tags": [
+    "microchip",
+    "buck regulator",
+    "to220",
+    "LM2576"
+  ],
+  "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'.SF NS Text'; font-size:13pt;\">MIC4576 </span>3A 200KHz 24V Buck DC to DC converter<span style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt;\"> in TO263 package.</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'sans-serif';\">The MIC4576 improves on the LM2576 by increasing the switching frequency to 200Khz, allowing the use of smaller inductors and capacitors. It is pin-compatible.</span></p></body></html>",
+  "source": {
+    "fzp": "mic4576_to263_98ea17460fdaa28f8d6fb0856792dbff_1.fzp",
+    "moduleId": "mic4576_to263_98ea17460fdaa28f8d6fb0856792dbff_1"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg version=\"1.2\" viewBox=\"0 0 37.44 52.795\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\"><g id=\"breadboard\"><g fill=\"none\"><g stroke=\"#8c8c8c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.16\"><path id=\"path4\" d=\"m4.2388 44.5v7.2\"/><path id=\"path6\" d=\"m11.439 44.5v7.2\"/><path id=\"path8\" d=\"m18.639 44.5v7.2\"/><path id=\"path10\" d=\"m25.839 44.5v7.2\"/><path id=\"path12\" d=\"m33.039 44.5v7.2\"/></g><rect id=\"connector0pin\" x=\"3.096\" y=\"50.635\" width=\"2.16\" height=\"2.16\"/><g><rect id=\"connector1pin\" x=\"10.296\" y=\"50.635\" width=\"2.16\" height=\"2.16\"/><rect id=\"connector2pin\" x=\"17.496\" y=\"50.635\" width=\"2.16\" height=\"2.16\"/><rect id=\"connector3pin\" x=\"24.696\" y=\"50.635\" width=\"2.16\" height=\"2.16\"/><rect id=\"connector4pin\" x=\"31.896\" y=\"50.635\" width=\"2.16\" height=\"2.16\"/></g></g><path id=\"path24\" d=\"m33.921-3.1836e-5h-15.201v1.8c4.3633 0 8.0229 1.8 8.0229 4s-3.5188 4-8.0229 4v5.8h15.201z\" fill=\"#bfbcbc\"/><path id=\"path26\" d=\"m10.697 5.8c0-2.2 3.5188-4 8.0229-4v-1.8h-15.201v15.6h15.201v-5.8c-4.5041 0-8.0229-1.8-8.0229-4z\" fill=\"#808080\"/><g fill=\"#8c8c8c\"><rect id=\"rect4\" x=\"2.6905\" y=\"33.2\" width=\"3.0965\" height=\"11.4\"/><rect id=\"rect6\" x=\"9.8905\" y=\"33.2\" width=\"3.0965\" height=\"11.4\"/><rect id=\"rect8\" x=\"31.491\" y=\"33.2\" width=\"3.0965\" height=\"11.4\"/></g><g transform=\"matrix(1.4075 0 0 1 245.75 -258.1)\"><polygon id=\"polygon10\" points=\"-172.1 270.6 -172.1 258.1 -174.6 261 -174.6 270.6\" fill=\"#ccc\" stroke-width=\".84289\"/><polygon id=\"polygon12\" points=\"-150.5 270.6 -148 270.6 -148 261 -150.5 258.1\" fill=\"#999\" stroke-width=\".84289\"/></g><g transform=\"matrix(1.4075 0 0 1 246.47 -258.1)\"><polygon id=\"polygon21\" points=\"-174.6 289.8 -169.6 289.8 -169.6 298.6 -171.2 299.3 -173 299.3 -174.6 298.6\" fill=\"#8c8c8c\" stroke-width=\".84289\"/></g><g transform=\"matrix(1.4075 0 0 1 246.07 -258.1)\"><polygon id=\"polygon23\" points=\"-164.2 289.8 -164.2 298.6 -165.8 299.3 -167.6 299.3 -169.2 298.6 -169.2 289.8\" fill=\"#8c8c8c\" stroke-width=\".84289\"/></g><rect id=\"rect6_1_\" x=\"17.091\" y=\"33.2\" width=\"3.0965\" height=\"11.4\" fill=\"#8c8c8c\"/><g transform=\"matrix(1.4075 0 0 1 245.67 -258.1)\"><polygon id=\"polygon23_1_\" points=\"-158.8 289.8 -158.8 298.6 -160.4 299.3 -162.2 299.3 -163.8 298.6 -163.8 289.8\" fill=\"#8c8c8c\" stroke-width=\".84289\"/></g><rect id=\"rect6_2_\" x=\"24.431\" y=\"33.2\" width=\"3.0965\" height=\"11.4\" fill=\"#8c8c8c\"/><g transform=\"matrix(1.4075 0 0 1 245.55 -258.1)\"><polygon id=\"polygon23_2_\" points=\"-153.5 289.8 -153.5 298.6 -155.2 299.3 -157 299.3 -158.6 298.6 -158.6 289.8\" fill=\"#8c8c8c\" stroke-width=\".84289\"/></g><g transform=\"matrix(1.4075 0 0 1 245.43 -258.1)\"><polygon id=\"polygon25\" points=\"-148.4 289.8 -148.4 298.6 -150 299.3 -151.8 299.3 -153.4 298.6 -153.4 289.8\" fill=\"#8c8c8c\" stroke-width=\".84289\"/></g><g><rect id=\"rect40\" x=\"25.335\" y=\"22.4\" width=\"12.105\" height=\"16\" fill=\"#141414\"/><rect id=\"rect42\" y=\"22.4\" width=\"12.105\" height=\"16\" fill=\"#333\"/><path id=\"path40_1_\" d=\"m8.4314e-6 28.2v5.2c2.815 0 5.2078-1.2 5.2078-2.6s-2.3928-2.6-5.2078-2.6z\" fill=\"#262626\"/><path id=\"path47\" d=\"m36.401 28.2c-2.815 0-5.2078 1.2-5.2078 2.6s2.3928 2.6 5.2078 2.6z\"/><path id=\"path46\" d=\"m8.4314e-6 22.4v7.1c2.815 0 5.2078 1.2 5.2078 2.6s-2.3928 2.6-5.2078 2.6v3.7h37.44v-16zm37.44 12.3c-2.815 0-5.2078-1.2-5.2078-2.6s2.3928-2.6 5.2078-2.6z\" fill=\"#1a1a1a\"/><rect id=\"rect49\" y=\"19\" width=\"37.44\" height=\"3.3\"/><rect id=\"rect51\" y=\"14.9\" width=\"37.44\" height=\"4.1\" fill=\"#333\"/><rect id=\"tabpin\" x=\"3.5188\" y=\"-2.5751e-5\" width=\"30.402\" height=\"3.1\" fill=\"#b2b2b2\"/><path id=\"path55\" d=\"m33.921 2.4h-30.402l-3.5188 2.9v9.6h37.44v-9.6zm-15.201 9.7c-4.3633 0-8.0229-1.8-8.0229-4 0-2.2 3.5188-4 8.0229-4 4.3633 0 8.0229 1.8 8.0229 4-.14075 2.3-3.6596 4-8.0229 4z\" fill=\"#8c8c8c\"/><text id=\"text176\" x=\"3\" y=\"29\" fill=\"#663300\" font-family=\"Droid Sans\" font-size=\"8\">MIC4576</text></g></g></svg>",
+      "w": 49.92,
+      "h": 70.39,
+      "pins": {
+        "Pin 1": [
+          5.57,
+          68.95
+        ],
+        "Pin 2": [
+          15.17,
+          68.95
+        ],
+        "Pin 3": [
+          24.77,
+          68.95
+        ],
+        "pin 4": [
+          34.37,
+          68.95
+        ],
+        "Pin 5": [
+          43.97,
+          68.95
+        ],
+        "Tab": [
+          24.96,
+          2.07
+        ]
+      }
+    },
+    "schematic": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" y=\"0px\" x=\"0px\" xml:space=\"preserve\" id=\"Ebene_1\" version=\"1.2\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\" viewBox=\"0 0 800 500\"><g id=\"schematic\"><rect y=\"5\" x=\"105\" stroke-linecap=\"round\" stroke=\"#000000\" height=\"400\" stroke-width=\"10\" id=\"rect4\" fill=\"#ffffff\" width=\"600\"/><line y2=\"300\" stroke-linecap=\"round\" x1=\"710\" stroke=\"#787878\" x2=\"795\" stroke-width=\"10\" id=\"connector3pin\" fill=\"none\" y1=\"300\"/><rect y=\"299.99\" x=\"799.905\" stroke=\"none\" height=\"0.02\" stroke-width=\"0\" id=\"connector3terminal\" fill=\"none\" width=\"0.19\"/><text y=\"280.57239\" x=\"727.21362\" font-size=\"27.70596123\" stroke-width=\"13.85298061\" id=\"text124\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">4</text><text y=\"313.3717\" x=\"632.00391\" font-size=\"38.78834534\" stroke-width=\"13.85298061\" id=\"text450\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">FB</text><line y2=\"300\" stroke-linecap=\"round\" x1=\"100\" stroke=\"#787878\" x2=\"5\" stroke-width=\"10\" id=\"connector4pin\" fill=\"none\" y1=\"300\"/><rect y=\"299.99\" x=\"-0.105\" stroke=\"none\" height=\"0.02\" stroke-width=\"0\" id=\"connector4terminal\" fill=\"none\" width=\"0.21\"/><text y=\"316.09329\" x=\"132.01709\" font-size=\"38.78834534\" stroke-width=\"13.85298061\" id=\"text127\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">EN</text><text y=\"81.570969\" x=\"730.06049\" font-size=\"27.70596123\" stroke-width=\"13.85298061\" id=\"text141\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">2</text><line y2=\"495\" stroke-linecap=\"round\" x1=\"400\" stroke=\"#787878\" x2=\"400\" stroke-width=\"10\" id=\"tabpin\" fill=\"none\" y1=\"405\"/><rect y=\"499.9\" x=\"399.99\" stroke=\"none\" height=\"0.2\" stroke-width=\"0\" id=\"tabterminal\" fill=\"none\" width=\"0.02\"/><line y2=\"495\" stroke-linecap=\"round\" x1=\"400\" stroke=\"#787878\" x2=\"400\" stroke-width=\"10\" id=\"connector2pin\" fill=\"none\" y1=\"405\"/><rect y=\"499.9\" x=\"399.99\" stroke=\"none\" height=\"0.2\" stroke-width=\"0\" id=\"connector2terminal\" fill=\"none\" width=\"0.02\"/><text y=\"444.74219\" x=\"370\" font-size=\"27.70596123\" stroke-width=\"13.85298061\" id=\"text293\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">3</text><text y=\"365.65103\" x=\"340\" font-size=\"38.78834534\" stroke-width=\"13.85298061\" id=\"text345\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">GND</text><line y2=\"100\" stroke-linecap=\"round\" x1=\"5\" stroke=\"#787878\" x2=\"100\" stroke-width=\"10\" id=\"connector0pin\" fill=\"none\" y1=\"100\"/><rect y=\"99.99\" x=\"-0.105\" stroke=\"none\" height=\"0.02\" stroke-width=\"0\" id=\"connector0terminal\" fill=\"none\" width=\"0.21\"/><text y=\"82.338989\" x=\"60.377529\" font-size=\"27.70596123\" stroke-width=\"13.85298061\" id=\"text42\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">1</text><text y=\"109.18928\" x=\"129.17021\" font-size=\"38.78834534\" stroke-width=\"13.85298061\" id=\"text58\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">VIN</text><line y2=\"100\" stroke-linecap=\"round\" x1=\"795\" stroke=\"#787878\" x2=\"710\" stroke-width=\"10\" id=\"connector1pin\" fill=\"none\" y1=\"100\"/><rect y=\"99.99\" x=\"799.905\" stroke=\"none\" height=\"0.02\" stroke-width=\"0\" id=\"connector1terminal\" fill=\"none\" width=\"0.19\"/><text y=\"273.39169\" x=\"52.275753\" font-size=\"27.70596123\" stroke-width=\"13.85298061\" id=\"text398\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">5</text><text y=\"115.91922\" x=\"614.479\" font-size=\"38.78834534\" stroke-width=\"13.85298061\" id=\"text176\" fill=\"#8c8c8c\" font-family=\"Droid Sans\">SW</text><text y=\"99.829048\" x=\"312\" font-size=\"47.1001358\" stroke-width=\"13.85298061\" id=\"label_3_\" font-family=\"Droid Sans\">MIC4576</text><text y=\"161.19205\" x=\"347.48901\" font-size=\"47.1001358\" stroke-width=\"13.85298061\" id=\"text125\" font-family=\"Droid Sans\">Buck</text><text y=\"236.98889\" x=\"294.77222\" font-size=\"47.1001358\" stroke-width=\"13.85298061\" id=\"label_1_\" font-family=\"Droid Sans\">Regulator</text></g></svg>",
+      "w": 76.8,
+      "h": 48,
+      "pins": {
+        "Pin 1": [
+          0,
+          9.6
+        ],
+        "Pin 2": [
+          76.8,
+          9.6
+        ],
+        "Pin 3": [
+          38.4,
+          48
+        ],
+        "pin 4": [
+          76.8,
+          28.8
+        ],
+        "Pin 5": [
+          0,
+          28.8
+        ],
+        "Tab": [
+          38.4,
+          48
+        ]
+      }
+    }
+  },
+  "properties": {
+    "variant": "LM4576_TO263",
+    "max current": "3A",
+    "package": "TO263",
+    "input voltage": "4V-36V",
+    "part number": "MIC4576",
+    "oscillator frequency": "200 KHz",
+    "layer": "",
+    "subfamily": "switched buck regulator"
+  },
+  "icon": "<svg baseProfile=\"tiny\" version=\"1.2\" viewBox=\"0 0 32 38\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\"><g transform=\"translate(0,-6)\" id=\"icon\"><g transform=\"translate(172,-267.9)\"><polygon points=\"-171 281.1 -171 291.9 -168.1 291.9 -168.1 277.8\" fill=\"#ccc\"/><polygon points=\"-141 281.1 -143.9 277.8 -143.9 291.9 -141 291.9\" fill=\"#999\"/><rect x=\"-168.1\" y=\"277.8\" width=\"24.3\" height=\"3.4\" fill=\"#B2B2B2\"/><path d=\"m-143.9 280.5h-24.3l-2.8 3.3v10.8h30v-10.8l-2.9-3.3z\" fill=\"#8C8C8C\"/><rect x=\"-171\" y=\"290.2\" width=\"30\" height=\"3.8\"/><rect x=\"-171\" y=\"285.5\" width=\"30\" height=\"4.7\" fill=\"#333\"/><rect x=\"-150.7\" y=\"294\" width=\"9.7\" height=\"18\" fill=\"#141414\"/><rect x=\"-171\" y=\"294\" width=\"9.7\" height=\"18\" fill=\"#333\"/><path d=\"m-171 300.5v5.8c2.3 0 4.2-1.3 4.2-2.9s-1.9-2.9-4.2-2.9z\" fill=\"#262626\"/><path d=\"m-141 300.5c-2.3 0-4.2 1.3-4.2 2.9s1.9 2.9 4.2 2.9v-5.8z\"/><path d=\"m-171 294v8c2.3 0 4.2 1.3 4.2 2.9s-1.9 2.9-4.2 2.9v4.2h30v-18h-30zm30 13.8c-2.3 0-4.2-1.3-4.2-2.9s1.9-2.9 4.2-2.9v5.8z\" fill=\"#1A1A1A\"/><text x=\"-168.5\" y=\"300\" fill=\"#dddddd\" font-family=\"Droid Sans\" font-size=\"7\" stroke-width=\"30\">MIC4576</text></g></g></svg>",
+  "order": 14,
+  "variantOf": "mic4576-to220-7ca7aead36ea07c96091208b0122f0cc-1"
+}

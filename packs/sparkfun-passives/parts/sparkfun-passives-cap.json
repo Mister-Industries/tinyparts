@@ -1,0 +1,103 @@
+{
+  "type": "sparkfun-passives-cap",
+  "label": "Capacitor",
+  "family": "sparkfun Cap",
+  "tags": [
+    "AXIAL-5MM",
+    "_",
+    "CAP"
+  ],
+  "description": "<b>Capacitor</b>\nStandard 0603 ceramic capacitor, and 0.1 leaded capacitor.",
+  "source": {
+    "fzp": "sparkfun-passives-cap-_.fzp",
+    "moduleId": "SparkFun-Passives-CAP-_"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" x=\"0in\" y=\"0in\" viewBox=\"0 0 6.8796 1.8796\"><g id=\"breadboard\"><path fill=\"#1F7A34\" stroke=\"none\" stroke-width=\"0\" d=\"M0,0l6.8796,0 0,1.8796 -6.8796,0 0,-1.8796z M0.4898,0.9398a0.45,0.45 0 1 0 0.9,0 0.45,0.45 0 1 0 -0.9,0z M5.4898,0.9398a0.45,0.45 0 1 0 0.9,0 0.45,0.45 0 1 0 -0.9,0z \"/><circle id=\"connector0pin\" connectorname=\"P$1\" cx=\"0.9398\" cy=\"0.9398\" r=\"0.6949\" stroke=\"#9A916C\" stroke-width=\"0.4898\" fill=\"none\"/><circle id=\"connector1pin\" connectorname=\"P$2\" cx=\"5.9398\" cy=\"0.9398\" r=\"0.6949\" stroke=\"#9A916C\" stroke-width=\"0.4898\" fill=\"none\"/><line class=\"other\" x1=\"2.2998\" y1=\"0.1778\" x2=\"4.5798\" y2=\"0.1778\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"4.5798\" y1=\"0.1778\" x2=\"4.5798\" y2=\"0.9398\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"4.5798\" y1=\"0.9398\" x2=\"4.5798\" y2=\"1.7018\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"4.5798\" y1=\"1.7018\" x2=\"2.2998\" y2=\"1.7018\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"2.2998\" y1=\"1.7018\" x2=\"2.2998\" y2=\"0.9398\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"2.2998\" y1=\"0.9398\" x2=\"2.2998\" y2=\"0.1778\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"4.5798\" y1=\"0.9398\" x2=\"4.8338\" y2=\"0.9398\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"2.2998\" y1=\"0.9398\" x2=\"2.0458\" y2=\"0.9398\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/></g></svg>",
+      "w": 26,
+      "h": 7.1,
+      "pins": {
+        "1": [
+          3.55,
+          3.55
+        ],
+        "2": [
+          22.45,
+          3.55
+        ]
+      }
+    },
+    "schematic": {
+      "svg": "<svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" x=\"0in\" y=\"0in\" viewBox=\"0 0 4.064 7.86694\"><g id=\"schematic\"><line class=\"other\" x1=\"2.032\" y1=\"2.66347\" x2=\"2.032\" y2=\"3.17147\" stroke=\"#000000\" stroke-width=\"0.1524\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"2.032\" y1=\"5.20347\" x2=\"2.032\" y2=\"4.69547\" stroke=\"#000000\" stroke-width=\"0.1524\" stroke-linecap=\"round\"/><rect class=\"other\" x=\"0\" y=\"4.18747\" width=\"4.064\" height=\"0.508\" stroke=\"none\" stroke-width=\"0\" fill=\"#000000\" stroke-linecap=\"round\"/><rect class=\"other\" x=\"0\" y=\"3.17147\" width=\"4.064\" height=\"0.508\" stroke=\"none\" stroke-width=\"0\" fill=\"#000000\" stroke-linecap=\"round\"/><line class=\"pin\" id=\"connector0pin\" connectorname=\"1\" x1=\"2.032\" y1=\"0.123472\" x2=\"2.032\" y2=\"2.66347\" stroke=\"#787878\" stroke-width=\"0.246944\" stroke-linecap=\"round\"/><rect class=\"terminal\" id=\"connector0terminal\" x=\"2.032\" y=\"0.123472\" width=\"0.0001\" height=\"0.0001\" stroke=\"none\" stroke-width=\"0\" fill=\"none\"/><g transform=\"translate(1.66158,1.39347)\"><g transform=\"rotate(270)\"><text class=\"text\" font-family=\"'Droid Sans'\" stroke=\"none\" stroke-width=\"0\" fill=\"#8c8c8c\" font-size=\"0.881944\" x=\"0\" y=\"0\" text-anchor=\"middle\">1</text></g></g><line class=\"pin\" id=\"connector1pin\" connectorname=\"2\" x1=\"2.032\" y1=\"7.74347\" x2=\"2.032\" y2=\"5.20347\" stroke=\"#787878\" stroke-width=\"0.246944\" stroke-linecap=\"round\"/><rect class=\"terminal\" id=\"connector1terminal\" x=\"2.032\" y=\"7.74347\" width=\"0.0001\" height=\"0.0001\" stroke=\"none\" stroke-width=\"0\" fill=\"none\"/><g transform=\"translate(1.66158,6.47347)\"><g transform=\"rotate(270)\"><text class=\"text\" font-family=\"'Droid Sans'\" stroke=\"none\" stroke-width=\"0\" fill=\"#8c8c8c\" font-size=\"0.881944\" x=\"0\" y=\"0\" text-anchor=\"middle\">2</text></g></g></g></svg>",
+      "w": 15.36,
+      "h": 29.73,
+      "pins": {
+        "1": [
+          7.68,
+          0.47
+        ],
+        "2": [
+          7.68,
+          29.27
+        ]
+      }
+    }
+  },
+  "properties": {
+    "package": "axial-5mm",
+    "variant": "_"
+  },
+  "icon": "<svg xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny\" x=\"0in\" y=\"0in\" viewBox=\"0 0 6.8796 1.8796\"><g id=\"breadboard\"><path fill=\"#1F7A34\" stroke=\"none\" stroke-width=\"0\" d=\"M0,0l6.8796,0 0,1.8796 -6.8796,0 0,-1.8796z M0.4898,0.9398a0.45,0.45 0 1 0 0.9,0 0.45,0.45 0 1 0 -0.9,0z M5.4898,0.9398a0.45,0.45 0 1 0 0.9,0 0.45,0.45 0 1 0 -0.9,0z \"/><circle id=\"connector0pin\" connectorname=\"P$1\" cx=\"0.9398\" cy=\"0.9398\" r=\"0.6949\" stroke=\"#9A916C\" stroke-width=\"0.4898\" fill=\"none\"/><circle id=\"connector1pin\" connectorname=\"P$2\" cx=\"5.9398\" cy=\"0.9398\" r=\"0.6949\" stroke=\"#9A916C\" stroke-width=\"0.4898\" fill=\"none\"/><line class=\"other\" x1=\"2.2998\" y1=\"0.1778\" x2=\"4.5798\" y2=\"0.1778\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"4.5798\" y1=\"0.1778\" x2=\"4.5798\" y2=\"0.9398\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"4.5798\" y1=\"0.9398\" x2=\"4.5798\" y2=\"1.7018\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"4.5798\" y1=\"1.7018\" x2=\"2.2998\" y2=\"1.7018\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"2.2998\" y1=\"1.7018\" x2=\"2.2998\" y2=\"0.9398\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"2.2998\" y1=\"0.9398\" x2=\"2.2998\" y2=\"0.1778\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"4.5798\" y1=\"0.9398\" x2=\"4.8338\" y2=\"0.9398\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/><line class=\"other\" x1=\"2.2998\" y1=\"0.9398\" x2=\"2.0458\" y2=\"0.9398\" stroke=\"#f8f8f8\" stroke-width=\"0.2032\" stroke-linecap=\"round\"/></g></svg>",
+  "order": 10,
+  "variants": [
+    {
+      "type": "sparkfun-passives-cap-kit",
+      "package": "cap-pth-small-kit"
+    },
+    {
+      "type": "sparkfun-passives-cap-pth",
+      "package": "cap-pth-small"
+    },
+    {
+      "type": "sparkfun-passives-cap-smd",
+      "package": "grm43d"
+    },
+    {
+      "type": "sparkfun-passives-cap-0805",
+      "package": "0805"
+    },
+    {
+      "type": "sparkfun-passives-cap-1206",
+      "package": "1206"
+    },
+    {
+      "type": "sparkfun-passives-cap-1210",
+      "package": "1210"
+    },
+    {
+      "type": "sparkfun-passives-cap-asmd",
+      "package": "ctz3"
+    },
+    {
+      "type": "sparkfun-passives-cap-pth1",
+      "package": "cap-pth-5mm"
+    },
+    {
+      "type": "sparkfun-passives-cap-pth2",
+      "package": "cap-pth-small2"
+    },
+    {
+      "type": "sparkfun-passives-cap-pth3",
+      "package": "cap-pth-large"
+    },
+    {
+      "type": "sparkfun-passives-cap-0402-cap",
+      "package": "0402-cap"
+    },
+    {
+      "type": "sparkfun-passives-cap-0603-cap",
+      "package": "0603-cap"
+    }
+  ]
+}

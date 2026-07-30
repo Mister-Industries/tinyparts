@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "id": "sparkfun-analogic",
+  "name": "SparkFun · AnalogIC",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAf1JREFUeNrsVrtOAkEUvQsbFwwhYLTgFwyFQqMmG42JFJTEH1C+wITPIGhHReQD1NICE6IxgI3YELttLJZCiYkJzyDj3JHBxX24oiwNNxkYzj07h5m5jwWY2ywsnU4THP/pM/O7TIgPdAQ0v48n8Q2xUyMNET92NjfJuyhq8bVSqfQqy7LRM5P6gOLE3e/DdaUiCAjsRaOks7joyHV6Wi24ur8X2DYFQsDbbDoaT65ZBfJc2NIkjwfWt7bYwLld/p+EV0IhOEylwB8IjOb4bYdvKfxEo7pFc8zMYokEPJTLcHN5CYXzczZHzA7fUnhAU+ql2zUkrUYiIHm9cFcsjjCcI4Y+O3zLo0bxPtGX3I3dXcNFEEOfXb6psIsWMvGzmI0t0m234bFa1T2MGPq04lZ8Xa3mosuSNObcjsfZsZ3lcqYLFC4uYD+ZBH8wyAR/4nNj24tFIoYtDVOB7arT+TFt+F3b4ReqVUH8DuI9v/V67AQwKu0YCtnl6o6a2zPtHijMzb+w4EzlGmiiekDI1EqmbsdLNP94sE1rt4bCktsNIZ9v6k2CCbfpnd7Wao50JTkc/hJW6nX+YjYiZLNZUBRF+9I2tkAmkwFVVX/lS9GmwbVYcKmNhsBzemh5KsoxPvIa/wldeBKfMNQybov0nx1YYXR+NIlvbjOxDwEGAM2CB+xycsZFAAAAAElFTkSuQmCC",
+  "description": "SparkFun · AnalogIC parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-analogic-ad7781-crz",
+      "file": "parts/sparkfun-analogic-ad7781-crz.json"
+    },
+    {
+      "type": "sparkfun-analogic-ad7781-cruz",
+      "file": "parts/sparkfun-analogic-ad7781-cruz.json"
+    },
+    {
+      "type": "sparkfun-analogic-pcm1803-smd",
+      "file": "parts/sparkfun-analogic-pcm1803-smd.json"
+    },
+    {
+      "type": "sparkfun-analogic-lm386",
+      "file": "parts/sparkfun-analogic-lm386.json"
+    },
+    {
+      "type": "sparkfun-analogic-74hc4051-mux",
+      "file": "parts/sparkfun-analogic-74hc4051-mux.json"
+    },
+    {
+      "type": "sparkfun-analogic-74hc4052-dip",
+      "file": "parts/sparkfun-analogic-74hc4052-dip.json"
+    },
+    {
+      "type": "sparkfun-analogic-74hc4052-so",
+      "file": "parts/sparkfun-analogic-74hc4052-so.json"
+    },
+    {
+      "type": "sparkfun-analogic-mux-74hc4067-smd",
+      "file": "parts/sparkfun-analogic-mux-74hc4067-smd.json"
+    },
+    {
+      "type": "sparkfun-analogic-74vhc4052-analog-mux",
+      "file": "parts/sparkfun-analogic-74vhc4052-analog-mux.json"
+    },
+    {
+      "type": "sparkfun-analogic-sv74lv4052apwr",
+      "file": "parts/sparkfun-analogic-sv74lv4052apwr.json"
+    },
+    {
+      "type": "sparkfun-analogic-sv74lv4052apwr-2",
+      "file": "parts/sparkfun-analogic-sv74lv4052apwr-2.json"
+    },
+    {
+      "type": "sparkfun-analogic-mux-ts3a5017",
+      "file": "parts/sparkfun-analogic-mux-ts3a5017.json"
+    },
+    {
+      "type": "sparkfun-analogic-as3400",
+      "file": "parts/sparkfun-analogic-as3400.json"
+    },
+    {
+      "type": "sparkfun-analogic-ad7745",
+      "file": "parts/sparkfun-analogic-ad7745.json"
+    },
+    {
+      "type": "sparkfun-analogic-lm393",
+      "file": "parts/sparkfun-analogic-lm393.json"
+    },
+    {
+      "type": "sparkfun-analogic-acs712",
+      "file": "parts/sparkfun-analogic-acs712.json"
+    },
+    {
+      "type": "sparkfun-analogic-ad5330",
+      "file": "parts/sparkfun-analogic-ad5330.json"
+    },
+    {
+      "type": "sparkfun-analogic-ad7302-smd",
+      "file": "parts/sparkfun-analogic-ad7302-smd.json"
+    },
+    {
+      "type": "sparkfun-analogic-dac-mcp4725-sot",
+      "file": "parts/sparkfun-analogic-dac-mcp4725-sot.json"
+    },
+    {
+      "type": "sparkfun-analogic-mcp41xxx",
+      "file": "parts/sparkfun-analogic-mcp41xxx.json"
+    },
+    {
+      "type": "sparkfun-analogic-mcp42xxx",
+      "file": "parts/sparkfun-analogic-mcp42xxx.json"
+    },
+    {
+      "type": "sparkfun-analogic-x9015-digi-pot-s",
+      "file": "parts/sparkfun-analogic-x9015-digi-pot-s.json"
+    },
+    {
+      "type": "sparkfun-analogic-max323",
+      "file": "parts/sparkfun-analogic-max323.json"
+    },
+    {
+      "type": "sparkfun-analogic-msgeq7-soic",
+      "file": "parts/sparkfun-analogic-msgeq7-soic.json"
+    },
+    {
+      "type": "sparkfun-analogic-ad8397-epad-epad",
+      "file": "parts/sparkfun-analogic-ad8397-epad-epad.json"
+    },
+    {
+      "type": "sparkfun-analogic-opamp-dual",
+      "file": "parts/sparkfun-analogic-opamp-dual.json"
+    },
+    {
+      "type": "sparkfun-analogic-opamp-dual-u",
+      "file": "parts/sparkfun-analogic-opamp-dual-u.json"
+    },
+    {
+      "type": "sparkfun-analogic-lm358",
+      "file": "parts/sparkfun-analogic-lm358.json"
+    },
+    {
+      "type": "sparkfun-analogic-lmv324",
+      "file": "parts/sparkfun-analogic-lmv324.json"
+    },
+    {
+      "type": "sparkfun-analogic-lmv358",
+      "file": "parts/sparkfun-analogic-lmv358.json"
+    },
+    {
+      "type": "sparkfun-analogic-lt1014",
+      "file": "parts/sparkfun-analogic-lt1014.json"
+    },
+    {
+      "type": "sparkfun-analogic-ltc6244",
+      "file": "parts/sparkfun-analogic-ltc6244.json"
+    },
+    {
+      "type": "sparkfun-analogic-opa344",
+      "file": "parts/sparkfun-analogic-opa344.json"
+    },
+    {
+      "type": "sparkfun-analogic-max6675",
+      "file": "parts/sparkfun-analogic-max6675.json"
+    },
+    {
+      "type": "sparkfun-analogic-556",
+      "file": "parts/sparkfun-analogic-556.json"
+    },
+    {
+      "type": "sparkfun-analogic-ne555-d",
+      "file": "parts/sparkfun-analogic-ne555-d.json"
+    },
+    {
+      "type": "sparkfun-analogic-ne555-p",
+      "file": "parts/sparkfun-analogic-ne555-p.json"
+    },
+    {
+      "type": "sparkfun-analogic-ad725",
+      "file": "parts/sparkfun-analogic-ad725.json"
+    },
+    {
+      "type": "sparkfun-analogic-tvp5150-ntsc-decoder",
+      "file": "parts/sparkfun-analogic-tvp5150-ntsc-decoder.json"
+    },
+    {
+      "type": "sparkfun-analogic-ht8950",
+      "file": "parts/sparkfun-analogic-ht8950.json"
+    },
+    {
+      "type": "sparkfun-analogic-ad9835",
+      "file": "parts/sparkfun-analogic-ad9835.json"
+    }
+  ]
+}

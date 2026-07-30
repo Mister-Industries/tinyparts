@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "infineon",
+  "name": "Infineon",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAOCAYAAABO3B6yAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5wUIFBwTsycxKgAABA9JREFUOMudlEtslVUUhb91/ttbemkploKlvcUSJSryMEFUggmoVYNETEiMoomPGCYaUUKc4EAdmRBmTDCYYIJGNHFAIgzAkPiIIoqgWPAREbW3raXPW/rgPs5y8AM2ccYenLPPOTtn7+y11hbT7IOlz7B11SOMZOuYfPe1mt7G5nyQFht3gOqr+JJhQHABPEDUgGCwzrXjTb0HzTVY5orTk+9kft9vvBAyaxpLUyuPt92UWTg+ujzCH6Dvgn22Zbi3wETXuL5ydd+WzdzX9we4zJnCp6BrSQ86zWrm5nNEx9mS1j9+z2OPdjXOXfn0uR+2vdb1xbfFSCGXSWLLjsNJ0+cH7giOY5IGZA/3v72xfG1ppxXQ0/4AMouMdwSz4KOOJTtfX3Zvebj91gNPHTtQ/mreAi5mstheJekNzD7ECuxdoHNIgCFWQYH0DERDmOZLaZcMMZYY3PP4ZQjshYbdQFNNtfLcG0vX1mRifKb5/OkTh+ffeAvQQPQ3CmEJWOAfDVWgLLwWuwnUD3wN3I3dIXHIwpiHgQJwAnwXphHcCzqWlpJyYCuwEtg0lak5FezV4JmC24FXgQuIReBhIId0newNts8jbSclZIOlt4S2gIu2msEBWInIAXtA28B9oFyQngaKAMGwIcI/hpOtF0dRWphBVeAk8DEoByqATrla6gKyl2OGsPcCE5KWADekb74NhTuB97G7wcuAfmAfUAHXTFfBRcF8oH14Rq6HFKnpnNbVXYQU6OkxurKUgBE7vgcMSnoZPBPIGqZ0JV4CQ3e+k4ojQbAXqBe8lKmWGyYy2am0Pb4EjAGTwEXgEmYMiMAIUAaPYkpA0TGeBPql5AmFJI99BHgW1CjzNVB0+seokdOhoUSFts5ZQbxp2IzZf3JO2871azeNkknG5owXZ4W0gCxo0lDvaqU/hKTVeEAwx2ZYQU2xGntCksxDWmD7ZxwnpGQpMEisdDskrVMhGSonmdnren75Z9fxgw2GnHraOhHUW3oe/KKgGOx3QoyH5vYc/evokqf4O9fASE0tn+Rv5tbhPj7sWE5VKSY4lVuMkRASkJg/Psq6wq9835xnTf+fbPzrDPs7lrL9p8/qSiFpGUtq5kQ0hCgIoLetk5aJWnpnlm4BPyl4KMXaJ4AvDaeNCxV77JULR0u75z3oRFeE9B9TbEgQ17GIAmezoFwGNRu3GlqBjOB8hLOTl8JQbW30VbJ1t3eSWNQ5w4TK1wtWAKtBiwWNEZcTNFjFg0KDgqJgImU1AIlhBlDnlFN1l+9HDOeMu6L9e03QWMVQjqKj58j/J3h3/n4CQohsIiYrMSdxvSAfUHvELaDmAI2GenBGqCQoRhhSKre+iP8WKpQdB7NSyYgKETkhXzh8Nd+/Jmreh9ph0SYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDUtMDhUMTg6Mjg6MTkrMDI6MDAH8Z+vAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA1LTA4VDE4OjI4OjE5KzAyOjAwdqwnEwAAAABJRU5ErkJggg==",
+  "description": "Infineon parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "infineon-my-iot-adapter",
+      "file": "parts/infineon-my-iot-adapter.json"
+    },
+    {
+      "type": "infineon-h-bridge-kit2go",
+      "file": "parts/infineon-h-bridge-kit2go.json"
+    },
+    {
+      "type": "infineon-kit-xmc14-2go",
+      "file": "parts/infineon-kit-xmc14-2go.json"
+    },
+    {
+      "type": "infineon-cy8ckit-062s2-ai",
+      "file": "parts/infineon-cy8ckit-062s2-ai.json"
+    },
+    {
+      "type": "infineon-kit-xmc11-boot-001",
+      "file": "parts/infineon-kit-xmc11-boot-001.json"
+    },
+    {
+      "type": "infineon-cy8cproto-062-4343w",
+      "file": "parts/infineon-cy8cproto-062-4343w.json"
+    },
+    {
+      "type": "infineon-tle493d-p2b6-ms2go",
+      "file": "parts/infineon-tle493d-p2b6-ms2go.json"
+    },
+    {
+      "type": "infineon-bldc-shield-ifx007t",
+      "file": "parts/infineon-bldc-shield-ifx007t.json"
+    }
+  ]
+}

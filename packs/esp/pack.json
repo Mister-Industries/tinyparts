@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "esp",
+  "name": "ESP8266 / ESP32",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "EP",
+  "description": "ESP8266 / ESP32 parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "esp8266-7",
+      "file": "parts/esp8266-7.json"
+    },
+    {
+      "type": "esp8266-module",
+      "file": "parts/esp8266-module.json"
+    },
+    {
+      "type": "espruinopico-8fb644a5b6642112445ed6d90bc494d8-6",
+      "file": "parts/espruinopico-8fb644a5b6642112445ed6d90bc494d8-6.json"
+    },
+    {
+      "type": "esp8266-thing-dev",
+      "file": "parts/esp8266-thing-dev.json"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "schema": 1,
+  "id": "sparkfun-poweric",
+  "name": "SparkFun · PowerIC",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUJJREFUeNpiYBgFdAKMyJzjZ44r/GT4eZ9WlrEzsDtamlgeALFZkCWAltb/YPhBilkPoLQCMYr/MfyLB1Jgi5mQJf4y/A0g1kZmJuYPQMoQhKFsYiyGm4/i498MvwVI8K2Aupj6fhDjzps7ROn7w/BHAKvFpIC///4y3Hx104Bc/SgW99b10i1Vo1h888pNulnMNFD5eNTigbH4z58/NLXs69ev2MtqIPjPz8/PAMK0sPTt27dwOzGC+ufPnzTx7bdv33AHNRMTEwMvLy9NLAaFIsh8rEEtJyf3n9aJ6tGjR4yDLzspKipCKlkFBYb///9TjU/Q4pSUFDDd0tLCwMjISDU+zkoCFv6ioqL/QWwuLi4wTS0+QR+LiIiAaVgKpxaf6CITPWtRyifaYikpKUZq8gdv7QR0KU35A+rjkQcAAgwA7Z2UlepTy6cAAAAASUVORK5CYII=",
+  "description": "SparkFun · PowerIC parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-poweric-lm4871",
+      "file": "parts/sparkfun-poweric-lm4871.json"
+    },
+    {
+      "type": "sparkfun-poweric-max98300-eta",
+      "file": "parts/sparkfun-poweric-max98300-eta.json"
+    },
+    {
+      "type": "sparkfun-poweric-sta540-w-6400bg-heatsink",
+      "file": "parts/sparkfun-poweric-sta540-w-6400bg-heatsink.json"
+    },
+    {
+      "type": "sparkfun-poweric-sta540-w-yb324g-heatsink",
+      "file": "parts/sparkfun-poweric-sta540-w-yb324g-heatsink.json"
+    },
+    {
+      "type": "sparkfun-poweric-sta540",
+      "file": "parts/sparkfun-poweric-sta540.json"
+    },
+    {
+      "type": "sparkfun-poweric-max98306-etd",
+      "file": "parts/sparkfun-poweric-max98306-etd.json"
+    },
+    {
+      "type": "sparkfun-poweric-max1555",
+      "file": "parts/sparkfun-poweric-max1555.json"
+    },
+    {
+      "type": "sparkfun-poweric-mcp73831",
+      "file": "parts/sparkfun-poweric-mcp73831.json"
+    },
+    {
+      "type": "sparkfun-poweric-mcp7384xx",
+      "file": "parts/sparkfun-poweric-mcp7384xx.json"
+    },
+    {
+      "type": "sparkfun-poweric-mcp73833",
+      "file": "parts/sparkfun-poweric-mcp73833.json"
+    },
+    {
+      "type": "sparkfun-poweric-max1704x",
+      "file": "parts/sparkfun-poweric-max1704x.json"
+    },
+    {
+      "type": "sparkfun-poweric-l298-heatsink",
+      "file": "parts/sparkfun-poweric-l298-heatsink.json"
+    },
+    {
+      "type": "sparkfun-poweric-l298",
+      "file": "parts/sparkfun-poweric-l298.json"
+    },
+    {
+      "type": "sparkfun-poweric-l298-bridge-driver",
+      "file": "parts/sparkfun-poweric-l298-bridge-driver.json"
+    },
+    {
+      "type": "sparkfun-poweric-bq24022",
+      "file": "parts/sparkfun-poweric-bq24022.json"
+    },
+    {
+      "type": "sparkfun-poweric-uln2803-dip",
+      "file": "parts/sparkfun-poweric-uln2803-dip.json"
+    },
+    {
+      "type": "sparkfun-poweric-uln2803-soic",
+      "file": "parts/sparkfun-poweric-uln2803-soic.json"
+    },
+    {
+      "type": "sparkfun-poweric-uln2803-soicw",
+      "file": "parts/sparkfun-poweric-uln2803-soicw.json"
+    },
+    {
+      "type": "sparkfun-poweric-hv826mg-backlight",
+      "file": "parts/sparkfun-poweric-hv826mg-backlight.json"
+    },
+    {
+      "type": "sparkfun-poweric-ltc3588",
+      "file": "parts/sparkfun-poweric-ltc3588.json"
+    },
+    {
+      "type": "sparkfun-poweric-ptc-0603",
+      "file": "parts/sparkfun-poweric-ptc-0603.json"
+    },
+    {
+      "type": "sparkfun-poweric-ptc-smd",
+      "file": "parts/sparkfun-poweric-ptc-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-ptc-pth",
+      "file": "parts/sparkfun-poweric-ptc-pth.json"
+    },
+    {
+      "type": "sparkfun-poweric-lmd1820x",
+      "file": "parts/sparkfun-poweric-lmd1820x.json"
+    },
+    {
+      "type": "sparkfun-poweric-njm2670-smd",
+      "file": "parts/sparkfun-poweric-njm2670-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-zxld1360",
+      "file": "parts/sparkfun-poweric-zxld1360.json"
+    },
+    {
+      "type": "sparkfun-poweric-vnh2sp30",
+      "file": "parts/sparkfun-poweric-vnh2sp30.json"
+    },
+    {
+      "type": "sparkfun-poweric-tb6621fng",
+      "file": "parts/sparkfun-poweric-tb6621fng.json"
+    },
+    {
+      "type": "sparkfun-poweric-tps6214x",
+      "file": "parts/sparkfun-poweric-tps6214x.json"
+    },
+    {
+      "type": "sparkfun-poweric-dc-dc-converter",
+      "file": "parts/sparkfun-poweric-dc-dc-converter.json"
+    },
+    {
+      "type": "sparkfun-poweric-lm5007",
+      "file": "parts/sparkfun-poweric-lm5007.json"
+    },
+    {
+      "type": "sparkfun-poweric-lm5574",
+      "file": "parts/sparkfun-poweric-lm5574.json"
+    },
+    {
+      "type": "sparkfun-poweric-lmz14203",
+      "file": "parts/sparkfun-poweric-lmz14203.json"
+    },
+    {
+      "type": "sparkfun-poweric-tps6211",
+      "file": "parts/sparkfun-poweric-tps6211.json"
+    },
+    {
+      "type": "sparkfun-poweric-lm2621-smd",
+      "file": "parts/sparkfun-poweric-lm2621-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-tps61200",
+      "file": "parts/sparkfun-poweric-tps61200.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-ncp1400-sot23-5",
+      "file": "parts/sparkfun-poweric-v-reg-ncp1400-sot23-5.json"
+    },
+    {
+      "type": "sparkfun-poweric-a4983",
+      "file": "parts/sparkfun-poweric-a4983.json"
+    },
+    {
+      "type": "sparkfun-poweric-l6470",
+      "file": "parts/sparkfun-poweric-l6470.json"
+    },
+    {
+      "type": "sparkfun-poweric-mc34063-smd",
+      "file": "parts/sparkfun-poweric-mc34063-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-mic2571-smd",
+      "file": "parts/sparkfun-poweric-mic2571-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-pq1cy1032z",
+      "file": "parts/sparkfun-poweric-pq1cy1032z.json"
+    },
+    {
+      "type": "sparkfun-poweric-transformer-smd",
+      "file": "parts/sparkfun-poweric-transformer-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-transformer-pth",
+      "file": "parts/sparkfun-poweric-transformer-pth.json"
+    },
+    {
+      "type": "sparkfun-poweric-lm4128-2-5vref",
+      "file": "parts/sparkfun-poweric-lm4128-2-5vref.json"
+    },
+    {
+      "type": "sparkfun-poweric-bd10ka5wf-e2",
+      "file": "parts/sparkfun-poweric-bd10ka5wf-e2.json"
+    },
+    {
+      "type": "sparkfun-poweric-lm2931",
+      "file": "parts/sparkfun-poweric-lm2931.json"
+    },
+    {
+      "type": "sparkfun-poweric-lm2931-fixed",
+      "file": "parts/sparkfun-poweric-lm2931-fixed.json"
+    },
+    {
+      "type": "sparkfun-poweric-lm3480im4",
+      "file": "parts/sparkfun-poweric-lm3480im4.json"
+    },
+    {
+      "type": "sparkfun-poweric-lt1528",
+      "file": "parts/sparkfun-poweric-lt1528.json"
+    },
+    {
+      "type": "sparkfun-poweric-spx29302",
+      "file": "parts/sparkfun-poweric-spx29302.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-mic5219-smd",
+      "file": "parts/sparkfun-poweric-v-reg-mic5219-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-ld1085-d2",
+      "file": "parts/sparkfun-poweric-v-reg-ld1085-d2.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-ld1117vxx",
+      "file": "parts/sparkfun-poweric-v-reg-ld1117vxx.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-mc33269-dt",
+      "file": "parts/sparkfun-poweric-v-reg-mc33269-dt.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-mic2920",
+      "file": "parts/sparkfun-poweric-v-reg-mic2920.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-mic5216",
+      "file": "parts/sparkfun-poweric-v-reg-mic5216.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-mic5235",
+      "file": "parts/sparkfun-poweric-v-reg-mic5235.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-ncp50x",
+      "file": "parts/sparkfun-poweric-v-reg-ncp50x.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-tps61040-smd",
+      "file": "parts/sparkfun-poweric-v-reg-tps61040-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-78xx-to-220",
+      "file": "parts/sparkfun-poweric-v-reg-78xx-to-220.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-317-dpack",
+      "file": "parts/sparkfun-poweric-v-reg-317-dpack.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-317-sink-1",
+      "file": "parts/sparkfun-poweric-v-reg-317-sink-1.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-317-sink",
+      "file": "parts/sparkfun-poweric-v-reg-317-sink.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-317-smd",
+      "file": "parts/sparkfun-poweric-v-reg-317-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-78xx-side",
+      "file": "parts/sparkfun-poweric-v-reg-78xx-side.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-78xx-sink",
+      "file": "parts/sparkfun-poweric-v-reg-78xx-sink.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-78xx-to-92",
+      "file": "parts/sparkfun-poweric-v-reg-78xx-to-92.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-tps76433-sot23-5",
+      "file": "parts/sparkfun-poweric-v-reg-tps76433-sot23-5.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-ldo-smd2",
+      "file": "parts/sparkfun-poweric-v-reg-ldo-smd2.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-ldo-smd",
+      "file": "parts/sparkfun-poweric-v-reg-ldo-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-lm1117-sot223",
+      "file": "parts/sparkfun-poweric-v-reg-lm1117-sot223.json"
+    },
+    {
+      "type": "sparkfun-poweric-adm1087-sc-70",
+      "file": "parts/sparkfun-poweric-adm1087-sc-70.json"
+    }
+  ]
+}

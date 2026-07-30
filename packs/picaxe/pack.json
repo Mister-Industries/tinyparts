@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "picaxe",
+  "name": "PICAXE",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "PX",
+  "description": "PICAXE parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "picaxe-08",
+      "file": "parts/picaxe-08.json"
+    },
+    {
+      "type": "picaxe-08m",
+      "file": "parts/picaxe-08m.json"
+    },
+    {
+      "type": "picaxe-14m",
+      "file": "parts/picaxe-14m.json"
+    },
+    {
+      "type": "picaxe-18",
+      "file": "parts/picaxe-18.json"
+    },
+    {
+      "type": "picaxe-18a",
+      "file": "parts/picaxe-18a.json"
+    },
+    {
+      "type": "picaxe-18m",
+      "file": "parts/picaxe-18m.json"
+    },
+    {
+      "type": "picaxe-18x",
+      "file": "parts/picaxe-18x.json"
+    },
+    {
+      "type": "picaxe-20m",
+      "file": "parts/picaxe-20m.json"
+    },
+    {
+      "type": "picaxe-20x2",
+      "file": "parts/picaxe-20x2.json"
+    },
+    {
+      "type": "picaxe-28",
+      "file": "parts/picaxe-28.json"
+    },
+    {
+      "type": "picaxe-28a",
+      "file": "parts/picaxe-28a.json"
+    },
+    {
+      "type": "picaxe-28x",
+      "file": "parts/picaxe-28x.json"
+    },
+    {
+      "type": "picaxe-28x1",
+      "file": "parts/picaxe-28x1.json"
+    },
+    {
+      "type": "picaxe-28x2",
+      "file": "parts/picaxe-28x2.json"
+    },
+    {
+      "type": "picaxe-28x2-3v",
+      "file": "parts/picaxe-28x2-3v.json"
+    },
+    {
+      "type": "picaxe-40x",
+      "file": "parts/picaxe-40x.json"
+    },
+    {
+      "type": "picaxe-40x1",
+      "file": "parts/picaxe-40x1.json"
+    },
+    {
+      "type": "picaxe-40x2",
+      "file": "parts/picaxe-40x2.json"
+    },
+    {
+      "type": "picaxe-40x2-3v",
+      "file": "parts/picaxe-40x2-3v.json"
+    }
+  ]
+}

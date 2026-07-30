@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "atlas-scientific",
+  "name": "Atlas Scientific",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAMAAADHso01AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAA5FBMVEX///8AAAAjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUVxuIcjkUVJpGWQx6Gezq13u4wrlUwkkUaEwpcnk0lSqGxstoNLpWeOxp/I49BgsHk/n1xYrHKVyqVCoV+Gw5n8/fzS6dk0mlSRyKLb7eAqlEt8vZBGo2P2+vf///+v17slkkaKxJyLxZ3o8+vC4Ms3m1Y9nlvH49Cw2L0mk0jW690plEp9vpHk8ugzmVN5vI6i0LCn07VFomFRqGzj8ee73cV6vY9fr3fL5dOy2b5yuIcolEmq1Ld0uooAm7IJAAAAD3RSTlMAAAxmtupj7BENBqMXGLs2dZfXAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+UCARUYJ3XdWD0AAADsSURBVCjP1ZJZV8IwEIVrmrRKgYuyg1AFFcVYFmWT1R31//8f26ZyJoXDs96XJPOdM5OZO4bxx3UQiJlcAIKbLHzGsGUjkm0dHhk6TjggcpIpHWvU53pyCzFZFLOgbub4JJsD8oViqVyxGcGmT6untbp7do5G8yJ7CZgEc+CqdR0kvWnfyjvPv3CCBTqyG9bM9WT/PrgIgh8GUg5HIR+rLADBmDxOZyrammMLC3iL5SqMTp8UFfrXfvUcYR5rLNLLqzppY2xjB97elS10LHSoH+utoVJLPr++83FLNEPdQjqxdx12bMueZfqP+gFrwRrasHRQLAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMS0wMi0wMVQyMDoyNDozOSswMTowMNIqbREAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjEtMDItMDFUMjA6MjQ6MzkrMDE6MDCjd9WtAAAAAElFTkSuQmCC",
+  "description": "Atlas Scientific parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "atlas-sientific-pwr-sns",
+      "file": "parts/atlas-sientific-pwr-sns.json"
+    },
+    {
+      "type": "atlas-sientific-serial-port-connector",
+      "file": "parts/atlas-sientific-serial-port-connector.json"
+    },
+    {
+      "type": "atlas-sientific-ph-circuit",
+      "file": "parts/atlas-sientific-ph-circuit.json"
+    },
+    {
+      "type": "atlas-sientific-orp-circuit",
+      "file": "parts/atlas-sientific-orp-circuit.json"
+    },
+    {
+      "type": "atlas-sientific-rj-11",
+      "file": "parts/atlas-sientific-rj-11.json"
+    },
+    {
+      "type": "atlas-sientific-flo-30-circuit",
+      "file": "parts/atlas-sientific-flo-30-circuit.json"
+    },
+    {
+      "type": "atlas-sientific-env-32x",
+      "file": "parts/atlas-sientific-env-32x.json"
+    },
+    {
+      "type": "atlas-sientific-conductivity-circuit",
+      "file": "parts/atlas-sientific-conductivity-circuit.json"
+    },
+    {
+      "type": "atlas-sientific-d-o-circuit",
+      "file": "parts/atlas-sientific-d-o-circuit.json"
+    },
+    {
+      "type": "atlas-sientific-pre-assembledfemalebnc",
+      "file": "parts/atlas-sientific-pre-assembledfemalebnc.json"
+    },
+    {
+      "type": "atlas-sientific-debugger",
+      "file": "parts/atlas-sientific-debugger.json"
+    }
+  ]
+}

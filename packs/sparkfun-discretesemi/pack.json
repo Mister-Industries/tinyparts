@@ -1,0 +1,219 @@
+{
+  "schema": 1,
+  "id": "sparkfun-discretesemi",
+  "name": "SparkFun · DiscreteSemi",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOlJREFUeNpiYBgFo2AUjIJRQCRgxCVRbCElAKQMQGwTr1AGE89Qhme3rzFsmtRAtOG9J54dwCXHgktCVE65QFROqR7EllLVYeAWEGIQkpZj0LJxJcrSv79/MRQzHFQEWv6AJItfP7oLxiDAxSfAIKWiyfDu6SOGa0d2kxKiCkCM1WKmgYpjuI97enr+I0t8uXac4TMQUwKE7cP294TIoIiVlJQwDg4fw1yClKpBybeeEsPfHlzliCtlD7yP0cGlV9/gqfHjmSsMd36wM3x89RwkTrThu+99OEBvD7FB8SgYBaNgFAwjABBgACdcRZM8uu1nAAAAAElFTkSuQmCC",
+  "description": "SparkFun · DiscreteSemi parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-discretesemi-bav99",
+      "file": "parts/sparkfun-discretesemi-bav99.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-1n4148-v2",
+      "file": "parts/sparkfun-discretesemi-diode-1n4148-v2.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-pth-v2",
+      "file": "parts/sparkfun-discretesemi-diode-pth-v2.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-sma-alt",
+      "file": "parts/sparkfun-discretesemi-diode-sma-alt.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-sma-kit",
+      "file": "parts/sparkfun-discretesemi-diode-sma-kit.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-hv-v2",
+      "file": "parts/sparkfun-discretesemi-diode-hv-v2.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-sma",
+      "file": "parts/sparkfun-discretesemi-diode-sma.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-smb",
+      "file": "parts/sparkfun-discretesemi-diode-smb.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-sod",
+      "file": "parts/sparkfun-discretesemi-diode-sod.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-sod523",
+      "file": "parts/sparkfun-discretesemi-diode-sod523.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-sot23",
+      "file": "parts/sparkfun-discretesemi-diode-sot23.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-tvs",
+      "file": "parts/sparkfun-discretesemi-tvs.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mosfet-nchannel-fdd8580",
+      "file": "parts/sparkfun-discretesemi-mosfet-nchannel-fdd8580.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mosfet-nchannel-smd",
+      "file": "parts/sparkfun-discretesemi-mosfet-nchannel-smd.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mosfet-nchannel-pth",
+      "file": "parts/sparkfun-discretesemi-mosfet-nchannel-pth.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mosfet-nchannel-pth2",
+      "file": "parts/sparkfun-discretesemi-mosfet-nchannel-pth2.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mosfet-nchannel-soic8",
+      "file": "parts/sparkfun-discretesemi-mosfet-nchannel-soic8.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-nds8434",
+      "file": "parts/sparkfun-discretesemi-nds8434.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mosfet-pchannel-smd",
+      "file": "parts/sparkfun-discretesemi-mosfet-pchannel-smd.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mosfet-pchannel-soic8-soic8",
+      "file": "parts/sparkfun-discretesemi-mosfet-pchannel-soic8-soic8.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-xn04312-sot",
+      "file": "parts/sparkfun-discretesemi-xn04312-sot.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-cnz1120-pth",
+      "file": "parts/sparkfun-discretesemi-cnz1120-pth.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-gp1a57hr",
+      "file": "parts/sparkfun-discretesemi-gp1a57hr.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-ild213t",
+      "file": "parts/sparkfun-discretesemi-ild213t.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-opto-darl-6n138s",
+      "file": "parts/sparkfun-discretesemi-opto-darl-6n138s.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-tcmt1103-opto",
+      "file": "parts/sparkfun-discretesemi-tcmt1103-opto.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-schottky",
+      "file": "parts/sparkfun-discretesemi-diode-schottky.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mosfet-nchannel-sot323",
+      "file": "parts/sparkfun-discretesemi-mosfet-nchannel-sot323.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-bc847pn",
+      "file": "parts/sparkfun-discretesemi-bc847pn.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-irf7507",
+      "file": "parts/sparkfun-discretesemi-irf7507.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mmdt3904",
+      "file": "parts/sparkfun-discretesemi-mmdt3904.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-npn-to-92-ammo",
+      "file": "parts/sparkfun-discretesemi-transistor-npn-to-92-ammo.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-npn",
+      "file": "parts/sparkfun-discretesemi-transistor-npn.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-npn-sot23-3",
+      "file": "parts/sparkfun-discretesemi-transistor-npn-sot23-3.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-npn-sot23",
+      "file": "parts/sparkfun-discretesemi-transistor-npn-sot23.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-npn-sot89",
+      "file": "parts/sparkfun-discretesemi-transistor-npn-sot89.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-npn-to92",
+      "file": "parts/sparkfun-discretesemi-transistor-npn-to92.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-npn-2-pth",
+      "file": "parts/sparkfun-discretesemi-transistor-npn-2-pth.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-pnp-smd",
+      "file": "parts/sparkfun-discretesemi-transistor-pnp-smd.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-pnp",
+      "file": "parts/sparkfun-discretesemi-transistor-pnp.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-transistor-pnp-to92",
+      "file": "parts/sparkfun-discretesemi-transistor-pnp-to92.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-moc3031-m",
+      "file": "parts/sparkfun-discretesemi-moc3031-m.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-triac-smd",
+      "file": "parts/sparkfun-discretesemi-triac-smd.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-triac-pth",
+      "file": "parts/sparkfun-discretesemi-triac-pth.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-v18za2p",
+      "file": "parts/sparkfun-discretesemi-v18za2p.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-varistor-0402",
+      "file": "parts/sparkfun-discretesemi-varistor-0402.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-varistor-0603",
+      "file": "parts/sparkfun-discretesemi-varistor-0603.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-zener-pth",
+      "file": "parts/sparkfun-discretesemi-diode-zener-pth.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-zener-smb",
+      "file": "parts/sparkfun-discretesemi-diode-zener-smb.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-diode-zener-bzt52",
+      "file": "parts/sparkfun-discretesemi-diode-zener-bzt52.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-mmbz27vclt1",
+      "file": "parts/sparkfun-discretesemi-mmbz27vclt1.json"
+    },
+    {
+      "type": "sparkfun-discretesemi-v-reference-smd",
+      "file": "parts/sparkfun-discretesemi-v-reference-smd.json"
+    }
+  ]
+}

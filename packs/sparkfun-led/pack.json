@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "sparkfun-led",
+  "name": "SparkFun · LEDs",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "SL",
+  "description": "SparkFun · LEDs parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-led-ws2812",
+      "file": "parts/sparkfun-led-ws2812.json"
+    },
+    {
+      "type": "sparkfun-led-led-fkit-1206",
+      "file": "parts/sparkfun-led-led-fkit-1206.json"
+    },
+    {
+      "type": "sparkfun-led-led-0603",
+      "file": "parts/sparkfun-led-led-0603.json"
+    },
+    {
+      "type": "sparkfun-led-led-1206",
+      "file": "parts/sparkfun-led-led-1206.json"
+    },
+    {
+      "type": "sparkfun-led-led-10mm-fix",
+      "file": "parts/sparkfun-led-led-10mm-fix.json"
+    },
+    {
+      "type": "sparkfun-led-lightpipe-7511",
+      "file": "parts/sparkfun-led-lightpipe-7511.json"
+    },
+    {
+      "type": "sparkfun-led-led-bargraph-10",
+      "file": "parts/sparkfun-led-led-bargraph-10.json"
+    },
+    {
+      "type": "sparkfun-led-luxeon-smd",
+      "file": "parts/sparkfun-led-luxeon-smd.json"
+    },
+    {
+      "type": "sparkfun-led-luxeon-rebel",
+      "file": "parts/sparkfun-led-luxeon-rebel.json"
+    },
+    {
+      "type": "sparkfun-led-apa3010sf4c",
+      "file": "parts/sparkfun-led-apa3010sf4c.json"
+    },
+    {
+      "type": "sparkfun-led-lte-302",
+      "file": "parts/sparkfun-led-lte-302.json"
+    },
+    {
+      "type": "sparkfun-led-led-tricolor",
+      "file": "parts/sparkfun-led-led-tricolor.json"
+    },
+    {
+      "type": "sparkfun-led-led-ring",
+      "file": "parts/sparkfun-led-led-ring.json"
+    }
+  ]
+}

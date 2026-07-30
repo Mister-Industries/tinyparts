@@ -1,0 +1,379 @@
+{
+  "schema": 1,
+  "id": "sparkfun-sensors",
+  "name": "SparkFun · Sensors",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNrsVT1MGmEYfhSFFJSjBEo0xoY0MdJBTQ2GrWwmnQxbNzq60YS6WnZMmV3q6MDgIInEBZyIjWmHetdYSThjJAf25MccuYLS9zs5S6xR2k4m9yTv3X3ffe/3fO/zPrkDDBgwYOChoa/HdR9DoVD4sdUKm6KgnyYGKZoUl50FMr0rl8tIp9NvaLh234YDPZBGfD5f+AVtqh4dgWs28WRiAq16/erko6OQ221Yd3bgD4WQpkPSdIEi87/Ey+zy8/QUr9bXwR0ewuxwQNjaQpMOUdnbg+X4GN7FRdT297tz7iTuv4d0gcLBHmwUHMfhKVXlmpnBpSxrpAzOuTl4PJ7uvKCe11PF8Xj8ffc4lUq99Hq9sNvt6MtmoVB/ZSJsUfX1YhEqxfN4HDaSvnpwAKnRQCQS0XqtquqHQCAgdm1XiUajiT+IiTSoy6pDJ2VoTU5qd0mSIG1uQjk5gWVkBKbhYW2eY32nMYPb7WbE4VsKTdwlNTNGjAXP85larQaTyYQ2z/+WaWhIu7OKLzomK+7uwlIqac/5fJ5Vvabv06u5CiSJLvlCLpcLkqvxmhmsWsW3paWrRKr04vz8Okk+O4PLbMa7xHVRb5PJZKWj5vLfunqD9YYZpUUXURShkIOtY2PaSyb195UVKE4nBv3+2/L+2dXQpXo0Po6vsRh+uFxoTU1BoYob5OQq+aCwvQ1xdVVb053Tq6sLncjeNIQgCNOf6COC2Vmo5NhnJDmoSgaFelyan8eAzYbPgsCm2Jfry409MsZPwoABAw8fvwQYAJ5e3Mgk+P2UAAAAAElFTkSuQmCC",
+  "description": "SparkFun · Sensors parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-sensors-adxl180",
+      "file": "parts/sparkfun-sensors-adxl180.json"
+    },
+    {
+      "type": "sparkfun-sensors-adxl193",
+      "file": "parts/sparkfun-sensors-adxl193.json"
+    },
+    {
+      "type": "sparkfun-sensors-adxl335",
+      "file": "parts/sparkfun-sensors-adxl335.json"
+    },
+    {
+      "type": "sparkfun-sensors-adxl345",
+      "file": "parts/sparkfun-sensors-adxl345.json"
+    },
+    {
+      "type": "sparkfun-sensors-bma180",
+      "file": "parts/sparkfun-sensors-bma180.json"
+    },
+    {
+      "type": "sparkfun-sensors-cma3000-a01",
+      "file": "parts/sparkfun-sensors-cma3000-a01.json"
+    },
+    {
+      "type": "sparkfun-sensors-cma3000-d01",
+      "file": "parts/sparkfun-sensors-cma3000-d01.json"
+    },
+    {
+      "type": "sparkfun-sensors-fc30-smd",
+      "file": "parts/sparkfun-sensors-fc30-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-lis302dl",
+      "file": "parts/sparkfun-sensors-lis302dl.json"
+    },
+    {
+      "type": "sparkfun-sensors-lis331",
+      "file": "parts/sparkfun-sensors-lis331.json"
+    },
+    {
+      "type": "sparkfun-sensors-lis3lv02dq-smd",
+      "file": "parts/sparkfun-sensors-lis3lv02dq-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-mma7260",
+      "file": "parts/sparkfun-sensors-mma7260.json"
+    },
+    {
+      "type": "sparkfun-sensors-mma7361",
+      "file": "parts/sparkfun-sensors-mma7361.json"
+    },
+    {
+      "type": "sparkfun-sensors-mma8452q",
+      "file": "parts/sparkfun-sensors-mma8452q.json"
+    },
+    {
+      "type": "sparkfun-sensors-sca1000",
+      "file": "parts/sparkfun-sensors-sca1000.json"
+    },
+    {
+      "type": "sparkfun-sensors-sca3000",
+      "file": "parts/sparkfun-sensors-sca3000.json"
+    },
+    {
+      "type": "sparkfun-sensors-adxl330-smd",
+      "file": "parts/sparkfun-sensors-adxl330-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-gas-sensor",
+      "file": "parts/sparkfun-sensors-gas-sensor.json"
+    },
+    {
+      "type": "sparkfun-sensors-temt6000",
+      "file": "parts/sparkfun-sensors-temt6000.json"
+    },
+    {
+      "type": "sparkfun-sensors-si1120",
+      "file": "parts/sparkfun-sensors-si1120.json"
+    },
+    {
+      "type": "sparkfun-sensors-scp1000-d01-smd2",
+      "file": "parts/sparkfun-sensors-scp1000-d01-smd2.json"
+    },
+    {
+      "type": "sparkfun-sensors-scp1000-d01-smd",
+      "file": "parts/sparkfun-sensors-scp1000-d01-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-mpl115a",
+      "file": "parts/sparkfun-sensors-mpl115a.json"
+    },
+    {
+      "type": "sparkfun-sensors-mpl3115a2-lga8",
+      "file": "parts/sparkfun-sensors-mpl3115a2-lga8.json"
+    },
+    {
+      "type": "sparkfun-sensors-camera-cmos-con-smd",
+      "file": "parts/sparkfun-sensors-camera-cmos-con-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-camera-cmos-con-plug",
+      "file": "parts/sparkfun-sensors-camera-cmos-con-plug.json"
+    },
+    {
+      "type": "sparkfun-sensors-tcm8240md",
+      "file": "parts/sparkfun-sensors-tcm8240md.json"
+    },
+    {
+      "type": "sparkfun-sensors-hdjd-s822-qr999",
+      "file": "parts/sparkfun-sensors-hdjd-s822-qr999.json"
+    },
+    {
+      "type": "sparkfun-sensors-hdjd-s822-qr999-withpic",
+      "file": "parts/sparkfun-sensors-hdjd-s822-qr999-withpic.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc5843-smd",
+      "file": "parts/sparkfun-sensors-hmc5843-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc5883l-smd",
+      "file": "parts/sparkfun-sensors-hmc5883l-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc6343-a",
+      "file": "parts/sparkfun-sensors-hmc6343-a.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc6352",
+      "file": "parts/sparkfun-sensors-hmc6352.json"
+    },
+    {
+      "type": "sparkfun-sensors-lsm303dlh-smd",
+      "file": "parts/sparkfun-sensors-lsm303dlh-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-os4000-t",
+      "file": "parts/sparkfun-sensors-os4000-t.json"
+    },
+    {
+      "type": "sparkfun-sensors-mic-electret-smd",
+      "file": "parts/sparkfun-sensors-mic-electret-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-mic-9-7mm",
+      "file": "parts/sparkfun-sensors-mic-9-7mm.json"
+    },
+    {
+      "type": "sparkfun-sensors-geiger-tube-lnd712",
+      "file": "parts/sparkfun-sensors-geiger-tube-lnd712.json"
+    },
+    {
+      "type": "sparkfun-sensors-adxrsxxx-smd",
+      "file": "parts/sparkfun-sensors-adxrsxxx-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-idg1215-1215",
+      "file": "parts/sparkfun-sensors-idg1215-1215.json"
+    },
+    {
+      "type": "sparkfun-sensors-idg300-smd",
+      "file": "parts/sparkfun-sensors-idg300-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-idg500",
+      "file": "parts/sparkfun-sensors-idg500.json"
+    },
+    {
+      "type": "sparkfun-sensors-imu3000",
+      "file": "parts/sparkfun-sensors-imu3000.json"
+    },
+    {
+      "type": "sparkfun-sensors-isz500-smd",
+      "file": "parts/sparkfun-sensors-isz500-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-itg-3200",
+      "file": "parts/sparkfun-sensors-itg-3200.json"
+    },
+    {
+      "type": "sparkfun-sensors-ixz500-smd",
+      "file": "parts/sparkfun-sensors-ixz500-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-lisy300al-smd",
+      "file": "parts/sparkfun-sensors-lisy300al-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-ly530al-smd",
+      "file": "parts/sparkfun-sensors-ly530al-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-lypr540ah",
+      "file": "parts/sparkfun-sensors-lypr540ah.json"
+    },
+    {
+      "type": "sparkfun-sensors-mlx90609-smd",
+      "file": "parts/sparkfun-sensors-mlx90609-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-l3g4200d",
+      "file": "parts/sparkfun-sensors-l3g4200d.json"
+    },
+    {
+      "type": "sparkfun-sensors-st-gyro-pr-lga28",
+      "file": "parts/sparkfun-sensors-st-gyro-pr-lga28.json"
+    },
+    {
+      "type": "sparkfun-sensors-st-gyro-pr-lga",
+      "file": "parts/sparkfun-sensors-st-gyro-pr-lga.json"
+    },
+    {
+      "type": "sparkfun-sensors-st-gyro-py-smd",
+      "file": "parts/sparkfun-sensors-st-gyro-py-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-hall-effect-smd",
+      "file": "parts/sparkfun-sensors-hall-effect-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-hih-4030-smd",
+      "file": "parts/sparkfun-sensors-hih-4030-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-sht1x-smd",
+      "file": "parts/sparkfun-sensors-sht1x-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-transchiptc5747",
+      "file": "parts/sparkfun-sensors-transchiptc5747.json"
+    },
+    {
+      "type": "sparkfun-sensors-isl29102",
+      "file": "parts/sparkfun-sensors-isl29102.json"
+    },
+    {
+      "type": "sparkfun-sensors-load-cell-1x03-pth",
+      "file": "parts/sparkfun-sensors-load-cell-1x03-pth.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc1041z",
+      "file": "parts/sparkfun-sensors-hmc1041z.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc1051z-2",
+      "file": "parts/sparkfun-sensors-hmc1051z-2.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc1051z",
+      "file": "parts/sparkfun-sensors-hmc1051z.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc1052l",
+      "file": "parts/sparkfun-sensors-hmc1052l.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc6042",
+      "file": "parts/sparkfun-sensors-hmc6042.json"
+    },
+    {
+      "type": "sparkfun-sensors-mag3110",
+      "file": "parts/sparkfun-sensors-mag3110.json"
+    },
+    {
+      "type": "sparkfun-sensors-admp401",
+      "file": "parts/sparkfun-sensors-admp401.json"
+    },
+    {
+      "type": "sparkfun-sensors-admp421",
+      "file": "parts/sparkfun-sensors-admp421.json"
+    },
+    {
+      "type": "sparkfun-sensors-adns2610-pth",
+      "file": "parts/sparkfun-sensors-adns2610-pth.json"
+    },
+    {
+      "type": "sparkfun-sensors-photocell-pth",
+      "file": "parts/sparkfun-sensors-photocell-pth.json"
+    },
+    {
+      "type": "sparkfun-sensors-photocell-pth-kit",
+      "file": "parts/sparkfun-sensors-photocell-pth-kit.json"
+    },
+    {
+      "type": "sparkfun-sensors-ltr-301",
+      "file": "parts/sparkfun-sensors-ltr-301.json"
+    },
+    {
+      "type": "sparkfun-sensors-bmp085",
+      "file": "parts/sparkfun-sensors-bmp085.json"
+    },
+    {
+      "type": "sparkfun-sensors-vcnl4000",
+      "file": "parts/sparkfun-sensors-vcnl4000.json"
+    },
+    {
+      "type": "sparkfun-sensors-dcm01",
+      "file": "parts/sparkfun-sensors-dcm01.json"
+    },
+    {
+      "type": "sparkfun-sensors-qrb1114",
+      "file": "parts/sparkfun-sensors-qrb1114.json"
+    },
+    {
+      "type": "sparkfun-sensors-qrd1114",
+      "file": "parts/sparkfun-sensors-qrd1114.json"
+    },
+    {
+      "type": "sparkfun-sensors-qre1113",
+      "file": "parts/sparkfun-sensors-qre1113.json"
+    },
+    {
+      "type": "sparkfun-sensors-solar-ixys",
+      "file": "parts/sparkfun-sensors-solar-ixys.json"
+    },
+    {
+      "type": "sparkfun-sensors-lm34",
+      "file": "parts/sparkfun-sensors-lm34.json"
+    },
+    {
+      "type": "sparkfun-sensors-mcp9700-smd",
+      "file": "parts/sparkfun-sensors-mcp9700-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-mlx90614",
+      "file": "parts/sparkfun-sensors-mlx90614.json"
+    },
+    {
+      "type": "sparkfun-sensors-temperature-sensor",
+      "file": "parts/sparkfun-sensors-temperature-sensor.json"
+    },
+    {
+      "type": "sparkfun-sensors-tmp102",
+      "file": "parts/sparkfun-sensors-tmp102.json"
+    },
+    {
+      "type": "sparkfun-sensors-tmp36-gt9",
+      "file": "parts/sparkfun-sensors-tmp36-gt9.json"
+    },
+    {
+      "type": "sparkfun-sensors-tmp36-to-92-kit",
+      "file": "parts/sparkfun-sensors-tmp36-to-92-kit.json"
+    },
+    {
+      "type": "sparkfun-sensors-at42qt1012",
+      "file": "parts/sparkfun-sensors-at42qt1012.json"
+    },
+    {
+      "type": "sparkfun-sensors-mpr121-qfn20",
+      "file": "parts/sparkfun-sensors-mpr121-qfn20.json"
+    },
+    {
+      "type": "sparkfun-sensors-touch",
+      "file": "parts/sparkfun-sensors-touch.json"
+    },
+    {
+      "type": "sparkfun-sensors-touch-2",
+      "file": "parts/sparkfun-sensors-touch-2.json"
+    },
+    {
+      "type": "sparkfun-sensors-irreceiver-smd",
+      "file": "parts/sparkfun-sensors-irreceiver-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-spm0204ud5-smd",
+      "file": "parts/sparkfun-sensors-spm0204ud5-smd.json"
+    }
+  ]
+}

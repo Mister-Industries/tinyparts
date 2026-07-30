@@ -1,12 +1,372 @@
 {
   "schema": 1,
+  "groups": [
+    "SparkFun",
+    "Vendors"
+  ],
   "packs": [
     {
-      "id": "tinystudio-core",
-      "name": "tinyStudio Core Parts",
-      "version": "1.0.0",
-      "description": "Curated Fritzing-derived parts for breadboard + schematic",
-      "url": "packs/tinystudio-core/pack.json"
+      "id": "sparkfun-analogic",
+      "name": "SparkFun · AnalogIC",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAf1JREFUeNrsVrtOAkEUvQsbFwwhYLTgFwyFQqMmG42JFJTEH1C+wITPIGhHReQD1NICE6IxgI3YELttLJZCiYkJzyDj3JHBxX24oiwNNxkYzj07h5m5jwWY2ywsnU4THP/pM/O7TIgPdAQ0v48n8Q2xUyMNET92NjfJuyhq8bVSqfQqy7LRM5P6gOLE3e/DdaUiCAjsRaOks7joyHV6Wi24ur8X2DYFQsDbbDoaT65ZBfJc2NIkjwfWt7bYwLld/p+EV0IhOEylwB8IjOb4bYdvKfxEo7pFc8zMYokEPJTLcHN5CYXzczZHzA7fUnhAU+ql2zUkrUYiIHm9cFcsjjCcI4Y+O3zLo0bxPtGX3I3dXcNFEEOfXb6psIsWMvGzmI0t0m234bFa1T2MGPq04lZ8Xa3mosuSNObcjsfZsZ3lcqYLFC4uYD+ZBH8wyAR/4nNj24tFIoYtDVOB7arT+TFt+F3b4ReqVUH8DuI9v/V67AQwKu0YCtnl6o6a2zPtHijMzb+w4EzlGmiiekDI1EqmbsdLNP94sE1rt4bCktsNIZ9v6k2CCbfpnd7Wao50JTkc/hJW6nX+YjYiZLNZUBRF+9I2tkAmkwFVVX/lS9GmwbVYcKmNhsBzemh5KsoxPvIa/wldeBKfMNQybov0nx1YYXR+NIlvbjOxDwEGAM2CB+xycsZFAAAAAElFTkSuQmCC",
+      "count": 36,
+      "files": 41,
+      "description": "SparkFun · AnalogIC parts from the Fritzing library",
+      "url": "packs/sparkfun-analogic/pack.json"
+    },
+    {
+      "id": "sparkfun-boards",
+      "name": "SparkFun · Boards",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "SB",
+      "count": 3,
+      "files": 4,
+      "description": "SparkFun · Boards parts from the Fritzing library",
+      "url": "packs/sparkfun-boards/pack.json"
+    },
+    {
+      "id": "sparkfun-connectors",
+      "name": "SparkFun · Connectors",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAnhJREFUeNrUV72LGlEQf6ur+BmNFmKh2SZgIxjsFOH+AYvDXrzK9lJbxPwFqa3u/gHBoKVNSgVzFgHBiBhBUFCyRBT83Mws57G73K7vrbmEDKzvY9/O772Zeb8ZCflHwp1bUKlUEtD4GfWKxWKxawoYAP3D4fDDbDa7XSwWqnfb7VY13mw2T/3j8UhcLhfJZDLXpVKppqef13vRbrcfJpOJsF6vyXg8JoOvHAm9/UVm318ZtoIgkNVqRVqt1h2oYQcOBoOC1WqV+z6fD36/kVQqdbYNh8PyN16v12/K1PV6XVKOLRaLbMaT4KYkSVLNaddks1ld/RaaSHE4HMTtdqvmEJjn1QbzeDzEZrNRRR8VsPIURoIW4DiOai1PswijeL/fq+a0YxQMKtpN8rQXU6vwOQBaUGpTv4RYdcjjbjQaJUKhkCqYAoGATA56DxIJ+vkk0Wj0Kp/Pc41Go0tr6kK1WiXxePxp4nA4EC2DnZNms3mVy+Wwe//XTa2lV0NgliAxK/xzyUEURbm/XC7JiTbR1FRBo1iPfqcGhnQmlstlud/v94ndbjc0mVaU6yORCNs9HgwGeGQ/Al8i8/mcTKfTBDVwr9erAeEX4EpdBLzb7TBeaizM9Rk4twCp8SJgOK2siyktptNpCYMDM5MZwQICglTsdDqvmSgzFovJpG9WHr+tMXM1fPgeKZD2Gml9i4+emamqTKgibqH5xIh9AxXM/aXZCRWILKXtOVAqYFAiGvlKZ6N/rBD4CM8PhQ/fQAUiYN/pdH4xA8yxBk4ymUR/o98xx97Adem+yF8YHVCktHcAKpq9bhwDKBboPx+H1wBaI/+j/BZgACIdGdF98sevAAAAAElFTkSuQmCC",
+      "count": 83,
+      "files": 163,
+      "description": "SparkFun · Connectors parts from the Fritzing library",
+      "url": "packs/sparkfun-connectors/pack.json"
+    },
+    {
+      "id": "sparkfun-digitalic",
+      "name": "SparkFun · DigitalIC",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAXlJREFUeNpiYBgFAwF6enr+gzA15XDJM+FQeB6IBZD4/eTIQcXmY7ODBURYWjr8Z2H5iyxucPTo0fe2trbY9JArxwAU///nDzPD8eMHGBlBAsbGrv+5uH7QJTq/feNgOHt2NyPYx///MzJ8/SpMp5T0DXcc0wOMWkw3wILMaWlJQ5GsqZmFoQFdDSnqkeXhFn/9epOhoqKXgYWFl2ILiFEPD+r///8y/Pz5bGDiGGT5//+/6W8xIyMzELPS12KQpezsUvRP1dzc6iQlGGyAFPXgSsLIyA1YV3LB4/nXr3fgEGBjE6JJWX3u3C5GFsza4xnYYhigjeVYSi6Qj7GxaVpygQAnpzg8sdHKt1gtZmbmZODhUaBP0tbRsQU1xOiCoXZBfPz8+V1YwwzumOnTpzPcvXsXudGG4ti+vj6GZ8+ekSRXUlICtwucuN6+fcYIy1pQsABoKUwMhhcgyU8AGkyOHCPULuz1MdBlifjEgOxCcuRGwYAAgAADABRj1nAx9VsJAAAAAElFTkSuQmCC",
+      "count": 103,
+      "files": 129,
+      "description": "SparkFun · DigitalIC parts from the Fritzing library",
+      "url": "packs/sparkfun-digitalic/pack.json"
+    },
+    {
+      "id": "sparkfun-discretesemi",
+      "name": "SparkFun · DiscreteSemi",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOlJREFUeNpiYBgFo2AUjIJRQCRgxCVRbCElAKQMQGwTr1AGE89Qhme3rzFsmtRAtOG9J54dwCXHgktCVE65QFROqR7EllLVYeAWEGIQkpZj0LJxJcrSv79/MRQzHFQEWv6AJItfP7oLxiDAxSfAIKWiyfDu6SOGa0d2kxKiCkCM1WKmgYpjuI97enr+I0t8uXac4TMQUwKE7cP294TIoIiVlJQwDg4fw1yClKpBybeeEsPfHlzliCtlD7yP0cGlV9/gqfHjmSsMd36wM3x89RwkTrThu+99OEBvD7FB8SgYBaNgFAwjABBgACdcRZM8uu1nAAAAAElFTkSuQmCC",
+      "count": 29,
+      "files": 52,
+      "description": "SparkFun · DiscreteSemi parts from the Fritzing library",
+      "url": "packs/sparkfun-discretesemi/pack.json"
+    },
+    {
+      "id": "sparkfun-displays",
+      "name": "SparkFun · Displays",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "SY",
+      "count": 10,
+      "files": 18,
+      "description": "SparkFun · Displays parts from the Fritzing library",
+      "url": "packs/sparkfun-displays/pack.json"
+    },
+    {
+      "id": "sparkfun-electromechanical",
+      "name": "SparkFun · Electromechanical",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJJREFUeNrsV99LmmEUfvwxU9ERuZbOiqLohxTFbkIYrBHRYI1dNLrZRe0m6LL7/oBuuugi+ht2J6sWNJouEgpXGRGBEo05dLZEp/X59fWl87zDzbT0U2OD0QMf+Ok553nPed/3PEfgFv87ZJkvo6OjSavVeuMkHMdhbm7O4fF4nqS/k2caECkZra2tYXZ2FgsLCyUT2Ww2TE9Pw+12Q6vVYmxs7JKNPNtpa2sLZrMZVVVVmJ+fx8rKStHES0tL6OnpgSAIlCl8Ph/0ev0lG2W208bGBnNIIx6PF028vLyMo6MjRCIR9p4qMerq6vITt7a2skzTqK2tzQl8cnLCHoLRaMz5vaWlhZU4je7u7hybHOLBwUFoNBqWKZFmOnm9XrYV5xciDA+qIfACwt+OUV9fD4vF8nsR4+Pj7HyEQiH09fXBYDAUJiaQcSao9IuLi4gpzvDwuRVBRQyhGJVRixqlCR+cThy+/4LH1kdobm5mh2l4eDjvdiil7Bmt3iMGEDRewOl6k2ugA8LaMwifPkImk6GpqalgTHkhAzoYn+NBHNacghP4a+1EeRJeQxQul+vS4SyZeHNzE36DtJN9qjrHV9UPHBwclEcci8UQ4aKIaUTJV+l7BcfubVnEdGW4ioviupbIS7KT4x8hL7HJZIIqXFzGingSOp2u/Iypk6n955KJ9cfIaY8lEXd2duJ+UAmZmCwYTBMQYTE03gwxlXvo6QvccwupMibykpp9dzAwMCCpMpI6V1tbG14lX8L27i2O76Y6VPUfNwWfgDpF2qg1Yuj1EJPTkoipsa+vr2N1dRUNDQ0YGRlhvbe9vZ21wu3tbezv7yOR+JV9ZWUlOp51MEVKg+7xzs4O03Lq+yQ8BYlJS3t7exGNRuFwOFjAtGioVCom8PTkg91uR39/P3Z3d5nEdnV1FdZjv9+PqakpqNXqkgcBZ0qt9vb2wPP8tTHkV0kiOdD0QCWm1RYLikH+FIdiXDVMKLOHNBL+yclJpkr0+SoRLwTSYiotxaMBksgDgcD1421qP+00DWYPZuWCSGdmZtzhcHji9h/FX8dPAQYAAlhNPBI5ddsAAAAASUVORK5CYII=",
+      "count": 51,
+      "files": 112,
+      "description": "SparkFun · Electromechanical parts from the Fritzing library",
+      "url": "packs/sparkfun-electromechanical/pack.json"
+    },
+    {
+      "id": "sparkfun-freqctrl",
+      "name": "SparkFun · Frequency Control",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "SQ",
+      "count": 9,
+      "files": 21,
+      "description": "SparkFun · Frequency Control parts from the Fritzing library",
+      "url": "packs/sparkfun-freqctrl/pack.json"
+    },
+    {
+      "id": "sparkfun-led",
+      "name": "SparkFun · LEDs",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "SL",
+      "count": 10,
+      "files": 13,
+      "description": "SparkFun · LEDs parts from the Fritzing library",
+      "url": "packs/sparkfun-led/pack.json"
+    },
+    {
+      "id": "sparkfun-passives",
+      "name": "SparkFun · Passives",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "SV",
+      "count": 19,
+      "files": 87,
+      "description": "SparkFun · Passives parts from the Fritzing library",
+      "url": "packs/sparkfun-passives/pack.json"
+    },
+    {
+      "id": "sparkfun-poweric",
+      "name": "SparkFun · PowerIC",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUJJREFUeNpiYBgFdAKMyJzjZ44r/GT4eZ9WlrEzsDtamlgeALFZkCWAltb/YPhBilkPoLQCMYr/MfyLB1Jgi5mQJf4y/A0g1kZmJuYPQMoQhKFsYiyGm4/i498MvwVI8K2Aupj6fhDjzps7ROn7w/BHAKvFpIC///4y3Hx104Bc/SgW99b10i1Vo1h888pNulnMNFD5eNTigbH4z58/NLXs69ev2MtqIPjPz8/PAMK0sPTt27dwOzGC+ufPnzTx7bdv33AHNRMTEwMvLy9NLAaFIsh8rEEtJyf3n9aJ6tGjR4yDLzspKipCKlkFBYb///9TjU/Q4pSUFDDd0tLCwMjISDU+zkoCFv6ioqL/QWwuLi4wTS0+QR+LiIiAaVgKpxaf6CITPWtRyifaYikpKUZq8gdv7QR0KU35A+rjkQcAAgwA7Z2UlepTy6cAAAAASUVORK5CYII=",
+      "count": 59,
+      "files": 73,
+      "description": "SparkFun · PowerIC parts from the Fritzing library",
+      "url": "packs/sparkfun-poweric/pack.json"
+    },
+    {
+      "id": "sparkfun-rf",
+      "name": "SparkFun · RF",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA19JREFUeNq0V81rE0EUn43VSqokINhbuhU9iIfmFm/dS6k306OnJKAnI01P4inbiyAIaSEXQUn1H8j2IkgKbo7iIelFlFpJAx5KMCbQBouH+F7zJr5OZzcf2oHhzWzmvd+b9zkxxBjDtm0TiMk+VeFbaxQZxghgcSB3YSLAHoKxny2YIZhhmOtwtvrPwCAEhS7D3IT1xoCzCJyBOQNzFfa1sYCB0ebUw9ynzEwK5EhZZyRgYCgAKfNbwjoJZI620tzSzIKAXD8ZvsBwEM3VkgxAo0Cy5D/XR9kMKbYirUDgp/xuaJgRJAF0he/JZ60hIz6rgBeBpDj/hIYXmVJMyDLQlEY5i6IYA8iVgYSUlMabLhHLOgVdP1YCGm23mWbHmvOgIe0R2KGgQxMmYZlj51pkIRmcLkW60AKjAJhrLI3KzFxhugWabIPdsEoAr8mfEhwVChGfIFmWF3CI3RaLhaO6wMvPBLRJkS9HmVwiSJYncJit28ptBQddWFiIx2Kx95FIxGTgKHxe2UcZ74wX8B6/PVtHSfv+CAaDMsBMRYZqkZBOfsAnM9oDBA7L19Yd8gPmmtakyeTodDrVo6Mj+ZsXn26vDy6dvymC5/jBUqnkTE5Oinq9XlPSsa3ste7zC64T4U9lrzCgM+VkOrL0dFh6bnsB99OB6nRCky4FuonaOnO8rJIiIdYaEzw91cp1Ih0IKKP8jpUsTg8DWT5NLKtKI8hRqZRKtHxrPQrkRcDujaTuLORx16ulcjdhOVWtZPj04n4rY324b0osII1Go9hsNmdlgJFwaXLOizWe+16c0wFbloXFIovUdd1fMKuw/gLfHgO9A/OD0T1MNH8e3J6NXCrvfP3+mZrETZhPWB1HNywCXR3lBYJ+KVJfPfV4e/DqWWX34070xq2ray8ePV3R8ONN59WWOspjz6b865u528pHH26Jyi7spqeEeHMvbSi5m6Nu5XjJDQwJjNGZlT3XCKerU+d7v1+5+PeZS7GRpC7miLMY9tt8ZfFlvvt8K2+Pwx8YF/jTj17T2D8cj39s4MsXeuX1eljfBP7bXxg+wMQ2vUjkWHp3P+2cGTAAJgnQxGieDva+fwOjH/wW+KBbBQXcYWRNjABq0mNPcFAc13o9zdrvHL9IhrrMHwEGAGLstm9ig/n6AAAAAElFTkSuQmCC",
+      "count": 64,
+      "files": 79,
+      "description": "SparkFun · RF parts from the Fritzing library",
+      "url": "packs/sparkfun-rf/pack.json"
+    },
+    {
+      "id": "sparkfun-sensors",
+      "name": "SparkFun · Sensors",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNrsVT1MGmEYfhSFFJSjBEo0xoY0MdJBTQ2GrWwmnQxbNzq60YS6WnZMmV3q6MDgIInEBZyIjWmHetdYSThjJAf25MccuYLS9zs5S6xR2k4m9yTv3X3ffe/3fO/zPrkDDBgwYOChoa/HdR9DoVD4sdUKm6KgnyYGKZoUl50FMr0rl8tIp9NvaLh234YDPZBGfD5f+AVtqh4dgWs28WRiAq16/erko6OQ221Yd3bgD4WQpkPSdIEi87/Ey+zy8/QUr9bXwR0ewuxwQNjaQpMOUdnbg+X4GN7FRdT297tz7iTuv4d0gcLBHmwUHMfhKVXlmpnBpSxrpAzOuTl4PJ7uvKCe11PF8Xj8ffc4lUq99Hq9sNvt6MtmoVB/ZSJsUfX1YhEqxfN4HDaSvnpwAKnRQCQS0XqtquqHQCAgdm1XiUajiT+IiTSoy6pDJ2VoTU5qd0mSIG1uQjk5gWVkBKbhYW2eY32nMYPb7WbE4VsKTdwlNTNGjAXP85larQaTyYQ2z/+WaWhIu7OKLzomK+7uwlIqac/5fJ5Vvabv06u5CiSJLvlCLpcLkqvxmhmsWsW3paWrRKr04vz8Okk+O4PLbMa7xHVRb5PJZKWj5vLfunqD9YYZpUUXURShkIOtY2PaSyb195UVKE4nBv3+2/L+2dXQpXo0Po6vsRh+uFxoTU1BoYob5OQq+aCwvQ1xdVVb053Tq6sLncjeNIQgCNOf6COC2Vmo5NhnJDmoSgaFelyan8eAzYbPgsCm2Jfry409MsZPwoABAw8fvwQYAJ5e3Mgk+P2UAAAAAElFTkSuQmCC",
+      "count": 84,
+      "files": 92,
+      "description": "SparkFun · Sensors parts from the Fritzing library",
+      "url": "packs/sparkfun-sensors/pack.json"
+    },
+    {
+      "id": "sparkfun-etc",
+      "name": "SparkFun · Etc.",
+      "version": "1.3.0",
+      "group": "SparkFun",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACtJREFUeNrs0CEOAAAIAzHC//8MBolCIdrkzOQiAAC+qumyrdKnAO+1AAMAYqIF/Wx7fVkAAAAASUVORK5CYII=",
+      "count": 12,
+      "files": 12,
+      "description": "SparkFun · Etc. parts from the Fritzing library",
+      "url": "packs/sparkfun-etc/pack.json"
+    },
+    {
+      "id": "arduino",
+      "name": "Arduino",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAR/SURBVFiF7ZZdTJNXGMd/b1uhVCgIFaHy1SII4oyyVEHn1jkd6YwfE8fC1E1iJFumyxLnEpNd7GZbTJZNL0zmYuIWJwrToGPZBHEaNZNoWBBkVCizaKV8tUKhtLR9212UFat1l2MXnKv3fc7zvv/fOef5PzlC/L7DAaZxSKZTfAZgBmAG4H8BIIsUzEhU8sayhRRr1MxTKhhxTWC2OTjf2sWlu/fxB57duzISlWzXLWKVdj7qhFhsThe3LYOca+3imsnyVL7weCeUCAIHSor4QF9ItEwaUeBuv53dVfW0PhwMi0slAh+9omP/uuXIJJE3tsls5d1TDZhtI08DCAIcLS+hrHAhAA63h1/udNPeZ0MmkVCkUbMuLxOJIDDhE6msqud8qwkApTyKUxUbWJU9HwD7uJu6NhNtD4eYG6fgxQVpFGvUAAyNuTAcOUPX4KNwgIrixXxdugaA081GPq69gsPtCVtBQaqKY9tKyE9JwiOKlB37iSazldrKzRRr1Pj8fg5fbuZgw008ohj2rT4nneM7DMxRyGm3DqE/dBqv6EcqX2n4VCaR8MPO9cTJo6i93UVlVT0TvvAfAAyOjVPb0sW6vCxSlLMxFGh5ITuN1dlp+AMBKqsa+Ob6bcRAAK0qgU1LFnDPNsKET8Rsd/DHg37Kn88nOU5B54CdP/tsQRcsS09GHR+L6A/wSd11/qXGsI+7KT9eh33cTXxMNPqcdAA+r2/ibEtnKK9Yo+bQ1jVkzFGGYtdMFhqMZgA2PLcAmHRBbnIiAJ0Ddh4OjwJgKNDyxcbVYeK7Tl6g+X4/PXYH+85e5vgOAwDGPhuHLzeH8i7uLUOrigegZtcGGu/2sLfmEgCNRjMl+VnkzUucApglDVat2zu17c4JD2a7Iwzg8fkhpyv0POL24BX9oXfL8ChKeRRJs2PoHXHS7xgPzbm8vqDwpKYM4N6kLfJTElHFxjA05uKqycLVCL4FSIiJ5tDWNaH3FVmpvKXLp+pWBwAVJ35lm24RR95cy4dnfqOtd8qyKzVBp9yfXJwE4MZfvdicLuSzZBx4tSii6D9DLpPy3duvka1KwCv66eizAfDVlpfRZaaE8i4azWw+Wotp0m4QdFHpslwA6jvMAEEXiIEAXtHP2rxMCtPnIZNIuNb99OqT4xR8/8569DnpBAKwp6aRzy7cYNOSHFSxMZQuzcUyPEq71YbT48Vsd+DzB49mUWoSP+7ayByFHOvIGO9XN+IV/VN9QCIInNy5HkOBFoAWywDVzUYePAoW5Uqtmu3LC1DKowgEYH/tFY793gpAWkIcde9tQZMULLy23kFONxvp7LejiJqFPieDcl0+cpkUl9fH69+eo+leL/BEK46WSflyi57tugIEIfIRWIZH2VPdyJWuB2FxVWwMBze/ROnS3GceX4/dwe6T9dzssYZiQqRbcZFGTUXRYlZkpZKgkOPyeGmxDHC+1UTdnW6cE95niugyUygrzKNIk8rcWAUA7dYhfr7TzalbHbifaHARAf7LMe33gRmAGYAZgGkH+BvNjsItibiZ/wAAAABJRU5ErkJggg==",
+      "count": 39,
+      "files": 46,
+      "description": "Arduino parts from the Fritzing library",
+      "url": "packs/arduino/pack.json"
+    },
+    {
+      "id": "lilypad",
+      "name": "LilyPad",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "LP",
+      "count": 18,
+      "files": 18,
+      "description": "LilyPad parts from the Fritzing library",
+      "url": "packs/lilypad/pack.json"
+    },
+    {
+      "id": "picaxe",
+      "name": "PICAXE",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "PX",
+      "count": 19,
+      "files": 19,
+      "description": "PICAXE parts from the Fritzing library",
+      "url": "packs/picaxe/pack.json"
+    },
+    {
+      "id": "seeed",
+      "name": "Seeed Studio",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA8hJREFUeNq0Vm1Ik1EUbjFQ2NRF4pQkh6WZYM0/VoRf1JAyYSkYaOAssB+azQibIDRogUikiL/6coEKBYlmFqGR5I/KoPwAy0WiorSJgdMJE4T1vDt6fXffVx2YL3K59zkfzznnnnumwufz7dnNb28wSt7VxamFL2IER4D/hwCOWoeLQ5XhYhBHgMFwbE/werx6ZXVRqz4qBnEECNFOCRzzvY75vsT9BqkIIERQ2BFB728b1jjNCamIQFIIisDl+cHJcJNu7ywVRGpJIBS4++dcbRCMOF9yl8bSjwiNlRIwkKsSnMCVXAbLY9OBsQDBGiUXPn0kIjX2wYkYCSgRlyxlGqoM24yARFxt4US+RCurS46/AckCCeYpcWpwIkb2imp6QPbGvJvTUAtI+wKu5AnoqrkSz0m6iyM4qEkTdwpzxRNoVclYR10dbu8MIZp1PYYEep9hY4MhMGeueAL2mtjbYQ/YJZcEA5kaMxQ/zA2CxEgDpYYBQDcBhFVWSjC+3v6kBh0YUn2YIT8q0uMq2YDDe0HuKdp8agwpwbRbYIUC1LyiwcecyBAciy6IWh8AZJChqwxRhkm7i7oFIihQQHThMIeTrYZd3pH6EP/zQb7dP6sxDwyHarnuYkeIoAA1Kg4MYb7NNMUIY0poCRgjItRB3F3ULQAhggJ1DgUnHYsK2d9kdEjrcBE9SDjKS6qHI8FFksCNPepuOFzLvCP2y8fbZYeuYrMffYTZPV49vTBITwnRgZXaA+MTvjip7MTdioBd5tfZFpQYMaI90mJLAQ7OtAxMNSE/qpLsz1GwBIEzckyrTvYXUNhs4Xfyj2vBs6xPiBcOvl347jxuzSy/Tfu1LgKh0XJXcTo3q8KCPf6sT9p0BaU4dn78REGZbA80OYVYsQfS/30UUuhAkzMZ+jXBt6m9pw8GH5rrFpY82Dc+77S/6bNeLUaaF2tsMDbda5h0zjXeKMOKPZDsCguk0IEm9BFH44suc6ExKzWla+AzfwcISm+6jg3E9tqb+pKKKeccU7pVlH+/vUNcZQ6Ji47SxWjBhwgEJxUWIcXmOqxK0kBS1ivFupgoRIdMQQOk0XxtyDEx6XSV51949OqdMf2kKdeASOEoMiIcBA2VZfrEeHtPrzHjFArQ/21EqNWSB7ZrN8wINGHqqhpbhFrl9izDO46odbY/kMzUFEQHeuvTtmdv3wOBX9P5syXnzlQ1PRTGp1plvmQ0J8SDe19OISUk06aoEuqrUasYOYKiorFGQGg6fzXEJtCHFTPR+b2zNlXs9r/v/wQYADePsWhvHLIhAAAAAElFTkSuQmCC",
+      "count": 14,
+      "files": 14,
+      "description": "Seeed Studio parts from the Fritzing library",
+      "url": "packs/seeed/pack.json"
+    },
+    {
+      "id": "wemos",
+      "name": "WeMos",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNrcl1toFFcYx/9z2c3ekjUka2J0waatt1KKFEJbaKH4oPRJaylYFASR6pu+iq8qCH0JeWht6JNPagut1ociLbRUa6jQi8UkbaOom5jsJdnr7OzOzPF/ZqOkbnbcuMJCD5xlmTnnfL/znf/3fWcUIcRdAF1oT8spBBBoY1PZs220n1XR5uYJkKs4uJWyUBFtAjjxaw4fXs7g7D1zRYumSg4yTVI3BLgwkcfpHwu4mTRx4Kc8yk0aPz9eQGxkGj2jMzgxWX5GAAbGwetFYLUO+FTseimIQJMAhYrNVRUgoOD4xRS+SFgrB5iar2Bhwam9DeoY3hpq2v37X41i5+YOwOARRDUc+DaNlLVCgM9ulQCdu8jbGNoQwjq/0jSAwqFfvdeDNSH+EexGFTt+LjQPIGwHo1MV14VQVXzyWnjFylZIcX1XD41z610abkwUkWggyjqA2byFDFUMy4Ea8+ONVc+WKuKr/Hh/A5UjA4ggJ8fLTwcQjsDYHHcvz6wq8O6AH3oLMT78ZpTrOK43z0yWYD8NIFey8MM0AXx0P0fvjne0lGTWdulY36u7UWGlqxgvOt4AWUvg2rzthiH8KrZSxS01auHIpiC9wP+mg+/nLFheAOmijQeEcJ/6NHQHWy8Vb/f5uCFpSeDL+yZmKh4AswQwrEW1MgzDmtIyQDxEL4ZVd72/0hZuG05jANMWEEve+Fu3j66ACncZ/lgU5J8FD4BeOVhmEjmDnijYz6EMcj1VakqRgSWQKHkA9FO1a2QEyDFlGxnDG6BKwPs5G16cMrSdxaOUxgJPHOt/AHqo/Le6tVo+pbsuPKmYJc1mxnzh3CziIwlsupJDI4Ys7xSiXHurMBy3dKqNAaJhHdsGqFpTuMlj+GapIUC6UEUiSVf1+/DPlIGkvfy4y1S+ux4T22C3H0NRDwBJuGM941bhhA4VxkwZp/5e3gvHb5RqKqXXYNk4eDVfN8ah+49eYyGKKG4uOPxyoK6w1QV6OKDj0Bbm8Cx3R3cdu5LG8L8mctxBnv23VAWvn5vD5xPM7SFOl0WGBeebP/L4iMZS1Zq758sO3vk6iaztikWeL/bFfXUG5bV8QXp/6UOL5xsZfcDkRVpZVqVy/YtTmdHcUq3WYkvhjoR8H+GDBea5Th+GYhrGpul6OV8WE94tzu/twwer9eZuxbqmIrGvD/2yFDy6TVBMbpceLNpuqf5uZy/ye2LYtpYLz1VrN6FiFWMTRi39GhzHkzqzO7ac8cYeeOwJnuGl22WMTBrIuBlSMEBUfLwxiD2DAXQuCalfZkx8Om7g95wFhc9t2t4+0IFDr4QwGGqY0rOeAI/aHd6MTEc8vmy8yDNfrkwlS8wdVLyiSQEC6yIaIrpnOm0O4H/9ZdT2j1MpzXvt/Dx/KMAAf3Kzvioqc+cAAAAASUVORK5CYII=",
+      "count": 12,
+      "files": 12,
+      "description": "WeMos parts from the Fritzing library",
+      "url": "packs/wemos/pack.json"
+    },
+    {
+      "id": "analog-devices",
+      "name": "Analog Devices",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASlJREFUeNrklzGuRWAQhceLhpaWllrLHtiCsAdaWpYg0alp1eyBlpaW0s38/cvD/e+4yZtEVHI43zmTn3AcBzwxwuPCvu+TvEFZlgLef+Ch+U5hVVWfEXYcB/I8B9M06a1WFAWiKII4jrk6cJqxYRiQZRl4ngeyLNOHy3VdZj9iIE+1JEkQBAGkaXqb/1t10jSN8Q/D8DJ/kUdQbNsGy7KgbVt2bdtGt0DQfuSP9p/hz31zYf2QP9ZP13X6lYn1S5Lk1/CJnxIexxGqqoJpmmiE13WFuq6h67rPpxpn3/dLqeYi3Pc9+8plWWh6PM8z4zgMw+Vnxbu2ouBfHLkKN01zmiMXYaxHURSXOL4ljPVAwTscbwsjQ0wr+ZmLl61fdbwV/t2/00uAAQBbZIISxw6/rgAAAABJRU5ErkJggg==",
+      "count": 18,
+      "files": 18,
+      "description": "Analog Devices parts from the Fritzing library",
+      "url": "packs/analog-devices/pack.json"
+    },
+    {
+      "id": "atlas-scientific",
+      "name": "Atlas Scientific",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAMAAADHso01AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAA5FBMVEX///8AAAAjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUUjkUVxuIcjkUVJpGWQx6Gezq13u4wrlUwkkUaEwpcnk0lSqGxstoNLpWeOxp/I49BgsHk/n1xYrHKVyqVCoV+Gw5n8/fzS6dk0mlSRyKLb7eAqlEt8vZBGo2P2+vf///+v17slkkaKxJyLxZ3o8+vC4Ms3m1Y9nlvH49Cw2L0mk0jW690plEp9vpHk8ugzmVN5vI6i0LCn07VFomFRqGzj8ee73cV6vY9fr3fL5dOy2b5yuIcolEmq1Ld0uooAm7IJAAAAD3RSTlMAAAxmtupj7BENBqMXGLs2dZfXAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+UCARUYJ3XdWD0AAADsSURBVCjP1ZJZV8IwEIVrmrRKgYuyg1AFFcVYFmWT1R31//8f26ZyJoXDs96XJPOdM5OZO4bxx3UQiJlcAIKbLHzGsGUjkm0dHhk6TjggcpIpHWvU53pyCzFZFLOgbub4JJsD8oViqVyxGcGmT6untbp7do5G8yJ7CZgEc+CqdR0kvWnfyjvPv3CCBTqyG9bM9WT/PrgIgh8GUg5HIR+rLADBmDxOZyrammMLC3iL5SqMTp8UFfrXfvUcYR5rLNLLqzppY2xjB97elS10LHSoH+utoVJLPr++83FLNEPdQjqxdx12bMueZfqP+gFrwRrasHRQLAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMS0wMi0wMVQyMDoyNDozOSswMTowMNIqbREAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjEtMDItMDFUMjA6MjQ6MzkrMDE6MDCjd9WtAAAAAElFTkSuQmCC",
+      "count": 11,
+      "files": 11,
+      "description": "Atlas Scientific parts from the Fritzing library",
+      "url": "packs/atlas-scientific/pack.json"
+    },
+    {
+      "id": "infineon",
+      "name": "Infineon",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAOCAYAAABO3B6yAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5wUIFBwTsycxKgAABA9JREFUOMudlEtslVUUhb91/ttbemkploKlvcUSJSryMEFUggmoVYNETEiMoomPGCYaUUKc4EAdmRBmTDCYYIJGNHFAIgzAkPiIIoqgWPAREbW3raXPW/rgPs5y8AM2ccYenLPPOTtn7+y11hbT7IOlz7B11SOMZOuYfPe1mt7G5nyQFht3gOqr+JJhQHABPEDUgGCwzrXjTb0HzTVY5orTk+9kft9vvBAyaxpLUyuPt92UWTg+ujzCH6Dvgn22Zbi3wETXuL5ydd+WzdzX9we4zJnCp6BrSQ86zWrm5nNEx9mS1j9+z2OPdjXOXfn0uR+2vdb1xbfFSCGXSWLLjsNJ0+cH7giOY5IGZA/3v72xfG1ppxXQ0/4AMouMdwSz4KOOJTtfX3Zvebj91gNPHTtQ/mreAi5mstheJekNzD7ECuxdoHNIgCFWQYH0DERDmOZLaZcMMZYY3PP4ZQjshYbdQFNNtfLcG0vX1mRifKb5/OkTh+ffeAvQQPQ3CmEJWOAfDVWgLLwWuwnUD3wN3I3dIXHIwpiHgQJwAnwXphHcCzqWlpJyYCuwEtg0lak5FezV4JmC24FXgQuIReBhIId0newNts8jbSclZIOlt4S2gIu2msEBWInIAXtA28B9oFyQngaKAMGwIcI/hpOtF0dRWphBVeAk8DEoByqATrla6gKyl2OGsPcCE5KWADekb74NhTuB97G7wcuAfmAfUAHXTFfBRcF8oH14Rq6HFKnpnNbVXYQU6OkxurKUgBE7vgcMSnoZPBPIGqZ0JV4CQ3e+k4ojQbAXqBe8lKmWGyYy2am0Pb4EjAGTwEXgEmYMiMAIUAaPYkpA0TGeBPql5AmFJI99BHgW1CjzNVB0+seokdOhoUSFts5ZQbxp2IzZf3JO2871azeNkknG5owXZ4W0gCxo0lDvaqU/hKTVeEAwx2ZYQU2xGntCksxDWmD7ZxwnpGQpMEisdDskrVMhGSonmdnren75Z9fxgw2GnHraOhHUW3oe/KKgGOx3QoyH5vYc/evokqf4O9fASE0tn+Rv5tbhPj7sWE5VKSY4lVuMkRASkJg/Psq6wq9835xnTf+fbPzrDPs7lrL9p8/qSiFpGUtq5kQ0hCgIoLetk5aJWnpnlm4BPyl4KMXaJ4AvDaeNCxV77JULR0u75z3oRFeE9B9TbEgQ17GIAmezoFwGNRu3GlqBjOB8hLOTl8JQbW30VbJ1t3eSWNQ5w4TK1wtWAKtBiwWNEZcTNFjFg0KDgqJgImU1AIlhBlDnlFN1l+9HDOeMu6L9e03QWMVQjqKj58j/J3h3/n4CQohsIiYrMSdxvSAfUHvELaDmAI2GenBGqCQoRhhSKre+iP8WKpQdB7NSyYgKETkhXzh8Nd+/Jmreh9ph0SYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDUtMDhUMTg6Mjg6MTkrMDI6MDAH8Z+vAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA1LTA4VDE4OjI4OjE5KzAyOjAwdqwnEwAAAABJRU5ErkJggg==",
+      "count": 8,
+      "files": 8,
+      "description": "Infineon parts from the Fritzing library",
+      "url": "packs/infineon/pack.json"
+    },
+    {
+      "id": "intel",
+      "name": "Intel",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAqlJREFUeNrslk9IVFEUxscxgkrIwLAiU6zFazNCM4tcmIsIgyDTFi1mMDBoKUW7EBcS7rIQ2hgt+rPtj0GQRIvBsNUEziaDiiajGBLGogkxgn7P73F9vrnOPERpM5fhcd/9c875vu+c86amNnU/spkjGtnkUXXw/x1sWd+1zsONZp5+m98AB1h0f05jW/Ou+u1bA7sLv5dw8zTzZSIzx9y/VVO+Dloa6oZ6Y6fj+xXpzOeC4p3JFWRI/vDdfaSJOYvDj7Jjk7OVHWD6zsV27tyb+nh36gMWw6AcTSZ0pX98Wou10Viv9fRoKgHk5K1Xk9mv+R+LYWjMzRc56ezd2RXbB9Z3337as+jl1RNYJwQCD2AixlIBdIUfWw8vdYqfvo5WS5pCtz89AqPvWCtWYGCtAwhw6PIT8dkdbwpm0fmOgwg19tzTB0MQqjl4kc6jLpnovz0NmoEuh1fiJXOMkU/zv+QpmKZcuJ6Kn72ZZk8glBvQulBcwpa5w4TohnpibPEKJ0QdTJDdddpdoWjgpJP7XiwtGfDGB5/5V46PvGg74LJE4DoPdf4DuG9u2GFgeQiooIk3cyGLTjrLDT6ILOJEDLEkNygN1VGzEdI6AQo+MQ4/zjI3wUKpcunKg4zEsLcKLlhz0SWkxyUdqdyaSiUkCefJAgBJPHb9snuVnLl2iqehG0AA15NYXLWXJzhmUX1C5kzPIE3kL9CLvEreU7/t3NEW8BILrxTk4p+/bgotnzYTLfLUopkrCSldVa/le4AmmEAfas3Kz1pqUz3w/v7GGVNZgbHS7MAuifBEt3J7Z65gtPJ3NJWIWrdfoQvjr0vPr+qm6qBluoW1wSFpmXZradfEBXCTFaVDyAg5PZuv2MYrfHCUNiG/juv5ZOpbWP1fVHVQdvwTYACHqJNshCH3CwAAAABJRU5ErkJggg==",
+      "count": 5,
+      "files": 6,
+      "description": "Intel parts from the Fritzing library",
+      "url": "packs/intel/pack.json"
+    },
+    {
+      "id": "spresense",
+      "name": "Spresense",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,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",
+      "count": 4,
+      "files": 4,
+      "description": "Spresense parts from the Fritzing library",
+      "url": "packs/spresense/pack.json"
+    },
+    {
+      "id": "dagu",
+      "name": "Dagu",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,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",
+      "count": 5,
+      "files": 7,
+      "description": "Dagu parts from the Fritzing library",
+      "url": "packs/dagu/pack.json"
+    },
+    {
+      "id": "frc",
+      "name": "FRC",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAMAAADHso01AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAABTVBMVEX///+ioqLd3d2dlZftGyT6/P2lpKUUcrnx9/uZmZkje73l8Pf96+zQ0NCfn5+ZmZmnpqf5+fnQ4vHNqau71urk5OSjyOOtrK2Ht9vw8PDs7Ozp6Om1tbXg4OD82Nnp6enGxcXuHibCwsLd3d2rqqpFfaiZmZq7urv09PSZmZn//Pz8/PyZmZqysbGqqarZ2NjPzs/z8/Pq6uoAZbPIVVntGyTrHyeZmZkKarKmpqbTRUp6jqDp6en///8SbLCop6ftHCXQlphuqNRtiqKcnJwcb6/qISiPvN5dhaSamZqzs7PkKjKtzeZKfqjQSE34nqHk5OStrKydlZeliotkh6Qwg8Hs7Oyvrq+0c3ZxjKEeeLzw8PC5ubr9/f3+9/eampoNarEJa7bR0dG2cXT96eqjo6P+/v739/ebmJnGxsampaXEWl7z8/PT09PtHSUig3yMAAAAM3RSTlMAJiUw5QZk6w5v3RoUMGBmWgYwVkQfXFx4EBYYUSAoFjrhPiJWu2ZGASwEBClOHSgyDBYMStfhAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+UCARUYJ3XdWD0AAAEqSURBVCjP1dJVUwQxDADgBYpLcXd3DkIIFg453N3d9f8/knT35vZmmHtihiEP3abftul263n/OtJSanqGSR4AyAxlWaMmybMBICeR5iKGPQ808sM8ZkyB5xUW2eISIaJxgNIQT0yiKbOWiESnpplmAMp9rRDm6CziHDPPAyzE5EmLAJWOq0iYaUnbZYAVIlaXZard2qsKa7SOuAGw6TBwx1u4vSP57h7uHwAcqh0xi9pgZ3wsb58gIp0CnAmfO60RrVW+uGQWxavrG7hlvnNap5PrZWd0rxUfdNnHJ+ZnrWsb/K9+0WlIrxyPN4rXVX6XIzWNTdbGPsQ+/aOxzXH+Mi2u02r9aGvvgM6uQLt7TG/id/S51vYPpLwBgz+ODkWGg15k5Jcu4p/FN+unQqp6bu7+AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTAyLTAxVDIwOjI0OjM5KzAxOjAw0iptEQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMS0wMi0wMVQyMDoyNDozOSswMTowMKN31a0AAAAASUVORK5CYII=",
+      "count": 8,
+      "files": 8,
+      "description": "FRC parts from the Fritzing library",
+      "url": "packs/frc/pack.json"
+    },
+    {
+      "id": "raspberry-pi",
+      "name": "Raspberry Pi",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "RP",
+      "count": 9,
+      "files": 10,
+      "description": "Raspberry Pi parts from the Fritzing library",
+      "url": "packs/raspberry-pi/pack.json"
+    },
+    {
+      "id": "chipkit",
+      "name": "chipKIT",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "CK",
+      "count": 4,
+      "files": 4,
+      "description": "chipKIT parts from the Fritzing library",
+      "url": "packs/chipkit/pack.json"
+    },
+    {
+      "id": "calliope",
+      "name": "Calliope",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "CL",
+      "count": 3,
+      "files": 3,
+      "description": "Calliope parts from the Fritzing library",
+      "url": "packs/calliope/pack.json"
+    },
+    {
+      "id": "esp",
+      "name": "ESP8266 / ESP32",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "EP",
+      "count": 4,
+      "files": 4,
+      "description": "ESP8266 / ESP32 parts from the Fritzing library",
+      "url": "packs/esp/pack.json"
+    },
+    {
+      "id": "adafruit",
+      "name": "Adafruit",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEjUlEQVRYw72XW2yUVRSFvzXTVi5Vyi3lUoJSNM4ICkG8hIsPWgEfRE0MRBQNxihqfDLOMMWIgRlm4MkYAjG+KMGYGDSGKCBITIkS7wo6owk1IHIToSAESpEuH2YKnXZmOpXU8/TnP+fsvc46e6+9j7jC0RhOzcdea9gIejaRibT1Zn/gSpzHQsmQTSNSDdJsRH1vbfxnALFw8mrEK5In5H6NEkz/XwAsvSkuwVOCh0AACGTcEAunKvscgB28C3gR1MWZbgPG9imAxnCqFvQqMLLAdB1wZ58CMMwzzOigPu/8EATfEwsng30CoDGcrBaeq0Lec+iAiUBNuTYrGsPJBYbJoGC+JbULLhgOAl9jvjcMA8arhEGhGqAaOF4WAOB10OBuZi7TiuGkxEeG9ZfOWfyS2oCyxagCtE3wMMVozU7UgBcAN4DOdXJ2yHBWaHzHQsNuzJlYKDUKUQWckX0ynon+U9B2LJyqx6yXeo5ew0VMq2Ag4iLwtM1pwQZERfbbb1vUYt2cBeC/MbuB7YhdQvvj6cj5ToeDWDh1t2ADphaVnQ4HgJmIscBmoL/tU4AkXdN9uS8KDgNfGbbLNIGaKwACAe1wu1dbrBRUdhceTgp2GUYjbhRUIVpst2DNRPRT1vOgEsEZzOlEHfhB4CjwSRCg6c9tzBje8BMwTtk06jp+EywEr0PaJzzJVn/QDsmLhMJAO7g1566kDggJVG1Rd2nhzmPb22YMb9gNnio0Jm+DGIZcL0hLbDacQMwTzEZMxHwMSiLW2GwFJkkaWjKaxB6sl1Sgyk0AVsk0IFXkNKFj41+YHywNAO4QBMD7sOYbp5EGYzcAyyWNLOK9Dfw+sCyejv6qInV+qOA+xCyjKUB9NjaMUSsmA4yTuAZowxw1bkEaAowoFEe5AxwxrBK8GU9HTxeV4kQmetziM8NpwWAgmCVOR8DPAHMRe22+BC9GtEu6RTBGUNlNqkw70ATMF7zW4bxDCQs1GyOBNwSzL+WqaUU0JtLRt2Kh1KPCEyx9YetdRABYK6g0nEXsB/oBAeFmxAdY78Uz0aMFRC5/LAknJWs50Cjlhc0e4QeAaVgrEaONT2DuR/pFsA2YnM1afwdaCvws+4SqLpxd8ePLLlYLuiKqR35EXbAJrgNtBF+PGJj7OwR5CfAC+CBocjZpNMXmcWBRPBM917tybM0UKtTVVAOTQAOzOU9bDuIcYBMwrcv6OYgpveoHYqFUJXhWz32Cj4Gbc6ISEIS7VlSJQcCt5ZTjzjxfC7q9dD8IkjaBK4FQScUzdb1iQDBNMIbSVj+1WW601XChB/tVZQOIhVMVwL1F6LfhALAaeCKRifyO2SKzpSRbssoGIDwCPLVDRJwNtMPgD4HnBA2GWCId/SMrVpEWRMT258VbJAXKjgFDK2Yv8lVY3yC2YnYCzfHM5Qai84inI5lYKLUQvAyYh1WVn709M6AuNaBWYoDNoUQmer433TLWk5YjIq8IrYunI4vLBnBlr+RkwGY6YkX2jSgBa+LpyPN99jrOv45oeyITbQIeM7xjc8rm2572/QtB8bCa7pFEmQAAAABJRU5ErkJggg==",
+      "count": 1,
+      "files": 1,
+      "description": "Adafruit parts from the Fritzing library",
+      "url": "packs/adafruit/pack.json"
+    },
+    {
+      "id": "voltage-regulators",
+      "name": "Voltage Regulators",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"8.46667mm\" height=\"8.74889mm\"\n viewBox=\"0 0 30 31\"\n xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"  version=\"1.2\" baseProfile=\"tiny\">\n<title>Fritzing Custom Icon</title>\n<desc>Generated with Qt</desc>\n<defs>\n</defs>\n<g fill=\"none\" stroke=\"black\" stroke-width=\"1\" fill-rule=\"evenodd\" stroke-linecap=\"square\" stroke-linejoin=\"bevel\" >\n\n<image x=\"0\" y=\"0\" width=\"30\" height=\"31\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAMAAADHso01AAAAKlBMVEUAAACyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCWyMCX///8TrXlEAAAADHRSTlMAIL+fUEDfz4Bg7xDrAx85AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAWElEQVQokd2RQRLAIAgDVbS1mv+/11NbAZ3c3esOAyEhHE9ML7LSgo/sbfktLq/vSaNa+8wWLWrbm9Iw11UYigplLdIm1GqcTJPd7HKSm32N/Zw0xvo+jAG5XQp/KqDemwAAAABJRU5ErkJggg==\" />\n</g>\n</svg>",
+      "count": 22,
+      "files": 28,
+      "description": "Voltage Regulators parts from the Fritzing library",
+      "url": "packs/voltage-regulators/pack.json"
+    },
+    {
+      "id": "simulator",
+      "name": "Simulator Parts",
+      "version": "1.3.0",
+      "group": "Vendors",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAD6AAAA+gBtXtSawAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEUSURBVEiJ7dO/K8VhFMfxFyWRkkGJMlyrMtxJyp9gMhjYMZqU1XQHFkUWlFJGicImuzIpyWay4SYuhnvk2/X1846ed53O85zzOd/P89T3IZFIJBJ/pAlHqOAl4gx9Gc1epvcW+5l+KeaHY78amoGvjLvwjDEUI3Ywl9F0R307ohi1rPEtrjAe68p3xrCOU7TGvgXNObqliFpK2MCJ6k2n8FBr3JgzOB15OXI5Bn/DE2ZxiZU8QZ7xPUYxEqf9K8foV731j4zhAhNYxFAd5uXPGnnGbZF3sYAtdNZh/iPjHlyr/ggFrOEOkxlNR/TaIwpRq4sGbOLR+xu9wWBGc+DjOz7M9GcwX/Pdc/TWe7hEIpH4p7wCMHg9ccaNeeMAAAAASUVORK5CYII=",
+      "count": 15,
+      "files": 17,
+      "description": "Simulator Parts parts from the Fritzing library",
+      "url": "packs/simulator/pack.json"
     }
   ]
 }

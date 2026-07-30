@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "calliope",
+  "name": "Calliope",
+  "version": "1.3.0",
+  "group": "Vendors",
+  "icon": "CL",
+  "description": "Calliope parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "calliope-mini-v-1-0",
+      "file": "parts/calliope-mini-v-1-0.json"
+    },
+    {
+      "type": "calliope-mini-v-1-3",
+      "file": "parts/calliope-mini-v-1-3.json"
+    },
+    {
+      "type": "calliope-mini-3-2",
+      "file": "parts/calliope-mini-3-2.json"
+    }
+  ]
+}

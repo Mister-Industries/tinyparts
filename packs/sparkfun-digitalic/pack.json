@@ -1,0 +1,527 @@
+{
+  "schema": 1,
+  "id": "sparkfun-digitalic",
+  "name": "SparkFun · DigitalIC",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAXlJREFUeNpiYBgFAwF6enr+gzA15XDJM+FQeB6IBZD4/eTIQcXmY7ODBURYWjr8Z2H5iyxucPTo0fe2trbY9JArxwAU///nDzPD8eMHGBlBAsbGrv+5uH7QJTq/feNgOHt2NyPYx///MzJ8/SpMp5T0DXcc0wOMWkw3wILMaWlJQ5GsqZmFoQFdDSnqkeXhFn/9epOhoqKXgYWFl2ILiFEPD+r///8y/Pz5bGDiGGT5//+/6W8xIyMzELPS12KQpezsUvRP1dzc6iQlGGyAFPXgSsLIyA1YV3LB4/nXr3fgEGBjE6JJWX3u3C5GFsza4xnYYhigjeVYSi6Qj7GxaVpygQAnpzg8sdHKt1gtZmbmZODhUaBP0tbRsQU1xOiCoXZBfPz8+V1YwwzumOnTpzPcvXsXudGG4ti+vj6GZ8+ekSRXUlICtwucuN6+fcYIy1pQsABoKUwMhhcgyU8AGkyOHCPULuz1MdBlifjEgOxCcuRGwYAAgAADABRj1nAx9VsJAAAAAElFTkSuQmCC",
+  "description": "SparkFun · DigitalIC parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-digitalic-atmega128-smd",
+      "file": "parts/sparkfun-digitalic-atmega128-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-atmega168-mlf",
+      "file": "parts/sparkfun-digitalic-atmega168-mlf.json"
+    },
+    {
+      "type": "sparkfun-digitalic-atmega168",
+      "file": "parts/sparkfun-digitalic-atmega168.json"
+    },
+    {
+      "type": "sparkfun-digitalic-atmega2560-au",
+      "file": "parts/sparkfun-digitalic-atmega2560-au.json"
+    },
+    {
+      "type": "sparkfun-digitalic-atmega32u4-qfn",
+      "file": "parts/sparkfun-digitalic-atmega32u4-qfn.json"
+    },
+    {
+      "type": "sparkfun-digitalic-atmega32u4-qfn2",
+      "file": "parts/sparkfun-digitalic-atmega32u4-qfn2.json"
+    },
+    {
+      "type": "sparkfun-digitalic-atmega8u2-au",
+      "file": "parts/sparkfun-digitalic-atmega8u2-au.json"
+    },
+    {
+      "type": "sparkfun-digitalic-attiny13-dip",
+      "file": "parts/sparkfun-digitalic-attiny13-dip.json"
+    },
+    {
+      "type": "sparkfun-digitalic-attiny13-soic",
+      "file": "parts/sparkfun-digitalic-attiny13-soic.json"
+    },
+    {
+      "type": "sparkfun-digitalic-attiny24-qfn",
+      "file": "parts/sparkfun-digitalic-attiny24-qfn.json"
+    },
+    {
+      "type": "sparkfun-digitalic-attiny45-dip8",
+      "file": "parts/sparkfun-digitalic-attiny45-dip8.json"
+    },
+    {
+      "type": "sparkfun-digitalic-attiny45",
+      "file": "parts/sparkfun-digitalic-attiny45.json"
+    },
+    {
+      "type": "sparkfun-digitalic-lpc2103",
+      "file": "parts/sparkfun-digitalic-lpc2103.json"
+    },
+    {
+      "type": "sparkfun-digitalic-lpc213x",
+      "file": "parts/sparkfun-digitalic-lpc213x.json"
+    },
+    {
+      "type": "sparkfun-digitalic-mbed-nxp-lpc1768",
+      "file": "parts/sparkfun-digitalic-mbed-nxp-lpc1768.json"
+    },
+    {
+      "type": "sparkfun-digitalic-avr-mega8-p-pth",
+      "file": "parts/sparkfun-digitalic-avr-mega8-p-pth.json"
+    },
+    {
+      "type": "sparkfun-digitalic-avr-mega8-p-sim",
+      "file": "parts/sparkfun-digitalic-avr-mega8-p-sim.json"
+    },
+    {
+      "type": "sparkfun-digitalic-avr-mega8-p-zif-socket",
+      "file": "parts/sparkfun-digitalic-avr-mega8-p-zif-socket.json"
+    },
+    {
+      "type": "sparkfun-digitalic-avr-mega8-p-kit",
+      "file": "parts/sparkfun-digitalic-avr-mega8-p-kit.json"
+    },
+    {
+      "type": "sparkfun-digitalic-avr-mega8-mi",
+      "file": "parts/sparkfun-digitalic-avr-mega8-mi.json"
+    },
+    {
+      "type": "sparkfun-digitalic-avr-mega8-ai",
+      "file": "parts/sparkfun-digitalic-avr-mega8-ai.json"
+    },
+    {
+      "type": "sparkfun-digitalic-isd1900-isd1932",
+      "file": "parts/sparkfun-digitalic-isd1900-isd1932.json"
+    },
+    {
+      "type": "sparkfun-digitalic-speakjet-dip",
+      "file": "parts/sparkfun-digitalic-speakjet-dip.json"
+    },
+    {
+      "type": "sparkfun-digitalic-speakjet-smd",
+      "file": "parts/sparkfun-digitalic-speakjet-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-stw5093",
+      "file": "parts/sparkfun-digitalic-stw5093.json"
+    },
+    {
+      "type": "sparkfun-digitalic-vs1000",
+      "file": "parts/sparkfun-digitalic-vs1000.json"
+    },
+    {
+      "type": "sparkfun-digitalic-vs1002",
+      "file": "parts/sparkfun-digitalic-vs1002.json"
+    },
+    {
+      "type": "sparkfun-digitalic-vs1033",
+      "file": "parts/sparkfun-digitalic-vs1033.json"
+    },
+    {
+      "type": "sparkfun-digitalic-vs1103",
+      "file": "parts/sparkfun-digitalic-vs1103.json"
+    },
+    {
+      "type": "sparkfun-digitalic-wtv020sd",
+      "file": "parts/sparkfun-digitalic-wtv020sd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-xmega-100-smd",
+      "file": "parts/sparkfun-digitalic-xmega-100-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-xmega-a3-au",
+      "file": "parts/sparkfun-digitalic-xmega-a3-au.json"
+    },
+    {
+      "type": "sparkfun-digitalic-mcp2551",
+      "file": "parts/sparkfun-digitalic-mcp2551.json"
+    },
+    {
+      "type": "sparkfun-digitalic-tja1040",
+      "file": "parts/sparkfun-digitalic-tja1040.json"
+    },
+    {
+      "type": "sparkfun-digitalic-rs485-soic",
+      "file": "parts/sparkfun-digitalic-rs485-soic.json"
+    },
+    {
+      "type": "sparkfun-digitalic-rs485-sp491",
+      "file": "parts/sparkfun-digitalic-rs485-sp491.json"
+    },
+    {
+      "type": "sparkfun-digitalic-dosonchip-ic-lqfp",
+      "file": "parts/sparkfun-digitalic-dosonchip-ic-lqfp.json"
+    },
+    {
+      "type": "sparkfun-digitalic-dosonchip-ic-qfn-alt1",
+      "file": "parts/sparkfun-digitalic-dosonchip-ic-qfn-alt1.json"
+    },
+    {
+      "type": "sparkfun-digitalic-dosonchip-ic-qfn",
+      "file": "parts/sparkfun-digitalic-dosonchip-ic-qfn.json"
+    },
+    {
+      "type": "sparkfun-digitalic-m74hc238",
+      "file": "parts/sparkfun-digitalic-m74hc238.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74lvc138ad",
+      "file": "parts/sparkfun-digitalic-74lvc138ad.json"
+    },
+    {
+      "type": "sparkfun-digitalic-dspic30f4011-dil",
+      "file": "parts/sparkfun-digitalic-dspic30f4011-dil.json"
+    },
+    {
+      "type": "sparkfun-digitalic-dspic30f4011",
+      "file": "parts/sparkfun-digitalic-dspic30f4011.json"
+    },
+    {
+      "type": "sparkfun-digitalic-dspic30f6015-smd",
+      "file": "parts/sparkfun-digitalic-dspic30f6015-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-dspic33fj256gp710",
+      "file": "parts/sparkfun-digitalic-dspic33fj256gp710.json"
+    },
+    {
+      "type": "sparkfun-digitalic-eeprom-i2c-smd",
+      "file": "parts/sparkfun-digitalic-eeprom-i2c-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-m93c46",
+      "file": "parts/sparkfun-digitalic-m93c46.json"
+    },
+    {
+      "type": "sparkfun-digitalic-w5100",
+      "file": "parts/sparkfun-digitalic-w5100.json"
+    },
+    {
+      "type": "sparkfun-digitalic-enc28j60",
+      "file": "parts/sparkfun-digitalic-enc28j60.json"
+    },
+    {
+      "type": "sparkfun-digitalic-at25fs010",
+      "file": "parts/sparkfun-digitalic-at25fs010.json"
+    },
+    {
+      "type": "sparkfun-digitalic-at45db041b",
+      "file": "parts/sparkfun-digitalic-at45db041b.json"
+    },
+    {
+      "type": "sparkfun-digitalic-at45db041b-wide",
+      "file": "parts/sparkfun-digitalic-at45db041b-wide.json"
+    },
+    {
+      "type": "sparkfun-digitalic-at45db161d",
+      "file": "parts/sparkfun-digitalic-at45db161d.json"
+    },
+    {
+      "type": "sparkfun-digitalic-spi-flash-x25xx-smd",
+      "file": "parts/sparkfun-digitalic-spi-flash-x25xx-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-spi-flash-x25xx-smd1",
+      "file": "parts/sparkfun-digitalic-spi-flash-x25xx-smd1.json"
+    },
+    {
+      "type": "sparkfun-digitalic-ep2c8-pq208",
+      "file": "parts/sparkfun-digitalic-ep2c8-pq208.json"
+    },
+    {
+      "type": "sparkfun-digitalic-xc3s250-500e-pq208",
+      "file": "parts/sparkfun-digitalic-xc3s250-500e-pq208.json"
+    },
+    {
+      "type": "sparkfun-digitalic-xr2206",
+      "file": "parts/sparkfun-digitalic-xr2206.json"
+    },
+    {
+      "type": "sparkfun-digitalic-hex-converter",
+      "file": "parts/sparkfun-digitalic-hex-converter.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74hc04-hex-inverter",
+      "file": "parts/sparkfun-digitalic-74hc04-hex-inverter.json"
+    },
+    {
+      "type": "sparkfun-digitalic-inverting-schmitt-trigger",
+      "file": "parts/sparkfun-digitalic-inverting-schmitt-trigger.json"
+    },
+    {
+      "type": "sparkfun-digitalic-inverter",
+      "file": "parts/sparkfun-digitalic-inverter.json"
+    },
+    {
+      "type": "sparkfun-digitalic-a6282-es",
+      "file": "parts/sparkfun-digitalic-a6282-es.json"
+    },
+    {
+      "type": "sparkfun-digitalic-a6282-lp",
+      "file": "parts/sparkfun-digitalic-a6282-lp.json"
+    },
+    {
+      "type": "sparkfun-digitalic-hef4543-pth",
+      "file": "parts/sparkfun-digitalic-hef4543-pth.json"
+    },
+    {
+      "type": "sparkfun-digitalic-max7219-dip",
+      "file": "parts/sparkfun-digitalic-max7219-dip.json"
+    },
+    {
+      "type": "sparkfun-digitalic-tlc5940-nt",
+      "file": "parts/sparkfun-digitalic-tlc5940-nt.json"
+    },
+    {
+      "type": "sparkfun-digitalic-tlc5940-rhb",
+      "file": "parts/sparkfun-digitalic-tlc5940-rhb.json"
+    },
+    {
+      "type": "sparkfun-digitalic-tlc5940-pwp",
+      "file": "parts/sparkfun-digitalic-tlc5940-pwp.json"
+    },
+    {
+      "type": "sparkfun-digitalic-stp16cp05",
+      "file": "parts/sparkfun-digitalic-stp16cp05.json"
+    },
+    {
+      "type": "sparkfun-digitalic-ws2801",
+      "file": "parts/sparkfun-digitalic-ws2801.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74-08-se",
+      "file": "parts/sparkfun-digitalic-74-08-se.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74-32-se",
+      "file": "parts/sparkfun-digitalic-74-32-se.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74act125d",
+      "file": "parts/sparkfun-digitalic-74act125d.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74ahc1g08",
+      "file": "parts/sparkfun-digitalic-74ahc1g08.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74-157-n",
+      "file": "parts/sparkfun-digitalic-74-157-n.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74-157-fk",
+      "file": "parts/sparkfun-digitalic-74-157-fk.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74-157-so",
+      "file": "parts/sparkfun-digitalic-74-157-so.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74-595-n",
+      "file": "parts/sparkfun-digitalic-74-595-n.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74-595-fk",
+      "file": "parts/sparkfun-digitalic-74-595-fk.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74-595-d",
+      "file": "parts/sparkfun-digitalic-74-595-d.json"
+    },
+    {
+      "type": "sparkfun-digitalic-74-595",
+      "file": "parts/sparkfun-digitalic-74-595.json"
+    },
+    {
+      "type": "sparkfun-digitalic-sn74hc251-smd",
+      "file": "parts/sparkfun-digitalic-sn74hc251-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-sn74lvc1g08",
+      "file": "parts/sparkfun-digitalic-sn74lvc1g08.json"
+    },
+    {
+      "type": "sparkfun-digitalic-tc7su04f",
+      "file": "parts/sparkfun-digitalic-tc7su04f.json"
+    },
+    {
+      "type": "sparkfun-digitalic-unbuffered-inverter",
+      "file": "parts/sparkfun-digitalic-unbuffered-inverter.json"
+    },
+    {
+      "type": "sparkfun-digitalic-mc9s12xs64",
+      "file": "parts/sparkfun-digitalic-mc9s12xs64.json"
+    },
+    {
+      "type": "sparkfun-digitalic-mcp130-sot",
+      "file": "parts/sparkfun-digitalic-mcp130-sot.json"
+    },
+    {
+      "type": "sparkfun-digitalic-nand256",
+      "file": "parts/sparkfun-digitalic-nand256.json"
+    },
+    {
+      "type": "sparkfun-digitalic-nc7wz07",
+      "file": "parts/sparkfun-digitalic-nc7wz07.json"
+    },
+    {
+      "type": "sparkfun-digitalic-ncp303lsn09",
+      "file": "parts/sparkfun-digitalic-ncp303lsn09.json"
+    },
+    {
+      "type": "sparkfun-digitalic-p8x32a-q44",
+      "file": "parts/sparkfun-digitalic-p8x32a-q44.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pca9306",
+      "file": "parts/sparkfun-digitalic-pca9306.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pcf8575c",
+      "file": "parts/sparkfun-digitalic-pcf8575c.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic16f688-smd",
+      "file": "parts/sparkfun-digitalic-pic16f688-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic16f88-ssop",
+      "file": "parts/sparkfun-digitalic-pic16f88-ssop.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic16f88-dip",
+      "file": "parts/sparkfun-digitalic-pic16f88-dip.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic16f883",
+      "file": "parts/sparkfun-digitalic-pic16f883.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic16f913-soic28",
+      "file": "parts/sparkfun-digitalic-pic16f913-soic28.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic18f2455-smd",
+      "file": "parts/sparkfun-digitalic-pic18f2455-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic18f2550",
+      "file": "parts/sparkfun-digitalic-pic18f2550.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic24fxxxdax06",
+      "file": "parts/sparkfun-digitalic-pic24fxxxdax06.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic24hj32gp202-dip",
+      "file": "parts/sparkfun-digitalic-pic24hj32gp202-dip.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic24hj32gp202-smd",
+      "file": "parts/sparkfun-digitalic-pic24hj32gp202-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pic32mx440f512h",
+      "file": "parts/sparkfun-digitalic-pic32mx440f512h.json"
+    },
+    {
+      "type": "sparkfun-digitalic-ubw32-pic32mx4xxl-tqfp100",
+      "file": "parts/sparkfun-digitalic-ubw32-pic32mx4xxl-tqfp100.json"
+    },
+    {
+      "type": "sparkfun-digitalic-stm811",
+      "file": "parts/sparkfun-digitalic-stm811.json"
+    },
+    {
+      "type": "sparkfun-digitalic-icl3232",
+      "file": "parts/sparkfun-digitalic-icl3232.json"
+    },
+    {
+      "type": "sparkfun-digitalic-max485-dil",
+      "file": "parts/sparkfun-digitalic-max485-dil.json"
+    },
+    {
+      "type": "sparkfun-digitalic-max232-pth",
+      "file": "parts/sparkfun-digitalic-max232-pth.json"
+    },
+    {
+      "type": "sparkfun-digitalic-max232-soic16",
+      "file": "parts/sparkfun-digitalic-max232-soic16.json"
+    },
+    {
+      "type": "sparkfun-digitalic-sc16is750",
+      "file": "parts/sparkfun-digitalic-sc16is750.json"
+    },
+    {
+      "type": "sparkfun-digitalic-scantool",
+      "file": "parts/sparkfun-digitalic-scantool.json"
+    },
+    {
+      "type": "sparkfun-digitalic-um-fpu-v3-1-dil",
+      "file": "parts/sparkfun-digitalic-um-fpu-v3-1-dil.json"
+    },
+    {
+      "type": "sparkfun-digitalic-um-fpu-v3-1-so",
+      "file": "parts/sparkfun-digitalic-um-fpu-v3-1-so.json"
+    },
+    {
+      "type": "sparkfun-digitalic-max3421e-smd",
+      "file": "parts/sparkfun-digitalic-max3421e-smd.json"
+    },
+    {
+      "type": "sparkfun-digitalic-cy7c64215",
+      "file": "parts/sparkfun-digitalic-cy7c64215.json"
+    },
+    {
+      "type": "sparkfun-digitalic-ft2232d",
+      "file": "parts/sparkfun-digitalic-ft2232d.json"
+    },
+    {
+      "type": "sparkfun-digitalic-ft232rq",
+      "file": "parts/sparkfun-digitalic-ft232rq.json"
+    },
+    {
+      "type": "sparkfun-digitalic-pl-2303xa",
+      "file": "parts/sparkfun-digitalic-pl-2303xa.json"
+    },
+    {
+      "type": "sparkfun-digitalic-cp2103-usb-uart",
+      "file": "parts/sparkfun-digitalic-cp2103-usb-uart.json"
+    },
+    {
+      "type": "sparkfun-digitalic-cp210x-usb-uart",
+      "file": "parts/sparkfun-digitalic-cp210x-usb-uart.json"
+    },
+    {
+      "type": "sparkfun-digitalic-ft245rl",
+      "file": "parts/sparkfun-digitalic-ft245rl.json"
+    },
+    {
+      "type": "sparkfun-digitalic-ft232rl-basic-ssop",
+      "file": "parts/sparkfun-digitalic-ft232rl-basic-ssop.json"
+    },
+    {
+      "type": "sparkfun-digitalic-ft232rl-ssop",
+      "file": "parts/sparkfun-digitalic-ft232rl-ssop.json"
+    },
+    {
+      "type": "sparkfun-digitalic-usb3318",
+      "file": "parts/sparkfun-digitalic-usb3318.json"
+    },
+    {
+      "type": "sparkfun-digitalic-max7456-groundpad",
+      "file": "parts/sparkfun-digitalic-max7456-groundpad.json"
+    },
+    {
+      "type": "sparkfun-digitalic-max7456",
+      "file": "parts/sparkfun-digitalic-max7456.json"
+    },
+    {
+      "type": "sparkfun-digitalic-xs1-l1-64lqfp",
+      "file": "parts/sparkfun-digitalic-xs1-l1-64lqfp.json"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "schema": 1,
+  "id": "sparkfun-rf",
+  "name": "SparkFun · RF",
+  "version": "1.3.0",
+  "group": "SparkFun",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA19JREFUeNq0V81rE0EUn43VSqokINhbuhU9iIfmFm/dS6k306OnJKAnI01P4inbiyAIaSEXQUn1H8j2IkgKbo7iIelFlFpJAx5KMCbQBouH+F7zJr5OZzcf2oHhzWzmvd+b9zkxxBjDtm0TiMk+VeFbaxQZxghgcSB3YSLAHoKxny2YIZhhmOtwtvrPwCAEhS7D3IT1xoCzCJyBOQNzFfa1sYCB0ebUw9ynzEwK5EhZZyRgYCgAKfNbwjoJZI620tzSzIKAXD8ZvsBwEM3VkgxAo0Cy5D/XR9kMKbYirUDgp/xuaJgRJAF0he/JZ60hIz6rgBeBpDj/hIYXmVJMyDLQlEY5i6IYA8iVgYSUlMabLhHLOgVdP1YCGm23mWbHmvOgIe0R2KGgQxMmYZlj51pkIRmcLkW60AKjAJhrLI3KzFxhugWabIPdsEoAr8mfEhwVChGfIFmWF3CI3RaLhaO6wMvPBLRJkS9HmVwiSJYncJit28ptBQddWFiIx2Kx95FIxGTgKHxe2UcZ74wX8B6/PVtHSfv+CAaDMsBMRYZqkZBOfsAnM9oDBA7L19Yd8gPmmtakyeTodDrVo6Mj+ZsXn26vDy6dvymC5/jBUqnkTE5Oinq9XlPSsa3ste7zC64T4U9lrzCgM+VkOrL0dFh6bnsB99OB6nRCky4FuonaOnO8rJIiIdYaEzw91cp1Ih0IKKP8jpUsTg8DWT5NLKtKI8hRqZRKtHxrPQrkRcDujaTuLORx16ulcjdhOVWtZPj04n4rY324b0osII1Go9hsNmdlgJFwaXLOizWe+16c0wFbloXFIovUdd1fMKuw/gLfHgO9A/OD0T1MNH8e3J6NXCrvfP3+mZrETZhPWB1HNywCXR3lBYJ+KVJfPfV4e/DqWWX34070xq2ray8ePV3R8ONN59WWOspjz6b865u528pHH26Jyi7spqeEeHMvbSi5m6Nu5XjJDQwJjNGZlT3XCKerU+d7v1+5+PeZS7GRpC7miLMY9tt8ZfFlvvt8K2+Pwx8YF/jTj17T2D8cj39s4MsXeuX1eljfBP7bXxg+wMQ2vUjkWHp3P+2cGTAAJgnQxGieDva+fwOjH/wW+KBbBQXcYWRNjABq0mNPcFAc13o9zdrvHL9IhrrMHwEGAGLstm9ig/n6AAAAAElFTkSuQmCC",
+  "description": "SparkFun · RF parts from the Fritzing library",
+  "parts": [
+    {
+      "type": "sparkfun-rf-trf-24g",
+      "file": "parts/sparkfun-rf-trf-24g.json"
+    },
+    {
+      "type": "sparkfun-rf-nrf24ap1-smd",
+      "file": "parts/sparkfun-rf-nrf24ap1-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-nrf24l01-smd",
+      "file": "parts/sparkfun-rf-nrf24l01-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-nrf2401a-smd",
+      "file": "parts/sparkfun-rf-nrf2401a-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-mirf",
+      "file": "parts/sparkfun-rf-mirf.json"
+    },
+    {
+      "type": "sparkfun-rf-nrf24le1",
+      "file": "parts/sparkfun-rf-nrf24le1.json"
+    },
+    {
+      "type": "sparkfun-rf-nrf24lu1",
+      "file": "parts/sparkfun-rf-nrf24lu1.json"
+    },
+    {
+      "type": "sparkfun-rf-nrf24z1",
+      "file": "parts/sparkfun-rf-nrf24z1.json"
+    },
+    {
+      "type": "sparkfun-rf-rf24g",
+      "file": "parts/sparkfun-rf-rf24g.json"
+    },
+    {
+      "type": "sparkfun-rf-antenna-smd1",
+      "file": "parts/sparkfun-rf-antenna-smd1.json"
+    },
+    {
+      "type": "sparkfun-rf-antenna2-smd",
+      "file": "parts/sparkfun-rf-antenna2-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-antenna2-smd2",
+      "file": "parts/sparkfun-rf-antenna2-smd2.json"
+    },
+    {
+      "type": "sparkfun-rf-antenna2-smd3",
+      "file": "parts/sparkfun-rf-antenna2-smd3.json"
+    },
+    {
+      "type": "sparkfun-rf-antenna2-smd5",
+      "file": "parts/sparkfun-rf-antenna2-smd5.json"
+    },
+    {
+      "type": "sparkfun-rf-antenna2-smd6",
+      "file": "parts/sparkfun-rf-antenna2-smd6.json"
+    },
+    {
+      "type": "sparkfun-rf-atmega128rfa1",
+      "file": "parts/sparkfun-rf-atmega128rfa1.json"
+    },
+    {
+      "type": "sparkfun-rf-balun-0805",
+      "file": "parts/sparkfun-rf-balun-0805.json"
+    },
+    {
+      "type": "sparkfun-rf-bgb203-bluetooth-old",
+      "file": "parts/sparkfun-rf-bgb203-bluetooth-old.json"
+    },
+    {
+      "type": "sparkfun-rf-bgb203-bluetooth-smd",
+      "file": "parts/sparkfun-rf-bgb203-bluetooth-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-blueradio-br-c40n-internal",
+      "file": "parts/sparkfun-rf-blueradio-br-c40n-internal.json"
+    },
+    {
+      "type": "sparkfun-rf-blueradio-br-c40n-sfe",
+      "file": "parts/sparkfun-rf-blueradio-br-c40n-sfe.json"
+    },
+    {
+      "type": "sparkfun-rf-blueradio-br-c40a-bas",
+      "file": "parts/sparkfun-rf-blueradio-br-c40a-bas.json"
+    },
+    {
+      "type": "sparkfun-rf-blueradio-br-c40n-bas",
+      "file": "parts/sparkfun-rf-blueradio-br-c40n-bas.json"
+    },
+    {
+      "type": "sparkfun-rf-blueradio-br-c40n-int2",
+      "file": "parts/sparkfun-rf-blueradio-br-c40n-int2.json"
+    },
+    {
+      "type": "sparkfun-rf-bluetooth-rn41",
+      "file": "parts/sparkfun-rf-bluetooth-rn41.json"
+    },
+    {
+      "type": "sparkfun-rf-btm182",
+      "file": "parts/sparkfun-rf-btm182.json"
+    },
+    {
+      "type": "sparkfun-rf-ebm001",
+      "file": "parts/sparkfun-rf-ebm001.json"
+    },
+    {
+      "type": "sparkfun-rf-wt32",
+      "file": "parts/sparkfun-rf-wt32.json"
+    },
+    {
+      "type": "sparkfun-rf-ge864",
+      "file": "parts/sparkfun-rf-ge864.json"
+    },
+    {
+      "type": "sparkfun-rf-ge865",
+      "file": "parts/sparkfun-rf-ge865.json"
+    },
+    {
+      "type": "sparkfun-rf-ge865-2",
+      "file": "parts/sparkfun-rf-ge865-2.json"
+    },
+    {
+      "type": "sparkfun-rf-gm862-gm862-connector",
+      "file": "parts/sparkfun-rf-gm862-gm862-connector.json"
+    },
+    {
+      "type": "sparkfun-rf-gm862-gnd",
+      "file": "parts/sparkfun-rf-gm862-gnd.json"
+    },
+    {
+      "type": "sparkfun-rf-si470x",
+      "file": "parts/sparkfun-rf-si470x.json"
+    },
+    {
+      "type": "sparkfun-rf-si4700-smd",
+      "file": "parts/sparkfun-rf-si4700-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-ns73m-smd",
+      "file": "parts/sparkfun-rf-ns73m-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-copernicus-smd",
+      "file": "parts/sparkfun-rf-copernicus-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-copernicus-dip-pth",
+      "file": "parts/sparkfun-rf-copernicus-dip-pth.json"
+    },
+    {
+      "type": "sparkfun-rf-d2523t",
+      "file": "parts/sparkfun-rf-d2523t.json"
+    },
+    {
+      "type": "sparkfun-rf-em406-outline",
+      "file": "parts/sparkfun-rf-em406-outline.json"
+    },
+    {
+      "type": "sparkfun-rf-em408-outline",
+      "file": "parts/sparkfun-rf-em408-outline.json"
+    },
+    {
+      "type": "sparkfun-rf-et312-smd",
+      "file": "parts/sparkfun-rf-et312-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-ge863-gps",
+      "file": "parts/sparkfun-rf-ge863-gps.json"
+    },
+    {
+      "type": "sparkfun-rf-sup500f",
+      "file": "parts/sparkfun-rf-sup500f.json"
+    },
+    {
+      "type": "sparkfun-rf-alm-1412-smd",
+      "file": "parts/sparkfun-rf-alm-1412-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-sma661as",
+      "file": "parts/sparkfun-rf-sma661as.json"
+    },
+    {
+      "type": "sparkfun-rf-gp-2106",
+      "file": "parts/sparkfun-rf-gp-2106.json"
+    },
+    {
+      "type": "sparkfun-rf-ls20126",
+      "file": "parts/sparkfun-rf-ls20126.json"
+    },
+    {
+      "type": "sparkfun-rf-gr-10-smd",
+      "file": "parts/sparkfun-rf-gr-10-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-gs406smd-mating-smd-special",
+      "file": "parts/sparkfun-rf-gs406smd-mating-smd-special.json"
+    },
+    {
+      "type": "sparkfun-rf-gs406smd-socket",
+      "file": "parts/sparkfun-rf-gs406smd-socket.json"
+    },
+    {
+      "type": "sparkfun-rf-lassen-iq-gps-lassen",
+      "file": "parts/sparkfun-rf-lassen-iq-gps-lassen.json"
+    },
+    {
+      "type": "sparkfun-rf-venus638flpx-l",
+      "file": "parts/sparkfun-rf-venus638flpx-l.json"
+    },
+    {
+      "type": "sparkfun-rf-mn5010hs",
+      "file": "parts/sparkfun-rf-mn5010hs.json"
+    },
+    {
+      "type": "sparkfun-rf-mn5010hs-smd",
+      "file": "parts/sparkfun-rf-mn5010hs-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-sm5100b",
+      "file": "parts/sparkfun-rf-sm5100b.json"
+    },
+    {
+      "type": "sparkfun-rf-rn-131g",
+      "file": "parts/sparkfun-rf-rn-131g.json"
+    },
+    {
+      "type": "sparkfun-rf-rmcm01-smd",
+      "file": "parts/sparkfun-rf-rmcm01-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-rf-link-rx",
+      "file": "parts/sparkfun-rf-rf-link-rx.json"
+    },
+    {
+      "type": "sparkfun-rf-rf-link-tx",
+      "file": "parts/sparkfun-rf-rf-link-tx.json"
+    },
+    {
+      "type": "sparkfun-rf-rfm22-smd",
+      "file": "parts/sparkfun-rf-rfm22-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-id-12-20-id-12-lock",
+      "file": "parts/sparkfun-rf-id-12-20-id-12-lock.json"
+    },
+    {
+      "type": "sparkfun-rf-id-12-20-smd",
+      "file": "parts/sparkfun-rf-id-12-20-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-id-12-20",
+      "file": "parts/sparkfun-rf-id-12-20.json"
+    },
+    {
+      "type": "sparkfun-rf-mlx90121",
+      "file": "parts/sparkfun-rf-mlx90121.json"
+    },
+    {
+      "type": "sparkfun-rf-sm130",
+      "file": "parts/sparkfun-rf-sm130.json"
+    },
+    {
+      "type": "sparkfun-rf-tfm-511p",
+      "file": "parts/sparkfun-rf-tfm-511p.json"
+    },
+    {
+      "type": "sparkfun-rf-venus634-smd",
+      "file": "parts/sparkfun-rf-venus634-smd.json"
+    },
+    {
+      "type": "sparkfun-rf-wlanmodule",
+      "file": "parts/sparkfun-rf-wlanmodule.json"
+    },
+    {
+      "type": "sparkfun-rf-gs1011-gs1011mxx",
+      "file": "parts/sparkfun-rf-gs1011-gs1011mxx.json"
+    },
+    {
+      "type": "sparkfun-rf-rn171-rn171",
+      "file": "parts/sparkfun-rf-rn171-rn171.json"
+    },
+    {
+      "type": "sparkfun-rf-rs9110",
+      "file": "parts/sparkfun-rf-rs9110.json"
+    },
+    {
+      "type": "sparkfun-rf-wifly-gsx",
+      "file": "parts/sparkfun-rf-wifly-gsx.json"
+    },
+    {
+      "type": "sparkfun-rf-zg2100m",
+      "file": "parts/sparkfun-rf-zg2100m.json"
+    },
+    {
+      "type": "sparkfun-rf-xbee-1-xbee-1-lock",
+      "file": "parts/sparkfun-rf-xbee-1-xbee-1-lock.json"
+    },
+    {
+      "type": "sparkfun-rf-xbee-1-b1",
+      "file": "parts/sparkfun-rf-xbee-1-b1.json"
+    },
+    {
+      "type": "sparkfun-rf-xbee-1-b2",
+      "file": "parts/sparkfun-rf-xbee-1-b2.json"
+    },
+    {
+      "type": "sparkfun-rf-xbee-1-b3",
+      "file": "parts/sparkfun-rf-xbee-1-b3.json"
+    },
+    {
+      "type": "sparkfun-rf-xtend-digi-modem",
+      "file": "parts/sparkfun-rf-xtend-digi-modem.json"
+    }
+  ]
+}

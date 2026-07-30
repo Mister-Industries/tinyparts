@@ -1,0 +1,98 @@
+{
+  "type": "lm2596-to220-f44cb37d8d6021cdacac7094cee01f17-1",
+  "label": "LM2596",
+  "family": "voltage regulator",
+  "tags": [
+    "multi-vendor",
+    "TO220",
+    "buck regulator",
+    "LM2596"
+  ],
+  "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'.SF NS Text'; font-size:13pt;\">LM2596 </span>3A 150KHz 40V Buck DC to DC<span style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt;\"> in TO220-5 package.</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt;\">The LM2596 can be viewed as a more advanced version of the LM2576. It has the same pinout, but the higher switching frequency allows smaller inductors and capacitors as external components, and higher efficiencies can be obtained.</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt;\">Manufacturers of the LM2596 are H&amp;M Semi (HM2596), ON Semi, Texas Instruments, XLSEMI (XL2596).</span></p></body></html>",
+  "source": {
+    "fzp": "lm2596_to220_f44cb37d8d6021cdacac7094cee01f17_1.fzp",
+    "moduleId": "lm2596_to220_f44cb37d8d6021cdacac7094cee01f17_1"
+  },
+  "views": {
+    "breadboard": {
+      "svg": "<svg id=\"Ebene_1\" version=\"1.2\" viewBox=\"0 0 37.44 52.8\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\"><desc><referenceFile>lm2596_breadboard.svg</referenceFile></desc><metadata id=\"metadata89\"><rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><cc:Work rdf:about=\"\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><dc:format xmlns:dc=\"http://purl.org/dc/elements/1.1/\">image/svg+xml</dc:format><dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"/><dc:title xmlns:dc=\"http://purl.org/dc/elements/1.1/\"/></cc:Work></rdf:RDF></metadata><g id=\"breadboard\"><g fill=\"none\"><g stroke=\"#8c8c8c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.16\"><path id=\"path4\" d=\"m4.239 44.5v7.2\"/><path id=\"path6\" d=\"m11.44 44.5v7.2\"/><path id=\"path8\" d=\"m18.64 44.5v7.2\"/><path id=\"path10\" d=\"m25.84 44.5v7.2\"/><path id=\"path12\" d=\"m33.04 44.5v7.2\"/></g><rect id=\"connector0pin\" x=\"3.096\" y=\"50.64\" width=\"2.16\" height=\"2.16\"/><g><rect id=\"connector1pin\" x=\"10.3\" y=\"50.64\" width=\"2.16\" height=\"2.16\"/><rect id=\"connector2pin\" x=\"17.5\" y=\"50.64\" width=\"2.16\" height=\"2.16\"/><rect id=\"connector3pin\" x=\"24.7\" y=\"50.64\" width=\"2.16\" height=\"2.16\"/><rect id=\"connector4pin\" x=\"31.9\" y=\"50.64\" width=\"2.16\" height=\"2.16\"/></g></g><path id=\"path24\" d=\"m33.92-3.184e-5h-15.2v1.8c4.363 0 8.023 1.8 8.023 4s-3.519 4-8.023 4v5.8h15.2z\" fill=\"#bfbcbc\"/><path id=\"path26\" d=\"m10.7 5.8c0-2.2 3.519-4 8.023-4v-1.8h-15.2v15.6h15.2v-5.8c-4.504 0-8.023-1.8-8.023-4z\" fill=\"#808080\"/><g fill=\"#8c8c8c\"><rect id=\"rect4\" x=\"2.691\" y=\"33.2\" width=\"3.097\" height=\"11.4\"/><rect id=\"rect6\" x=\"9.891\" y=\"33.2\" width=\"3.097\" height=\"11.4\"/><rect id=\"rect8\" x=\"31.49\" y=\"33.2\" width=\"3.097\" height=\"11.4\"/></g><g transform=\"matrix(1.408 0 0 1 245.8 -258.1)\"><polygon id=\"polygon10\" points=\"-172.1 270.6 -172.1 258.1 -174.6 261 -174.6 270.6\" fill=\"#ccc\" stroke-width=\".8429\"/><polygon id=\"polygon12\" points=\"-150.5 270.6 -148 270.6 -148 261 -150.5 258.1\" fill=\"#999\" stroke-width=\".8429\"/></g><g transform=\"matrix(1.408 0 0 1 246.5 -258.1)\"><polygon id=\"polygon21\" points=\"-174.6 289.8 -169.6 289.8 -169.6 298.6 -171.2 299.3 -173 299.3 -174.6 298.6\" fill=\"#8c8c8c\" stroke-width=\".8429\"/></g><g transform=\"matrix(1.408 0 0 1 246.1 -258.1)\"><polygon id=\"polygon23\" points=\"-164.2 289.8 -164.2 298.6 -165.8 299.3 -167.6 299.3 -169.2 298.6 -169.2 289.8\" fill=\"#8c8c8c\" stroke-width=\".8429\"/></g><rect id=\"rect6_1_\" x=\"17.09\" y=\"33.2\" width=\"3.097\" height=\"11.4\" fill=\"#8c8c8c\"/><g transform=\"matrix(1.408 0 0 1 245.7 -258.1)\"><polygon id=\"polygon23_1_\" points=\"-158.8 289.8 -158.8 298.6 -160.4 299.3 -162.2 299.3 -163.8 298.6 -163.8 289.8\" fill=\"#8c8c8c\" stroke-width=\".8429\"/></g><rect id=\"rect6_2_\" x=\"24.43\" y=\"33.2\" width=\"3.097\" height=\"11.4\" fill=\"#8c8c8c\"/><g transform=\"matrix(1.408 0 0 1 245.6 -258.1)\"><polygon id=\"polygon23_2_\" points=\"-153.5 289.8 -153.5 298.6 -155.2 299.3 -157 299.3 -158.6 298.6 -158.6 289.8\" fill=\"#8c8c8c\" stroke-width=\".8429\"/></g><g transform=\"matrix(1.408 0 0 1 245.4 -258.1)\"><polygon id=\"polygon25\" points=\"-148.4 289.8 -148.4 298.6 -150 299.3 -151.8 299.3 -153.4 298.6 -153.4 289.8\" fill=\"#8c8c8c\" stroke-width=\".8429\"/></g><g><rect id=\"rect40\" x=\"25.34\" y=\"22.4\" width=\"12.1\" height=\"16\" fill=\"#141414\"/><rect id=\"rect42\" y=\"22.4\" width=\"12.1\" height=\"16\" fill=\"#333\"/><path id=\"path40_1_\" d=\"m8.431e-6 28.2v5.2c2.815 0 5.208-1.2 5.208-2.6s-2.393-2.6-5.208-2.6z\" fill=\"#262626\"/><path id=\"path47\" d=\"m36.4 28.2c-2.815 0-5.208 1.2-5.208 2.6s2.393 2.6 5.208 2.6z\"/><path id=\"path46\" d=\"m8.431e-6 22.4v7.1c2.815 0 5.208 1.2 5.208 2.6s-2.393 2.6-5.208 2.6v3.7h37.44v-16zm37.44 12.3c-2.815 0-5.208-1.2-5.208-2.6s2.393-2.6 5.208-2.6z\" fill=\"#1a1a1a\"/><rect id=\"rect49\" y=\"19\" width=\"37.44\" height=\"3.3\"/><rect id=\"rect51\" y=\"14.9\" width=\"37.44\" height=\"4.1\" fill=\"#333\"/><rect id=\"connector6pin\" x=\"3.519\" y=\"-2.575e-5\" width=\"30.4\" height=\"3.1\" fill=\"#b2b2b2\"/><path id=\"path55\" d=\"m33.92 2.4h-30.4l-3.519 2.9v9.6h37.44v-9.6zm-15.2 9.7c-4.363 0-8.023-1.8-8.023-4 0-2.2 3.519-4 8.023-4 4.363 0 8.023 1.8 8.023 4-.1408 2.3-3.66 4-8.023 4z\" fill=\"#8c8c8c\"/><text id=\"text176\" x=\"4\" y=\"29\" fill=\"#663300\" font-family=\"Droid Sans\" font-size=\"8\">LM2596</text></g></g></svg>",
+      "w": 49.92,
+      "h": 70.4,
+      "pins": {
+        "Pin 1": [
+          5.57,
+          68.96
+        ],
+        "Pin 2": [
+          15.17,
+          68.96
+        ],
+        "Pin 3": [
+          24.77,
+          68.96
+        ],
+        "pin 4": [
+          34.37,
+          68.96
+        ],
+        "Pin 5": [
+          43.97,
+          68.96
+        ],
+        "Tab": [
+          24.96,
+          2.07
+        ]
+      }
+    },
+    "schematic": {
+      "svg": "<svg id=\"Ebene_1\" version=\"1.2\" viewBox=\"0 0 814 500.7\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\"><desc><referenceFile>lm2596_to263_schematic.svg</referenceFile></desc><metadata id=\"metadata684\"><rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><cc:Work rdf:about=\"\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><dc:format xmlns:dc=\"http://purl.org/dc/elements/1.1/\">image/svg+xml</dc:format><dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"/><dc:title xmlns:dc=\"http://purl.org/dc/elements/1.1/\"/></cc:Work></rdf:RDF></metadata><g id=\"schematic\"><rect id=\"rect4\" x=\"100.1\" y=\".8052\" width=\"599.8\" height=\"399.8\" fill=\"#fff\" stroke=\"#000\" stroke-linecap=\"round\" stroke-width=\"10.2\"/><g fill=\"none\"><line id=\"connector4pin\" x1=\"94.44\" x2=\"-.5184\" y1=\"300.7\" y2=\"300.7\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector4terminal\" x=\"-5.623\" y=\"300.7\" width=\".2099\" height=\".02\" stroke-width=\"0\"/><line id=\"connector0pin\" x1=\".07121\" x2=\"100\" y1=\"100.7\" y2=\"100.7\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector0terminal\" x=\"-5.039\" y=\"100.7\" width=\".2199\" height=\".02\" stroke-width=\"0\"/><rect x=\"-5\" y=\"95.78\" width=\"10.02\" height=\"9.928\" stroke-width=\"13.85\"/></g><text id=\"text42\" x=\"60.377529\" y=\"82.338989\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"27.71\" stroke-width=\"13.85\">1</text><text id=\"text58\" x=\"129.17021\" y=\"109.18928\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"38.79\" stroke-width=\"13.85\">VIN</text><g fill=\"none\"><line id=\"connector1pin\" x1=\"800.1\" x2=\"704.9\" y1=\"100.7\" y2=\"100.7\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector1terminal\" x=\"805\" y=\"100.7\" width=\".2102\" height=\".02\" stroke-width=\"0\"/><rect x=\"795\" y=\"95.78\" width=\"10.02\" height=\"9.928\" stroke-width=\"13.85\"/></g><text id=\"text124\" x=\"727.21362\" y=\"280.57239\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"27.71\" stroke-width=\"13.85\">4</text><text id=\"text176\" x=\"604.479\" y=\"115.91922\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"38.79\" stroke-width=\"13.85\">OUT</text><g fill=\"none\"><line id=\"connector2pin\" x1=\"399.8\" x2=\"399.8\" y1=\"405.7\" y2=\"500.7\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"tabterminal\" x=\"395\" y=\"495.8\" width=\"10.02\" height=\"9.928\" stroke-width=\"13.85\"/><line id=\"connector6pin\" x1=\"399.8\" x2=\"399.8\" y1=\"405.7\" y2=\"500.7\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect x=\"399.8\" y=\"505.6\" width=\".02\" height=\".2099\" stroke-width=\"0\"/><rect x=\"395\" y=\"495.8\" width=\"10.02\" height=\"9.928\" stroke-width=\"13.85\"/></g><text id=\"text293\" x=\"363.8869\" y=\"444.74219\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"27.71\" stroke-width=\"13.85\">3</text><text id=\"text345\" x=\"360.18704\" y=\"365.65103\" fill=\"#8c8c8c\" font-family=\"Droid Sans\" font-size=\"38.79\" stroke-width=\"13.85\">GND</text><g fill=\"none\"><line id=\"connector3pin\" x1=\"705.1\" x2=\"800.7\" y1=\"300.7\" y2=\"300.7\" stroke=\"#787878\" stroke-linecap=\"round\" stroke-width=\"10\"/><rect id=\"connector3terminal\" x=\"805.6\" y=\"300.7\" width=\".2114\" height=\".02\" stroke-width=\"0\"/><rect x=\"-305.7\" y=\"795\" width=\"10.02\" height=\"9.928\" stroke-width=\"13.85\"/></g><g font-family=\"Droid Sans\" stroke-width=\"13.85\"><text id=\"text398\" x=\"52.275753\" y=\"273.39169\" fill=\"#8c8c8c\" font-size=\"27.71\">5</text><text id=\"text450\" x=\"632.00391\" y=\"313.3717\" fill=\"#8c8c8c\" font-size=\"38.79\">FB</text><g font-size=\"47.1\"><text id=\"label_3_\" x=\"310\" y=\"99.829048\">LM2596</text><text id=\"label_1_\" x=\"294.77222\" y=\"236.98889\">Regulator</text><text id=\"text125\" x=\"347.48901\" y=\"161.19205\">Buck</text></g><text id=\"text127\" x=\"132.01709\" y=\"316.09329\" fill=\"#8c8c8c\" font-size=\"38.79\">EN</text><text id=\"text141\" x=\"730.06049\" y=\"81.570969\" fill=\"#8c8c8c\" font-size=\"27.71\">2</text></g></g></svg>",
+      "w": 78.14,
+      "h": 48.07,
+      "pins": {
+        "Pin 1": [
+          -0.47,
+          9.67
+        ],
+        "Pin 2": [
+          77.29,
+          9.67
+        ],
+        "Pin 3": [
+          38.38,
+          48.07
+        ],
+        "pin 4": [
+          77.35,
+          28.87
+        ],
+        "Pin 5": [
+          -0.53,
+          28.87
+        ],
+        "Tab": [
+          38.38,
+          48.07
+        ]
+      }
+    }
+  },
+  "properties": {
+    "variant": "LM2596_TO220",
+    "max current": "3A",
+    "package": "TO220 [THT]",
+    "input voltage": "4.5V-40V",
+    "part number": "LM2596",
+    "oscillator frequency": "150 KHz",
+    "layer": "",
+    "subfamily": "switched buck regulator"
+  },
+  "icon": "<svg baseProfile=\"tiny\" version=\"1.2\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\"><g transform=\"translate(172,-267.9)\" id=\"icon\"><path d=\"M-143.9,268.8H-156v2c3.5,0,6.4,2,6.4,4.5s-2.9,4.5-6.4,4.5v6.6h12.1V268.8z\" fill=\"#BFBCBC\"/><path d=\"m-162.4 275.3c0-2.5 2.9-4.5 6.4-4.5v-2h-12.1v17.5h12.1v-6.5c-3.5 0-6.4-2-6.4-4.5z\" fill=\"#808080\"/><g fill=\"#8C8C8C\"><rect x=\"-165.3\" y=\"306.1\" width=\"2.4\" height=\"24.9\"/><rect x=\"-157.2\" y=\"306.1\" width=\"2.4\" height=\"24.9\"/><rect x=\"-149.1\" y=\"306.1\" width=\"2.4\" height=\"24.9\"/></g><polygon points=\"-171 272.1 -171 282.9 -168.1 282.9 -168.1 268.8\" fill=\"#ccc\"/><polygon points=\"-141 272.1 -143.9 268.8 -143.9 282.9 -141 282.9\" fill=\"#999\"/><g fill=\"#8C8C8C\"><polygon points=\"-161.3 314.3 -163.1 315.1 -165.1 315.1 -166.9 314.3 -166.9 304.5 -161.3 304.5\"/><polygon points=\"-153.2 314.3 -155 315.1 -157 315.1 -158.8 314.3 -158.8 304.5 -153.2 304.5\"/><polygon points=\"-145.1 314.3 -146.9 315.1 -148.9 315.1 -150.7 314.3 -150.7 304.5 -145.1 304.5\"/></g><rect x=\"-150.7\" y=\"294\" width=\"9.7\" height=\"18\" fill=\"#141414\"/><rect x=\"-171\" y=\"294\" width=\"9.7\" height=\"18\" fill=\"#333\"/><path d=\"m-171 300.5v5.8c2.3 0 4.2-1.3 4.2-2.9s-1.9-2.9-4.2-2.9z\" fill=\"#262626\"/><path d=\"m-141 300.5c-2.3 0-4.2 1.3-4.2 2.9s1.9 2.9 4.2 2.9v-5.8z\"/><path d=\"m-171 294v8c2.3 0 4.2 1.3 4.2 2.9s-1.9 2.9-4.2 2.9v4.2h30v-18h-30zm30 13.8c-2.3 0-4.2-1.3-4.2-2.9s1.9-2.9 4.2-2.9v5.8z\" fill=\"#1A1A1A\"/><rect x=\"-171\" y=\"290.2\" width=\"30\" height=\"3.8\"/><rect x=\"-171\" y=\"285.5\" width=\"30\" height=\"4.7\" fill=\"#333\"/><rect x=\"-168.1\" y=\"268.8\" width=\"24.3\" height=\"3.4\" fill=\"#B2B2B2\"/><path d=\"m-143.9 271.5h-24.3l-2.8 3.3v10.8h30v-10.8l-2.9-3.3zm-12.1 10.9c-3.5 0-6.4-2-6.4-4.5s2.9-4.5 6.4-4.5 6.4 2 6.4 4.5-2.9 4.5-6.4 4.5z\" fill=\"#8C8C8C\"/><text x=\"-166.5\" y=\"299\" fill=\"#dddddd\" font-family=\"Droid Sans\" font-size=\"6\" stroke-width=\"30\">LM2596</text></g></svg>",
+  "order": 7,
+  "variants": [
+    {
+      "type": "lm2596-to263-2cc7b20badfc99329be65b67ba7adc35-1",
+      "package": "TO263"
+    }
+  ]
+}
