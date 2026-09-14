@@ -1,0 +1,47 @@
+name: Check parts
+
+# Runs tinyStudio's part checker on every push and pull request, so a broken
+# part.json, a pin the art doesn't have, or a pack listing that's out of date
+# can't reach main. The checker lives in tinyStudio (scripts/parts-tool.mjs)
+# and loads packs with the app's own loaders, so "check passes" means "the app
+# will load it".
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  # The tinyStudio branch that carries scripts/parts-tool.mjs. Switch to
+  # `main` once tinyStudio 0.4.0 is released.
+  TINYSTUDIO_REF: v0.4-dev
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: tinyparts
+
+      - uses: actions/checkout@v4
+        with:
+          repository: Mister-Industries/tinyStudio
+          ref: ${{ env.TINYSTUDIO_REF }}
+          path: tinyStudio
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tinyStudio/package-lock.json
+
+      # Install scripts download Electron and arduino-cli; the checker needs
+      # neither, only esbuild.
+      - run: npm ci --ignore-scripts
+        working-directory: tinyStudio
+
+      - run: node scripts/parts-tool.mjs check --repo ../tinyparts
+        working-directory: tinyStudio

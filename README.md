@@ -57,7 +57,9 @@ node scripts/parts-tool.mjs explode --pack sparkfun-led   # make an optional pac
 ```
 
 Run `parts:check` before pushing. A malformed part.json would otherwise reach
-every install.
+every install. The same check runs on GitHub for every push and pull request
+(`.github/workflows/check.yml`), so a red check on a branch means the app
+wouldn't load it.
 
 ## Editing an optional pack
 
