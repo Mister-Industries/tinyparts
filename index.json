@@ -1,10 +1,31 @@
 {
   "schema": 1,
-  "groups": [
-    "SparkFun",
-    "Vendors"
-  ],
+  "groups": ["tinyStudio", "SparkFun", "Vendors"],
   "packs": [
+    {
+      "id": "tinyboards",
+      "name": "tinyBoards",
+      "version": "2.0.0",
+      "group": "tinyStudio",
+      "icon": "tB",
+      "bundled": true,
+      "count": 6,
+      "files": 6,
+      "description": "The MR.INDUSTRIES tinyBoard family: tinyCore and its stackable HATs.",
+      "url": "packs/tinyboards/pack.json"
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "version": "2.0.0",
+      "group": "tinyStudio",
+      "icon": "Co",
+      "bundled": true,
+      "count": 29,
+      "files": 29,
+      "description": "Everyday components that ship with tinyStudio: resistors, LEDs, switches, sensors and more.",
+      "url": "packs/core/pack.json"
+    },
     {
       "id": "sparkfun-analogic",
       "name": "SparkFun · AnalogIC",

@@ -1,63 +1,89 @@
 # tinyparts
 
-Parts-pack distribution repo for [tinyStudio](https://github.com/Mister-Industries/tinyStudio).
-The app's Parts Packs panel (Circuit view → Components rail → package icon)
-polls `index.json` here and installs whichever packs you pick. Each installed
-pack becomes its own tab in the components rail, the way Fritzing's parts bins
-work.
+The parts library for [tinyStudio](https://github.com/Mister-Industries/tinyStudio).
+Every component the Circuit view can place lives here as plain files, and the
+art is real `.svg` files you can open in Illustrator.
 
-## Layout
+**Full guide:** tinyStudio's [`docs/parts-and-art.md`](https://github.com/Mister-Industries/tinyStudio/blob/main/docs/parts-and-art.md).
+
+## Where things are
 
 ```
-index.json              lists every pack, grouped SparkFun / Vendors
+index.json                  every pack; "bundled": true = compiled into tinyStudio
 packs/
-  <pack-id>/
-    pack.json           this pack's manifest (schema, id, name, icon, parts[])
-    ATTRIBUTION.md      Fritzing CC-BY-SA attribution
-    parts/              one PartDef JSON per part
+  tinyboards/               the tinyBoard family (built into tinyStudio)
+    pack.json
+    parts/tinycore/
+      part.json             name, real size (1.9in), pin names
+      breadboard.svg        ← the board art: edit it in Illustrator
+      icon.svg              ← its palette tile
+    parts/tinyglow/ …
+  core/                     everyday parts (built into tinyStudio)
+    parts/resistor/         part.json + breadboard.svg + schematic.svg (+ icon.svg)
+  sparkfun-*/, arduino/, …  optional packs, installed from the app
+    parts/<type>.json       one file per part with the SVG embedded (see below)
 ```
 
-`index.json` entries carry `group`, `icon` (a 2-letter monogram for the tab
-rail), `count` (tiles the palette shows) and `files` (parts on disk, which is
-larger — see *Package variants*) alongside the usual `id` / `name` / `version`
-/ `url`, so the installer can render grouped, countable rows without fetching
-every manifest.
+## Editing art
 
-## The Core packs are gone — they ship with the app
+- Open a part's `.svg` in Illustrator and change whatever you like.
+- **Pins are the shapes named `pin-<NAME>`** (`pin-GND`, `pin-D8`, `pin-A.5`…),
+  placed at the shape's centre. Move them freely, but don't rename them: saved
+  circuits connect to pins by name.
+- Export with **Object IDs: Layer Names** so those names survive.
+- To see your changes live, run `npm run dev` (or `npm run dev:web`) in
+  tinyStudio with this repo cloned next to it. The app reads parts straight from
+  here and reloads them on every save.
 
-There used to be ten `core-*` packs here (Basic, Input, Output, ICs, Power,
-Microcontroller, Connection, Communication, Tools, Misc): 642 files, 554 tiles.
-Making someone install a pack to get a resistor was the wrong trade, so that
-whole catalogue is now bundled — it lives in the app under
-`src/renderer/src/assets/parts` and shows up as the **Core** bin with no
-download and no network.
+## How changes reach people
 
-An install that already downloaded those packs discards its copies on first
-launch and picks up the bundled ones; `bundledPackIds` in tinyStudio's
-`assets/packMigration.json` is what drives that. Nothing is re-downloaded, and
-nothing in a saved circuit stops resolving.
+- **Push to `main`.** Every copy of tinyStudio checks GitHub when it starts (at
+  most every 15 minutes) and downloads only the files that changed. No app
+  release is needed. Parts Packs → *Check for updates* checks right away.
+- `tinyboards` and `core` are also compiled into the app, so they work offline.
+  Before a tinyStudio release, run `npm run parts:sync` there and commit the
+  result.
+- To preview a branch, run
+  `localStorage.setItem('tinystudio.tinyparts.source', 'Mister-Industries/tinyparts@<branch>')`
+  in the app's DevTools console.
 
-What's left here is what stays optional: SparkFun's sub-bins and the
-per-vendor packs.
+## Tools (run from tinyStudio)
+
+```sh
+npm run parts:check                  # validate this checkout with the app's own loader
+npm run parts:check -- --fix         # …and repair pack.json / index.json listings
+npm run parts:new -- my-sensor --pack core --label "My Sensor"
+node scripts/parts-tool.mjs explode --pack sparkfun-led   # make an optional pack editable
+```
+
+Run `parts:check` before pushing. A malformed part.json would otherwise reach
+every install.
+
+## Editing an optional pack
+
+The SparkFun and vendor packs are generated from Fritzing, one JSON file per part
+with the SVG embedded as a string. `explode` turns a pack (or `--only a,b`
+parts of it) into folders of `part.json` + `.svg`, which the app reads the same
+way. A single part also becomes a folder the first time you save it from the
+Parts editor with **Save to tinyparts**.
 
 ## Why so many packs
 
-Before the split there was a single `tinystudio-core` pack holding all 1776
-parts. That was a 124 MB download to get one resistor, and it landed in the
-palette as one undifferentiated tab. The library is split along the same lines
-Fritzing uses for its bins — install only the bins you actually work with.
+There used to be a single `tinystudio-core` pack holding all 1776 parts: a
+124 MB download to get one resistor, landing in the palette as one tab. The
+library is split along the same lines Fritzing uses for its bins, so you
+install only the bins you work with.
 
 Parts are classified by, in order: explicit membership in a Fritzing `.fzb`
 bin file, the `sparkfun-<subbin>-*` filename convention, vendor prefixes, then
-keyword rules over family/label. See tinyStudio's
-`scripts/split-parts-packs.mjs`.
+keyword rules over family/label.
 
 ## Package variants
 
 Fritzing ships one `.fzp` per *PCB package*, and the package is frequently the
 only difference. SparkFun titles all sixteen of its inductors "Inductors", all
 thirteen ceramic caps "Capacitor" and all eighteen electrolytics "Capacitor
-Polarized" — they differ in footprint, which is a view tinyStudio doesn't have.
+Polarized". They differ in footprint, which is a view tinyStudio doesn't have.
 Left alone that's sixteen, thirteen and eighteen indistinguishable squares.
 
 So parts are grouped by **pack + family + base title**, and each group gets one
@@ -79,17 +105,19 @@ together parts that aren't interchangeable:
   tiles, common-anode and common-cathode, rather than one that lies about which
   it is.
 
-Net effect: **1776 files, 1345 tiles.** SparkFun · Passives went from 68
-squares to 19; Core · Basic from 71 (seven of them diodes, five of them 220 Ω
-resistors) to 25.
-
 Each part also carries an `order` — Fritzing's curated `.fzb` bin sequence
-first, then family, then label — because the palette renders a bin as one flat
-grid rather than a stack of family accordions.
+first, then family, then label.
 
 ## Packs
 
-### SparkFun — 572 tiles in 14 packs
+### tinyStudio: built in
+
+| id | name | parts |
+| --- | --- | --- |
+| `tinyboards` | tinyBoards | 6 |
+| `core` | Core | 29 |
+
+### SparkFun: 572 tiles in 14 packs
 
 | id | name | tiles | files |
 | --- | --- | --- | --- |
@@ -108,7 +136,7 @@ grid rather than a stack of family accordions.
 | `sparkfun-freqctrl` | SparkFun · Frequency Control | 9 | 21 |
 | `sparkfun-boards` | SparkFun · Boards | 3 | 4 |
 
-### Vendors — 219 tiles in 19 packs
+### Vendors: 219 tiles in 19 packs
 
 | id | name | tiles | files |
 | --- | --- | --- | --- |
@@ -132,42 +160,24 @@ grid rather than a stack of family accordions.
 | `calliope` | Calliope | 3 | 3 |
 | `adafruit` | Adafruit | 1 | 1 |
 
-## Regenerating
+## Importing more Fritzing parts
 
-A full rebuild, from a tinyStudio checkout with `fritzing-parts` cloned
-alongside:
-
-```sh
-node scripts/fritzing-import.mjs --src ../fritzing-parts --out /tmp/parts --all
-node scripts/split-parts-packs.mjs \
-  --src /tmp/parts \
-  --out ../tinyparts \
-  --bins ../fritzing-parts/bins \
-  --migration src/renderer/src/assets/packMigration.json \
-  --version 1.3.0
-```
-
-Add `--dry` to see the classification histogram without writing, and
-`--show <pack-id>` to list what landed in a pack while tuning the rules.
-
-To re-fold an existing checkout without re-importing anything — all you need
-after a change to `scripts/lib/fold-variants.mjs` — use:
+`scripts/fritzing-import.mjs` in tinyStudio converts `.fzp` parts from a
+[fritzing-parts](https://github.com/fritzing/fritzing-parts) checkout. Explode
+its output into a pack:
 
 ```sh
-node scripts/refold-parts.mjs --repo ../tinyparts --all --bundle --dry
-node scripts/refold-parts.mjs --repo ../tinyparts --all --bundle
-node scripts/refold-parts.mjs --repo ../tinyparts --finish --bundle
+node scripts/fritzing-import.mjs --src ../fritzing-parts --only resistor --views breadboard,schematic
+node scripts/parts-tool.mjs explode --from tmp/fritzing-import --pack core
 ```
 
-Folding is per-pack, so `--packs a,b,c` splits the work up when `--all` is too
-slow in one pass (the library is 125 MB, and these repos often sit on a network
-or virtualised filesystem).
-
-See tinyStudio's `docs/tinyparts-pack-setup.md` for the pack format and
-publishing steps.
+The scripts that originally split and folded the vendor packs
+(`split-parts-packs.mjs`, `refold-parts.mjs`) aren't on tinyStudio's current
+branches.
 
 ## License
 
-Parts are derived from the Fritzing
-[fritzing-parts](https://github.com/fritzing/fritzing-parts) library and remain
-under **CC-BY-SA 3.0**. See each pack's `ATTRIBUTION.md`.
+The Fritzing-derived parts (the `core` pack and every SparkFun/vendor pack) come
+from the [fritzing-parts](https://github.com/fritzing/fritzing-parts) library and
+remain under **CC-BY-SA 3.0**; see each pack's `ATTRIBUTION.md`. The `tinyboards`
+art was drawn for tinyStudio by MR.INDUSTRIES.
