@@ -1693,55 +1693,55 @@
       </g>
     </g>
   </g>
-  <circle id="pin-GND" class="st35" cx="5.5" cy="43" r="2.6"/>
+  <circle id="pin-GND" class="st35" cx="5.40" cy="43.20" r="2.6"/>
   <circle class="st36" cx="5.5" cy="43" r="1.3"/>
-  <circle id="pin-3V3" class="st35" cx="5.5" cy="50.2" r="2.6"/>
+  <circle id="pin-3V3" class="st35" cx="5.40" cy="50.40" r="2.6"/>
   <circle class="st36" cx="5.5" cy="50.2" r="1.3"/>
-  <circle id="pin-A5" class="st35" cx="5.5" cy="57.4" r="2.6"/>
+  <circle id="pin-A5" class="st35" cx="5.40" cy="57.60" r="2.6"/>
   <circle class="st36" cx="5.5" cy="57.4" r="1.3"/>
-  <circle id="pin-A4" class="st35" cx="5.5" cy="64.6" r="2.6"/>
+  <circle id="pin-A4" class="st35" cx="5.40" cy="64.80" r="2.6"/>
   <circle class="st36" cx="5.5" cy="64.6" r="1.3"/>
-  <circle id="pin-A3" class="st35" cx="5.5" cy="71.8" r="2.6"/>
+  <circle id="pin-A3" class="st35" cx="5.40" cy="72.00" r="2.6"/>
   <circle class="st36" cx="5.5" cy="71.8" r="1.3"/>
-  <circle id="pin-A2" class="st35" cx="5.5" cy="79" r="2.6"/>
+  <circle id="pin-A2" class="st35" cx="5.40" cy="79.20" r="2.6"/>
   <circle class="st36" cx="5.5" cy="79" r="1.3"/>
-  <circle id="pin-A1" class="st35" cx="5.5" cy="86.2" r="2.6"/>
+  <circle id="pin-A1" class="st35" cx="5.40" cy="86.40" r="2.6"/>
   <circle class="st36" cx="5.5" cy="86.2" r="1.3"/>
-  <circle id="pin-A0" class="st35" cx="5.5" cy="93.4" r="2.6"/>
+  <circle id="pin-A0" class="st35" cx="5.40" cy="93.60" r="2.6"/>
   <circle class="st36" cx="5.5" cy="93.4" r="1.3"/>
-  <circle id="pin-D8" class="st35" cx="131.5" cy="43" r="2.6"/>
+  <circle id="pin-D8" class="st35" cx="131.40" cy="43.20" r="2.6"/>
   <circle class="st36" cx="131.5" cy="43" r="1.3"/>
-  <circle id="pin-D9" class="st35" cx="131.5" cy="50.2" r="2.6"/>
+  <circle id="pin-D9" class="st35" cx="131.40" cy="50.40" r="2.6"/>
   <circle class="st36" cx="131.5" cy="50.2" r="1.3"/>
-  <circle id="pin-D10" class="st35" cx="131.5" cy="57.4" r="2.6"/>
+  <circle id="pin-D10" class="st35" cx="131.40" cy="57.60" r="2.6"/>
   <circle class="st36" cx="131.5" cy="57.4" r="1.3"/>
-  <circle id="pin-D11" class="st35" cx="131.5" cy="64.6" r="2.6"/>
+  <circle id="pin-D11" class="st35" cx="131.40" cy="64.80" r="2.6"/>
   <circle class="st36" cx="131.5" cy="64.6" r="1.3"/>
-  <circle id="pin-D12" class="st35" cx="131.5" cy="71.8" r="2.6"/>
+  <circle id="pin-D12" class="st35" cx="131.40" cy="72.00" r="2.6"/>
   <circle class="st36" cx="131.5" cy="71.8" r="1.3"/>
-  <circle id="pin-D13" class="st35" cx="131.5" cy="79" r="2.6"/>
+  <circle id="pin-D13" class="st35" cx="131.40" cy="79.20" r="2.6"/>
   <circle class="st36" cx="131.5" cy="79" r="1.3"/>
-  <circle id="pin-3V3.2" class="st35" cx="131.5" cy="86.2" r="2.6"/>
+  <circle id="pin-3V3.2" class="st35" cx="131.40" cy="86.40" r="2.6"/>
   <circle class="st36" cx="131.5" cy="86.2" r="1.3"/>
-  <circle id="pin-GND.2" class="st35" cx="131.5" cy="93.4" r="2.6"/>
+  <circle id="pin-GND.2" class="st35" cx="131.40" cy="93.60" r="2.6"/>
   <circle class="st36" cx="131.5" cy="93.4" r="1.3"/>
-  <circle id="pin-SCK" class="st35" cx="39.7" cy="127.6" r="2.6"/>
+  <circle id="pin-SCK" class="st35" cx="39.60" cy="127.80" r="2.6"/>
   <circle class="st36" cx="39.7" cy="127.6" r="1.3"/>
-  <circle id="pin-MO" class="st35" cx="46.9" cy="127.6" r="2.6"/>
+  <circle id="pin-MO" class="st35" cx="46.80" cy="127.80" r="2.6"/>
   <circle class="st36" cx="46.9" cy="127.6" r="1.3"/>
-  <circle id="pin-MI" class="st35" cx="54.1" cy="127.6" r="2.6"/>
+  <circle id="pin-MI" class="st35" cx="54.00" cy="127.80" r="2.6"/>
   <circle class="st36" cx="54.1" cy="127.6" r="1.3"/>
-  <circle id="pin-RX" class="st35" cx="61.3" cy="127.6" r="2.6"/>
+  <circle id="pin-RX" class="st35" cx="61.20" cy="127.80" r="2.6"/>
   <circle class="st36" cx="61.3" cy="127.6" r="1.3"/>
-  <circle id="pin-TX" class="st35" cx="68.5" cy="127.6" r="2.6"/>
+  <circle id="pin-TX" class="st35" cx="68.40" cy="127.80" r="2.6"/>
   <circle class="st36" cx="68.5" cy="127.6" r="1.3"/>
-  <circle id="pin-SDA" class="st35" cx="75.7" cy="127.6" r="2.6"/>
+  <circle id="pin-SDA" class="st35" cx="75.60" cy="127.80" r="2.6"/>
   <circle class="st36" cx="75.7" cy="127.6" r="1.3"/>
-  <circle id="pin-SCL" class="st35" cx="82.9" cy="127.6" r="2.6"/>
+  <circle id="pin-SCL" class="st35" cx="82.80" cy="127.80" r="2.6"/>
   <circle class="st36" cx="82.9" cy="127.6" r="1.3"/>
-  <circle id="pin-PWR" class="st35" cx="90.1" cy="127.6" r="2.6"/>
+  <circle id="pin-PWR" class="st35" cx="90.00" cy="127.80" r="2.6"/>
   <circle class="st36" cx="90.1" cy="127.6" r="1.3"/>
-  <circle id="pin-GND.3" class="st35" cx="97.3" cy="127.6" r="2.6"/>
+  <circle id="pin-GND.3" class="st35" cx="97.20" cy="127.80" r="2.6"/>
   <circle class="st36" cx="97.3" cy="127.6" r="1.3"/>
   <rect class="st5" x="127.8" y="40" width="8.5" height="57" rx=".7" ry=".7"/>
   <g id="layer137">
