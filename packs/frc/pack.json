@@ -6,38 +6,47 @@
   "group": "Vendors",
   "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAMAAADHso01AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAABTVBMVEX///+ioqLd3d2dlZftGyT6/P2lpKUUcrnx9/uZmZkje73l8Pf96+zQ0NCfn5+ZmZmnpqf5+fnQ4vHNqau71urk5OSjyOOtrK2Ht9vw8PDs7Ozp6Om1tbXg4OD82Nnp6enGxcXuHibCwsLd3d2rqqpFfaiZmZq7urv09PSZmZn//Pz8/PyZmZqysbGqqarZ2NjPzs/z8/Pq6uoAZbPIVVntGyTrHyeZmZkKarKmpqbTRUp6jqDp6en///8SbLCop6ftHCXQlphuqNRtiqKcnJwcb6/qISiPvN5dhaSamZqzs7PkKjKtzeZKfqjQSE34nqHk5OStrKydlZeliotkh6Qwg8Hs7Oyvrq+0c3ZxjKEeeLzw8PC5ubr9/f3+9/eampoNarEJa7bR0dG2cXT96eqjo6P+/v739/ebmJnGxsampaXEWl7z8/PT09PtHSUig3yMAAAAM3RSTlMAJiUw5QZk6w5v3RoUMGBmWgYwVkQfXFx4EBYYUSAoFjrhPiJWu2ZGASwEBClOHSgyDBYMStfhAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+UCARUYJ3XdWD0AAAEqSURBVCjP1dJVUwQxDADgBYpLcXd3DkIIFg453N3d9f8/knT35vZmmHtihiEP3abftul263n/OtJSanqGSR4AyAxlWaMmybMBICeR5iKGPQ808sM8ZkyB5xUW2eISIaJxgNIQT0yiKbOWiESnpplmAMp9rRDm6CziHDPPAyzE5EmLAJWOq0iYaUnbZYAVIlaXZard2qsKa7SOuAGw6TBwx1u4vSP57h7uHwAcqh0xi9pgZ3wsb58gIp0CnAmfO60RrVW+uGQWxavrG7hlvnNap5PrZWd0rxUfdNnHJ+ZnrWsb/K9+0WlIrxyPN4rXVX6XIzWNTdbGPsQ+/aOxzXH+Mi2u02r9aGvvgM6uQLt7TG/id/S51vYPpLwBgz+ODkWGg15k5Jcu4p/FN+unQqp6bu7+AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTAyLTAxVDIwOjI0OjM5KzAxOjAw0iptEQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMS0wMi0wMVQyMDoyNDozOSswMTowMKN31a0AAAAASUVORK5CYII=",
   "description": "FRC parts from the Fritzing library",
+  "sections": ["Controller"],
   "parts": [
     {
       "type": "roborio-1",
-      "file": "parts/roborio-1.json"
+      "file": "parts/roborio-1.json",
+      "section": "Controller"
     },
     {
       "type": "vrm-1",
-      "file": "parts/vrm-1.json"
+      "file": "parts/vrm-1.json",
+      "section": "Controller"
     },
     {
       "type": "pcm-1",
-      "file": "parts/pcm-1.json"
+      "file": "parts/pcm-1.json",
+      "section": "Controller"
     },
     {
       "type": "pdp-1",
-      "file": "parts/pdp-1.json"
+      "file": "parts/pdp-1.json",
+      "section": "Controller"
     },
     {
       "type": "talonsrx-1",
-      "file": "parts/talonsrx-1.json"
+      "file": "parts/talonsrx-1.json",
+      "section": "Controller"
     },
     {
       "type": "amt103-1",
-      "file": "parts/amt103-1.json"
+      "file": "parts/amt103-1.json",
+      "section": "Controller"
     },
     {
       "type": "yumoe6b2-1",
-      "file": "parts/yumoe6b2-1.json"
+      "file": "parts/yumoe6b2-1.json",
+      "section": "Controller"
     },
     {
       "type": "router-1",
-      "file": "parts/router-1.json"
+      "file": "parts/router-1.json",
+      "section": "Controller"
     }
   ]
 }

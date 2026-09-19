@@ -88,12 +88,12 @@
       "file": "parts/sparkfun-sensors-si1120.json"
     },
     {
-      "type": "sparkfun-sensors-scp1000-d01-smd2",
-      "file": "parts/sparkfun-sensors-scp1000-d01-smd2.json"
-    },
-    {
       "type": "sparkfun-sensors-scp1000-d01-smd",
       "file": "parts/sparkfun-sensors-scp1000-d01-smd.json"
+    },
+    {
+      "type": "sparkfun-sensors-scp1000-d01-smd2",
+      "file": "parts/sparkfun-sensors-scp1000-d01-smd2.json"
     },
     {
       "type": "sparkfun-sensors-mpl115a",
@@ -148,12 +148,12 @@
       "file": "parts/sparkfun-sensors-os4000-t.json"
     },
     {
-      "type": "sparkfun-sensors-mic-electret-smd",
-      "file": "parts/sparkfun-sensors-mic-electret-smd.json"
-    },
-    {
       "type": "sparkfun-sensors-mic-9-7mm",
       "file": "parts/sparkfun-sensors-mic-9-7mm.json"
+    },
+    {
+      "type": "sparkfun-sensors-mic-electret-smd",
+      "file": "parts/sparkfun-sensors-mic-electret-smd.json"
     },
     {
       "type": "sparkfun-sensors-geiger-tube-lnd712",
@@ -212,12 +212,12 @@
       "file": "parts/sparkfun-sensors-l3g4200d.json"
     },
     {
-      "type": "sparkfun-sensors-st-gyro-pr-lga28",
-      "file": "parts/sparkfun-sensors-st-gyro-pr-lga28.json"
-    },
-    {
       "type": "sparkfun-sensors-st-gyro-pr-lga",
       "file": "parts/sparkfun-sensors-st-gyro-pr-lga.json"
+    },
+    {
+      "type": "sparkfun-sensors-st-gyro-pr-lga28",
+      "file": "parts/sparkfun-sensors-st-gyro-pr-lga28.json"
     },
     {
       "type": "sparkfun-sensors-st-gyro-py-smd",
@@ -252,12 +252,12 @@
       "file": "parts/sparkfun-sensors-hmc1041z.json"
     },
     {
-      "type": "sparkfun-sensors-hmc1051z-2",
-      "file": "parts/sparkfun-sensors-hmc1051z-2.json"
-    },
-    {
       "type": "sparkfun-sensors-hmc1051z",
       "file": "parts/sparkfun-sensors-hmc1051z.json"
+    },
+    {
+      "type": "sparkfun-sensors-hmc1051z-2",
+      "file": "parts/sparkfun-sensors-hmc1051z-2.json"
     },
     {
       "type": "sparkfun-sensors-hmc1052l",

@@ -6,190 +6,237 @@
   "group": "Vendors",
   "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAR/SURBVFiF7ZZdTJNXGMd/b1uhVCgIFaHy1SII4oyyVEHn1jkd6YwfE8fC1E1iJFumyxLnEpNd7GZbTJZNL0zmYuIWJwrToGPZBHEaNZNoWBBkVCizaKV8tUKhtLR9212UFat1l2MXnKv3fc7zvv/fOef5PzlC/L7DAaZxSKZTfAZgBmAG4H8BIIsUzEhU8sayhRRr1MxTKhhxTWC2OTjf2sWlu/fxB57duzISlWzXLWKVdj7qhFhsThe3LYOca+3imsnyVL7weCeUCAIHSor4QF9ItEwaUeBuv53dVfW0PhwMi0slAh+9omP/uuXIJJE3tsls5d1TDZhtI08DCAIcLS+hrHAhAA63h1/udNPeZ0MmkVCkUbMuLxOJIDDhE6msqud8qwkApTyKUxUbWJU9HwD7uJu6NhNtD4eYG6fgxQVpFGvUAAyNuTAcOUPX4KNwgIrixXxdugaA081GPq69gsPtCVtBQaqKY9tKyE9JwiOKlB37iSazldrKzRRr1Pj8fg5fbuZgw008ohj2rT4nneM7DMxRyGm3DqE/dBqv6EcqX2n4VCaR8MPO9cTJo6i93UVlVT0TvvAfAAyOjVPb0sW6vCxSlLMxFGh5ITuN1dlp+AMBKqsa+Ob6bcRAAK0qgU1LFnDPNsKET8Rsd/DHg37Kn88nOU5B54CdP/tsQRcsS09GHR+L6A/wSd11/qXGsI+7KT9eh33cTXxMNPqcdAA+r2/ibEtnKK9Yo+bQ1jVkzFGGYtdMFhqMZgA2PLcAmHRBbnIiAJ0Ddh4OjwJgKNDyxcbVYeK7Tl6g+X4/PXYH+85e5vgOAwDGPhuHLzeH8i7uLUOrigegZtcGGu/2sLfmEgCNRjMl+VnkzUucApglDVat2zu17c4JD2a7Iwzg8fkhpyv0POL24BX9oXfL8ChKeRRJs2PoHXHS7xgPzbm8vqDwpKYM4N6kLfJTElHFxjA05uKqycLVCL4FSIiJ5tDWNaH3FVmpvKXLp+pWBwAVJ35lm24RR95cy4dnfqOtd8qyKzVBp9yfXJwE4MZfvdicLuSzZBx4tSii6D9DLpPy3duvka1KwCv66eizAfDVlpfRZaaE8i4azWw+Wotp0m4QdFHpslwA6jvMAEEXiIEAXtHP2rxMCtPnIZNIuNb99OqT4xR8/8569DnpBAKwp6aRzy7cYNOSHFSxMZQuzcUyPEq71YbT48Vsd+DzB49mUWoSP+7ayByFHOvIGO9XN+IV/VN9QCIInNy5HkOBFoAWywDVzUYePAoW5Uqtmu3LC1DKowgEYH/tFY793gpAWkIcde9tQZMULLy23kFONxvp7LejiJqFPieDcl0+cpkUl9fH69+eo+leL/BEK46WSflyi57tugIEIfIRWIZH2VPdyJWuB2FxVWwMBze/ROnS3GceX4/dwe6T9dzssYZiQqRbcZFGTUXRYlZkpZKgkOPyeGmxDHC+1UTdnW6cE95niugyUygrzKNIk8rcWAUA7dYhfr7TzalbHbifaHARAf7LMe33gRmAGYAZgGkH+BvNjsItibiZ/wAAAABJRU5ErkJggg==",
   "description": "Arduino parts from the Fritzing library",
+  "sections": ["Arduino Boards", "Arduino Shields"],
   "parts": [
     {
       "type": "arduino-uno-rev3-fix",
-      "file": "parts/arduino-uno-rev3-fix.json"
-    },
-    {
-      "type": "arduino-yun-rev1-v1",
-      "file": "parts/arduino-yun-rev1-v1.json"
-    },
-    {
-      "type": "shield-eth06-poe",
-      "file": "parts/shield-eth06-poe.json"
+      "file": "parts/arduino-uno-rev3-fix.json",
+      "section": "Arduino Boards"
     },
     {
       "type": "intel-arduino-galileo-simple",
-      "file": "parts/intel-arduino-galileo-simple.json"
-    },
-    {
-      "type": "arduino-bt07",
-      "file": "parts/arduino-bt07.json"
-    },
-    {
-      "type": "arduino-mega-2560-rev3-fix",
-      "file": "parts/arduino-mega-2560-rev3-fix.json"
-    },
-    {
-      "type": "arduino-adk-mega-2560-rev3-fix",
-      "file": "parts/arduino-adk-mega-2560-rev3-fix.json"
-    },
-    {
-      "type": "arduino-due-v02b",
-      "file": "parts/arduino-due-v02b.json"
-    },
-    {
-      "type": "arduino-nano3-fix",
-      "file": "parts/arduino-nano3-fix.json"
-    },
-    {
-      "type": "arduino-ethernet",
-      "file": "parts/arduino-ethernet.json"
-    },
-    {
-      "type": "arduino-esplora",
-      "file": "parts/arduino-esplora.json"
-    },
-    {
-      "type": "arduino-leonardo-rev3-fix",
-      "file": "parts/arduino-leonardo-rev3-fix.json"
-    },
-    {
-      "type": "arduino-pro-mini-v13-a4-5",
-      "file": "parts/arduino-pro-mini-v13-a4-5.json"
-    },
-    {
-      "type": "arduino-micro-rev03-fix",
-      "file": "parts/arduino-micro-rev03-fix.json"
-    },
-    {
-      "type": "arduino-mini-v5",
-      "file": "parts/arduino-mini-v5.json"
-    },
-    {
-      "type": "arduino-pro",
-      "file": "parts/arduino-pro.json"
-    },
-    {
-      "type": "arduino-fio-v22-fix",
-      "file": "parts/arduino-fio-v22-fix.json"
-    },
-    {
-      "type": "gsm-quectel-updatetid-2-v1-3",
-      "file": "parts/gsm-quectel-updatetid-2-v1-3.json"
-    },
-    {
-      "type": "arduino-motor-shield-rev3",
-      "file": "parts/arduino-motor-shield-rev3.json"
-    },
-    {
-      "type": "arduino-ethernet-v11",
-      "file": "parts/arduino-ethernet-v11.json"
-    },
-    {
-      "type": "arduino-sensor-shield-v5-1",
-      "file": "parts/arduino-sensor-shield-v5-1.json"
-    },
-    {
-      "type": "arduino-mega-sensor-shield-v20",
-      "file": "parts/arduino-mega-sensor-shield-v20.json"
-    },
-    {
-      "type": "proto-shield-rev3",
-      "file": "parts/proto-shield-rev3.json"
-    },
-    {
-      "type": "wireless-sd-v3",
-      "file": "parts/wireless-sd-v3.json"
-    },
-    {
-      "type": "arduinoxbeere",
-      "file": "parts/arduinoxbeere.json"
-    },
-    {
-      "type": "arduino-fio-v22-iscp",
-      "file": "parts/arduino-fio-v22-iscp.json"
-    },
-    {
-      "type": "arduino-fio-v22-iscp-bottom",
-      "file": "parts/arduino-fio-v22-iscp-bottom.json"
-    },
-    {
-      "type": "arduino-fio-v22-fix-bottom",
-      "file": "parts/arduino-fio-v22-fix-bottom.json"
-    },
-    {
-      "type": "arduino-adk-mega-2560-rev3-icsp",
-      "file": "parts/arduino-adk-mega-2560-rev3-icsp.json"
-    },
-    {
-      "type": "arduino-nano3-icsp",
-      "file": "parts/arduino-nano3-icsp.json"
-    },
-    {
-      "type": "arduino-nano-rp2040-tht-1",
-      "file": "parts/arduino-nano-rp2040-tht-1.json"
-    },
-    {
-      "type": "arduino-pro-mini-3-3v-v14",
-      "file": "parts/arduino-pro-mini-3-3v-v14.json"
-    },
-    {
-      "type": "arduino-pro-mini-5v-v14",
-      "file": "parts/arduino-pro-mini-5v-v14.json"
-    },
-    {
-      "type": "arduino-uno-rev3-icsp-1",
-      "file": "parts/arduino-uno-rev3-icsp-1.json"
-    },
-    {
-      "type": "arduino-uno-rev3-icsp",
-      "file": "parts/arduino-uno-rev3-icsp.json"
-    },
-    {
-      "type": "arduino-ble-lowpower-revb-final-5",
-      "file": "parts/arduino-ble-lowpower-revb-final-5.json"
+      "file": "parts/intel-arduino-galileo-simple.json",
+      "section": "Arduino Boards"
     },
     {
       "type": "intel-arduino-galileo",
-      "file": "parts/intel-arduino-galileo.json"
+      "file": "parts/intel-arduino-galileo.json",
+      "section": "Arduino Boards"
     },
     {
-      "type": "arduino-intel-galileo-pcb-shape",
-      "file": "parts/arduino-intel-galileo-pcb-shape.json"
+      "type": "arduino-bt07",
+      "file": "parts/arduino-bt07.json",
+      "section": "Arduino Boards"
     },
     {
-      "type": "arduino-intel-galileo-half-pcb-shape",
-      "file": "parts/arduino-intel-galileo-half-pcb-shape.json"
+      "type": "arduino-mega-2560-rev3-fix",
+      "file": "parts/arduino-mega-2560-rev3-fix.json",
+      "section": "Arduino Boards"
     },
     {
-      "type": "arduino-mega-r3-shield-one-layer",
-      "file": "parts/arduino-mega-r3-shield-one-layer.json"
+      "type": "arduino-adk-mega-2560-rev3-fix",
+      "file": "parts/arduino-adk-mega-2560-rev3-fix.json",
+      "section": "Arduino Boards"
     },
     {
-      "type": "arduino-mega-rev3-shield-two-layer",
-      "file": "parts/arduino-mega-rev3-shield-two-layer.json"
+      "type": "arduino-due-v02b",
+      "file": "parts/arduino-due-v02b.json",
+      "section": "Arduino Boards"
     },
     {
-      "type": "arduino-shield-r4-two-layer",
-      "file": "parts/arduino-shield-r4-two-layer.json"
+      "type": "arduino-nano3-fix",
+      "file": "parts/arduino-nano3-fix.json",
+      "section": "Arduino Boards"
     },
     {
-      "type": "arduino-shield",
-      "file": "parts/arduino-shield.json"
+      "type": "arduino-nano3-icsp",
+      "file": "parts/arduino-nano3-icsp.json",
+      "section": "Arduino Boards"
     },
     {
-      "type": "arduino-shield-r3-two-layer",
-      "file": "parts/arduino-shield-r3-two-layer.json"
+      "type": "arduino-ethernet",
+      "file": "parts/arduino-ethernet.json",
+      "section": "Arduino Boards"
     },
     {
-      "type": "arduino-voice-shield-v16",
-      "file": "parts/arduino-voice-shield-v16.json"
+      "type": "arduino-esplora",
+      "file": "parts/arduino-esplora.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-leonardo-rev3-fix",
+      "file": "parts/arduino-leonardo-rev3-fix.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-pro-mini-v13-a4-5",
+      "file": "parts/arduino-pro-mini-v13-a4-5.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-micro-rev03-fix",
+      "file": "parts/arduino-micro-rev03-fix.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-mini-v5",
+      "file": "parts/arduino-mini-v5.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-pro",
+      "file": "parts/arduino-pro.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-fio-v22-fix",
+      "file": "parts/arduino-fio-v22-fix.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-fio-v22-fix-bottom",
+      "file": "parts/arduino-fio-v22-fix-bottom.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-fio-v22-iscp-bottom",
+      "file": "parts/arduino-fio-v22-iscp-bottom.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-fio-v22-iscp",
+      "file": "parts/arduino-fio-v22-iscp.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-nano-rp2040-tht-1",
+      "file": "parts/arduino-nano-rp2040-tht-1.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-yun-rev1-v1",
+      "file": "parts/arduino-yun-rev1-v1.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-ethernet-v11",
+      "file": "parts/arduino-ethernet-v11.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-adk-mega-2560-rev3-icsp",
+      "file": "parts/arduino-adk-mega-2560-rev3-icsp.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-pro-mini-3-3v-v14",
+      "file": "parts/arduino-pro-mini-3-3v-v14.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-pro-mini-5v-v14",
+      "file": "parts/arduino-pro-mini-5v-v14.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-uno-rev3-icsp-1",
+      "file": "parts/arduino-uno-rev3-icsp-1.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-uno-rev3-icsp",
+      "file": "parts/arduino-uno-rev3-icsp.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "arduino-ble-lowpower-revb-final-5",
+      "file": "parts/arduino-ble-lowpower-revb-final-5.json",
+      "section": "Arduino Boards"
     },
     {
       "type": "arduinobluetoothmatev13",
-      "file": "parts/arduinobluetoothmatev13.json"
+      "file": "parts/arduinobluetoothmatev13.json",
+      "section": "Arduino Boards"
+    },
+    {
+      "type": "gsm-quectel-updatetid-2-v1-3",
+      "file": "parts/gsm-quectel-updatetid-2-v1-3.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "shield-eth06-poe",
+      "file": "parts/shield-eth06-poe.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-motor-shield-rev3",
+      "file": "parts/arduino-motor-shield-rev3.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "wireless-sd-v3",
+      "file": "parts/wireless-sd-v3.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "proto-shield-rev3",
+      "file": "parts/proto-shield-rev3.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduinoxbeere",
+      "file": "parts/arduinoxbeere.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-shield-r4-two-layer",
+      "file": "parts/arduino-shield-r4-two-layer.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-sensor-shield-v5-1",
+      "file": "parts/arduino-sensor-shield-v5-1.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-mega-sensor-shield-v20",
+      "file": "parts/arduino-mega-sensor-shield-v20.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-intel-galileo-pcb-shape",
+      "file": "parts/arduino-intel-galileo-pcb-shape.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-intel-galileo-half-pcb-shape",
+      "file": "parts/arduino-intel-galileo-half-pcb-shape.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-mega-r3-shield-one-layer",
+      "file": "parts/arduino-mega-r3-shield-one-layer.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-mega-rev3-shield-two-layer",
+      "file": "parts/arduino-mega-rev3-shield-two-layer.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-shield",
+      "file": "parts/arduino-shield.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-shield-r3-two-layer",
+      "file": "parts/arduino-shield-r3-two-layer.json",
+      "section": "Arduino Shields"
+    },
+    {
+      "type": "arduino-voice-shield-v16",
+      "file": "parts/arduino-voice-shield-v16.json",
+      "section": "Arduino Shields"
     }
   ]
 }

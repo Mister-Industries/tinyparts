@@ -6,54 +6,67 @@
   "group": "Vendors",
   "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNrcl1toFFcYx/9z2c3ekjUka2J0waatt1KKFEJbaKH4oPRJaylYFASR6pu+iq8qCH0JeWht6JNPagut1ociLbRUa6jQi8UkbaOom5jsJdnr7OzOzPF/ZqOkbnbcuMJCD5xlmTnnfL/znf/3fWcUIcRdAF1oT8spBBBoY1PZs220n1XR5uYJkKs4uJWyUBFtAjjxaw4fXs7g7D1zRYumSg4yTVI3BLgwkcfpHwu4mTRx4Kc8yk0aPz9eQGxkGj2jMzgxWX5GAAbGwetFYLUO+FTseimIQJMAhYrNVRUgoOD4xRS+SFgrB5iar2Bhwam9DeoY3hpq2v37X41i5+YOwOARRDUc+DaNlLVCgM9ulQCdu8jbGNoQwjq/0jSAwqFfvdeDNSH+EexGFTt+LjQPIGwHo1MV14VQVXzyWnjFylZIcX1XD41z610abkwUkWggyjqA2byFDFUMy4Ea8+ONVc+WKuKr/Hh/A5UjA4ggJ8fLTwcQjsDYHHcvz6wq8O6AH3oLMT78ZpTrOK43z0yWYD8NIFey8MM0AXx0P0fvjne0lGTWdulY36u7UWGlqxgvOt4AWUvg2rzthiH8KrZSxS01auHIpiC9wP+mg+/nLFheAOmijQeEcJ/6NHQHWy8Vb/f5uCFpSeDL+yZmKh4AswQwrEW1MgzDmtIyQDxEL4ZVd72/0hZuG05jANMWEEve+Fu3j66ACncZ/lgU5J8FD4BeOVhmEjmDnijYz6EMcj1VakqRgSWQKHkA9FO1a2QEyDFlGxnDG6BKwPs5G16cMrSdxaOUxgJPHOt/AHqo/Le6tVo+pbsuPKmYJc1mxnzh3CziIwlsupJDI4Ys7xSiXHurMBy3dKqNAaJhHdsGqFpTuMlj+GapIUC6UEUiSVf1+/DPlIGkvfy4y1S+ux4T22C3H0NRDwBJuGM941bhhA4VxkwZp/5e3gvHb5RqKqXXYNk4eDVfN8ah+49eYyGKKG4uOPxyoK6w1QV6OKDj0Bbm8Cx3R3cdu5LG8L8mctxBnv23VAWvn5vD5xPM7SFOl0WGBeebP/L4iMZS1Zq758sO3vk6iaztikWeL/bFfXUG5bV8QXp/6UOL5xsZfcDkRVpZVqVy/YtTmdHcUq3WYkvhjoR8H+GDBea5Th+GYhrGpul6OV8WE94tzu/twwer9eZuxbqmIrGvD/2yFDy6TVBMbpceLNpuqf5uZy/ye2LYtpYLz1VrN6FiFWMTRi39GhzHkzqzO7ac8cYeeOwJnuGl22WMTBrIuBlSMEBUfLwxiD2DAXQuCalfZkx8Om7g95wFhc9t2t4+0IFDr4QwGGqY0rOeAI/aHd6MTEc8vmy8yDNfrkwlS8wdVLyiSQEC6yIaIrpnOm0O4H/9ZdT2j1MpzXvt/Dx/KMAAf3Kzvioqc+cAAAAASUVORK5CYII=",
   "description": "WeMos parts from the Fritzing library",
+  "sections": ["WeMos Boards", "WeMos D1 Mini Shields"],
   "parts": [
     {
       "type": "wemos-d1-mini-female-headers-above-fixed",
-      "file": "parts/wemos-d1-mini-female-headers-above-fixed.json"
+      "file": "parts/wemos-d1-mini-female-headers-above-fixed.json",
+      "section": "WeMos Boards"
     },
     {
       "type": "wemos-d1-mini-male-headers-above-fixed",
-      "file": "parts/wemos-d1-mini-male-headers-above-fixed.json"
+      "file": "parts/wemos-d1-mini-male-headers-above-fixed.json",
+      "section": "WeMos Boards"
     },
     {
       "type": "wemos-d1-mini-1-button-shield-no-headers",
-      "file": "parts/wemos-d1-mini-1-button-shield-no-headers.json"
+      "file": "parts/wemos-d1-mini-1-button-shield-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     },
     {
       "type": "wemos-d1-mini-battery-shield-no-headers",
-      "file": "parts/wemos-d1-mini-battery-shield-no-headers.json"
+      "file": "parts/wemos-d1-mini-battery-shield-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     },
     {
       "type": "wemos-d1-mini-dual-base-shield-no-headers",
-      "file": "parts/wemos-d1-mini-dual-base-shield-no-headers.json"
+      "file": "parts/wemos-d1-mini-dual-base-shield-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     },
     {
       "type": "wemos-d1-mini-micro-sd-shield-no-headers",
-      "file": "parts/wemos-d1-mini-micro-sd-shield-no-headers.json"
+      "file": "parts/wemos-d1-mini-micro-sd-shield-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     },
     {
       "type": "wemos-d1-mini-oled-shield-no-headers",
-      "file": "parts/wemos-d1-mini-oled-shield-no-headers.json"
+      "file": "parts/wemos-d1-mini-oled-shield-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     },
     {
       "type": "wemos-d1-mini-protoboard-shield-no-headers",
-      "file": "parts/wemos-d1-mini-protoboard-shield-no-headers.json"
+      "file": "parts/wemos-d1-mini-protoboard-shield-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     },
     {
       "type": "wemos-d1-mini-relay-shield-no-headers",
-      "file": "parts/wemos-d1-mini-relay-shield-no-headers.json"
+      "file": "parts/wemos-d1-mini-relay-shield-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     },
     {
       "type": "wemos-d1-mini-relay-shield-v2-no-headers",
-      "file": "parts/wemos-d1-mini-relay-shield-v2-no-headers.json"
+      "file": "parts/wemos-d1-mini-relay-shield-v2-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     },
     {
       "type": "wemos-d1-mini-ws2812b-rgb-shield-no-headers",
-      "file": "parts/wemos-d1-mini-ws2812b-rgb-shield-no-headers.json"
+      "file": "parts/wemos-d1-mini-ws2812b-rgb-shield-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     },
     {
       "type": "wemos-d1-mini-motor-shield-no-headers",
-      "file": "parts/wemos-d1-mini-motor-shield-no-headers.json"
+      "file": "parts/wemos-d1-mini-motor-shield-no-headers.json",
+      "section": "WeMos D1 Mini Shields"
     }
   ]
 }

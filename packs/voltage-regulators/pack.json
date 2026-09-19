@@ -16,12 +16,12 @@
       "file": "parts/lm2574-soic-139fde836b26224f66fa149e18beb2eb-2.json"
     },
     {
-      "type": "lm2575-to263-5b86049dfb531778c02a1ede4e31e375-1",
-      "file": "parts/lm2575-to263-5b86049dfb531778c02a1ede4e31e375-1.json"
-    },
-    {
       "type": "lm2575-f4990627fb40e38fcd573bd74d3d7e4c-2",
       "file": "parts/lm2575-f4990627fb40e38fcd573bd74d3d7e4c-2.json"
+    },
+    {
+      "type": "lm2575-to263-5b86049dfb531778c02a1ede4e31e375-1",
+      "file": "parts/lm2575-to263-5b86049dfb531778c02a1ede4e31e375-1.json"
     },
     {
       "type": "lm2576-af865fdbce219b6e1655050c6b30f5cb-10",
@@ -32,20 +32,20 @@
       "file": "parts/lm2576-to220-1dca9729a1f57f4b234b0ac8bb7693a7-3.json"
     },
     {
-      "type": "lm2596-to263-2cc7b20badfc99329be65b67ba7adc35-1",
-      "file": "parts/lm2596-to263-2cc7b20badfc99329be65b67ba7adc35-1.json"
-    },
-    {
       "type": "lm2596-to220-f44cb37d8d6021cdacac7094cee01f17-1",
       "file": "parts/lm2596-to220-f44cb37d8d6021cdacac7094cee01f17-1.json"
     },
     {
-      "type": "lm2577-to263-8fc1255a99f187de1e702ceedefc2a0b-1",
-      "file": "parts/lm2577-to263-8fc1255a99f187de1e702ceedefc2a0b-1.json"
+      "type": "lm2596-to263-2cc7b20badfc99329be65b67ba7adc35-1",
+      "file": "parts/lm2596-to263-2cc7b20badfc99329be65b67ba7adc35-1.json"
     },
     {
       "type": "lm2577-to220-1585e1a79523015d3bb04fa3c119ed4b-1",
       "file": "parts/lm2577-to220-1585e1a79523015d3bb04fa3c119ed4b-1.json"
+    },
+    {
+      "type": "lm2577-to263-8fc1255a99f187de1e702ceedefc2a0b-1",
+      "file": "parts/lm2577-to263-8fc1255a99f187de1e702ceedefc2a0b-1.json"
     },
     {
       "type": "mic2171-to263-428b5a4f1a2a4e9650fa890d6eadc123-1",
@@ -56,20 +56,20 @@
       "file": "parts/mic4574-5ee57349869fd1a1da296bd15e8e1743-1.json"
     },
     {
-      "type": "mic4575-to263-e9f75c5adeaad0de490ebb2c6da6e995-1",
-      "file": "parts/mic4575-to263-e9f75c5adeaad0de490ebb2c6da6e995-1.json"
-    },
-    {
       "type": "mic4575-to220-606f336f4be80536825ec230d0d79b65-1",
       "file": "parts/mic4575-to220-606f336f4be80536825ec230d0d79b65-1.json"
     },
     {
-      "type": "mic4576-to263-98ea17460fdaa28f8d6fb0856792dbff-1",
-      "file": "parts/mic4576-to263-98ea17460fdaa28f8d6fb0856792dbff-1.json"
+      "type": "mic4575-to263-e9f75c5adeaad0de490ebb2c6da6e995-1",
+      "file": "parts/mic4575-to263-e9f75c5adeaad0de490ebb2c6da6e995-1.json"
     },
     {
       "type": "mic4576-to220-7ca7aead36ea07c96091208b0122f0cc-1",
       "file": "parts/mic4576-to220-7ca7aead36ea07c96091208b0122f0cc-1.json"
+    },
+    {
+      "type": "mic4576-to263-98ea17460fdaa28f8d6fb0856792dbff-1",
+      "file": "parts/mic4576-to263-98ea17460fdaa28f8d6fb0856792dbff-1.json"
     },
     {
       "type": "xl4005-dd04c65a74197e075712ad6517003651-1",

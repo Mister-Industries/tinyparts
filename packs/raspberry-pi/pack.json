@@ -40,12 +40,12 @@
       "file": "parts/raspberry-pi-b.json"
     },
     {
-      "type": "raspberrypi-b-pcb-shape",
-      "file": "parts/raspberrypi-b-pcb-shape.json"
-    },
-    {
       "type": "raspberrypi-pcb-shape",
       "file": "parts/raspberrypi-pcb-shape.json"
+    },
+    {
+      "type": "raspberrypi-b-pcb-shape",
+      "file": "parts/raspberrypi-b-pcb-shape.json"
     }
   ]
 }

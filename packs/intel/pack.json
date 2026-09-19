@@ -6,30 +6,37 @@
   "group": "Vendors",
   "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAqlJREFUeNrslk9IVFEUxscxgkrIwLAiU6zFazNCM4tcmIsIgyDTFi1mMDBoKUW7EBcS7rIQ2hgt+rPtj0GQRIvBsNUEziaDiiajGBLGogkxgn7P73F9vrnOPERpM5fhcd/9c875vu+c86amNnU/spkjGtnkUXXw/x1sWd+1zsONZp5+m98AB1h0f05jW/Ou+u1bA7sLv5dw8zTzZSIzx9y/VVO+Dloa6oZ6Y6fj+xXpzOeC4p3JFWRI/vDdfaSJOYvDj7Jjk7OVHWD6zsV27tyb+nh36gMWw6AcTSZ0pX98Wou10Viv9fRoKgHk5K1Xk9mv+R+LYWjMzRc56ezd2RXbB9Z3337as+jl1RNYJwQCD2AixlIBdIUfWw8vdYqfvo5WS5pCtz89AqPvWCtWYGCtAwhw6PIT8dkdbwpm0fmOgwg19tzTB0MQqjl4kc6jLpnovz0NmoEuh1fiJXOMkU/zv+QpmKZcuJ6Kn72ZZk8glBvQulBcwpa5w4TohnpibPEKJ0QdTJDdddpdoWjgpJP7XiwtGfDGB5/5V46PvGg74LJE4DoPdf4DuG9u2GFgeQiooIk3cyGLTjrLDT6ILOJEDLEkNygN1VGzEdI6AQo+MQ4/zjI3wUKpcunKg4zEsLcKLlhz0SWkxyUdqdyaSiUkCefJAgBJPHb9snuVnLl2iqehG0AA15NYXLWXJzhmUX1C5kzPIE3kL9CLvEreU7/t3NEW8BILrxTk4p+/bgotnzYTLfLUopkrCSldVa/le4AmmEAfas3Kz1pqUz3w/v7GGVNZgbHS7MAuifBEt3J7Z65gtPJ3NJWIWrdfoQvjr0vPr+qm6qBluoW1wSFpmXZradfEBXCTFaVDyAg5PZuv2MYrfHCUNiG/juv5ZOpbWP1fVHVQdvwTYACHqJNshCH3CwAAAABJRU5ErkJggg==",
   "description": "Intel parts from the Fritzing library",
+  "sections": ["Controller", "Breakoutboards"],
   "parts": [
     {
-      "type": "intel-arduino-galileo-gen2-simple",
-      "file": "parts/intel-arduino-galileo-gen2-simple.json"
-    },
-    {
       "type": "intel-edison-hirosedf40",
-      "file": "parts/intel-edison-hirosedf40.json"
+      "file": "parts/intel-edison-hirosedf40.json",
+      "section": "Controller"
     },
     {
-      "type": "intel-edison-arduinobreakout",
-      "file": "parts/intel-edison-arduinobreakout.json"
-    },
-    {
-      "type": "intel-edison-minibreakout-bottom-fix",
-      "file": "parts/intel-edison-minibreakout-bottom-fix.json"
-    },
-    {
-      "type": "intel-edison-minibreakout-fix",
-      "file": "parts/intel-edison-minibreakout-fix.json"
+      "type": "intel-arduino-galileo-gen2-simple",
+      "file": "parts/intel-arduino-galileo-gen2-simple.json",
+      "section": "Controller"
     },
     {
       "type": "intel-arduino-galileo-gen2",
-      "file": "parts/intel-arduino-galileo-gen2.json"
+      "file": "parts/intel-arduino-galileo-gen2.json",
+      "section": "Controller"
+    },
+    {
+      "type": "intel-edison-arduinobreakout",
+      "file": "parts/intel-edison-arduinobreakout.json",
+      "section": "Breakoutboards"
+    },
+    {
+      "type": "intel-edison-minibreakout-bottom-fix",
+      "file": "parts/intel-edison-minibreakout-bottom-fix.json",
+      "section": "Breakoutboards"
+    },
+    {
+      "type": "intel-edison-minibreakout-fix",
+      "file": "parts/intel-edison-minibreakout-fix.json",
+      "section": "Breakoutboards"
     }
   ]
 }

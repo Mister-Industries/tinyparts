@@ -16,16 +16,16 @@
       "file": "parts/sparkfun-poweric-max98300-eta.json"
     },
     {
+      "type": "sparkfun-poweric-sta540",
+      "file": "parts/sparkfun-poweric-sta540.json"
+    },
+    {
       "type": "sparkfun-poweric-sta540-w-6400bg-heatsink",
       "file": "parts/sparkfun-poweric-sta540-w-6400bg-heatsink.json"
     },
     {
       "type": "sparkfun-poweric-sta540-w-yb324g-heatsink",
       "file": "parts/sparkfun-poweric-sta540-w-yb324g-heatsink.json"
-    },
-    {
-      "type": "sparkfun-poweric-sta540",
-      "file": "parts/sparkfun-poweric-sta540.json"
     },
     {
       "type": "sparkfun-poweric-max98306-etd",
@@ -52,12 +52,12 @@
       "file": "parts/sparkfun-poweric-max1704x.json"
     },
     {
-      "type": "sparkfun-poweric-l298-heatsink",
-      "file": "parts/sparkfun-poweric-l298-heatsink.json"
-    },
-    {
       "type": "sparkfun-poweric-l298",
       "file": "parts/sparkfun-poweric-l298.json"
+    },
+    {
+      "type": "sparkfun-poweric-l298-heatsink",
+      "file": "parts/sparkfun-poweric-l298-heatsink.json"
     },
     {
       "type": "sparkfun-poweric-l298-bridge-driver",
@@ -88,16 +88,16 @@
       "file": "parts/sparkfun-poweric-ltc3588.json"
     },
     {
+      "type": "sparkfun-poweric-ptc-pth",
+      "file": "parts/sparkfun-poweric-ptc-pth.json"
+    },
+    {
       "type": "sparkfun-poweric-ptc-0603",
       "file": "parts/sparkfun-poweric-ptc-0603.json"
     },
     {
       "type": "sparkfun-poweric-ptc-smd",
       "file": "parts/sparkfun-poweric-ptc-smd.json"
-    },
-    {
-      "type": "sparkfun-poweric-ptc-pth",
-      "file": "parts/sparkfun-poweric-ptc-pth.json"
     },
     {
       "type": "sparkfun-poweric-lmd1820x",
@@ -176,12 +176,12 @@
       "file": "parts/sparkfun-poweric-pq1cy1032z.json"
     },
     {
-      "type": "sparkfun-poweric-transformer-smd",
-      "file": "parts/sparkfun-poweric-transformer-smd.json"
-    },
-    {
       "type": "sparkfun-poweric-transformer-pth",
       "file": "parts/sparkfun-poweric-transformer-pth.json"
+    },
+    {
+      "type": "sparkfun-poweric-transformer-smd",
+      "file": "parts/sparkfun-poweric-transformer-smd.json"
     },
     {
       "type": "sparkfun-poweric-lm4128-2-5vref",
@@ -248,20 +248,16 @@
       "file": "parts/sparkfun-poweric-v-reg-tps61040-smd.json"
     },
     {
-      "type": "sparkfun-poweric-v-reg-78xx-to-220",
-      "file": "parts/sparkfun-poweric-v-reg-78xx-to-220.json"
-    },
-    {
-      "type": "sparkfun-poweric-v-reg-317-dpack",
-      "file": "parts/sparkfun-poweric-v-reg-317-dpack.json"
+      "type": "sparkfun-poweric-v-reg-317-sink",
+      "file": "parts/sparkfun-poweric-v-reg-317-sink.json"
     },
     {
       "type": "sparkfun-poweric-v-reg-317-sink-1",
       "file": "parts/sparkfun-poweric-v-reg-317-sink-1.json"
     },
     {
-      "type": "sparkfun-poweric-v-reg-317-sink",
-      "file": "parts/sparkfun-poweric-v-reg-317-sink.json"
+      "type": "sparkfun-poweric-v-reg-317-dpack",
+      "file": "parts/sparkfun-poweric-v-reg-317-dpack.json"
     },
     {
       "type": "sparkfun-poweric-v-reg-317-smd",
@@ -272,24 +268,28 @@
       "file": "parts/sparkfun-poweric-v-reg-78xx-side.json"
     },
     {
-      "type": "sparkfun-poweric-v-reg-78xx-sink",
-      "file": "parts/sparkfun-poweric-v-reg-78xx-sink.json"
+      "type": "sparkfun-poweric-v-reg-78xx-to-220",
+      "file": "parts/sparkfun-poweric-v-reg-78xx-to-220.json"
     },
     {
       "type": "sparkfun-poweric-v-reg-78xx-to-92",
       "file": "parts/sparkfun-poweric-v-reg-78xx-to-92.json"
     },
     {
+      "type": "sparkfun-poweric-v-reg-78xx-sink",
+      "file": "parts/sparkfun-poweric-v-reg-78xx-sink.json"
+    },
+    {
       "type": "sparkfun-poweric-v-reg-tps76433-sot23-5",
       "file": "parts/sparkfun-poweric-v-reg-tps76433-sot23-5.json"
     },
     {
-      "type": "sparkfun-poweric-v-reg-ldo-smd2",
-      "file": "parts/sparkfun-poweric-v-reg-ldo-smd2.json"
-    },
-    {
       "type": "sparkfun-poweric-v-reg-ldo-smd",
       "file": "parts/sparkfun-poweric-v-reg-ldo-smd.json"
+    },
+    {
+      "type": "sparkfun-poweric-v-reg-ldo-smd2",
+      "file": "parts/sparkfun-poweric-v-reg-ldo-smd2.json"
     },
     {
       "type": "sparkfun-poweric-v-reg-lm1117-sot223",

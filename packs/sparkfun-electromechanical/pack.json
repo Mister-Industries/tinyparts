@@ -12,16 +12,20 @@
       "file": "parts/sparkfun-electromechanical-button-magnetic-10mm-female.json"
     },
     {
-      "type": "sparkfun-electromechanical-button-magnetic-10mm-male",
-      "file": "parts/sparkfun-electromechanical-button-magnetic-10mm-male.json"
-    },
-    {
       "type": "sparkfun-electromechanical-button-magnetic-18mm-female",
       "file": "parts/sparkfun-electromechanical-button-magnetic-18mm-female.json"
     },
     {
+      "type": "sparkfun-electromechanical-button-magnetic-10mm-male",
+      "file": "parts/sparkfun-electromechanical-button-magnetic-10mm-male.json"
+    },
+    {
       "type": "sparkfun-electromechanical-button-magnetic-18mm-male",
       "file": "parts/sparkfun-electromechanical-button-magnetic-18mm-male.json"
+    },
+    {
+      "type": "sparkfun-electromechanical-battery-aa",
+      "file": "parts/sparkfun-electromechanical-battery-aa.json"
     },
     {
       "type": "sparkfun-electromechanical-battery-20pth",
@@ -60,10 +64,6 @@
       "file": "parts/sparkfun-electromechanical-battery-aa-panel.json"
     },
     {
-      "type": "sparkfun-electromechanical-battery-aa",
-      "file": "parts/sparkfun-electromechanical-battery-aa.json"
-    },
-    {
       "type": "sparkfun-electromechanical-battery-20pth2",
       "file": "parts/sparkfun-electromechanical-battery-20pth2.json"
     },
@@ -88,56 +88,56 @@
       "file": "parts/sparkfun-electromechanical-lipo-outline-2000.json"
     },
     {
-      "type": "sparkfun-electromechanical-button-conductive-smd-0-1",
-      "file": "parts/sparkfun-electromechanical-button-conductive-smd-0-1.json"
-    },
-    {
       "type": "sparkfun-electromechanical-button-conductive",
       "file": "parts/sparkfun-electromechanical-button-conductive.json"
+    },
+    {
+      "type": "sparkfun-electromechanical-button-conductive-smd-0-1",
+      "file": "parts/sparkfun-electromechanical-button-conductive-smd-0-1.json"
     },
     {
       "type": "sparkfun-electromechanical-button-conductive-smd",
       "file": "parts/sparkfun-electromechanical-button-conductive-smd.json"
     },
     {
-      "type": "sparkfun-electromechanical-buttonpad-2x2-special",
-      "file": "parts/sparkfun-electromechanical-buttonpad-2x2-special.json"
-    },
-    {
       "type": "sparkfun-electromechanical-buttonpad-2x2",
       "file": "parts/sparkfun-electromechanical-buttonpad-2x2.json"
     },
     {
-      "type": "sparkfun-electromechanical-buttonpad-2x2single-kit",
-      "file": "parts/sparkfun-electromechanical-buttonpad-2x2single-kit.json"
+      "type": "sparkfun-electromechanical-buttonpad-2x2-special",
+      "file": "parts/sparkfun-electromechanical-buttonpad-2x2-special.json"
     },
     {
       "type": "sparkfun-electromechanical-buttonpad-2x2single",
       "file": "parts/sparkfun-electromechanical-buttonpad-2x2single.json"
     },
     {
-      "type": "sparkfun-electromechanical-buttonpad-4x4-special",
-      "file": "parts/sparkfun-electromechanical-buttonpad-4x4-special.json"
+      "type": "sparkfun-electromechanical-buttonpad-2x2single-kit",
+      "file": "parts/sparkfun-electromechanical-buttonpad-2x2single-kit.json"
     },
     {
       "type": "sparkfun-electromechanical-buttonpad-4x4",
       "file": "parts/sparkfun-electromechanical-buttonpad-4x4.json"
     },
     {
-      "type": "sparkfun-electromechanical-buzzer-smd2-kit",
-      "file": "parts/sparkfun-electromechanical-buzzer-smd2-kit.json"
-    },
-    {
-      "type": "sparkfun-electromechanical-buzzer-pth-ns-kit",
-      "file": "parts/sparkfun-electromechanical-buzzer-pth-ns-kit.json"
+      "type": "sparkfun-electromechanical-buttonpad-4x4-special",
+      "file": "parts/sparkfun-electromechanical-buttonpad-4x4-special.json"
     },
     {
       "type": "sparkfun-electromechanical-buzzer-ns",
       "file": "parts/sparkfun-electromechanical-buzzer-ns.json"
     },
     {
+      "type": "sparkfun-electromechanical-buzzer-pth-ns-kit",
+      "file": "parts/sparkfun-electromechanical-buzzer-pth-ns-kit.json"
+    },
+    {
       "type": "sparkfun-electromechanical-buzzer-pth",
       "file": "parts/sparkfun-electromechanical-buzzer-pth.json"
+    },
+    {
+      "type": "sparkfun-electromechanical-buzzer-smd2-kit",
+      "file": "parts/sparkfun-electromechanical-buzzer-smd2-kit.json"
     },
     {
       "type": "sparkfun-electromechanical-buzzer-smd2",
@@ -208,12 +208,12 @@
       "file": "parts/sparkfun-electromechanical-nav-switch-smd.json"
     },
     {
-      "type": "sparkfun-electromechanical-pot-100k-3362u",
-      "file": "parts/sparkfun-electromechanical-pot-100k-3362u.json"
-    },
-    {
       "type": "sparkfun-electromechanical-pot",
       "file": "parts/sparkfun-electromechanical-pot.json"
+    },
+    {
+      "type": "sparkfun-electromechanical-pot-100k-3362u",
+      "file": "parts/sparkfun-electromechanical-pot-100k-3362u.json"
     },
     {
       "type": "sparkfun-electromechanical-pot-rv16af-20",
@@ -228,16 +228,20 @@
       "file": "parts/sparkfun-electromechanical-pot-trim.json"
     },
     {
-      "type": "sparkfun-electromechanical-pot-switch-pot-pth-switch",
-      "file": "parts/sparkfun-electromechanical-pot-switch-pot-pth-switch.json"
-    },
-    {
       "type": "sparkfun-electromechanical-pot-switch-pot-pth",
       "file": "parts/sparkfun-electromechanical-pot-switch-pot-pth.json"
     },
     {
+      "type": "sparkfun-electromechanical-pot-switch-pot-pth-switch",
+      "file": "parts/sparkfun-electromechanical-pot-switch-pot-pth-switch.json"
+    },
+    {
       "type": "sparkfun-electromechanical-slider",
       "file": "parts/sparkfun-electromechanical-slider.json"
+    },
+    {
+      "type": "sparkfun-electromechanical-tac-switch-pth",
+      "file": "parts/sparkfun-electromechanical-tac-switch-pth.json"
     },
     {
       "type": "sparkfun-electromechanical-tac-switch-ksa-sealed",
@@ -248,12 +252,12 @@
       "file": "parts/sparkfun-electromechanical-tac-switch-smd.json"
     },
     {
-      "type": "sparkfun-electromechanical-tac-switch-pth",
-      "file": "parts/sparkfun-electromechanical-tac-switch-pth.json"
-    },
-    {
       "type": "sparkfun-electromechanical-switch-4pdt-cnk-lock",
       "file": "parts/sparkfun-electromechanical-switch-4pdt-cnk-lock.json"
+    },
+    {
+      "type": "sparkfun-electromechanical-switch-momentary-2",
+      "file": "parts/sparkfun-electromechanical-switch-momentary-2.json"
     },
     {
       "type": "sparkfun-electromechanical-switch-momentary-2-smd-2",
@@ -262,10 +266,6 @@
     {
       "type": "sparkfun-electromechanical-switch-momentary-2-smd",
       "file": "parts/sparkfun-electromechanical-switch-momentary-2-smd.json"
-    },
-    {
-      "type": "sparkfun-electromechanical-switch-momentary-2",
-      "file": "parts/sparkfun-electromechanical-switch-momentary-2.json"
     },
     {
       "type": "sparkfun-electromechanical-switch-momentary-2-12mm",
@@ -280,12 +280,12 @@
       "file": "parts/sparkfun-electromechanical-switch-momentary-2-smd-1101ne.json"
     },
     {
-      "type": "sparkfun-electromechanical-switch-momentary-2-pth-reed2",
-      "file": "parts/sparkfun-electromechanical-switch-momentary-2-pth-reed2.json"
-    },
-    {
       "type": "sparkfun-electromechanical-switch-momentary-2-pth-reed",
       "file": "parts/sparkfun-electromechanical-switch-momentary-2-pth-reed.json"
+    },
+    {
+      "type": "sparkfun-electromechanical-switch-momentary-2-pth-reed2",
+      "file": "parts/sparkfun-electromechanical-switch-momentary-2-pth-reed2.json"
     },
     {
       "type": "sparkfun-electromechanical-relay-pth",
@@ -332,16 +332,20 @@
       "file": "parts/sparkfun-electromechanical-speaker.json"
     },
     {
-      "type": "sparkfun-electromechanical-stand-off-tight",
-      "file": "parts/sparkfun-electromechanical-stand-off-tight.json"
-    },
-    {
       "type": "sparkfun-electromechanical-stand-off",
       "file": "parts/sparkfun-electromechanical-stand-off.json"
     },
     {
+      "type": "sparkfun-electromechanical-stand-off-tight",
+      "file": "parts/sparkfun-electromechanical-stand-off-tight.json"
+    },
+    {
       "type": "sparkfun-electromechanical-switch-sp3t",
       "file": "parts/sparkfun-electromechanical-switch-sp3t.json"
+    },
+    {
+      "type": "sparkfun-electromechanical-switch-dpdt-es",
+      "file": "parts/sparkfun-electromechanical-switch-dpdt-es.json"
     },
     {
       "type": "sparkfun-electromechanical-switch-dpdt-smd",
@@ -350,10 +354,6 @@
     {
       "type": "sparkfun-electromechanical-switch-dpdt-eg2211",
       "file": "parts/sparkfun-electromechanical-switch-dpdt-eg2211.json"
-    },
-    {
-      "type": "sparkfun-electromechanical-switch-dpdt-es",
-      "file": "parts/sparkfun-electromechanical-switch-dpdt-es.json"
     },
     {
       "type": "sparkfun-electromechanical-switch-dpdt-gpi",
@@ -372,8 +372,8 @@
       "file": "parts/sparkfun-electromechanical-switch-dpdt-os.json"
     },
     {
-      "type": "sparkfun-electromechanical-switch-spdt-pth-lock",
-      "file": "parts/sparkfun-electromechanical-switch-spdt-pth-lock.json"
+      "type": "sparkfun-electromechanical-switch-spdt-kit",
+      "file": "parts/sparkfun-electromechanical-switch-spdt-kit.json"
     },
     {
       "type": "sparkfun-electromechanical-switch-spdt-smd",
@@ -384,8 +384,8 @@
       "file": "parts/sparkfun-electromechanical-switch-spdt-pth3.json"
     },
     {
-      "type": "sparkfun-electromechanical-switch-spdt-kit",
-      "file": "parts/sparkfun-electromechanical-switch-spdt-kit.json"
+      "type": "sparkfun-electromechanical-switch-spdt-pth-lock",
+      "file": "parts/sparkfun-electromechanical-switch-spdt-pth-lock.json"
     },
     {
       "type": "sparkfun-electromechanical-switch-spdt-smd2",
@@ -424,12 +424,8 @@
       "file": "parts/sparkfun-electromechanical-trackball-mech.json"
     },
     {
-      "type": "sparkfun-electromechanical-trimpot-3mm-2",
-      "file": "parts/sparkfun-electromechanical-trimpot-3mm-2.json"
-    },
-    {
-      "type": "sparkfun-electromechanical-trimpot-smd",
-      "file": "parts/sparkfun-electromechanical-trimpot-smd.json"
+      "type": "sparkfun-electromechanical-trimpot-2",
+      "file": "parts/sparkfun-electromechanical-trimpot-2.json"
     },
     {
       "type": "sparkfun-electromechanical-trimpot-3362u-2",
@@ -448,8 +444,12 @@
       "file": "parts/sparkfun-electromechanical-trimpot-trimpot-pth-s3-lock.json"
     },
     {
-      "type": "sparkfun-electromechanical-trimpot-2",
-      "file": "parts/sparkfun-electromechanical-trimpot-2.json"
+      "type": "sparkfun-electromechanical-trimpot-3mm-2",
+      "file": "parts/sparkfun-electromechanical-trimpot-3mm-2.json"
+    },
+    {
+      "type": "sparkfun-electromechanical-trimpot-smd",
+      "file": "parts/sparkfun-electromechanical-trimpot-smd.json"
     },
     {
       "type": "sparkfun-electromechanical-trimpot-trimpot-5mm",

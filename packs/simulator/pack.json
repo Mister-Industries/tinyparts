@@ -6,74 +6,92 @@
   "group": "Vendors",
   "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAD6AAAA+gBtXtSawAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEUSURBVEiJ7dO/K8VhFMfxFyWRkkGJMlyrMtxJyp9gMhjYMZqU1XQHFkUWlFJGicImuzIpyWay4SYuhnvk2/X1846ed53O85zzOd/P89T3IZFIJBJ/pAlHqOAl4gx9Gc1epvcW+5l+KeaHY78amoGvjLvwjDEUI3Ywl9F0R307ohi1rPEtrjAe68p3xrCOU7TGvgXNObqliFpK2MCJ6k2n8FBr3JgzOB15OXI5Bn/DE2ZxiZU8QZ7xPUYxEqf9K8foV731j4zhAhNYxFAd5uXPGnnGbZF3sYAtdNZh/iPjHlyr/ggFrOEOkxlNR/TaIwpRq4sGbOLR+xu9wWBGc+DjOz7M9GcwX/Pdc/TWe7hEIpH4p7wCMHg9ccaNeeMAAAAASUVORK5CYII=",
   "description": "Simulator Parts parts from the Fritzing library",
+  "sections": ["Input", "Output", "Power", "Schematic View"],
   "parts": [
     {
       "type": "tilt-switch",
-      "file": "parts/tilt-switch.json"
+      "file": "parts/tilt-switch.json",
+      "section": "Input"
     },
     {
       "type": "lm35",
-      "file": "parts/lm35.json"
+      "file": "parts/lm35.json",
+      "section": "Input"
     },
     {
       "type": "reedswitch-500mil",
-      "file": "parts/reedswitch-500mil.json"
+      "file": "parts/reedswitch-500mil.json",
+      "section": "Input"
     },
     {
       "type": "humidity-and-temperature-sensor-rht03",
-      "file": "parts/humidity-and-temperature-sensor-rht03.json"
+      "file": "parts/humidity-and-temperature-sensor-rht03.json",
+      "section": "Input"
     },
     {
       "type": "led-flux-blue-anode",
-      "file": "parts/led-flux-blue-anode.json"
+      "file": "parts/led-flux-blue-anode.json",
+      "section": "Output"
     },
     {
       "type": "led-prolight-rgb",
-      "file": "parts/led-prolight-rgb.json"
+      "file": "parts/led-prolight-rgb.json",
+      "section": "Output"
     },
     {
       "type": "7segment-9-9-an",
-      "file": "parts/7segment-9-9-an.json"
+      "file": "parts/7segment-9-9-an.json",
+      "section": "Output"
     },
     {
       "type": "led-matrix-kingbright-ta07-11",
-      "file": "parts/led-matrix-kingbright-ta07-11.json"
-    },
-    {
-      "type": "solenoid",
-      "file": "parts/solenoid.json"
-    },
-    {
-      "type": "power-plug",
-      "file": "parts/power-plug.json"
-    },
-    {
-      "type": "voltage-regulator-7805",
-      "file": "parts/voltage-regulator-7805.json"
-    },
-    {
-      "type": "fuse-with-handler",
-      "file": "parts/fuse-with-handler.json"
-    },
-    {
-      "type": "power-supply-dc-5",
-      "file": "parts/power-supply-dc-5.json"
-    },
-    {
-      "type": "power-supply-sine-1",
-      "file": "parts/power-supply-sine-1.json"
-    },
-    {
-      "type": "power-supply-pulse-1",
-      "file": "parts/power-supply-pulse-1.json"
+      "file": "parts/led-matrix-kingbright-ta07-11.json",
+      "section": "Output"
     },
     {
       "type": "led-matrix-kingbright-tc07-11",
-      "file": "parts/led-matrix-kingbright-tc07-11.json"
+      "file": "parts/led-matrix-kingbright-tc07-11.json",
+      "section": "Output"
+    },
+    {
+      "type": "solenoid",
+      "file": "parts/solenoid.json",
+      "section": "Output"
+    },
+    {
+      "type": "power-plug",
+      "file": "parts/power-plug.json",
+      "section": "Power"
+    },
+    {
+      "type": "voltage-regulator-7805",
+      "file": "parts/voltage-regulator-7805.json",
+      "section": "Power"
     },
     {
       "type": "smd-vreg-7805",
-      "file": "parts/smd-vreg-7805.json"
+      "file": "parts/smd-vreg-7805.json",
+      "section": "Power"
+    },
+    {
+      "type": "fuse-with-handler",
+      "file": "parts/fuse-with-handler.json",
+      "section": "Power"
+    },
+    {
+      "type": "power-supply-dc-5",
+      "file": "parts/power-supply-dc-5.json",
+      "section": "Schematic View"
+    },
+    {
+      "type": "power-supply-sine-1",
+      "file": "parts/power-supply-sine-1.json",
+      "section": "Schematic View"
+    },
+    {
+      "type": "power-supply-pulse-1",
+      "file": "parts/power-supply-pulse-1.json",
+      "section": "Schematic View"
     }
   ]
 }

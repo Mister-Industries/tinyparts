@@ -16,6 +16,10 @@
       "file": "parts/sparkfun-displays-lcd-g12864-bare.json"
     },
     {
+      "type": "sparkfun-displays-lcd-g12864-full",
+      "file": "parts/sparkfun-displays-lcd-g12864-full.json"
+    },
+    {
       "type": "sparkfun-displays-lcd-backlight-pads",
       "file": "parts/sparkfun-displays-lcd-backlight-pads.json"
     },
@@ -26,6 +30,10 @@
     {
       "type": "sparkfun-displays-nokia6100-lcd",
       "file": "parts/sparkfun-displays-nokia6100-lcd.json"
+    },
+    {
+      "type": "sparkfun-displays-lcd-16x2-8x2",
+      "file": "parts/sparkfun-displays-lcd-16x2-8x2.json"
     },
     {
       "type": "sparkfun-displays-lcd-16x2-noholes",
@@ -44,40 +52,32 @@
       "file": "parts/sparkfun-displays-lcd-16x2-8x2-kit.json"
     },
     {
-      "type": "sparkfun-displays-lcd-16x2-8x2",
-      "file": "parts/sparkfun-displays-lcd-16x2-8x2.json"
-    },
-    {
       "type": "sparkfun-displays-alphanumeric-pth",
       "file": "parts/sparkfun-displays-alphanumeric-pth.json"
-    },
-    {
-      "type": "sparkfun-displays-7-segment-4digit-for-pogobed-only",
-      "file": "parts/sparkfun-displays-7-segment-4digit-for-pogobed-only.json"
     },
     {
       "type": "sparkfun-displays-7-segment-4digit",
       "file": "parts/sparkfun-displays-7-segment-4digit.json"
     },
     {
-      "type": "sparkfun-displays-7-segment-4digit-pth",
-      "file": "parts/sparkfun-displays-7-segment-4digit-pth.json"
+      "type": "sparkfun-displays-7-segment-4digit-for-pogobed-only",
+      "file": "parts/sparkfun-displays-7-segment-4digit-for-pogobed-only.json"
     },
     {
-      "type": "sparkfun-displays-7-segment-4digit-youngsun-longpads",
-      "file": "parts/sparkfun-displays-7-segment-4digit-youngsun-longpads.json"
+      "type": "sparkfun-displays-7-segment-4digit-pth",
+      "file": "parts/sparkfun-displays-7-segment-4digit-pth.json"
     },
     {
       "type": "sparkfun-displays-7-segment-4digit-youngsun",
       "file": "parts/sparkfun-displays-7-segment-4digit-youngsun.json"
     },
     {
-      "type": "sparkfun-displays-7-segment-display-pth",
-      "file": "parts/sparkfun-displays-7-segment-display-pth.json"
+      "type": "sparkfun-displays-7-segment-4digit-youngsun-longpads",
+      "file": "parts/sparkfun-displays-7-segment-4digit-youngsun-longpads.json"
     },
     {
-      "type": "sparkfun-displays-lcd-g12864-full",
-      "file": "parts/sparkfun-displays-lcd-g12864-full.json"
+      "type": "sparkfun-displays-7-segment-display-pth",
+      "file": "parts/sparkfun-displays-7-segment-display-pth.json"
     }
   ]
 }

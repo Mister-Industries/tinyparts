@@ -84,14 +84,6 @@
       "file": "parts/sparkfun-rf-bgb203-bluetooth-smd.json"
     },
     {
-      "type": "sparkfun-rf-blueradio-br-c40n-internal",
-      "file": "parts/sparkfun-rf-blueradio-br-c40n-internal.json"
-    },
-    {
-      "type": "sparkfun-rf-blueradio-br-c40n-sfe",
-      "file": "parts/sparkfun-rf-blueradio-br-c40n-sfe.json"
-    },
-    {
       "type": "sparkfun-rf-blueradio-br-c40a-bas",
       "file": "parts/sparkfun-rf-blueradio-br-c40a-bas.json"
     },
@@ -100,8 +92,16 @@
       "file": "parts/sparkfun-rf-blueradio-br-c40n-bas.json"
     },
     {
+      "type": "sparkfun-rf-blueradio-br-c40n-internal",
+      "file": "parts/sparkfun-rf-blueradio-br-c40n-internal.json"
+    },
+    {
       "type": "sparkfun-rf-blueradio-br-c40n-int2",
       "file": "parts/sparkfun-rf-blueradio-br-c40n-int2.json"
+    },
+    {
+      "type": "sparkfun-rf-blueradio-br-c40n-sfe",
+      "file": "parts/sparkfun-rf-blueradio-br-c40n-sfe.json"
     },
     {
       "type": "sparkfun-rf-bluetooth-rn41",
@@ -132,12 +132,12 @@
       "file": "parts/sparkfun-rf-ge865-2.json"
     },
     {
-      "type": "sparkfun-rf-gm862-gm862-connector",
-      "file": "parts/sparkfun-rf-gm862-gm862-connector.json"
-    },
-    {
       "type": "sparkfun-rf-gm862-gnd",
       "file": "parts/sparkfun-rf-gm862-gnd.json"
+    },
+    {
+      "type": "sparkfun-rf-gm862-gm862-connector",
+      "file": "parts/sparkfun-rf-gm862-gm862-connector.json"
     },
     {
       "type": "sparkfun-rf-si470x",
@@ -204,12 +204,12 @@
       "file": "parts/sparkfun-rf-gr-10-smd.json"
     },
     {
-      "type": "sparkfun-rf-gs406smd-mating-smd-special",
-      "file": "parts/sparkfun-rf-gs406smd-mating-smd-special.json"
-    },
-    {
       "type": "sparkfun-rf-gs406smd-socket",
       "file": "parts/sparkfun-rf-gs406smd-socket.json"
+    },
+    {
+      "type": "sparkfun-rf-gs406smd-mating-smd-special",
+      "file": "parts/sparkfun-rf-gs406smd-mating-smd-special.json"
     },
     {
       "type": "sparkfun-rf-lassen-iq-gps-lassen",
@@ -252,16 +252,16 @@
       "file": "parts/sparkfun-rf-rfm22-smd.json"
     },
     {
+      "type": "sparkfun-rf-id-12-20",
+      "file": "parts/sparkfun-rf-id-12-20.json"
+    },
+    {
       "type": "sparkfun-rf-id-12-20-id-12-lock",
       "file": "parts/sparkfun-rf-id-12-20-id-12-lock.json"
     },
     {
       "type": "sparkfun-rf-id-12-20-smd",
       "file": "parts/sparkfun-rf-id-12-20-smd.json"
-    },
-    {
-      "type": "sparkfun-rf-id-12-20",
-      "file": "parts/sparkfun-rf-id-12-20.json"
     },
     {
       "type": "sparkfun-rf-mlx90121",
@@ -304,12 +304,12 @@
       "file": "parts/sparkfun-rf-zg2100m.json"
     },
     {
-      "type": "sparkfun-rf-xbee-1-xbee-1-lock",
-      "file": "parts/sparkfun-rf-xbee-1-xbee-1-lock.json"
-    },
-    {
       "type": "sparkfun-rf-xbee-1-b1",
       "file": "parts/sparkfun-rf-xbee-1-b1.json"
+    },
+    {
+      "type": "sparkfun-rf-xbee-1-xbee-1-lock",
+      "file": "parts/sparkfun-rf-xbee-1-xbee-1-lock.json"
     },
     {
       "type": "sparkfun-rf-xbee-1-b2",

@@ -8,14 +8,6 @@
   "description": "Dagu parts from the Fritzing library",
   "parts": [
     {
-      "type": "jst-b3p-vh",
-      "file": "parts/jst-b3p-vh.json"
-    },
-    {
-      "type": "jst-vhr-3n",
-      "file": "parts/jst-vhr-3n.json"
-    },
-    {
       "type": "dagu-dgservo-9g-end-view",
       "file": "parts/dagu-dgservo-9g-end-view.json"
     },
@@ -34,6 +26,14 @@
     {
       "type": "dagu-dgservo-9g-header-connector-female",
       "file": "parts/dagu-dgservo-9g-header-connector-female.json"
+    },
+    {
+      "type": "jst-b3p-vh",
+      "file": "parts/jst-b3p-vh.json"
+    },
+    {
+      "type": "jst-vhr-3n",
+      "file": "parts/jst-vhr-3n.json"
     }
   ]
 }

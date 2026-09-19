@@ -12,12 +12,12 @@
       "file": "parts/sparkfun-led-ws2812.json"
     },
     {
-      "type": "sparkfun-led-led-fkit-1206",
-      "file": "parts/sparkfun-led-led-fkit-1206.json"
-    },
-    {
       "type": "sparkfun-led-led-0603",
       "file": "parts/sparkfun-led-led-0603.json"
+    },
+    {
+      "type": "sparkfun-led-led-fkit-1206",
+      "file": "parts/sparkfun-led-led-fkit-1206.json"
     },
     {
       "type": "sparkfun-led-led-1206",

@@ -28,12 +28,12 @@
       "file": "parts/sparkfun-analogic-74hc4051-mux.json"
     },
     {
-      "type": "sparkfun-analogic-74hc4052-dip",
-      "file": "parts/sparkfun-analogic-74hc4052-dip.json"
-    },
-    {
       "type": "sparkfun-analogic-74hc4052-so",
       "file": "parts/sparkfun-analogic-74hc4052-so.json"
+    },
+    {
+      "type": "sparkfun-analogic-74hc4052-dip",
+      "file": "parts/sparkfun-analogic-74hc4052-dip.json"
     },
     {
       "type": "sparkfun-analogic-mux-74hc4067-smd",

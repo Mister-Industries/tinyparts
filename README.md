@@ -110,6 +110,21 @@ together parts that aren't interchangeable:
 Each part also carries an `order` — Fritzing's curated `.fzb` bin sequence
 first, then family, then label.
 
+## Palette layout
+
+tinyStudio's parts bin is laid out like Fritzing's, and each pack's `pack.json`
+decides its part of it:
+
+- **Tabs.** `tinyboards` and `core` share the Core tab, every SparkFun pack shares
+  a SparkFun tab, and every other pack gets a tab of its own once installed.
+- **Order.** Parts appear in the order `pack.json` lists them. For the packs
+  generated from Fritzing, that's the `.fzb` bin order.
+- **Sections.** A part's `section` in `pack.json` is the Fritzing bin section it
+  sits under ("Basic", "Input", "Arduino Shields"…), and the pack's `sections`
+  array gives their order. A pack without sections shows one grid.
+
+To move a part, move its line in `pack.json` or change its `section`.
+
 ## Packs
 
 ### tinyStudio: built in

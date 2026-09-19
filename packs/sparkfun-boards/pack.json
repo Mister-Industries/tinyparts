@@ -12,12 +12,12 @@
       "file": "parts/sparkfun-boards-xport.json"
     },
     {
-      "type": "sparkfun-boards-xport-direct-smd",
-      "file": "parts/sparkfun-boards-xport-direct-smd.json"
-    },
-    {
       "type": "sparkfun-boards-xport-direct",
       "file": "parts/sparkfun-boards-xport-direct.json"
+    },
+    {
+      "type": "sparkfun-boards-xport-direct-smd",
+      "file": "parts/sparkfun-boards-xport-direct-smd.json"
     },
     {
       "type": "sparkfun-boards-wiz811mj",

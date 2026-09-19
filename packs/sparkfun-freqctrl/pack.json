@@ -8,52 +8,52 @@
   "description": "SparkFun · Frequency Control parts from the Fritzing library",
   "parts": [
     {
-      "type": "sparkfun-freqctrl-crystal-10-5x4-8",
-      "file": "parts/sparkfun-freqctrl-crystal-10-5x4-8.json"
-    },
-    {
-      "type": "sparkfun-freqctrl-crystal-32-smd",
-      "file": "parts/sparkfun-freqctrl-crystal-32-smd.json"
-    },
-    {
-      "type": "sparkfun-freqctrl-crystal-5x3",
-      "file": "parts/sparkfun-freqctrl-crystal-5x3.json"
+      "type": "sparkfun-freqctrl-crystal-smd",
+      "file": "parts/sparkfun-freqctrl-crystal-smd.json"
     },
     {
       "type": "sparkfun-freqctrl-crystal-epsonmc146",
       "file": "parts/sparkfun-freqctrl-crystal-epsonmc146.json"
     },
     {
-      "type": "sparkfun-freqctrl-crystal-hc49us",
-      "file": "parts/sparkfun-freqctrl-crystal-hc49us.json"
+      "type": "sparkfun-freqctrl-crystal-32-smd",
+      "file": "parts/sparkfun-freqctrl-crystal-32-smd.json"
+    },
+    {
+      "type": "sparkfun-freqctrl-crystal-10-5x4-8",
+      "file": "parts/sparkfun-freqctrl-crystal-10-5x4-8.json"
+    },
+    {
+      "type": "sparkfun-freqctrl-crystal-5x3",
+      "file": "parts/sparkfun-freqctrl-crystal-5x3.json"
     },
     {
       "type": "sparkfun-freqctrl-crystal-hc49uv",
       "file": "parts/sparkfun-freqctrl-crystal-hc49uv.json"
     },
     {
-      "type": "sparkfun-freqctrl-crystal-tc38h",
-      "file": "parts/sparkfun-freqctrl-crystal-tc38h.json"
-    },
-    {
-      "type": "sparkfun-freqctrl-crystal-smd",
-      "file": "parts/sparkfun-freqctrl-crystal-smd.json"
+      "type": "sparkfun-freqctrl-crystal-hc49us",
+      "file": "parts/sparkfun-freqctrl-crystal-hc49us.json"
     },
     {
       "type": "sparkfun-freqctrl-crystal-tc26h",
       "file": "parts/sparkfun-freqctrl-crystal-tc26h.json"
     },
     {
+      "type": "sparkfun-freqctrl-crystal-tc38h",
+      "file": "parts/sparkfun-freqctrl-crystal-tc38h.json"
+    },
+    {
       "type": "sparkfun-freqctrl-ds1077",
       "file": "parts/sparkfun-freqctrl-ds1077.json"
     },
     {
-      "type": "sparkfun-freqctrl-oscillator-5x3-pin1-indicated",
-      "file": "parts/sparkfun-freqctrl-oscillator-5x3-pin1-indicated.json"
-    },
-    {
       "type": "sparkfun-freqctrl-oscillator-5x3",
       "file": "parts/sparkfun-freqctrl-oscillator-5x3.json"
+    },
+    {
+      "type": "sparkfun-freqctrl-oscillator-5x3-pin1-indicated",
+      "file": "parts/sparkfun-freqctrl-oscillator-5x3-pin1-indicated.json"
     },
     {
       "type": "sparkfun-freqctrl-oscillator-smd6",

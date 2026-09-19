@@ -16,16 +16,8 @@
       "file": "parts/sparkfun-passives-resistor-2512smd.json"
     },
     {
-      "type": "sparkfun-passives-cap-pth",
-      "file": "parts/sparkfun-passives-cap-pth.json"
-    },
-    {
-      "type": "sparkfun-passives-cap-pth1",
-      "file": "parts/sparkfun-passives-cap-pth1.json"
-    },
-    {
-      "type": "sparkfun-passives-cap-pth3",
-      "file": "parts/sparkfun-passives-cap-pth3.json"
+      "type": "sparkfun-passives-cap",
+      "file": "parts/sparkfun-passives-cap.json"
     },
     {
       "type": "sparkfun-passives-cap-0402-cap",
@@ -48,12 +40,20 @@
       "file": "parts/sparkfun-passives-cap-1210.json"
     },
     {
-      "type": "sparkfun-passives-cap",
-      "file": "parts/sparkfun-passives-cap.json"
+      "type": "sparkfun-passives-cap-pth1",
+      "file": "parts/sparkfun-passives-cap-pth1.json"
+    },
+    {
+      "type": "sparkfun-passives-cap-pth3",
+      "file": "parts/sparkfun-passives-cap-pth3.json"
     },
     {
       "type": "sparkfun-passives-cap-kit",
       "file": "parts/sparkfun-passives-cap-kit.json"
+    },
+    {
+      "type": "sparkfun-passives-cap-pth",
+      "file": "parts/sparkfun-passives-cap-pth.json"
     },
     {
       "type": "sparkfun-passives-cap-pth2",
@@ -68,16 +68,8 @@
       "file": "parts/sparkfun-passives-cap-smd.json"
     },
     {
-      "type": "sparkfun-passives-cap-pol-1206-kit",
-      "file": "parts/sparkfun-passives-cap-pol-1206-kit.json"
-    },
-    {
-      "type": "sparkfun-passives-cap-pol-3528-kit",
-      "file": "parts/sparkfun-passives-cap-pol-3528-kit.json"
-    },
-    {
-      "type": "sparkfun-passives-cap-pol-pth2",
-      "file": "parts/sparkfun-passives-cap-pol-pth2.json"
+      "type": "sparkfun-passives-cap-pol-c",
+      "file": "parts/sparkfun-passives-cap-pol-c.json"
     },
     {
       "type": "sparkfun-passives-cap-pol-pth4",
@@ -92,8 +84,20 @@
       "file": "parts/sparkfun-passives-cap-pol-pth1.json"
     },
     {
+      "type": "sparkfun-passives-cap-pol-pth2",
+      "file": "parts/sparkfun-passives-cap-pol-pth2.json"
+    },
+    {
+      "type": "sparkfun-passives-cap-pol-1206-kit",
+      "file": "parts/sparkfun-passives-cap-pol-1206-kit.json"
+    },
+    {
       "type": "sparkfun-passives-cap-pol-1206",
       "file": "parts/sparkfun-passives-cap-pol-1206.json"
+    },
+    {
+      "type": "sparkfun-passives-cap-pol-3528-kit",
+      "file": "parts/sparkfun-passives-cap-pol-3528-kit.json"
     },
     {
       "type": "sparkfun-passives-cap-pol-3528",
@@ -114,10 +118,6 @@
     {
       "type": "sparkfun-passives-cap-pol-f80",
       "file": "parts/sparkfun-passives-cap-pol-f80.json"
-    },
-    {
-      "type": "sparkfun-passives-cap-pol-c",
-      "file": "parts/sparkfun-passives-cap-pol-c.json"
     },
     {
       "type": "sparkfun-passives-cap-pol-d",
@@ -152,8 +152,8 @@
       "file": "parts/sparkfun-passives-fuse-x20mm.json"
     },
     {
-      "type": "sparkfun-passives-inductor-cr54-kit",
-      "file": "parts/sparkfun-passives-inductor-cr54-kit.json"
+      "type": "sparkfun-passives-inductor",
+      "file": "parts/sparkfun-passives-inductor.json"
     },
     {
       "type": "sparkfun-passives-inductor-0603",
@@ -184,8 +184,8 @@
       "file": "parts/sparkfun-passives-inductor-pwr.json"
     },
     {
-      "type": "sparkfun-passives-inductor",
-      "file": "parts/sparkfun-passives-inductor.json"
+      "type": "sparkfun-passives-inductor-cr54-kit",
+      "file": "parts/sparkfun-passives-inductor-cr54-kit.json"
     },
     {
       "type": "sparkfun-passives-inductor-cr54",
@@ -216,24 +216,24 @@
       "file": "parts/sparkfun-passives-inductor-sru5028.json"
     },
     {
-      "type": "sparkfun-passives-jumper-2-old-smd-nc",
-      "file": "parts/sparkfun-passives-jumper-2-old-smd-nc.json"
-    },
-    {
-      "type": "sparkfun-passives-jumper-2-old-smd-no",
-      "file": "parts/sparkfun-passives-jumper-2-old-smd-no.json"
+      "type": "sparkfun-passives-jumper-2-smd-no",
+      "file": "parts/sparkfun-passives-jumper-2-smd-no.json"
     },
     {
       "type": "sparkfun-passives-jumper-2-smd-no-ns",
       "file": "parts/sparkfun-passives-jumper-2-smd-no-ns.json"
     },
     {
-      "type": "sparkfun-passives-jumper-2-smd-no",
-      "file": "parts/sparkfun-passives-jumper-2-smd-no.json"
+      "type": "sparkfun-passives-jumper-2-old-smd-no",
+      "file": "parts/sparkfun-passives-jumper-2-old-smd-no.json"
     },
     {
       "type": "sparkfun-passives-jumper-2-smd-nc",
       "file": "parts/sparkfun-passives-jumper-2-smd-nc.json"
+    },
+    {
+      "type": "sparkfun-passives-jumper-2-old-smd-nc",
+      "file": "parts/sparkfun-passives-jumper-2-old-smd-nc.json"
     },
     {
       "type": "sparkfun-passives-jumper-3-1-2",
@@ -264,52 +264,24 @@
       "file": "parts/sparkfun-passives-gnd-connect.json"
     },
     {
-      "type": "sparkfun-passives-solderjumper-2way-old-paste1-2",
-      "file": "parts/sparkfun-passives-solderjumper-2way-old-paste1-2.json"
-    },
-    {
-      "type": "sparkfun-passives-solderjumper-2way-old-paste2-3",
-      "file": "parts/sparkfun-passives-solderjumper-2way-old-paste2-3.json"
-    },
-    {
-      "type": "sparkfun-passives-solderjumper-2way-old-s",
-      "file": "parts/sparkfun-passives-solderjumper-2way-old-s.json"
-    },
-    {
-      "type": "sparkfun-passives-solderjumper-2way-old-t",
-      "file": "parts/sparkfun-passives-solderjumper-2way-old-t.json"
-    },
-    {
-      "type": "sparkfun-passives-solderjumper-2way-old-w",
-      "file": "parts/sparkfun-passives-solderjumper-2way-old-w.json"
-    },
-    {
-      "type": "sparkfun-passives-solderjumper-old-nc",
-      "file": "parts/sparkfun-passives-solderjumper-old-nc.json"
-    },
-    {
-      "type": "sparkfun-passives-solderjumper-old-nc2",
-      "file": "parts/sparkfun-passives-solderjumper-old-nc2.json"
+      "type": "sparkfun-passives-solderjumper-no",
+      "file": "parts/sparkfun-passives-solderjumper-no.json"
     },
     {
       "type": "sparkfun-passives-solderjumper-old-no",
       "file": "parts/sparkfun-passives-solderjumper-old-no.json"
     },
     {
-      "type": "sparkfun-passives-solderjumper-old-trace",
-      "file": "parts/sparkfun-passives-solderjumper-old-trace.json"
-    },
-    {
-      "type": "sparkfun-passives-solderjumper-2way-t",
-      "file": "parts/sparkfun-passives-solderjumper-2way-t.json"
-    },
-    {
-      "type": "sparkfun-passives-solderjumper-no",
-      "file": "parts/sparkfun-passives-solderjumper-no.json"
-    },
-    {
       "type": "sparkfun-passives-solderjumper-nc2",
       "file": "parts/sparkfun-passives-solderjumper-nc2.json"
+    },
+    {
+      "type": "sparkfun-passives-solderjumper-old-nc2",
+      "file": "parts/sparkfun-passives-solderjumper-old-nc2.json"
+    },
+    {
+      "type": "sparkfun-passives-solderjumper-old-trace",
+      "file": "parts/sparkfun-passives-solderjumper-old-trace.json"
     },
     {
       "type": "sparkfun-passives-solderjumper-trace",
@@ -320,20 +292,48 @@
       "file": "parts/sparkfun-passives-solderjumper-nc.json"
     },
     {
+      "type": "sparkfun-passives-solderjumper-old-nc",
+      "file": "parts/sparkfun-passives-solderjumper-old-nc.json"
+    },
+    {
+      "type": "sparkfun-passives-solderjumper-2way-s",
+      "file": "parts/sparkfun-passives-solderjumper-2way-s.json"
+    },
+    {
+      "type": "sparkfun-passives-solderjumper-2way-old-t",
+      "file": "parts/sparkfun-passives-solderjumper-2way-old-t.json"
+    },
+    {
+      "type": "sparkfun-passives-solderjumper-2way-t",
+      "file": "parts/sparkfun-passives-solderjumper-2way-t.json"
+    },
+    {
+      "type": "sparkfun-passives-solderjumper-2way-old-w",
+      "file": "parts/sparkfun-passives-solderjumper-2way-old-w.json"
+    },
+    {
       "type": "sparkfun-passives-solderjumper-2way-w",
       "file": "parts/sparkfun-passives-solderjumper-2way-w.json"
+    },
+    {
+      "type": "sparkfun-passives-solderjumper-2way-old-paste1-2",
+      "file": "parts/sparkfun-passives-solderjumper-2way-old-paste1-2.json"
     },
     {
       "type": "sparkfun-passives-solderjumper-2way-paste1-2",
       "file": "parts/sparkfun-passives-solderjumper-2way-paste1-2.json"
     },
     {
+      "type": "sparkfun-passives-solderjumper-2way-old-paste2-3",
+      "file": "parts/sparkfun-passives-solderjumper-2way-old-paste2-3.json"
+    },
+    {
       "type": "sparkfun-passives-solderjumper-2way-paste2-3",
       "file": "parts/sparkfun-passives-solderjumper-2way-paste2-3.json"
     },
     {
-      "type": "sparkfun-passives-solderjumper-2way-s",
-      "file": "parts/sparkfun-passives-solderjumper-2way-s.json"
+      "type": "sparkfun-passives-solderjumper-2way-old-s",
+      "file": "parts/sparkfun-passives-solderjumper-2way-old-s.json"
     },
     {
       "type": "sparkfun-passives-test-point-2",
