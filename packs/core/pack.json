@@ -9,7 +9,7 @@
   "description": "Everyday components that ship with tinyStudio: resistors, LEDs, switches, sensors and more.",
   "sections": [
     "Basic", "Input", "Output", "Textile", "ICs", "Power", "Microcontroller", "Computer",
-    "Connection", "Breadboard View", "Schematic View", "Measuring Tools"
+    "Connection", "Breadboard View"
   ],
   "parts": [
     {
